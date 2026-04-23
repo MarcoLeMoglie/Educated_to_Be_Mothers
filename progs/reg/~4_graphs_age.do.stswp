@@ -1,0 +1,306 @@
+* Graphs of age groups by year
+**************************************************
+**#	Total
+**************************************************
+use "$Output_data/dataset.dta", clear
+
+keep if pop_census!=.
+keep codprov type year pop_19*  province popshare_agegroup* median*
+keep if median_popw==1 & median_tea==1
+* Check that all is fine
+sort codprov province type 
+collapse popshare_agegroup*, by(year)
+foreach i of numlist 1930 1940 1950 1960 1970{
+egen total`i'=rowtotal(popshare_agegroup1_`i' popshare_agegroup2_`i' popshare_agegroup3_`i' popshare_agegroup4_`i' popshare_agegroup5_`i' popshare_agegroup6_`i' popshare_agegroup7_`i' popshare_agegroup8_`i')
+}
+drop total*
+
+foreach i of numlist 1930 1940 1950 1960 1970{
+gen group8_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i'+ popshare_agegroup4_`i'+ popshare_agegroup5_`i' +popshare_agegroup6_`i'+ popshare_agegroup7_`i' +popshare_agegroup8_`i'
+
+gen group7_`i' =popshare_agegroup1_`i'+ popshare_agegroup2_`i' +popshare_agegroup3_`i' +popshare_agegroup4_`i' +popshare_agegroup5_`i'+ popshare_agegroup6_`i' +popshare_agegroup7_`i' 
+
+gen group6_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i' +popshare_agegroup4_`i' +popshare_agegroup5_`i' +popshare_agegroup6_`i' 
+
+gen group5_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i' +popshare_agegroup4_`i' +popshare_agegroup5_`i' 
+
+gen group4_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i' +popshare_agegroup4_`i'
+
+gen group3_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i' 
+
+gen group2_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' 
+
+gen group1_`i' =popshare_agegroup1_`i' 
+}
+
+drop popshare*
+
+foreach i of numlist 1/8{
+	gen group`i' = group`i'_1930 if year ==1930
+replace group`i' = group`i'_1940 if year ==1940
+replace group`i' = group`i'_1950 if year ==1950
+replace group`i' = group`i'_1960 if year ==1960
+replace group`i' = group`i'_1970 if year ==1970
+drop group`i'_19*
+}
+*purple*1.5
+
+
+twoway area group1 year, color(green*0.1) || rarea group1 group2 year, color(green*0.5) || rarea group2 group3 year, color(green*0.9) || rarea group3 group4 year, color(green*1.2) || rarea group4 group5 year, color(green*1.8) || rarea group5 group6  year, color(green*2.2) || rarea group6 group7 year, color(green*5) || rarea group7 group8 year, color(green*10.0) legend(order(1 "Below 5 years old" 2  "6-14 years old"  3  "15-24 years old"  4  "25-34 years old" 5 "35-44 years old"  6 "45-54 years old" 7 "55-64 years old" 8 "Above 65") pos(6) col(4)) xtitle("") xla(1930(10)1970) ytitle(Percent)
+graph export "$Results/gr_age/treated/total.png",replace
+
+
+**************************************************
+**#	Women. Note: 1930 missing
+* 1960: Missing data for Burgos Malaga and Badajoz so we delete them
+**************************************************
+use "$Output_data/dataset.dta", clear
+keep if province !="burgos" & province !="malaga" & province !="badajoz" & province !="cadiz" 
+
+keep if pop_census!=.
+keep codprov type year pop_19* province popsharewomen_agegroup* median*
+keep if median_popw==1 & median_tea==1
+drop pop_19*
+* Check that all is fine
+sort codprov province type 
+collapse popsharewomen_agegroup*, by(year)
+foreach i of numlist 1930 1940 1950 1960 1970{
+egen total`i'=rowtotal(popsharewomen_agegroup1_`i' popsharewomen_agegroup2_`i' popsharewomen_agegroup3_`i' popsharewomen_agegroup4_`i' popsharewomen_agegroup5_`i' popsharewomen_agegroup6_`i' popsharewomen_agegroup7_`i' popsharewomen_agegroup8_`i')
+}
+drop total*
+
+foreach i of numlist 1930 1940 1950 1960 1970{
+gen group8_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i'+ popsharewomen_agegroup4_`i'+ popsharewomen_agegroup5_`i' +popsharewomen_agegroup6_`i'+ popsharewomen_agegroup7_`i' +popsharewomen_agegroup8_`i'
+
+gen group7_`i' =popsharewomen_agegroup1_`i'+ popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' +popsharewomen_agegroup4_`i' +popsharewomen_agegroup5_`i'+ popsharewomen_agegroup6_`i' +popsharewomen_agegroup7_`i' 
+
+gen group6_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' +popsharewomen_agegroup4_`i' +popsharewomen_agegroup5_`i' +popsharewomen_agegroup6_`i' 
+
+gen group5_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' +popsharewomen_agegroup4_`i' +popsharewomen_agegroup5_`i' 
+
+gen group4_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' +popsharewomen_agegroup4_`i'
+
+gen group3_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' 
+
+gen group2_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' 
+
+gen group1_`i' =popsharewomen_agegroup1_`i' 
+}
+
+drop popshare*
+
+foreach i of numlist 1/8{
+	gen group`i' = group`i'_1930 if year ==1930
+replace group`i' = group`i'_1940 if year ==1940
+replace group`i' = group`i'_1950 if year ==1950
+replace group`i' = group`i'_1960 if year ==1960
+replace group`i' = group`i'_1970 if year ==1970
+drop group`i'_19*
+}
+
+twoway area group1 year, color(purple*0.1) || rarea group1 group2 year, color(purple*0.5) || rarea group2 group3 year, color(purple*0.9) || rarea group3 group4 year, color(purple*1.2) || rarea group4 group5 year, color(purple*1.8) || rarea group5 group6  year, color(purple*2.2) || rarea group6 group7 year, color(purple*5) || rarea group7 group8 year, color(purple*10.0) legend(order(1 "Below 5 years old" 2  "6-14 years old"  3  "15-24 years old"  4  "25-34 years old" 5 "35-44 years old"  6 "45-54 years old" 7 "55-64 years old" 8 "Above 65") pos(6) col(4)) xtitle("") xla(1930(10)1970) ytitle(Percent)
+graph export "$Results/gr_age/treated/women.png",replace
+
+**************************************************
+**#	Men. Note: 1930 missing                            
+* 1960: Missing data for Burgos Malaga and Badajoz so we delete them
+**************************************************
+use "$Output_data/dataset.dta", clear
+keep if province !="burgos" & province !="malaga" & province !="badajoz" 
+keep if pop_census!=. 
+keep codprov type year pop_19*  province popsharemen_agegroup* median*
+keep if median_popw==1 & median_tea==1
+drop pop_19*
+* Check that all is fine
+sort codprov province type 
+collapse popsharemen_agegroup*, by(year)
+foreach i of numlist 1930 1940 1950 1960 1970{
+egen total`i'=rowtotal(popsharemen_agegroup1_`i' popsharemen_agegroup2_`i' popsharemen_agegroup3_`i' popsharemen_agegroup4_`i' popsharemen_agegroup5_`i' popsharemen_agegroup6_`i' popsharemen_agegroup7_`i' popsharemen_agegroup8_`i')
+}
+drop total*
+
+foreach i of numlist 1930 1940 1950 1960 1970{
+gen group8_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i'+ popsharemen_agegroup4_`i'+ popsharemen_agegroup5_`i' +popsharemen_agegroup6_`i'+ popsharemen_agegroup7_`i' +popsharemen_agegroup8_`i'
+
+gen group7_`i' =popsharemen_agegroup1_`i'+ popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' +popsharemen_agegroup4_`i' +popsharemen_agegroup5_`i'+ popsharemen_agegroup6_`i' +popsharemen_agegroup7_`i' 
+
+gen group6_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' +popsharemen_agegroup4_`i' +popsharemen_agegroup5_`i' +popsharemen_agegroup6_`i' 
+
+gen group5_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' +popsharemen_agegroup4_`i' +popsharemen_agegroup5_`i' 
+
+gen group4_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' +popsharemen_agegroup4_`i'
+
+gen group3_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' 
+
+gen group2_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' 
+
+gen group1_`i' =popsharemen_agegroup1_`i' 
+}
+
+drop popshare*
+
+foreach i of numlist 1/8{
+	gen group`i' = group`i'_1930 if year ==1930
+replace group`i' = group`i'_1940 if year ==1940
+replace group`i' = group`i'_1950 if year ==1950
+replace group`i' = group`i'_1960 if year ==1960
+replace group`i' = group`i'_1970 if year ==1970
+drop group`i'_19*
+}
+
+twoway area group1 year, color(blue*0.1) || rarea group1 group2 year, color(blue*0.5) || rarea group2 group3 year, color(blue*0.9) || rarea group3 group4 year, color(blue*1.2) || rarea group4 group5 year, color(blue*1.8) || rarea group5 group6  year, color(blue*2.2) || rarea group6 group7 year, color(blue*5) || rarea group7 group8 year, color(blue*10.0) legend(order(1 "Below 5 years old" 2  "6-14 years old"  3  "15-24 years old"  4  "25-34 years old" 5 "35-44 years old"  6 "45-54 years old" 7 "55-64 years old" 8 "Above 65") pos(6) col(4)) xtitle("") xla(1930(10)1970) ytitle(Percent)
+graph export "$Results/gr_age/treated/men.png",replace
+
+*********************************************************
+**# For non treated observations
+*********************************************************
+* Graphs of age groups by year
+**************************************************
+**#	Total
+**************************************************
+use "$Output_data/dataset.dta", clear
+
+keep if pop_census!=.
+keep codprov type year pop_19*  province popshare_agegroup* median*
+keep if median_popw==0 & median_tea==0
+* Check that all is fine
+sort codprov province type 
+collapse popshare_agegroup*, by(year)
+foreach i of numlist 1930 1940 1950 1960 1970{
+egen total`i'=rowtotal(popshare_agegroup1_`i' popshare_agegroup2_`i' popshare_agegroup3_`i' popshare_agegroup4_`i' popshare_agegroup5_`i' popshare_agegroup6_`i' popshare_agegroup7_`i' popshare_agegroup8_`i')
+}
+drop total*
+
+foreach i of numlist 1930 1940 1950 1960 1970{
+gen group8_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i'+ popshare_agegroup4_`i'+ popshare_agegroup5_`i' +popshare_agegroup6_`i'+ popshare_agegroup7_`i' +popshare_agegroup8_`i'
+
+gen group7_`i' =popshare_agegroup1_`i'+ popshare_agegroup2_`i' +popshare_agegroup3_`i' +popshare_agegroup4_`i' +popshare_agegroup5_`i'+ popshare_agegroup6_`i' +popshare_agegroup7_`i' 
+
+gen group6_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i' +popshare_agegroup4_`i' +popshare_agegroup5_`i' +popshare_agegroup6_`i' 
+
+gen group5_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i' +popshare_agegroup4_`i' +popshare_agegroup5_`i' 
+
+gen group4_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i' +popshare_agegroup4_`i'
+
+gen group3_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' +popshare_agegroup3_`i' 
+
+gen group2_`i' =popshare_agegroup1_`i' +popshare_agegroup2_`i' 
+
+gen group1_`i' =popshare_agegroup1_`i' 
+}
+
+drop popshare*
+
+foreach i of numlist 1/8{
+	gen group`i' = group`i'_1930 if year ==1930
+replace group`i' = group`i'_1940 if year ==1940
+replace group`i' = group`i'_1950 if year ==1950
+replace group`i' = group`i'_1960 if year ==1960
+replace group`i' = group`i'_1970 if year ==1970
+drop group`i'_19*
+}
+
+twoway area group1 year, color(green*0.1) || rarea group1 group2 year, color(green*0.5) || rarea group2 group3 year, color(green*0.9) || rarea group3 group4 year, color(green*1.2) || rarea group4 group5 year, color(green*1.8) || rarea group5 group6  year, color(green*2.2) || rarea group6 group7 year, color(green*5) || rarea group7 group8 year, color(green*10.0) legend(order(1 "Below 5 years old" 2  "6-14 years old"  3  "15-24 years old"  4  "25-34 years old" 5 "35-44 years old"  6 "45-54 years old" 7 "55-64 years old" 8 "Above 65") pos(6) col(4)) xtitle("") xla(1930(10)1970) ytitle(Percent)
+graph export "$Results/gr_age/control/total.png",replace
+
+
+**************************************************
+**#	Women. Note: 1930 missing
+* 1960: Missing data for Burgos Malaga and Badajoz so we delete them
+**************************************************
+use "$Output_data/dataset.dta", clear
+keep if province !="burgos" & province !="malaga" & province !="badajoz" & province !="cadiz" 
+
+keep if pop_census!=.
+keep codprov type year pop_19* province popsharewomen_agegroup* median*
+keep if median_popw==0 & median_tea==0
+drop pop_19*
+* Check that all is fine
+sort codprov province type 
+collapse popsharewomen_agegroup*, by(year)
+foreach i of numlist 1930 1940 1950 1960 1970{
+egen total`i'=rowtotal(popsharewomen_agegroup1_`i' popsharewomen_agegroup2_`i' popsharewomen_agegroup3_`i' popsharewomen_agegroup4_`i' popsharewomen_agegroup5_`i' popsharewomen_agegroup6_`i' popsharewomen_agegroup7_`i' popsharewomen_agegroup8_`i')
+}
+drop total*
+
+foreach i of numlist 1930 1940 1950 1960 1970{
+gen group8_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i'+ popsharewomen_agegroup4_`i'+ popsharewomen_agegroup5_`i' +popsharewomen_agegroup6_`i'+ popsharewomen_agegroup7_`i' +popsharewomen_agegroup8_`i'
+
+gen group7_`i' =popsharewomen_agegroup1_`i'+ popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' +popsharewomen_agegroup4_`i' +popsharewomen_agegroup5_`i'+ popsharewomen_agegroup6_`i' +popsharewomen_agegroup7_`i' 
+
+gen group6_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' +popsharewomen_agegroup4_`i' +popsharewomen_agegroup5_`i' +popsharewomen_agegroup6_`i' 
+
+gen group5_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' +popsharewomen_agegroup4_`i' +popsharewomen_agegroup5_`i' 
+
+gen group4_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' +popsharewomen_agegroup4_`i'
+
+gen group3_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' +popsharewomen_agegroup3_`i' 
+
+gen group2_`i' =popsharewomen_agegroup1_`i' +popsharewomen_agegroup2_`i' 
+
+gen group1_`i' =popsharewomen_agegroup1_`i' 
+}
+
+drop popshare*
+
+foreach i of numlist 1/8{
+	gen group`i' = group`i'_1930 if year ==1930
+replace group`i' = group`i'_1940 if year ==1940
+replace group`i' = group`i'_1950 if year ==1950
+replace group`i' = group`i'_1960 if year ==1960
+replace group`i' = group`i'_1970 if year ==1970
+drop group`i'_19*
+}
+
+twoway area group1 year, color(purple*0.1) || rarea group1 group2 year, color(purple*0.5) || rarea group2 group3 year, color(purple*0.9) || rarea group3 group4 year, color(purple*1.2) || rarea group4 group5 year, color(purple*1.8) || rarea group5 group6  year, color(purple*2.2) || rarea group6 group7 year, color(purple*5) || rarea group7 group8 year, color(purple*10.0) legend(order(1 "Below 5 years old" 2  "6-14 years old"  3  "15-24 years old"  4  "25-34 years old" 5 "35-44 years old"  6 "45-54 years old" 7 "55-64 years old" 8 "Above 65") pos(6) col(4)) xtitle("") xla(1930(10)1970) ytitle(Percent)
+graph export "$Results/gr_age/control/women.png",replace
+
+**************************************************
+**#	Men. Note: 1930 missing                            
+* 1960: Missing data for Burgos Malaga and Badajoz so we delete them
+**************************************************
+use "$Output_data/dataset.dta", clear
+keep if province !="burgos" & province !="malaga" & province !="badajoz" 
+keep if pop_census!=. 
+keep codprov type year pop_19*  province popsharemen_agegroup* median*
+keep if median_popw==0 & median_tea==0
+drop pop_19*
+* Check that all is fine
+sort codprov province type 
+collapse popsharemen_agegroup*, by(year)
+foreach i of numlist 1930 1940 1950 1960 1970{
+egen total`i'=rowtotal(popsharemen_agegroup1_`i' popsharemen_agegroup2_`i' popsharemen_agegroup3_`i' popsharemen_agegroup4_`i' popsharemen_agegroup5_`i' popsharemen_agegroup6_`i' popsharemen_agegroup7_`i' popsharemen_agegroup8_`i')
+}
+drop total*
+
+foreach i of numlist 1930 1940 1950 1960 1970{
+gen group8_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i'+ popsharemen_agegroup4_`i'+ popsharemen_agegroup5_`i' +popsharemen_agegroup6_`i'+ popsharemen_agegroup7_`i' +popsharemen_agegroup8_`i'
+
+gen group7_`i' =popsharemen_agegroup1_`i'+ popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' +popsharemen_agegroup4_`i' +popsharemen_agegroup5_`i'+ popsharemen_agegroup6_`i' +popsharemen_agegroup7_`i' 
+
+gen group6_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' +popsharemen_agegroup4_`i' +popsharemen_agegroup5_`i' +popsharemen_agegroup6_`i' 
+
+gen group5_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' +popsharemen_agegroup4_`i' +popsharemen_agegroup5_`i' 
+
+gen group4_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' +popsharemen_agegroup4_`i'
+
+gen group3_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' +popsharemen_agegroup3_`i' 
+
+gen group2_`i' =popsharemen_agegroup1_`i' +popsharemen_agegroup2_`i' 
+
+gen group1_`i' =popsharemen_agegroup1_`i' 
+}
+
+drop popshare*
+
+foreach i of numlist 1/8{
+	gen group`i' = group`i'_1930 if year ==1930
+replace group`i' = group`i'_1940 if year ==1940
+replace group`i' = group`i'_1950 if year ==1950
+replace group`i' = group`i'_1960 if year ==1960
+replace group`i' = group`i'_1970 if year ==1970
+drop group`i'_19*
+}
+
+twoway area group1 year, color(blue*0.1) || rarea group1 group2 year, color(blue*0.5) || rarea group2 group3 year, color(blue*0.9) || rarea group3 group4 year, color(blue*1.2) || rarea group4 group5 year, color(blue*1.8) || rarea group5 group6  year, color(blue*2.2) || rarea group6 group7 year, color(blue*5) || rarea group7 group8 year, color(blue*10.0) legend(order(1 "Below 5 years old" 2  "6-14 years old"  3  "15-24 years old"  4  "25-34 years old" 5 "35-44 years old"  6 "45-54 years old" 7 "55-64 years old" 8 "Above 65") pos(6) col(4)) xtitle("") xla(1930(10)1970) ytitle(Percent)
+graph export "$Results/gr_age/treated/men.png",replace

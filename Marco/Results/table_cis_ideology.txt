@@ -1,0 +1,11 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)	(11)	(12)	(13)	(14)
+VARIABLES	LABELS	Right ideol	Catholic	import_religion	import_family	Any reason	Pro euthanasia	Free divorce	Agree with Church about methods artificial fertil. (1990)	Agree with Church about contraceptives methods (1990)	Agree with Church about abort (1990)	Relig educ any	Prefer relig. marriage (1992)	Prefer civil marriage (1992)	prefer_live_notmarry
+															
+1.treat	treat = 1	-0.070**	-0.031***	-0.648***	0.055	0.046***	0.008	0.089***	-0.085***	-0.096***	-0.043*	-0.100**	-0.036*	0.006	0.010
+		(0.034)	(0.008)	(0.130)	(0.059)	(0.014)	(0.037)	(0.031)	(0.025)	(0.024)	(0.024)	(0.039)	(0.018)	(0.013)	(0.011)
+2.treat	treat = 2	-0.139***	-0.184***	-2.058***	-0.327***	0.192***	0.180***	0.273***	-0.200***	-0.206***	-0.183***	-0.285***	-0.307***	0.070***	0.071***
+		(0.034)	(0.009)	(0.113)	(0.063)	(0.012)	(0.025)	(0.033)	(0.027)	(0.028)	(0.020)	(0.027)	(0.023)	(0.014)	(0.014)
+															
+Observations		2,030	34,729	2,294	2,386	12,339	2,135	1,109	2,535	2,515	2,771	2,048	2,262	2,262	2,262
+R-squared		0.105	0.125	0.272	0.127	0.090	0.128	0.201	0.141	0.168	0.117	0.204	0.213	0.067	0.066
+Mun. FE		YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES

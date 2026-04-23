@@ -1,0 +1,224 @@
+\documentclass[a4paper,oneside,final,onecolumn,11pt,english]{article}
+\usepackage{comment}
+\usepackage{cancel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{subcaption}
+\usepackage{bbding}
+\usepackage{pgfplots}
+\usepackage{amsfonts}
+\usepackage{graphics}
+\usepackage{bbm}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{changepage} %this is to insert narrower margins paragraphs
+%\usepackage[margin=1.3in]{geometry}
+\usepackage[a4paper]{geometry}
+\geometry{left=2.0cm, right=2.0cm, footnotesep=0.4cm, headheight=15pt, headsep=1.5cm, bmargin=2cm, tmargin=3cm}
+%\usepackage{subfigure}
+\usepackage[toc,page]{appendix}
+\usepackage{threeparttable}
+\usepackage{color}
+\usepackage{lscape}
+\usepackage{umoline}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{ulem} %\xout
+\usepackage{blindtext}
+\usepackage{chngcntr}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{eucal}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+%\usepackage{authblk}
+\usepackage{flafter} %which prevents figures ever floating backwards up the current page.
+\usepackage{flafter} %which prevents figures ever floating backwards up the current page.
+\usepackage{lmodern,microtype}
+\usepackage{ragged2e} %justify
+\usepackage{enumitem}
+\usepackage{mwe} % new package from Martin scharrer
+\usepackage{titling}%
+\usepackage{caption}
+\usepackage{multirow}
+ 
+\usepackage{tabularx}
+\usepackage{pdfpages}
+\usepackage{chronosys}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=blue,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+}
+\usepackage{xstring}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{parskip} 
+ 
+\makeatletter
+\newread\pin@file
+\newcounter{pinlineno}
+\newcommand\pin@accu{}
+\newcommand\pin@ext{pintmp}
+% inputs #3, selecting only lines #1 to #2 (inclusive)
+\newcommand*\partialinput [3] {%
+  \IfFileExists{#3}{%
+    \openin\pin@file #3
+    % skip lines 1 to #1 (exclusive)
+    \setcounter{pinlineno}{1}
+    \@whilenum\value{pinlineno}<#1 \do{%
+      \read\pin@file to\pin@line
+      \stepcounter{pinlineno}%
+    }
+    % prepare reading lines #1 to #2 inclusive
+    \addtocounter{pinlineno}{-1}
+    \let\pin@accu\empty
+    \begingroup
+    \endlinechar\newlinechar
+    \@whilenum\value{pinlineno}<#2 \do{%
+      % use safe catcodes provided by e-TeX's \readline
+      \readline\pin@file to\pin@line
+      \edef\pin@accu{\pin@accu\pin@line}%
+      \stepcounter{pinlineno}%
+    }
+    \closein\pin@file
+    \expandafter\endgroup
+    \scantokens\expandafter{\pin@accu}%
+  }{%
+    \errmessage{File `#3' doesn't exist!}%
+  }%
+}
+\makeatother
+
+
+ 
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+\usetikzlibrary{decorations.pathreplacing, fit, calc}
+\makeatletter
+\def\ps@pprintTitle{%
+  \let\@oddhead\@empty
+  \let\@evenhead\@empty
+  \def\@oddfoot{\reset@font\hfil\thepage\hfil}
+  \let\@evenfoot\@oddfoot
+}
+\makeatother
+
+\setcounter{MaxMatrixCols}{10}
+
+\linespread{1.5}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+
+\newcommand{\percentsym}{\%}
+\usepackage[natbib,hyperref,sorting=nyt,citestyle=ext-authoryear,bibstyle=authortitle,mincitenames=1, maxcitenames=1,]{biblatex}
+\addbibresource{bibli.bib} 
+
+
+\begin{document}
+
+
+
+%\begin{titlepage}
+
+\title{ \vspace{-2cm} \huge Educated to Be Mothers? \\ Indoctrination and Demographic Backlash\thanks{\small  We are grateful to Lorenzo Cappellari, Davide Cipullo, Libertad Gonzalez and Felipe Valencia for invaluable comments and suggestions. We also thank participants at the Summer Crime Workshop 2024 at Bocconi University, the Fourth Winter Symposium in Economics and Finance at the Catholic University of Milan, seminar at UNSW Sydney, the AXA Gender Lab Seminar Series at Bocconi University and Economic History Seminar at Universidad Carlos III of Madrid. We thank Noemi Fachetti for excellent research assistance. } \vspace{-0.2cm}}
+ 
+\date{\today }
+
+\author{
+Gema Lax-Mart\'{i}nez\thanks{University of Catania, Department of Economics, and CLEAN Unit on the Economic Analysis of Crime at the BAFFI-CAREFIN Center. Email: gema.laxmartinez@unict.it} \\ 
+        \and 
+        Marco Le Moglie\thanks{Catholic University of the Sacred Heart, Department of Economics, and CLEAN Unit on the Economic Analysis of Crime at the BAFFI-CAREFIN Center. Email: marco.lemoglie@unicatt.it} \\ 
+        \and 
+        Matteo Sandi\thanks{Catholic University of the Sacred Heart, Department of Economics. Email: matteo.sandi@unicatt.it}\\ 
+        }
+        
+        
+\maketitle
+
+%\end{titlepage}
+
+
+
+
+\hspace{0.5cm}Over the past half-century, fertility rates have fallen dramatically worldwide. The global total fertility rate has declined from around 5 children per woman in 1960 to about 2.3 today, and an increasing number of countries are now below the replacement level of 2.1 births per woman \citep{rindfuss2010child, hart2024causal}. This decline has raised concerns about population aging, shrinking workforces, and associated economic challenges \citep{hart2024causal}. In response, many governments, especially in developed nations and a growing number of developing countries, have adopted pro-natalist policies aimed at encouraging childbearing. According to United Nations data, by the mid-2010s about 66\% of European countries and 40\% of Asian countries had policies to raise fertility or arrest its decline \citep{hart2024causal}. These policies take various forms, including direct financial incentives (baby bonuses, child allowances, tax credits), expanded parental leave, subsidized childcare, housing benefits for families, and other measures to reduce the cost of child-bearing.
+
+
+
+
+
+We provide novel evidence that public policy aimed to stimulate fertility by stressing traditional gender roles can have unintended effects on fertility decisions by generating a backlash among treated women. We show this by focusing on the indoctrination carried out by the regime of general Francisco Franco right after the victory of the Nationalist band in the Civil War that took place in Spain from 1936 to 1939. Franco ruled over Spain from 1939 to 1975 as a dictator. 
+The first primary education law during the Francoist rule was approved in 1945 and it is the subject of empirical study in this paper.
+
+The law outlined the key features of primary education, emphasizing religious instruction, strong national spirit, mandatory use of the Spanish language, and a specialized curriculum for girls focused on home life, crafts, and domestic industries. The curriculum was modified in all schools throughout the country to teach traditional gender roles to children enrolled in private and public schools. 
+
+The regime established strict guidelines for methodological practices,  carefully regulating time management and the structure of the school day. %The regime also highlighted how the reform would elevate the dignity of the teaching profession and how the spirit of the national movement would endure in Spain’s future through the younger generations.   
+Furthermore, the state also mandated the separation of sexes (compared to mixed schools that were in place during the 2$^{nd}$ Republic) in primary education, while kindergarten schools and co-educational schools would always be run by female teachers.\footnote{Co-educational schools would not be authorized except in particular cases where the population would not provide a school contingent of more than 30 students between the ages of 6 and 12. Primary school comprised four phases: nursery schools for children aged four or younger,  kindergarten (4-6 years old) - which could admit both boys and girls when enrolment would not allow for gender division, elementary education (6-10 years old), improvement (10-12 years old), and vocational initiation (12-15 years old).} 
+
+A key goal of the reform was to educate women to become “good wives” and “good mothers”, as it constitutes the most appropriate way to contribute to society \citep[p. 213]{perez_canto}. As such, this initiative was not an isolated case. Historical examples of how autocratic regimes tried to interfere in the private lives and fertility decisions of their citizens through propaganda and/or indoctrination include the Lebensborn program created by the Nazi authorities to %increase Germany’s population by 
+ encourage fertility among German women deemed “racially valuable” (\citeauthor{holocaust}), the award of Medals of motherhoods in the Soviet Union (\citeauthor{cabinet_oxford}) and the National Birthrate Awards to promote an increase in the country's fertility rate established by the Franco regime in Spain. 
+ 
+ In these and other settings, the content and quality of education exerted lasting consequences for people's beliefs. Germans who grew up under Nazis had access to a significantly lower quality of education  \textcolor{red}{CITARE ALESINA PAPER SULL'UNIONE SOVIETICA E QUELLO DEL FIPO FINLANDESE SU COMMUNISM IN THE CLASSROOM O QUALCOSA DEL GENERE}
+ \citep{waldinger2010quality, waldinger2012peer} and they are much more anti-Semitic than those born before or after that period \citep{voigtlander2015}. In Spain, prolonged exposure to Catalan teaching was shown to be effective in increasing Catalan feelings \citep{clots_masella2013}. In China, modifying the school curriculum was effective in changing young people's views of China's governance and free trade \citep{cantoni2017curriculum}. On the other hand, language restrictions in elementary schools in the U.S. after World War I instigated a backlash, increasing the sense of cultural identity among the minority, reducing integration and identification with the host country later in life, and showing that indoctrination and propaganda may not always generate the intended effects \citep{fouka2020}.
+ 
+To uncover the causal effect of Francoist indoctrination on fertility behavior, we conduct an individual-level analysis that uses both nationally representative survey data and census microdata in a difference-in-differences framework. Our identification strategy leverages quasi-exogenous variation in exposure to Franco’s 1945 primary school reform, stemming from the interaction between individuals’ birth cohorts, the reform’s implementation date, and the official age of entry into and exit from primary education. Our intention-to-treat (ITT) variable measures the share of a respondent’s primary schooling years that took place under the post-reform curriculum. Using this measure, we find that women more intensively exposed to the reform—due solely to the timing of their school entry—are no less likely to become mothers, but they have significantly fewer children on average. This suggests that the reform influenced fertility decisions primarily along the intensive margin.
+
+To investigate whether these individual-level effects aggregate into broader demographic shifts, we turn to historical census data and implement a second set of difference-in-differences specifications at the cohort–locality level.We compare fertility trends across areas that differed in the share of school-age girls at the onset of the reform—a demographic factor that plausibly shaped the intensity of exposure to Francoist educational indoctrination across localities, and subsequently influenced fertility outcomes as these cohorts reached reproductive age.  In this setting, our ITT is defined as the proportion of the female population of primary school age in each locality at the start of the policy. This analysis reveals a significant decline in fertility rates in areas with greater ITT exposure to the reform, while marriage rates remain unaffected. Placebo tests using the share of school-age boys yield null effects, mitigating concerns that our estimates simply capture pre-existing demographic trends unrelated to the reform.
+
+Finally, we provide suggestive evidence that the fertility decline among treated cohorts is accompanied by a shift in beliefs plausibly shaped by the reform—particularly regarding gender roles, motherhood, and the family. These results are consistent with the presence of a backlash effect, whereby the regime’s attempt to engineer traditional values ultimately undermined the very norms it sought to entrench.
+
+
+
+Our paper contributes to different strands of literature. First, our findings contribute to a large body of literature on family policies and fertility. Direct financial incentives to parents include one-time “baby bonuses” for each birth, recurring child allowances, or tax credits/deductions for families with children. Financial incentive policies effectively lower the monetary cost of an additional child and, although the magnitude of the effect varies, they generally show a positive causal impact on fertility. Examples include Quebec’s "Allowance for Newborn Children" programme \citep{milligan2005subsidizing}, Israel’s child allowance system reform \citep{cohen2013financial}, Russia's maternity capital policy \citep{slonimczyk2014assessing}, Spain’s baby bonus \citep{gonzalez2013effect, gonzalez2023cash}, Singapore’s baby bonus \citep{malak2019baby}, Romania's fixed benefits reform \citep{tudor2020financial}, and South Korea’s allowances \citep{kim2023paid}. 
+
+A major set of pro-natalist interventions are also parental leave policies that guarantee job-protected leave from work for mothers or fathers after a child is born, often with some wage replacement. Over the last decades, many countries have extended the duration of maternity leave, introduced paid leave, or added paternity leave for fathers. These policies aim to reduce the career cost of having a baby, thereby encouraging births especially among working women. The empirical literature finds mixed but generally positive effects of such leave reforms on fertility, depending on the design of the policy. In Austria, for example, extending job-protected leave did lead some women to have second children more quickly (a positive effect on higher-order fertility), but it also kept mothers out of the workforce longer. The fertility effect in that case was present but not extremely large \citep{lalive2009does}. Similarly, increased paid leave in Norway caused little change in completed fertility \citep{dahl2016case}, suggesting that marginal extensions of already generous leave had limited fertility effects. 
+
+However, more substantial leave reforms or implementations in contexts with previously very limited support show clearer fertility impacts. In Germany, the 2007 parental leave reform (Elterngeld) replaced a means-tested benefit with a more generous earnings-related benefit for 12–14 months, particularly boosting support for higher-earning women. This reform significantly increased birth rates among educated, career-oriented women, as fertility of tertiary-educated women rose by up to 23\% within five years of reform \citep{raute2019can}. In the U.S., the introduction of the unpaid Family and Medical Leave Act (FMLA) in 1993 gave many American women job-protected maternity leave for the first time. After FMLA, fertility behaviour shifted slightly, with women in states most affected by FMLA provisions showing a small increase in the likelihood of having a baby compared to previous trends \citep{cannonier2014does}. More recently, some U.S. states implemented paid family leave (e.g., California in 2004, New Jersey in 2009). These paid-leave programs caused a modest increase in California in the probability of having a second child among mothers who had been offered paid leave for their first \citep{golightly2022does, bailey2025long}. 
+
+Some recent studies also find that giving fathers parental leave (paternity leave quotas or shareable leave) causes little change in fertility \citep{lee2009childcare, cools2015causal, farre2019does, duvander2020impact}. %Overall, the literature indicates that parental leave policies can have a positive impact on fertility, but the effect depends on the policy design and context. Removing job risk and some financial loss around childbearing through parental leave has helped increase fertility in several countries, but usually as one component of a broader family policy package. 
+Some studies also investigate the impact of childcare support policies on fertility \citep{rindfuss2010child, havnes2011no, mork2013childcare, bauernschuster2016children, wood2019local}. The general takeaway from these studies is that childcare support appears one of the most effective pro-natalist policies in the empirical literature, as evidence from Norway, Sweden, Germany, and other countries consistently shows positive fertility effects when childcare becomes more available and affordable. 
+
+Beyond the main three policy areas (i.e., transfers, parental leave, and childcare support), various other measures have been tried or proposed to encourage childbearing. The economic literature on these is sparser but growing. A few notable areas include housing policy \citep{clark2012women, fazio2024housing}, tax incentives \citep{parent2007tax, cohen2013financial, laroque2014identifying}, health and family planning \citep{abramowitz2018planning, gartner2022impacts}, and broader socio-cultural campaigns \citep{zeng2016effects, lin2024effect}. However, no studies to date have empirically examined whether propaganda and indoctrination may work to stimulate fertility in future generations. Our results rectify this omission and provide no empirical support for the notion that propaganda and indoctrination may actually work to stimulate fertility - rather the opposite, as they show that efforts to exacerbate gender stereotypes are likely to backfire and result in reduced fertility \citep{botev2015could}. This conclusion is of primary importance to a policy maker interested in combating the modern demographic winter.
+
+Second, this paper relates to the existing research on gender norms and how they affect the lives of women in many dimensions \citep{bertrand2015gender, fortin2015gender, gousse2017marriage, andresen2019causes, grewenig2020gender, olivetti2020mothers, cortes2023children, boelmann2025wind}. Gender norms play a crucial role in defining gender inequality \citep{kleven2019child, bertrand2020gender, ashraf2022gender, bursztyn2023gender, farre2023changing}, and modern gaps can be traced at least in part to parenthood, which has the potential to hold back women’s careers relative to men \citep{daniel2013motherhood, angelov2016parenthood, kleven2019children, bertrand2020gender, cortes2023children}. Traditional norms typically assign to women the role of main caregivers within the family and restrict their options in the labour market after childbirth \citep{bertrand2015gender, fortin2015gender, gousse2017marriage, andresen2019causes, grewenig2020gender, olivetti2020mothers, cortes2023children, boelmann2025wind}. Although children inherit gender norms from their parents \citep{fernandez2004mothers, alesina2013origins, farre2013intergenerational}, thus possibly perpetuating gender imbalances at home and making policy ineffective in reducing gender differentials in the labour market \citep{albanesi2023families, kleven2024family}, public policy aimed at promoting gender equality in the long term has the potential to effectively shape the gender norms of the next generation \citep{hara2021long, farre2023changing}. Our paper contributes to this debate by showing that policies in the opposite direction, i.e., trying to stress traditional gender roles and gender stereotypes, are unlikely to achieve their intended purpose. 
+
+Third, our study relates to the existing research on the impact of indoctrination and propaganda by authoritarian regimes \citep{waldinger2010quality, waldinger2012peer, adena2015, voigtlander2015, cantoni2017curriculum, homola}. Although there are several studies on the effects of such practices by authoritarian regimes, to our knowledge this is the first paper to analyse the impact of indoctrination policies and authoritarian propaganda on fertility decisions.\footnote{At the time of writing, we are aware of one unpublished manuscript studying the analysis of Nazi family policies on fertility by \citet[][]{baudin2023}.}
+
+
+
+Finally, our analysis contributes to research on the formation of cultural beliefs, the marriage market and fertility \citep{chong_laferrara2009, laferrara_etal2012}. While existing studies show that \textit{novelas}, soap operas and TV series have the potential to affect the marital and fertility decisions of individuals, our analysis highlights that indoctrination and propaganda are ineffective policy tools to affect the marriage market and they are even counterproductive tools to spur fertility and demographic growth. 
+ 
+
+
+\clearpage
+\printbibliography
+
+
+\end{document}

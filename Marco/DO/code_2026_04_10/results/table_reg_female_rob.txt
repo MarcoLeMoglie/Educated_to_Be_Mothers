@@ -1,0 +1,16 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+VARIABLES	LABELS	Births	Births	Births	Births	Births	Births	Births	Births
+									
+interaction	Treat (W) X Post 1945	-388.8***	-470.7**	-5,065***	-5,184**	327.4	327.4	-40.97	-62.26
+		(139.1)	(221.3)	(1,734)	(2,467)	(204.7)	(204.7)	(53.97)	(61.64)
+interaction2	Treat (M) X Post 1945		-192.8		208.2				59.88
+			(178.4)		(1,523)				(40.01)
+									
+Observations		5,519	5,518	5,518	5,518	5,518	5,518	5,508	5,508
+R-squared		0.806	0.905	0.893	0.893	0.884	0.884	0.916	0.917
+Test		Socialists	Socialists	Discrete	Discrete	Placebo	Placebo	Weddings	Weddings
+Fertile pop.		YES	YES	YES	YES	YES	YES	YES	YES
+Unit FE		YES	YES	YES	YES	YES	YES	YES	YES
+Year FE		YES	YES	YES	YES	YES	YES	YES	YES
+Prov. X Year FE		YES	YES	YES	YES	YES	YES	YES	YES
+Mean of depvar		5183	5183	5183	5183	5183	5183	1728	1728

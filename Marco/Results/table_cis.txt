@@ -1,0 +1,12 @@
+		(1)
+		Number of kids (1979
+VARIABLES	LABELS	90-92)
+		
+1.treat	treat = 1	-0.929***
+		(0.270)
+2.treat	treat = 2	-1.141***
+		(0.298)
+		
+Observations		2,401
+R-squared		0.292
+Mun. FE		YES

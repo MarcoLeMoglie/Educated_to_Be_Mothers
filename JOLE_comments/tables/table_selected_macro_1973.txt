@@ -1,0 +1,16 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	Alive birth	Alive birth	Alive birth
+				
+interaction	Treat (W) X Post 1945	-478.0**	-487.2*	-381.9*
+		(238.9)	(257.0)	(209.2)
+interaction2	Treat (M) X Post 1945	-176.3	-157.3	-218.7*
+		(148.7)	(138.3)	(110.7)
+				
+Observations		5,518	4,124	3,162
+R-squared		0.895	0.876	0.890
+Specification		Full sample ref	Oil-exposure sample	Oil-exposure sample
+Unit FE		YES	YES	YES
+Province-Year FE		YES	YES	YES
+Fertile-age controls		YES	YES	YES
+Oil-exposure sample		NO	YES	YES
+Pre-1972 sample		NO	NO	YES

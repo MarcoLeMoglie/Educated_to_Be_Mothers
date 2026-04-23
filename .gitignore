@@ -1,0 +1,39 @@
+# OS / local tooling
+.DS_Store
+.code-review-graph/
+.claude/
+.cursor/
+.kiro/
+__pycache__/
+
+# Logs and local runtime artifacts
+*.log
+_logs_archive/
+clean_ine_external_sources.log
+
+# LaTeX / Overleaf build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+
+# Large raw / derived data not suitable for GitHub
+original_data/
+output_data/
+Marco/DO/code_2026_04_10/analysis_data/final_census_analysis.dta
+Marco/Data/ESS_households_data.dta
+literature/Spain/1942 depuracion/datos_CastillaLaMancha.pdf
+
+# Generated caches / local environments
+.venv/
+venv/

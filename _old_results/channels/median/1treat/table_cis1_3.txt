@@ -1,0 +1,11 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)	(11)	(12)	(13)	(14)
+VARIABLES	LABELS	Threat mum	Mum's life danger	Illness baby	Rape	Mum's decision	Ec. conditions	Any reason	Pro abortion	Law too prohib	Law red illeg abort Sp	Law red illeg abort Ab	Law red illeg abort	Within 12 w.	Pro abortion-church
+															
+post_teachers	Teachers X Treat	-0.044	-0.044	-0.040	-0.031	-0.033	-0.006	-0.019	0.083*	0.100	-0.032	-0.012	-0.039	-0.006	0.022
+		(0.033)	(0.029)	(0.033)	(0.026)	(0.021)	(0.023)	(0.017)	(0.045)	(0.069)	(0.031)	(0.030)	(0.031)	(0.044)	(0.046)
+															
+Observations		5,761	5,809	5,740	4,175	6,345	6,821	8,119	1,406	794	3,043	2,918	3,118	2,521	1,832
+R-squared		0.162	0.171	0.170	0.164	0.115	0.098	0.125	0.158	0.198	0.128	0.130	0.129	0.187	0.366
+Mun. FE		YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+Cohort		YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+Mean of depvar		0.732	0.745	0.723	0.754	0.448	0.455	0.367	0.669	0.736	0.705	0.712	0.667	0.487	0.332

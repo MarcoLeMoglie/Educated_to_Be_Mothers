@@ -1,0 +1,778 @@
+\documentclass[a4paper,oneside,final,onecolumn,12pt,english]{article}
+
+%----------         
+%PREAMBLE
+%-----------
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[left=2.3cm,top=2.4cm,right=2.3cm,bottom=2.4cm]{geometry}
+
+%\usepackage{newtxtext}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bbding}
+\usepackage{csquotes}
+%\usepackage{chapterbib}  
+%\usepackage[sectionbib]{chapterbib}
+%\usepackage[round]{natbib}
+
+\usepackage{comment} 
+\usepackage{fancyhdr}
+%\usepackage{tocbibind} % To have entry "Contents" in Table of Contents, comment out if not wanted
+\usepackage{blindtext}
+\usepackage{titlesec}
+
+\usepackage{changepage}    % For adjustwidth environment
+\usepackage{setspace}      % For spacing environment (e.g., \begin{spacing}{1})
+ 
+
+\usepackage{lmodern,microtype}
+\usepackage{ragged2e} %justify
+\usepackage{amsmath,amssymb,amsfonts} % Typical maths resource packages
+\usepackage{graphicx}                 % Packages to allow inclusion of graphics
+\usepackage{color, colortbl}
+
+\usepackage{comment}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}                 % For creating coloured text and background
+%\usepackage{hyperref}                 % For creating hyperlinks in cross references
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref} %url too long breaks into different lines
+\hypersetup{urlcolor=blue,
+  linkcolor  = blue ,colorlinks=true, citecolor = black} % Colors hyperlinks color teal
+% linkcolor=Figures, footnotes...
+% citecolor=bibliography references
+\usepackage{eucal}
+\usepackage{array}
+\usepackage{lscape}
+\usepackage[english]{babel}
+\textwidth=114.4in %
+\usepackage[a4paper]{geometry}
+\geometry{left=2.0cm, right=2.0cm, headheight=15pt, headsep=1.5cm, bmargin=2cm, tmargin=3cm}
+\setlength{\footnotesep}{0.4cm}
+\linespread{1.27}
+\usepackage[T1]{fontenc}
+
+\usepackage{parskip}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{flafter} %which prevents figures ever floating backwards up the current page.
+\usepackage{threeparttable}
+%\usepackage[round]{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning}
+%\linespread{1.2}
+
+\usepackage{lipsum}
+\usepackage{lscape}
+\usepackage{titling}%
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{eurosym}
+\usepackage{amstext} % for \text
+\DeclareRobustCommand{\officialeuro}{%
+	\ifmmode\expandafter\text\fi
+	{\fontencoding{U}\fontfamily{eurosym}\selectfont e}}
+\definecolor{black}{rgb}{0,0,0}
+\definecolor{green}{rgb}{0,1,0}
+\definecolor{dark-red}{rgb}{1,0,0}
+\definecolor{dark-blue}{rgb}{0.15,0.15,0.4}
+\definecolor{medium-blue}{rgb}{0,0,0.5}
+\definecolor{Blue}{rgb}{0.3,0.3,0.9}
+\usepackage{epstopdf}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{etoolbox}
+\usepackage{blindtext}
+\usepackage{titling}
+\usepackage[section]{placeins} %gema
+\usepackage[subsection]{placeins} %matteo
+\usepackage{pdfpages}
+\newcommand{\mathbbm}[1]{\text{\usefont{U}{bbm}{m}{n}#1}}
+
+\usepackage{afterpage}%blankpages
+\newcommand\blankpage{%
+    \null
+    \newpage}
+
+
+
+
+%%%%
+
+
+\date{\today} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%   B I B L I O G R A P H Y
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage[normalem]{ulem} % remove underline in bibli
+
+\usepackage[natbib,hyperref,sorting=nyt,citestyle=ext-authoryear,bibstyle=authoryear,mincitenames=1, maxcitenames=2,breaklinks=true,backend=biber, giveninits=true,maxbibnames=99 ]{biblatex}
+
+\usepackage{breakcites} 
+\addbibresource{bibli.bib} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{document}
+
+
+
+\begin{titlepage}
+
+\title{\huge Educated to Be Mothers? \\ School Reform and Demographic Backlash\thanks{\footnotesize We thank Noemi Fachetti for excellent research assistance. We also thank Arnstein Aassve, Davide Cipullo, Gianmarco Daniele, Mimosa Di Stefano, Federico Masera, Mounu Prem and participants of the Summer Crime Workshop 2024 at Bocconi University, the 4$^{th}$ Winter Symposium in Economics and Finance at the Catholic University of Milan, the departmental seminar at UNSW Sydney, the AXA Gender Lab Seminar Series at Bocconi University, the ALP-POP Conference (DONDENA, Bocconi University), the 4$^{th}$ Junior Economists Meeting at the University of Milan and the Economic History Seminar at Universidad Carlos III of Madrid for invaluable comments.} \vspace{-0.2cm}}
+ 
+\date{\today \vspace{0.8cm}}
+
+\author{
+Gema Lax-Martinez\thanks{Department of Economics, University of Padova, and CLEAN Unit, Bocconi. Email: gema.laxmartinez@unipd.it} \and Marco Le Moglie\thanks{Department of Economics and Finance, Catholic University of the Sacred Heart, and CLEAN Unit on the Economic Analysis of Crime at the BAFFI-CAREFIN Center. Email: marco.lemoglie@unicatt.it} \and Matteo Sandi\thanks{Department of Economics and Finance, Catholic University of the Sacred Heart, CESifo and Centre for Economic Performance (LSE). Email: m.sandi@lse.ac.uk}\\ 
+        }
+        
+        
+\maketitle
+
+\vspace{-0.3cm}
+
+
+\begin{abstract}
+Social norms play a critical role in society. This paper studies how difficult it is to manipulate social norms and whether efforts to do so may result in a backlash. We study the 1945 reform of primary education implemented under Franco's regime in Spain, which promoted nationalist-religious values and emphasized women’s domestic roles. Exploiting plausibly exogenous variation in exposure between birth cohorts, we show that women exposed to the reform have fewer children and tend to reject the regime’s promoted gender norms. These findings highlight the unintended long-term consequences that state-led efforts to engineer social norms can generate.\\
+%Social norms are an important determinant of fertility decisions. We show that public policy designed to stimulate fertility by stressing gender roles can generate a backlash among treated women. We study the introduction of Franco's 1945 reform of primary education, which promoted traditional gender roles and nationalist-religious values. We exploit plausibly exogenous variation between  cohorts in the exposure to primary education reform under the Franco regime in a difference-in-differences setting. Our results show that women exposed to this reform have significantly fewer children than those not exposed. The  individual reduction in the intensity of childbearing directly generate a significant reduction in the fertility rates of areas with a higher share of female population potentially affected by the reform before its implementation. Finally, we provide suggestive evidence that women exposed to the reform also display beliefs that appear in antithesis with the regime’s promoted gender roles and family values, highlighting the unintended backlash that autocratic regimes and gender stereotypes can generate.\\
+\noindent \small 
+
+ 
+\noindent\textbf{JEL Classification}: I21, J13, N44
+
+\noindent\textbf{Keywords}: Education, Fertility
+\end{abstract}
+
+\end{titlepage}
+
+
+\clearpage
+
+ 
+%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction} \label{sec:intro}
+%%%%%%%%%%%%%%%%%%%%%
+\hspace{1.5cm} %In recent decades, the lives of men and women have become increasingly similar. Yet, although the labour market trajectories of women have gradually converted towards those of men \citep{goldin2014}, women still bear a disproportionate share of domestic responsibilities. This imbalance in household labour hampers women’s career advancement and may also influence employers’ decisions around hiring and promotion, ultimately slowing further progress toward gender equality in the labour market \citep{hara2021long}.
+During the past half century, fertility rates have dropped dramatically worldwide \citep{goldin2025downside}. The global total fertility rate has decreased from about 5 children per woman in 1960 to about 2.3 today, and a growing number of countries are now below the replacement level of 2.1 births per woman \citep{rindfuss2010child, hart2024causal}. This has raised concerns about population aging, shrinking workforces, and associated economic challenges \citep{hart2024causal}. Many governments have adopted pro-natalist policies aimed at encouraging childbearing and, by the mid-2010s, about 66\% of European countries and 40\% of Asian countries had policies to increase fertility \citep{hart2024causal}. These policies take various forms, including direct financial incentives (baby bonuses, child allowances, tax credits), expanded parental leave, subsidized childcare, housing benefits for families, and other measures to reduce the cost of childbearing.
+
+%In modern societies, existing gaps can be traced at least in part to parenthood, which has the potential to hold back women’s careers relative to men in a significant and lasting way \citep{daniel2013motherhood, angelov2016parenthood, kleven2019children, bertrand2020gender, cortes2023children}. Evidence has recently emerged on the crucial role of gender norms in defining gender inequality \citep{kleven2019child, bertrand2020gender, ashraf2022gender, bursztyn2023gender, farre2023changing}. Traditional norms typically assign to women the role of main caregivers within the family and restrict their options in the labour market after childbirth \citep{bertrand2015gender, fortin2015gender, gousse2017marriage, andresen2019causes, grewenig2020gender, olivetti2020mothers, cortes2023children, boelmann2025wind}. Existing work suggests that children inherit gender norms from their parents \citep{fernandez2004mothers, alesina2013origins, farre2013intergenerational}, thus possibly perpetuating gender imbalances at home and making public policies mostly ineffective in reducing the existing gender differentials in the labour market \citep{albanesi2023families, kleven2024family}. Recent evidence indicates that public policy has in fact the potential to promote gender equality in the long term by shaping the gender norms of the next generation \citep{hara2021long, farre2023changing}. 
+
+ %While the economic cost of parenthood plays a central role in shaping fertility behavior, material incentives alone may not be sufficient......\textcolor{red}{QUI VA FATTA UNA INTRO DICENDO CHE ALCUNI PENSANO CHE NON SIA SOLO UNA QUESTIONE DI COST MA ANCHE DI GENEDER NORMS, E POI ATTACCARE LA PARTE SEGUENTE  }
+
+While evidence suggests that lowering the burden of child care for mothers should be particularly effective in boosting fertility \citep{doepke2019bargaining,SakamotoMinami2024}, a growing share of policymakers have begun to advocate for a return to traditional gender roles, linking declining fertility with changes in gender norms, family formation patterns, and work–life preferences.\footnote{In both the U.S. presidential elections 2024 and the German presidential elections 2025, a strong, positive correlation has in fact appeared across localities between the share of conservative votes and total fertility rates. See, e.g., \cite{IFS_TrumpBump2024, MoreBirths2025}.} In the US, pro-natalist arguments argue that declining birth rates reflect the erosion of stable family structures and cultural norms that once supported childrearing.\footnote{See, e.g., \citet{vance_people_datingapps_2025, vance_marchforlife_2025}.} In the UK, prominent figures have called for broad cultural changes to encourage childbearing and to recenter family life within national identity.\footnote{See, e.g., \citet{cates_natcon_2023, farage_ft_2025, farage_guardian_2025}.} Elsewhere in Europe, political leaders have positioned demographic recovery as contingent on restoring 'traditional family values' and prioritizing motherhood within national policy agendas.\footnote{See, e.g., \citet{time_erdogan_mother_2016, meloni_states_natality_2023, meloni_budapest_2023, orban_balvanyos_2024}.} From this perspective, strengthening conventional gender roles and family arrangements is presented as a necessary foundation for demographic renewal.
+
+This paper evaluates the validity of this claim by empirically examining a primary school reform that attempted to boost fertility by stressing traditional gender roles. The reform was enacted by the dictatorial regime of General Francisco Franco in Spain in 1945. % declares that the schooling system during the Republican period "completely uprooted the Christian sense of education, and that the school went through a phase of materialistic and denationalizing influences, denying our historical consciousness. %It also claims that the image of Christ was banned from classrooms and sectarian propaganda "prepared adolescents for the grim task of the Marxist revolution". 
+It outlined the key characteristics of primary education, emphasizing religious instruction, strong national spirit, mandatory use of the Spanish language, and a specialized curriculum for girls focused on home life, crafts, and domestic industries. %The regime recognizes "the Church's rightful authority in education due to its supernatural order and grants it the power to establish schools of any level.[...] The family is recognized as having the primary and inalienable right to educate their children and, consequently, to choose their educators." The school must be Spanish and the role of teachers is subordinated to the supreme interests of the nation.  The school age is extended up to 15 years, with school attendance being compulsory (penalties were imposed on those who required children to work). %\footnote{For the first time, a school record book and a primary education certificate are established as documents attesting the compulsory nature of education.} 
+It mandated the separation of sexes %during the Second Republic) 
+and established strict guidelines for teaching practices, carefully regulating time management and the structure of the school day.%The regime also highlighted how the reform would elevate the dignity of the teaching profession and how the spirit of the national movement would endure in Spain’s future through the younger generations.   
+\footnote{More details about primary school in our empirical setting are provided in the next section.} %Books in all schools had to be approved by the Ministry of National Education and the ecclesiastical hierarchy \citep[][p. 385-390]{boe1945} and the curriculum was modified in all the schools of the country so as to teach traditional gender roles to students enrolled in private and public schools. 
+%Divorce, that was approved in 1932, was abolished afterwards in 1939 so marriage stability is not an outcome we can analyze. Likewise, abortion was considered a crime against the state two years after the end of the Civil War, in 1941.\footnote{Partial decriminalization of abortion was approved in 1985} 
+
+A key goal of the reform was to educate women to become “good wives” and “good mothers”, as “it would be the most appropriate way for them to contribute to society” \citep[p. 213]{perez_canto}. As such, this initiative was not an isolated case. Historical examples of autocratic regimes trying to interfere in the private lives and fertility decisions of their citizens through propaganda and/or indoctrination include the Nazi Lebensborn program to %increase Germany’s population by 
+encourage fertility among “racially valuable” German women (\citeauthor{holocaust}), female social organizations under the Pinochet regime in Chile \citep{gonzalez2024empowerment}, Franco's National Birthrate Awards and  the award of Medals of motherhood in the Soviet Union.\footnote{See, e.g., the \textit{Medal of Motherhood (Central Asia)}, available at: \url{https://www.cabinet.ox.ac.uk/medal-motherhood-central-asia-0}} %During the consolidation of Hitler's dictatorship, radio propaganda helped the Nazis enrol new party members, and it incited anti-Semitic acts and denunciations of Jews to authorities by ordinary citizens after the Nazis established their rule \citep{adena2015}. Current political intolerance or xenophobia appear to be linked with proximity to Nazi concentration camps in Germany, as neighbouring communities were more exposed to out-group hatred beliefs \citep{homola}. 
+ %In these and other settings, the content and quality of education exerted lasting consequences for people's beliefs. Germans who grew up under Nazis had access to a significantly lower quality of education \citep{waldinger2010quality, waldinger2012peer} and they are much more anti-Semitic than those born before or after that period \citep{voigtlander2015}. East Germans who were exposed to communism are more in favor of state intervention than West Germans \citep{alesina2007good} and prolonged exposure to socialist education reduced their likelihood to obtain a college degree \citep{fuchs2016long}. In Spain, Catalan teaching was effective in increasing Catalan feelings \citep{clots_masella2013}, while in China modifying the school curriculum was effective in changing young people's views of China's governance and free trade \citep{cantoni2017curriculum}. On the other hand, language restrictions in elementary schools in the U.S. after World War I instigated a backlash, increasing the sense of cultural identity among the minority, reducing integration and identification with the host country later in life, and showing that indoctrination and propaganda may not always generate the intended effects \citep{fouka2020}.
+%\textcolor{red}{CITARE ALESINA PAPER SULL'UNIONE SOVIETICA E QUELLO DEL FIPO FINLANDESE SU COMMUNISM IN THE CLASSROOM O QUALCOSA DEL GENERE}
+
+To uncover the causal effect of Franco's primary school reform on fertility behavior, the analysis uses both nationally representative survey data and census microdata at the individual level. We exploit exogenous variation in exposure to Franco’s 1945 primary school reform originating from the interaction between the birth cohorts of individuals, the date of implementation of the reform, and the official age of entry and exit from primary education. In particular, we compare fertility choices between women born in the 1920s, who completed primary school before the reform, in the 1930s, who were partially exposed to the reform, and from 1939 to 1950, who attended the entire primary education cycle after the reform. Therefore, our intention-to-treat (ITT) measure distinguishes between partial and full exposure to the reform. Our  estimates show that women more exposed to the reform - solely due to the timing of school entry - were equally likely to become mothers, but they had significantly fewer children on average. Thus, the reform seemingly influenced fertility decisions primarily on the intensive margin. Additional analysis %on a different and much larger sample, namely 
+using the Spanish census microdata and a set of placebo tests retrieve results that further validate these conclusions. Since these results were derived while controlling for fixed effects by year, age class and place of residence (as well as their interaction in our most comprehensive specification), they are unlikely to merely capture a secular decline in fertility.\footnote{In the analysis of survey data, the year fixed effects refer to the year of the survey, while the analysis of census data replaces fixed effects by survey year with fixed effects by census year. The definition of age class is specified in  Section \ref{empirics}.}
+
+The richness of our data allows us to test a variety of hypothesized mechanisms behind the fertility-reducing impact of Franco’s 1945 primary school reform. Empirical estimates show that the reform did not affect participation in the labor market, educational achievement, and political leaning. In contrast, our results provide at least strongly suggestive evidence that the decline in fertility among treated cohorts was accompanied by a change in beliefs plausibly shaped by the reform, particularly regarding gender roles, motherhood, and the family. These results are consistent with the presence of a backlash effect, in which the regime's attempt to engineer traditional values ultimately undermined the very same norms it sought to establish. Data limitations do not allow us to disaggregate the bundled treatment generated by the reform and quantify the extent to which this backlash was caused by mere exposure to the reform versus other factors, such as the different curricula, the division of classes, or the different school materials between males and females. 
+
+To further validate that these results reflect the impact of the reform on fertility and to explore whether these individual-level effects may have in fact aggregated into broader demographic shifts, the final part of the paper uses an additional source of historical census data, i.e., a panel dataset at the locality level with yearly frequency, and estimates a series of difference-in-differences specifications at the year–locality level. Here cross-sectional variation in exposure to the reform is exploited and the ITT is defined as the female population of primary school age as a fraction of total population in each locality, measured from the 1940 census. Time trends are absorbed by year fixed effects that are included in all specifications. Thus, we compare fertility trends within years and between areas that differed in the share of school-age girls at the onset of the reform, a demographic factor that plausibly shaped the intensity of exposure to the reform between localities, and subsequently influenced fertility outcomes as these cohorts reached reproductive age. This analysis reveals a significant decline in fertility rates in areas with a greater share of population exposed to the reform, while marriage rates remained unaffected. A variety of robustness checks confirm this conclusion and placebo tests either using the share of school-age boys in 1940 or the share of women aged 15-24 in 1940 yield null effects, further mitigating concerns that our results might be merely capturing secular demographic trends.
+
+Our paper contributes to four different strands of literature. First, it contributes to a large body of work on fertility and family policies. These include transfers, such as one-time “baby bonuses”, recurring child allowances, and tax deductions for families with children. By lowering the monetary cost of an additional child, transfers have the potential to increase fertility \citep{milligan2005subsidizing, cohen2013financial, gonzalez2013effect, slonimczyk2014assessing, malak2019baby, tudor2020financial, gonzalez2023cash, kim2023paid}. Common family policies also include parental leave policies that guarantee job-protected leave from work for parents after a child is born, often with some wage replacement. The evidence shows mixed but generally positive effects of such reforms on fertility \citep{lalive2009does, dahl2016case, cannonier2014does, golightly2022does, bailey2025long}, with clearer impacts linked to more substantial leave reforms or to contexts with previously very limited support (see, e.g., \cite{raute2019can}).\footnote{Recent studies also find that giving fathers parental leave (paternity leave quotas or shareable leave) causes little change in fertility \citep{lee2009childcare, cools2015causal, farre2019does, duvander2020impact}.} %Overall, the literature indicates that parental leave policies can have a positive impact on fertility, but the effect depends on the policy design and context. Removing job risk and some financial loss around childbearing through parental leave has helped increase fertility in several countries, but usually as one component of a broader family policy package.
+In contrast, similar policies implemented during the Nazi regime led to lower quality, less stable, and ultimately less fertile unions due to the excessive pressure to marry exerted on singles by the regime \citep{baudin2024}. Family policies that have been studied also include childcare support policies, which appear to be particularly effective, as evidence from multiple different countries has consistently shown positive fertility effects \citep{rindfuss2010child, havnes2011no, mork2013childcare, bauernschuster2016children, wood2019local}. Other measures that have been tried or proposed to encourage childbearing include housing policy \citep{clark2012women, fazio2024housing}, tax incentives \citep{parent2007tax, cohen2013financial, laroque2014identifying}, health and family planning \citep{abramowitz2018planning, gartner2022impacts}, and broader socio-cultural campaigns \citep{zeng2016effects, lin2024effect}. We contribute to this literature by empirically examining whether an educational reform can work to stimulate fertility in future generations. Our results show that Francoist primary school reform backfired and resulted in reduced fertility. This conclusion is of primary importance for a policy maker interested in combating the modern demographic winter.
+
+Second, this article is related to existing research on gender norms and how they affect the lives of women in many dimensions \citep{bertrand2015gender, fortin2015gender, gousse2017marriage, andresen2019causes, grewenig2020gender, olivetti2020mothers, cortes2023children, boelmann2025wind}. Gender norms play a crucial role in defining gender inequality \citep{kleven2019child, bertrand2020gender, ashraf2022gender, bursztyn2023gender, farre2023changing}, as they generally assign women the role of primary caregivers within the family and restrict their options in the labor market after childbirth \citep{bertrand2015gender, fortin2015gender, gousse2017marriage, andresen2019causes, grewenig2020gender, olivetti2020mothers, cortes2023children, boelmann2025wind}. Although modern gaps can be traced at least in part to parenthood \citep{fernandez2004mothers, alesina2013origins, farre2013intergenerational}, which has the potential to hold back women’s careers relative to men \citep{daniel2013motherhood, angelov2016parenthood, kleven2019children, bertrand2020gender, cortes2023children} and perpetuate gender imbalances \citep{albanesi2023families, kleven2024family}, public policy has the potential to effectively promote gender equality in the long term \citep{hara2021long, farre2023changing}. Our paper contributes to this debate by showing that opposite policies, i.e., that stress traditional gender roles, are unlikely to achieve their intended purpose and may reduce fertility. This finding echoes \citet{goldin2025downside}'s conclusion that some women will not have children and others will delay when the probability is low that men will abandon traditions.
+
+Third, our study is related to existing research on the use of education and propaganda by authoritarian regimes \citep{waldinger2010quality, waldinger2012peer, adena2015, voigtlander2015, fuchs2016long, cantoni2017curriculum, homola, gonzalez2024empowerment, merilainencommunism, grebolnavarro}. In authoritarian regimes, as in modern democracies, the content and quality of education have lasting effects on people's beliefs.  Germans who grew up under the Nazi regime had access to significantly lower quality of education \citep{waldinger2010quality, waldinger2012peer} and exhibit higher levels of anti-Semitism than those born before or after that period \citep{voigtlander2015}. East Germans who were exposed to communism are more in favor of state intervention than West Germans \citep{alesina2007good} and prolonged exposure to socialist education reduced their chances of obtaining a college degree \citep{fuchs2016long}. In Spain, Catalan teaching was effective in increasing Catalan feelings \citep{clots_masella2013}, while in China modifying the school curriculum was effective in changing young people's views of China's governance and free trade \citep{cantoni2017curriculum}. In contrast, language restrictions in elementary schools in the US after World War I instigated a backlash, increasing the sense of cultural identity among the minority, reducing integration and identification with the host country, and showing that propaganda may not generate the intended effects \citep{fouka2020}. We contribute to this literature  by shedding new light on how state-led value engineering—via authoritarian educational reform—can leave a lasting imprint on childbearing decisions.
+
+%Second, as we examine a purge of teachers in Spain,  we contribute to the literature on the dismissal of professors (see \cite{waldinger} for an analysis of the expulsion of professors in Nazi Germany and its effect on PhD student outcomes and \cite{villamil_balcells2020} for an examination on the political reasons behind the internal purges executed by Franco in Spain). 
+
+Finally, our analysis contributes to existing research on the formation of cultural beliefs, the marriage market, and fertility \citep{chong_laferrara2009, laferrara_etal2012}. Although existing studies show that \textit{novelas}, soap operas and TV series can influence marital and fertility decisions, our findings highlight that school reforms stressing traditional gender norms are ineffective pro-natalist policy tools. The remainder of the paper is structured as follows. Section \ref{background} reviews the historical background of Spain under the Francoist regime. Section \ref{data} shows our data sources, Section \ref{empirics} describes the empirical analysis, and Section \ref{results} presents the results. Finally, Section \ref{conclusion} concludes.
+ 
+% Cite: Compulsory Language Educational Policies and Identity Formation(with Aspachs, O., Costa-Font, J. and Masella, P.)  Journal of the European Economic Association, Vol .6, No.2-3:  434-444. April-May 2008. https://onlinelibrary.wiley.com/doi/epdf/10.1162/JEEA.2008.6.2-3.434
+
+% Cite, there is no WP out yet: Diversification of German Universities: Evidence from two natural experiments, Anna Bindler and Barbara Boelmann and Lena Janys.
+
+%%%%%%%%%%%%%%%%%%%%%
+%\section{Theoretical background \textcolor{red}{MA CI SERVE DAVVERO QUESTA SEZIONE? A ME SEMBRA FACILMENTE ASSORBIBILE DALL'INTRODUZIONE}} 
+%\label{theory}
+%%%%%%%%%%%%%%%%%%%%%
+%Economic theory has long provided a framework for understanding how public policies might affect fertility decisions. In Gary Becker’s classic economic model of the family, parents derive utility from children but face costs (both direct financial costs and the opportunity cost of time) in raising them \citep{becker1981treatise}. An increase in household income or a decrease in the cost of child-rearing is expected to have a positive “income effect” on fertility – essentially lowering the “price” of children and encouraging larger families. Policies can thus influence fertility by altering either the income available to families or the costs associated with having children. For example, cash transfers or tax breaks for families raise disposable income, making it more affordable to have an additional child. Likewise, subsidized services (like childcare or healthcare) reduce out-of-pocket costs, and parental leave laws can reduce the career penalty (opportunity cost) associated with childbearing. 
+
+%Families may of course also adjust the quality of investments per child. If a policy effectively gives parents more resources per child, they might choose to invest more in each existing child (e.g., education, health, etc.) rather than have another child – a trade-off known as the quantity–quality trade-off \citep{becker1981treatise}. Additionally, policies that reduce the time cost of children for mothers (for instance, by enabling mothers to return to work through childcare support) may increase fertility, whereas policies that inadvertently increase women’s time out of the labour force (such as very long parental leaves) could have ambiguous effects  \citep{hart2024causal}. 
+
+%The recent theoretical literature on the economics of fertility emphasizes the role of gender equity and argues that achieving sustainable fertility in developed societies may require a “gender revolution” in which parenting burdens are more equally shared \citep{goldscheider2015gender}. In this framework, policies that encourage fathers’ involvement or mitigate mothers’ disproportionate childcare burden are theorized to boost fertility. Notably, the intra-household bargaining model of fertility by \citet{doepke2019bargaining} shows that, in low-fertility settings, it is often women who veto having additional children due to the disproportionate cost they bear in terms of career and time. Their quantitative model predicts that fertility is highly responsive to targeted policies that lower the childcare burden specifically for mothers. In other words, making it easier for women to combine work and family (e.g., through childcare provision and flexible work arrangements) can have remarkable effects on encouraging births. This insight also helps explain why simply giving cash may be less effective than policies that directly reduce mothers’ opportunity costs. 
+
+%Overall, the economic theory of fertility suggests that all else equal, reducing the private cost of children (or increasing the benefits of having them) especially for women should lead to higher fertility. This paper tests this conceptual prediction by empirically examining a reform that went in the opposite direction, as it exacerbated the gender divide and the disproportionate cost women bear for having children in terms of career and time.
+
+%%%%%%%%%%%%%%%%%%%%%
+\section{Historical background} \label{background}
+%%%%%%%%%%%%%%%%%%%%%
+In 1936, a military uprising led by Francisco Franco aimed at overthrowing the Republican government unleashed the Spanish Civil War. The conflict between Republicans and Nationalists, which ended in 1939 with Franco's victory, resulted in approximately 500,000 fatalities and around 450,000 exiled people (\cite[][]{castro1993}; \cite[][p. 608]{preston2011holocausto}). Following this victory, Franco ruled over Spain from 1939 to 1975 as a dictator.
+
+The Francoist regime repeatedly expressed its determination to implement demographic policies, considering fertility one of the key concerns of the state \citep[][p. 160]{bock_thane}. Ram\'on Serrano Suñer- president of the \textit{Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional-Sindicalista, FET-JONS}, i.e., the sole legal political party in Francoist Spain - pointed out the necessity of a \textit{"serious demographic policy to accomplish the ideas of the Falangist State"}. In the words of Ramiro Ledesma, founder of the \textit{JONS} political party, \textit{"we can only seriously speak of Spain's superiority when it becomes attainable through a population that has at least doubled" \citep[][p. 33]{bosch_maestro}}. In fact, maternity was described as an \textit{"ordinary way of life to reach perfection"} \citep[][p. 31]{martinezmedrano1959historia} and represented the feminine goal: \textit{"the feminine profession should be oriented towards family life: it belongs to the very essence of a woman to be always and everywhere a mother, to devote and sacrifice herself, and to care with care for others"} \citep[][p. 21]{jaen1959orientacion}. %from pdf la construccion de genero
+
+As part of Franco's agenda to boost fertility rates in post-civil war Spain, the antiabortion and anticontraception law was soon approved in 1941 \citep[][p. 768-770]{boe1941}.\footnote{This law does not contaminate our analysis because it applied uniformly across Spain and to all cohorts in our sample, and any fertility effect it may have had will be absorbed by the year- and province-by-year fixed effects included in our analysis, as described in more detail in Section \ref{empirics}. Our research design ensures this reform cannot plausibly drive the cohort-specific patterns that emerge only after the 1945 education reform.} In 1945, the first Primary Education Law of the Francoist regime was also enacted. The reform established that the specific education of women as wives, mothers, and educators of their children should begin in primary school (\cite[][ p. 46]{rabazas2006construccion} and \cite[][p. 295-296]{school_aparatus}). The reform was openly endorsed by the primary education inspector, Francisca Bohigas, who claimed that \textit{"the girl was born to stay at home"} \citep[p. 10,][]{consigna1941}, and it was backed by the Catholic Church and the Women's Section of the Falange \citep[p. 212]{perez_canto}. %this quote comes from pdf Rabazas Romero 2006 
+%the second quote of Bohigas comes from gonzalez perez 2009 page 11
+
+Primary school consisted of three phases: %nursery schools for children aged four or younger, kindergarten (4-6 years old), which could admit both boys and girls when enrollment would not allow for gender division, 
+elementary education (6-10 years old), improvement (10-12 years old), and vocational initiation (12-15 years old).\footnote{School attendance was compulsory from 6 to 12. Penalties were imposed on those who required children to work. For the first time, a school record book and a primary education certificate were established as documents attesting to the compulsory nature of education. %Before this law reform, the school age was set at 14 years old in 1923 \citep[][]{rd1923}
+} The law defined the main characteristics of primary education: a different curriculum for girls that prepares them for home life, crafts, and domestic industries, among others because they had to prepare to become mothers and wives (\cite[][p. 47]{rabazas2006construccion}; \cite[][p. 226]{frances2013reina}). In addition, the law mandated the inclusion of religious education, emphasized the promotion of strong national identity, and enforced the use of the Spanish language. It promoted values that differed from the previous education law \textit{(Royal Decree of May 6, 1931)}, which had established a secular coeducational system with bilingual instruction \citep[][p. 59-61]{morentevalero}. %The National Movement declared religion and the Spanish character the most fundamental principles of Spanish schools. %The regime recognizes "the Church's rightful authority in education due to its supernatural order and grants it the power to establish schools of any level.[...] The family is recognized as having the primary and inalienable right to educate their children and, consequently, to choose their educators." 
+The role of teachers was subordinated to the supreme interests of the nation, with the responsibility of contributing to the formation of girls as future mothers. 
+
+The Female Section also contributed to the propaganda efforts of the regime through the journal \textit{Consigna}, published from 1940 to 1977 and containing pedagogical guidelines for female teachers, mothers, or future mothers  \citep[][p. 49--50]{rabazas2006construccion}:\footnote{The Female Section (\textit{Secci\'on Femenina}) was founded in 1934 and led by Pilar Primo de Rivera, sister of Jos\'e Antonio Primo de Rivera, founder of Falange. Starting in 1937, a Social Service, organized by the \textit{Secci\'on Femenina}, was introduced for women aged 17-35 who aspired to occupy positions in the administration or obtain university degrees \citep[][]{rd_serviciosocial}. However, also due to the endogenous self-selection of women in this program, the \textit{Secci\'on Femenina} is not the subject of our study.} 
+\begin{adjustwidth}{0.5cm}{0.5cm} 
+\begin{spacing}{1}
+ \textit{"From girlhood, a woman is feminine, and her differentiation from boys is evident even in the smallest details and games. The care invested in her education will later be reflected in the home, where the girl, now a woman, must shape all those around her: husband, children, [...] And isn’t it a serious responsibility of a teacher—or an educational system—not to have fully nurtured the seed that was planted? [...] If we enable our women to become complete women, we will have eliminated many of the unhappy and uncomfortable households that exist in our society today. Because the mother woman will raise her daughters just as we have raised her [...]. This is a call to the conscience and responsibility of every female teacher." \citep[][p. 30--32]{consigna_1958mujer}} %del PDF la construccion de genero
+\end{spacing}
+\end{adjustwidth}
+\vspace{-0.5cm}
+
+
+The regime issued precise guidelines on methodological practices and strictly regulated time usage during the school day.  %The regime highlights how the dignity of the teaching profession has been elevated following the modification of the law and that the spirit of the national movement will endure in Spain's future through the younger generations. 
+ In addition, it mandated the separation of sexes in primary education and kindergarten, with  co-educational schools (in cases of very low enrollment) to be run by female teachers. %\footnote{Coeducational schools were not authorized unless in exceptional cases where a school contingent of more than 30 students between the ages of 6 and 12 could not be found. Primary school comprised four periods: nursery schools up to four years old,  kindergarten (4-6 years old), which could admit both boys and girls when enrollment did not allow gender division, elementary education (6-10 years old), improvement (10-12 years old) and vocational initiation (12-15 years old).}  
+ The law also established the compulsory subjects to be taught in school: core subjects (such as writing and arithmetic), formative subjects (such as mathematics, religion and national history), and complementary subjects (such as feminine tasks, including domestic economy and family life education; \cite[see][p. 215]{perez_canto}).  Moreover, some schools organized professional initiation courses for children aged 12-15 years old.\footnote{In particular, the law differentiated "domestic-type female facilities  where students, according to their gender, would carry out appropriate practices to develop work habits, prepare for professional life, and their future family roles." The distinction between arithmetic and mathematics  reflected the regime’s view of the former as a practical skill and the latter as part of intellectual and moral training.} School material, such as books, had to be approved by the Ministry of National Education and the ecclesiastical hierarchy \citep[][p. 97]{gonzalez_perez2009}.\footnote{See the \citet[][p. 385-394]{boe1945}.} 
+ 
+ Numerous examples of the different reading books used to educate boys and girls during the Francoist regime document the indoctrination effort perpetrated by the regime. Girls received books that narrated the birth of the protagonists without referencing sex, instead attributing their conception to God or the stork, stories where young girls were responsible for entire families, or stories emphasizing the important role of women as mothers \citep[][]{mahamud2016}, as in this fragment of the book titled \textit{"Read me, girls"} (see also Figure~\ref{book}):
+
+\begin{adjustwidth}{0.5cm}{0.5cm} % Adjusts left and right margins
+\begin{spacing}{1}
+ \textit{"Little girls, budding women:\\
+  I offer you one teaching: May you always feel in your soul the sacred fear of God, may you always be sweet little mothers [...], eyes to ease pain, little hands to heal suffering. [...] you will always be the sweetest, the most beautiful, the most delicate in the world." \citep[][p. 158]{torres1943}}
+\end{spacing}
+\end{adjustwidth}
+\vspace{-0.5cm}
+
+
+
+\begin{figure}[htp!]
+\caption{Cover and excerpt from \textit{Leedme, niñas. Segunda parte}\label{book} \citep{torres1943}.}
+    \centering
+   \begin{minipage}{.43\linewidth}
+          \begin{subfigure}[t]{1\linewidth}
+                \includegraphics[width=\textwidth]{Educated to Be Mothers-slides/books/leedme ninas/portada.jpg}
+                 
+           \end{subfigure}
+       \end{minipage}
+  \begin{minipage}{.356\linewidth}
+        \begin{subfigure}[t]{1\linewidth}
+               \includegraphics[width=\textwidth]{Educated to Be Mothers-slides/books/leedme ninas/page158 - Copy.jpg}
+                 
+           \end{subfigure}
+   \end{minipage}
+ 
+\end{figure}
+
+The volume \textit{"Guirnaldas de la Historia"}, intended for girls, is another example that describes procreation as the ultimate goal to contribute to the nation \citep[][page 292]{guirnaldas}. This vision of womanhood was also consistently reinforced in other materials:
+\begin{adjustwidth}{0.5cm}{0.5cm} 
+\begin{spacing}{1}
+ \textit{"We can prepare as good mothers those that are still girls"  \citep[][p. 7--11]{paya1959psicopedagogia}} %del PDF la construccion de genero
+\end{spacing}
+\end{adjustwidth}
+%“Porque tú has de dar fruto. Todas las niñas lo piensan muchas veces: un día ellas, como sus madres, llegarán a tener hijos, cuidarán del marido, de la casa, de los muebles, de los bienes del hogar. Un hijo. Ese es el fruto que llevan en potencia tus deseos de mujer” el PDF la construccion de genero
+
+\begin{adjustwidth}{0.5cm}{0.5cm} 
+\begin{spacing}{1}
+ \textit{"The boy will set his eyes on the world; the girl, on the home"  \citep[][p. 215]{perez_canto}} %libro
+\end{spacing}
+\end{adjustwidth}
+
+The historical evidence presented here is of course purely anecdotal, but it exemplifies how interfering in women's fertility decisions was a central objective of the 1945 Francoist primary education reform.
+%TBD: Asignatura labores y ensenanzas del hogar
+
+% a el hogar: asignatura leer
+%Durante 40 años, las aspirantes a maestra tuvieron que realizar cursos de la Sección Femenina de Falange para poder ejercer.
+
+%Divorce, that was approved in 1932, was abolished afterwards in 1939 so marriage stability is not an outcome we can analyze. Likewise, abortion was considered a crime against the state two years after the end of the Civil War, in 1941.\footnote{Partial decriminalization of abortion was approved in 1985} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Data} \label{data}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+To examine the impact of the 1945 Francoist primary education reform on fertility at the individual level, the empirical analysis draws on both the \textit{Centro de Investigaciones Sociol\'ogicas} (CIS) barometer (i.e., Center of Sociological Investigations) and specific thematic surveys as primary data sources. CIS surveys are nationally representative and have been administered at irregular intervals since 1979. In addition to collecting standard sociodemographic information, these surveys elicit attitudes, values, and beliefs of the respondents on a wide range of topics, including politics, religion, gender roles within the family and society, and views on child rearing. From the 1979 and 1990-1992 waves, we extracted information on the total number of children ever born to each female respondent, which we used to construct our main individual-level outcome variables - both at the extensive and intensive margins. We also obtained information on each female respondent’s year of birth, which allows us to measure exposure to Franco’s school reform, and location of residence at the time of the survey.\footnote{CIS data provide the exact municipality of residence only for localities with more than 100,000 inhabitants; thus, we classified localities into provincial capitals versus the rest of the province.} From the 1979 and 1986–1988 waves, we further collected data on the labor force participation of women (i.e., if women are employed, unemployed or housewives), their educational attainment, and whether they voted for right-wing parties in the last elections.\footnote{Information on the labor force participation and women's educational attainment is available from the 1979 and 1986–1988 waves, while voting behavior is available only from the 1986-1988 waves.} To explore potential mechanisms—particularly the hypothesis of a cultural backlash triggered by Franco’s school reform—we turned to the 1990 survey, which includes several questions probing female respondents’ beliefs about women’s role in the family, motherhood, female labor market participation, and alignment with Catholic values.\footnote{More specifically, we use the answer  to questions such as:  \textit{Of the following types of families, which one best matches your ideal family? To what extent do you think a man should share household chores? Is sharing household chores very important to you? Is having children very important for achieving the stability of the couple? Do you believe that being a mother is an experience one must have in order to truly feel like a woman?} Appendix Table \ref{questions_cis} shows the complete list of questions.} 
+
+To further validate the findings obtained from the CIS surveys, we complemented our analysis with two additional sources of individual-level data: the Spanish census microdata produced by the \textit{Instituto Nacional de Estadística} (INE), i.e., the National Institute of Statistics of Spain, and the Integrated Values Surveys (IVS). %European Social Survey (ESS). 
+ Census microdata allow us to improve the precision of our estimates due to their administrative nature and substantially larger sample sizes. However, they display limited information, since they lack the rich attitudinal content of CIS surveys—such as beliefs, values, and social norms—and do not include certain demographic details, including childbearing information for men. As such, our analysis based on census data is limited to testing whether our main result, the effect of exposure to Franco’s primary school reform on women' fertility behavior, can be replicated in administrative data. Moreover, using the IVS data, we conducted a cross-country placebo test using a state comparable to Spain in several key aspects but not exposed to the Francoist reform, namely Portugal.\footnote{Portugal's geographic proximity, strong Catholic tradition, and the presence of an authoritarian regime during the same historical period make Portugal an ideal comparison state for this analysis.} This exercise serves as a test for whether the pattern observed in Spain may merely reflect a broader, secular decline in fertility, rather than the effect of the reform.
+
+In both the Spanish census microdata and the IVS data, we built our dependent variables following the same logic as in the CIS-based analysis. From the census, we used the 1991 and 2011 waves,\footnote{The 1991 census is the earliest wave for which individual-level microdata are publicly available. We exclude the 2001 census, as it does not contain fertility information.} while from the IVS we used the 1990, 1999, 2008 and 2020 waves.\footnote{These are the only waves containing information about childbearing decisions.} As in the census data, we used information on the sex of the respondents and the municipality of residence at the time of the survey,\footnote{Unfortunately, municipality of residence is not available in the IVS.} and measured exposure to Franco's school reform based on the year of birth of the respondent, which is consistently reported in both data sources.
+
+To complement our baseline individual-level analysis and assess if consistent effects of Franco’s primary school reform also appear when cross-sectional variation is exploited at the aggregate level, we digitised and analysed the annual "Natural Movement of the Population" reports published by INE. These reports provide disaggregated birth statistics by year and for each provincial capital and for the rest of the province, allowing for long-term spatial and temporal comparisons. Using these data, we compiled a panel dataset spanning nearly five decades with yearly frequency (1930–1979) where the spatial units of observation are the provincial capitals and the rest of their respective provinces, based on data availability across sources. Here our primary outcome variable, constructed from these reports, is a measure of fertility in each year and in each locality.
+
+Ideally, aggregate fertility would be best captured by the Total Fertility Rate (TFR), a weighted average of age-specific fertility rates for women of childbearing age (aged 15 to 44). The TFR allows meaningful comparisons both within and across observational units. However, the Natural Movement data report only the absolute number of live births per unit and year, without disaggregating it by maternal age. To make this crude birth count comparable across time and space, we adjusted for the size of the relevant at-risk population. Specifically, we controlled for the number of women of reproductive age (aged 15 to 44) in each observation unit and decade, as reported in the Decennial Historical Censuses published by INE from 1930 to 1970.\footnote{To account for potential shifts in the age structure of the reproductive population, we further disaggregated this group into three subcategories—ages 15–24, 25–34, and 35–44—and included separate controls for each subgroup in our regressions.}
+
+
+
+
+
+From the same INE historical censuses, we also collected data on the size of the female population aged 0 to 14 in 1940. In the panel analysis at the locality level, this cohort serves as our proxy for exposure to Franco's school reform: being the first to be directly affected by the policy when it came into force in 1945, we expect its relative size in each observation unit to be predictive of the possible impact of the reform on future fertility patterns at the unit level as this cohort enters reproductive age in the following years. Figure \ref{map_popw} displays the spatial distribution of our aggregated measure of exposure to treatment. %In Figure \ref{map_popw}, 
+The intensity of exposure appears relatively homogeneous between the northern and southern regions of Spain. Some heterogeneity appears along the coastal-inland axis, as inland regions tend to exhibit higher levels of exposure compared to coastal areas. This spatial pattern provides reassurance that our empirical strategy is not confounded by broad North–South gradients, although finer geographic variation may still play a role in shaping the estimated effects.\footnote{Our regression models account for this heterogeneity through the inclusion of fixed effects at the unit level.} Finally, we created two additional variables for our analysis: from the Natural Movement reports, we gathered annual data on the number of marriages per observation unit; from historical censuses, we gathered data on the size of the male population aged 0–14 in 1940 and  the size of the female and male population aged 15-24 in 1940.\footnote{Appendix Table \ref{table:summary}1 displays summary statistics for the main variables, while Appendix Table \ref{questions_cis} provides a list of the variables included in the analysis and their brief descriptions.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% 
+%\subsection{Fertility and wedding outcomes}
+%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Identification} \label{empirics}
+
+To estimate the causal effect of the Francoist primary school reform introduced in 1945, our main analysis exploits the variation in exposure driven by the interaction between the year of birth of individuals, the timing of the reform, and the official age of entry and exit from school at the time of the reform.\footnote{As Section \ref{background} describes, primary school in Spain spanned the ages 6 to 15. Before the Francoist reform, compulsory schooling roughly corresponded to the age range 6–14 \citep[][]{rd1923}. After the reform, compulsory education ended formally at age 12, although students could stay in school up to age 15 on a voluntary basis. This was often due to grade repetition, which was relatively common at the time especially in rural areas where illiteracy was widespread. Others who remained enrolled after age 12 had often failed the entrance exam to higher secondary school (\textit{bachillerato}), had no access to vocational education, or wished to receive complementary instruction. To ensure consistency in the definition of primary schooling between the pre- and post-reform periods, we define primary education as spanning ages 6 to 15, and assign exposure accordingly.} In particular, we compare fertility choices between three groups of individuals: (i) those born between 1920 and 1929, who completed their entire primary education before the reform; (ii) those born between 1930 and 1938, who were partially exposed to the reformed curriculum; and (iii) those born between 1939 and 1950, who completed their full primary education under the post-reform system.\footnote{To maximize comparability, we restrict the last group to individuals born in 1950.} Specifically, we estimate the following specification on the sample of women interviewed in the CIS barometer surveys:
+ \begin{equation}\label{eq_individual}
+y_{\text{\textit{it}}} =\beta_0+  \beta_1  \textit{1930/1938}_i + \beta_2 \textit{1939/1950}_i +Year_{t} +Residence_{i} +AgeClass_{i}  +\epsilon_{it}
+\end{equation}
+
+
+where the dependent variable is either a dummy variable equal to 1 if woman $i$ had at least one child by year $t$ (and 0 otherwise) or a count variable measuring the total number of children of woman $i$ by year $t$. The dummy variable \textit{1930/1938} is equal to 1 if woman $i$ was born between 1930 and 1938; the associated coefficient $\beta_1$ captures the effect of partial exposure to the reform on fertility outcomes, relative to the omitted category of women born between 1920 and 1929. Similarly, the dummy variable \textit{1939/1950} equals 1 if woman $i$ was born between 1939 and 1950, and the coefficient $\beta_2$ estimates the effect of full exposure to the reform on fertility outcomes.
+
+The use of multiple survey waves allows us to disentangle the effect of the reform, which is inherently cohort-based, from any time-specific shocks by including survey year fixed effects ($\textit{year}_t$). Although we cannot include fixed effects for the exact age of the respondents, we group the individuals into ten-year age brackets at the time of the survey and include fixed effects for these age groups in the regression (\textit{AgeClass}$_i$).\footnote{Specifically, we define the following age groups: under 20, 20–29, 30–39, and so forth.}  We also control for $\textit{Residence}_i$, a set of fixed effects that capture the respondent's place of residence at the time of the interview, classified as the provincial capital or the rest of the province. In our most comprehensive specification, we further allow for nonparametric trends that vary jointly by survey year, age class and place of residence by including the full set of interactions between the three groups of fixed effects. 
+
+The inclusion of this rich set of fixed effects should mitigate the concern that our estimates merely reflect a secular fertility trend. However, the causal interpretation of the estimates of $\beta_1$ and $\beta_2$ in Equation \ref{eq_individual} crucially relies on the absence of fertility trends prior to Franco's 1945 primary education reform. Therefore, to test this and gain further insight into the dynamic effects of exposure to the reform in the subsequent years, we also estimate the event study specification in Equation \ref{eq_eventstudy} below: 
+
+\begin{equation}\label{eq_eventstudy}
+y_{it} = \alpha + \sum_{\substack{c=1920 \\ c \neq 1929}}^{1950} \beta_c \cdot \mathbf{1} \{\text{BirthYear}_i = c\} + Year_t + Residence_i + AgeClass_i + \epsilon_{it}
+\end{equation}
+
+In Equation \ref{eq_eventstudy}, rather than grouping individuals into broader birth cohorts as described above, we include a set of indicator variables for each single-year birth cohort. The reference category is the latest cohort to have completed the entirety of primary school before the Francoist reform, namely those born in 1929. In both Equations \ref{eq_individual} and \ref{eq_eventstudy}, standard errors are heteroskedasticity-robust and clustered at the level of birth cohort-survey year.\footnote{Clustering by both birth cohort and survey year properly accounts for the correlation among respondents who share both the timing of exposure and the survey wave in which they were interviewed. However, Section \ref{robustness} also presents robustness tests in which we use cohort-level clusters and wild cluster bootstrap to account for the small number of clusters, or two-way clusters at the cohort and survey level.}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\section{Results} \label{results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+Table~\ref{table_baseline} presents our baseline estimates of the impact of Franco's primary education reform in 1945 on fertility outcomes. Columns 1–4 present estimates for our binary measure of fertility that captures whether woman $i$ in Equations \ref{eq_individual} and \ref{eq_eventstudy} had a child or not by year $t$ (i.e., the extensive margin of fertility), while columns 5–8 present estimates for our continuous measure of fertility that captures the count of children of woman $i$ in Equations \ref{eq_individual} and \ref{eq_eventstudy} by year $t$ (i.e., both the extensive and intensive margins of fertility). Columns 1 and 5 include only survey year fixed effects; Columns 2 and 6 add fixed effects for the place of residence; Columns 3 and 7 additionally include 10-year age group fixed effects; Columns 4 and 8 incorporate the full set of interactions among these three groups of fixed effects. 
+
+As shown in Table~\ref{table_baseline}, we find no statistically significant effect of the reform at the extensive margin: women who were partially or fully exposed to the reform appear equally likely to have had a child compared to the control group. However, when considering both the extensive and intensive margin, we find a statistically significant and negative effect limited to fully treated cohorts. In particular, women who completed their primary education under the reform exhibit a lower average number of children compared to untreated cohorts. In the most saturated specification (column 8), the reform appears associated with a reduction of approximately 0.34 children, equivalent to a 12\% decrease relative to the average number of children among untreated women. In other words, the reform did not significantly influence the likelihood of becoming a mother, but it did affect the size of the family, that is, the number of children that women had on average. It is important to note that these estimates represent the average effect for women fully exposed to the reform. As we show in the event study analysis below, the decline in fertility begins to emerge among the early 1930s cohorts, which were partially exposed to the reform.
+
+
+\begin{table}[htp!]
+\caption{The impact of Francoist primary school reform on fertility}
+\label{table_baseline}
+	\center
+	\resizebox{1\linewidth}{!}{
+	\begin{threeparttable}		
+        \input{Educated to Be Mothers-slides/results/table_cis_kids}
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textbf{Dependent variable:} \textit{Ever had a child} (Columns 1–4), \textit{Number of children ever had} (Columns 5–8). All estimates are based on the 1979 and 1990–1992 waves of the CIS barometer surveys. \textit{1930/1938} is a dummy equal to 1 for women born between 1930 and 1938; \textit{1939/1950} is a dummy equal to 1 for women born between 1939 and 1950. The omitted category comprises women born between 1920 and 1929. Columns 1 and 5 include year fixed effects; Columns 2 and 6 add fixed effects for place of residence (provincial capital vs. rest of province); Columns 3 and 7 further include 10-year age group fixed effects; Columns 4 and 8 include the full interaction between year, residence, and age group fixed effects. Standard errors are robust to heteroskedasticity and clustered at the birth cohort-survey year level. The final row reports the mean of the dependent variable for the reference group (i.e., women born in 1920–1929).  *, **, and *** denote statistical significance at the 10\%, 5\%, and 1\% levels, respectively.
+\end{tablenotes}
+\end{threeparttable}}
+
+\end{table}
+
+
+
+
+Using the specification in column 8 of Table~\ref{table_baseline} for reference, Figure~\ref{baseline_event_study} presents the corresponding event study estimates. In Figure~\ref{baseline_event_study}, the coefficients for the untreated cohorts are not statistically different from zero. Although some estimates are noisy and fluctuate around zero, there is no evidence of a statistically significant pretrend. In contrast, the negative effect of Franco’s school reform begins to emerge from the 1932 cohort, who were 13 years old in 1945 and spent three years under the reform. When examining post-treatment dynamics, the negative effect appears fairly stable in magnitude across cohorts, regardless of whether they were partially or fully exposed to the reform. The only exception are the 1930-1932 cohorts, who display a gradually-increasing estimated effect. As discussed in Section~\ref{empirics}, these cohorts were exposed to the reform only during the non-compulsory years of schooling (ages 13–15). As a result, only a subset of women in these cohorts was treated, in all likelihood with a greater fraction for women from the 1932 cohort, who were 13 years old in 1945, and a smaller fraction from the 1930 cohort, who were already 15 in 1945. The results in Figure~\ref{baseline_event_study} for the 1930-1932 cohorts appear sensible, as they show that the growing share of treated women over time among these cohorts resulted in a gradually-increasing estimated effect. Taken together, the results in Table~\ref{table_baseline} and Figure~\ref{baseline_event_study} indicate that Franco's 1945 primary school reform significantly reduced fertility among both partially and fully exposed women once they reached their reproductive age.
+
+
+
+\begin{figure}[htp!]
+\caption{The impact of Francoist primary school reform on fertility: Event Study}
+\label{baseline_event_study}
+\centering
+\includegraphics[width=0.75\textwidth]{Educated to Be Mothers-slides/results/nkids_female.pdf} 
+\caption*{\textbf{Note:} The figure shows the point estimates and the confidence intervals at 90\% (i.e. least-wide spikes) and at 95\% (i.e. widest spikes) for each birth cohort of women in Equation \ref{eq_eventstudy} and for the specification presented in column 8 of Table \ref{table_baseline}. The dependent variable is the number of children per woman. The blue dashed line indicates the reference birth cohort (i.e., the latest cohort that completed primary school before Franco's reform, who are women born in 1929), while the green dashed line indicates the first birth cohort fully affected by the reform, (i.e., the earliest cohort that completed the entire primary school cycle under the reform, who are women born in 1939).} 
+
+\end{figure}
+
+\subsection{Robustness} \label{robustness}
+
+As a first robustness test, Table \ref{table_cis_kids_cluster} re-estimates the specifications shown in columns 4 and 8 of Table \ref{table_baseline} using two alternative clustering strategies. Specifically, in columns 1 and 3, standard errors are clustered at the birth cohort level. Given the small number of clusters (i.e., only 31), we also report p-values based on the wild cluster bootstrap. Columns 2 and 4 instead adopt a two-way clustering approach at the birth cohort and survey year levels. In both cases, the results remain highly consistent with the baseline estimates presented in Table \ref{table_baseline}. 
+
+To further assess the robustness of our findings, we performed two additional exercises. First, we ran a validation test by reestimating Equation \ref{eq_individual} on an alternative and substantially larger dataset, the Spanish population census microdata collected by INE. Second, we performed a placebo test on a sample of individuals from Portugal using data from the Integrated Values Surveys (IVS).%European Social Survey (ESS). 
+
+Table \ref{table_census} reports the estimates of Equation \ref{eq_individual} using individual-level Spanish census microdata. Consistent with the baseline results presented in Table \ref{table_baseline}, Table \ref{table_census} displays no detectable effect at the extensive margin, while a statistically significant effect appears when the intensive margin is also considered (i.e., the count of children per woman).  However, compared with the baseline analysis, two key differences stand out. First, the estimates are now statistically significant for both partially and fully treated cohorts. Second, the magnitude of the effect is considerably smaller in both absolute terms and relative to the mean of the control group. %Both differences likely reflect the substantial increase in sample size afforded by census data, which yields far smaller standard errors with respect to the CIS exercise.
+Quantitatively, women in partially treated cohorts have on average 0.04 fewer children compared to the control group, corresponding to approximately a 1\% reduction relative to the average number of children among women born between 1920 and 1929. Women in fully treated cohorts have 0.08 fewer children on average, or about a 3\% decrease relative to the mean of the control group.
+
+The estimated coefficients obtained by estimating Equation \ref{eq_individual} on the sample of Portuguese women from the IVS are presented in Table \ref{table_ivs}. Their inspection mitigates the concern that our findings may be merely driven by secular trends. Although Portugal is highly comparable to Spain under Franco - in terms of geographic proximity, strong Catholic tradition, and the presence of an authoritarian regime—women in the same birth cohorts who were partially or fully exposed to Franco’s reform (in temporal terms) but born in Portugal show positive and statistically significant changes in fertility outcomes. The fact that the effects for Portugal differ in sign from those found in Spain reinforces our conclusion %show no significant changes in fertility outcomes, either at the extensive or intensive margin.  This placebo result strengthens our conclusion 
+that the negative effects observed in Spain are indeed attributable to exposure to the 1945 primary school reform, rather than to broader cohort-based trends affecting southern European countries during this period.
+
+
+
+
+
+
+
+
+\subsection{Mechanisms} \label{mech}
+
+Multiple mechanisms may be at work behind the effects documented in Table \ref{table_baseline}. First, a labor market substitution mechanism may be at play: women who were partially or fully treated by the reform may have increased their participation in the labor force, thus reducing the time available for childbearing, particularly when it comes to having more than one child. In contrast, the reform may have reduced the human capital of the treated cohorts by shifting the curriculum toward domesticity and motherhood-related instruction at the expense of skills that are directly valuable in the labor market. This reduction in labor market prospects may have, in turn, generated frustration or a sense of disempowerment, which could ultimately have resulted in lower fertility.\footnote{\citet{grebolnavarro} show that Franco's regime disproportionately dismissed more competent teachers and that average experience decreased by approximately 2.5 years (14.2\%), leaving persistent staffing deficits.} In addition to these labor market channels, another plausible mechanism may operate through political identity. Being exposed to an authoritarian far-right regime that promoted traditional family values through education may have triggered a long-term ideological backlash among affected women, fostering more progressive or left-leaning attitudes that rejected the pro-natalist, conservative ideals associated with the regime. Finally, the reform may have directly altered both the primary and secondary beliefs of treated women about motherhood, gender roles, and the place of women in society, potentially affecting their attitudes towards childbearing more generally.
+
+
+To explore the mechanisms that may drive our baseline findings, we reestimated the specification in Equation~\ref{eq_individual} using a set of alternative dependent variables: labor force participation, highest level of educational attainment, political orientation (measured as whether the respondent voted for right-wing parties in the most recent elections), and a battery of survey items capturing both primary and secondary beliefs related to motherhood. These belief-based outcomes include views on women’s role within the family, attitudes toward children, participation in the labor market, and alignment with the teachings of the Catholic Church on fertility-related matters.
+
+
+
+As reported in Table \ref{table_cis_emp}, we did not detect statistically significant differences between untreated, partially treated, and fully treated cohorts in their participation in the labor market, tertiary educational attainment, or voting behavior in favor of right-wing parties. These null results allow us to rule out most of the channels discussed above as primary drivers of our main findings. 
+
+In contrast, Figure \ref{cis} offers graphical evidence of the estimated coefficients using individual responses to survey questions on beliefs about women's roles in the family, the labor market, and motherhood in general. Interestingly, all estimated effects are directionally consistent with a mechanism by which exposure to the reform directly shaped treated women’s values and beliefs, potentially inducing long-lasting changes in cultural attitudes. In particular, fully treated cohorts appear more likely to support gender equality in the domestic sphere, to reject the notion that men should do less housework, and to view equal task-sharing as essential for couple stability. These women also attribute lower importance to children in defining female identity or stability of relationships and place greater emphasis on women’s participation in the labor market as a key component of family well-being. Finally, fully treated women are systematically less aligned with the traditional positions of the Catholic Church on fertility-related issues, including abortion, artificial insemination, and contraception. 
+
+Partially treated cohorts exhibit similar patterns, although the magnitude of the estimated effects is generally smaller, and some coefficients fall short of conventional significance thresholds. While political preferences and social norms frequently move together, they are distinct and may respond differently to authoritarian legacies. Exposure to such regimes can reshape value systems and cultural attitudes without necessarily leading to partisan realignment. 
+
+Although these findings should be interpreted with caution given the limitations of these data, they offer at least strongly suggestive evidence to point towards a cultural backlash mechanism.\footnote{In fact, belief-related variables are available only  from a single survey wave (1990), which precludes the inclusion of year or age-class fixed effects in the corresponding regressions.} Specifically, our results are consistent with the hypothesis that exposure to the Francoist primary school reform, an intervention explicitly aimed at reinforcing traditional gender norms, may have induced a lasting rejection of the very same values it sought to establish, particularly among most exposed women.
+
+
+
+
+\begin{figure}[htp!]
+\caption{The impact of Francoist primary school reform on personal beliefs}
+\label{cis}
+\centering
+\includegraphics[width=1\textwidth]{Educated to Be Mothers-slides/results/cis.pdf} 
+\caption*{\textbf{Note:} The figure shows the point estimates and the confidence intervals at 90\% (i.e. least-wide spikes) and at 95\% (i.e.  widest spikes) of the exposure to Franco's primary school reform on personal beliefs, for women born between 1930 and 1938 (left panel) and women born between 1939 and 1950 (right panel), both with respect to women born between 1920 and 1929. The dependent variables are women' beliefs on gender roles within the household, motherhood, women' participation to the labor force and alignment with Catholic values. All regressions include place of residence fixed effects and adjust standard errors for heteroskedasticity.} 
+
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Difference-in-Differences analysis at the regional level} \label{macro}
+
+Did these individual-level effects translate into detectable aggregate fertility effects? The final part of our empirical analysis examines this question using the panel dataset at the locality level with yearly frequency from 1930-1979 described in detail in Section \ref{data}. Exploiting cross-sectional variation across the regions of Spain before and after the 1945 reform, we examine whether fertility declined more sharply in localities where the population was more exposed to the policy. A set of difference-in-differences (DiD) specifications was defined at the aggregate level (i.e., at the locality level, defined as the provincial capitals and the rest of the provinces) and fertility trends before and after the 1945 primary school reform were compared across localities with differential predetermined exposure to the reform. In particular, as described in Section \ref{data}, we contrasted locations with a higher pre-reform share of girls aged 0-14 in 1940, that is, the first cohorts to be (partially or fully) affected by the policy, with locations where this share was lower. Since time trends are absorbed by year fixed effects that are included in all specifications, this exercise also provides a further test of whether the results in Table~\ref{table_baseline}, Figure~\ref{baseline_event_study} and Table \ref{table_census} may be merely capturing a secular decline in fertility or whether they reflect the genuine impact of Franco's 1945 reform of primary education on fertility.
+
+Formally, we estimated the following, standard DiD specification:
+
+\begin{equation}\label{eq_macro}
+y_{it} =\beta_0+  \beta_1   \textit{Treat}_i \times \textit{Post}_t +\mathbf{X}_{it}+\Gamma_i+ \tau_{pt}+\epsilon_{it}
+\end{equation}
+
+
+where $i$ denotes a locality, i.e., an administrative unit defined either as a provincial capital or as the remainder of the province, and $t$ indicates the year. The outcome variable $y_{it}$ is the number of live births in unit $i$ in year $t$. The interaction term $\textit{Treat}_i \times \textit{Post}_t$ combines $Post_t$, a dummy equal to 1 for the years after 1945 (that is, after the reform), and $\textit{Treat}_i$, which captures the share of the female population aged 0-14 in 1940 - corresponding to the cohorts that would have been of school age at the time of the reform. We also added a set of controls $\mathbf{X}_{it}$, which includes the interaction between $Post_t$ and the share of the male population aged 0–14 in 1940, as well as the number of women of reproductive age in each unit and decade, to ensure comparability of the raw birth counts over space and time, as discussed in Section \ref{data}.\footnote{Census counts of women aged 15–44, available every ten years, were converted into annual panel values, whereby the value from each census is assigned to all years within the corresponding decade.} The specification further includes unit fixed effects ($\Gamma_i$), which absorb time-invariant characteristics at the locality level, and province-by-year fixed effects ($\tau_{pt}$), which account for time-varying shocks that may have differentially affected different Spanish provinces (e.g., the effect of the Spanish civil war; or province-specific fertility trends over time). Standard errors robust to heteroskedasticity were clustered at the level of the administrative unit ($i$). As with the baseline results, we also estimated an event study version of Equation \ref{eq_macro} to assess the validity of the parallel trends' assumption and derive additional insight into the dynamics of the post-treatment effects. 
+
+Table \ref{table_balancing} reports a set of balancing tests between localities more and less exposed to the reform for a range of local characteristics, including proxies for religiosity, demographic composition of the resident population, political orientation of the electorate, and characteristics of the local educational system.\footnote{For these tests, we estimated cross-sectional regressions that mirror Equation \ref{eq_macro} as closely as possible, changing only the dependent variable. As these are cross-sectional regressions, we controlled for province fixed effects and for a dummy that distinguishes provincial capitals from the rest of the province.} In virtually all cases, these tests reveal no statistically significant differences between localities differentially exposed to the reform.\footnote{The only exception is the share of votes received by the Socialist party in the last free elections held in 1931, which is slightly lower in areas more exposed to Franco’s educational reform. That is, these areas appear to have had historically weaker support for socialist parties. While the only requirement for the identification strategy is the validity of the parallel trends assumption, we nonetheless run robustness tests that allow for non-parametric differential trends based on pre-treatment socialist vote shares. These controls do not alter the results in terms of magnitude or significance.}
+
+
+Table \ref{table_macro} reports the estimated coefficients from Equation \ref{eq_macro}. Columns 1 and 3 include fixed effects for year and administrative unit ($i$), as well as controls for the demographic composition of the fertile female population by age group and decade. Columns 2 and 4 further account for province-by-year fixed effects, thereby absorbing time-varying shocks or fertility trends over time at the provincial level. In addition, columns 3 and 4 incorporate an interaction term between the share of males aged 0-14 in 1940 and the post-treatment indicator (\textit{Post}). 
+
+Across all specifications, the estimated coefficient for our main treatment variable - the interaction between the share of women aged 0-14 in 1940 and \textit{Post} - is negative and statistically significant.\footnote{The effect becomes slightly noisier in Column 4 when both province-year fixed effects and the male-share interaction are included; the p-value in this case is 0.052.} The estimate in the fully saturated specification (column 4) indicates that a one-percentage-point increase in the share of the female population exposed to the primary school reform leads to a decrease of approximately 460 live births per year. This corresponds to roughly 9\% of the average number of births recorded in statistical units over the five years preceding the introduction of the reform (i.e., 1939-1944). As a placebo, it is worth noting that the coefficient on the analogous interaction term for males (that is, the share of men aged 0-14 in 1940 $\times$ \textit{Post}) is consistently much smaller, roughly one-third the size of the female coefficient, and never statistically significant. Thus, this pattern is consistent with the notion that the reform targeted girls directly and had limited spillover effects on male cohorts.
+
+
+
+
+
+\begin{table}[htp!]
+\caption{The impact of Francoist primary school reform on the number of births: DiD}
+\label{table_macro}
+	\center
+	\resizebox{.9\linewidth}{!}{
+	\begin{threeparttable}		
+        \input{Educated to Be Mothers-slides/results/table_reg_female_trends}
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textbf{Dependent variable}: \textit{Number of  births}. The variable \textit{Treat (W)} $\times$ \textit{Post} represents the interaction between the share of women aged 0–14 in 1940 in each observational unit (\textit{Treat (W)}) and the post-treatment indicator \textit{Post}, which equals 1 for years after 1945 and 0 otherwise. Similarly, \textit{Treat (M)} $\times$ \textit{Post} is the interaction between the share of men aged 0–14 in 1940 (\textit{Treat (M)}) and \textit{Post}. All specifications include unit and year fixed effects, as well as controls for the size of the female reproductive-age population by age group and decade. Columns 2 and 4 additionally include province-year fixed effects. Standard errors are heteroskedasticity-robust and clustered at the unit level. The last row reports the average number of live births per unit in the pre-treatment period (1939–1944). *, **, and *** denote statistical significance at the 10\%, 5\%, and 1\% levels, respectively.
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}
+
+
+Based on the specification reported in column 4 of Table \ref{table_macro}, Figure \ref{event_macro} presents the corresponding event study analysis. In Figure \ref{event_macro}, we did not detect statistically significant differences in the number of live births between more and less exposed areas in the years prior to the introduction of the reform, lending support to the assumption of parallel trends. In contrast, statistically significant and increasingly negative differences emerge shortly after the reform, growing in magnitude over time. This dynamic is mechanically driven by changes in the composition of the fertile female population: as time progresses, the cohorts exposed to the reform - either partially or fully - gradually replace older, unexposed cohorts, thereby increasing the share of women subject to the reform within the childbearing age range. The vertical red lines in Figure \ref{event_macro} help mark this transition. The lightest red line indicates the year when the youngest fertile age group (15-24) becomes almost entirely composed of partially exposed women; the medium red line corresponds to the point when the 15-24 group and the 25-34 group are composed entirely of partially or fully treated women; and finally, the darkest red line marks the year when the entire fertile population (ages 15-44) is composed exclusively of women either partially or fully exposed to the reform. Consistent with our expectations, the estimated treatment effect peaks around the latter threshold and stabilizes thereafter at a significantly negative level.
+
+
+\begin{figure}[htp!]
+\caption{The impact of Francoist primary school reform on fertility: Event Study}
+\label{event_macro}
+\centering
+\includegraphics[width=1\textwidth]{Educated to Be Mothers-slides/results/event_1940_cont_alive_birth1.pdf} 
+\caption*{\textbf{Note:} The figure shows the point estimates and the confidence intervals at 90\% (i.e. least-wide spikes) and at 95\% (i.e.  widest spikes) for each birth cohort of women of the event-study version of Equation \ref{eq_macro} and comparable to the DiD estimates presented in column 4 of Table \ref{table_macro}. The dependent variable is the number of live births in unit $i$ at time $t$. The lightest red line indicates the year when the youngest fertile age group (15-24) becomes almost entirely composed of partially exposed women; the medium red line corresponds to the point when the 15-24 group and the 25-34 group are composed entirely of partially or fully treated women. The darkest red line marks the year when the entire fertile population (ages 15-44) is composed exclusively of women either partially or fully exposed to the reform.}
+
+\end{figure}
+
+
+
+Table \ref{table_macro_rob} presents the results of four different robustness checks. In columns 1 and 2, we address the potential imbalance in the share of votes for the Socialist Party in the 1931 elections---documented in Table \ref{table_balancing}---by including nonparametric trends based on this variable. Columns 3 and 4 replace the continuous treatment measure with a discretized version of this measure, since here we compare areas above and below the median of the exposure distribution. In columns 5 and 6, we perform a placebo test using as treatment the share of women aged 15-24 in 1940, a group who was too old to be directly exposed to the reform. Finally, columns 7 and 8 investigate whether the reform might have indirectly influenced birth rates through changes in marriage rates, given that marriage was at the time a near-prerequisite for childbearing decisions. All tests yield results that are consistent with our baseline findings and support the robustness of the main estimates presented in Table \ref{table_macro}. Specifically, controlling for preexisting political alignment (i.e., Socialist vote share in 1931) has virtually no impact on the estimated effects. The discrete version of the treatment produces results that closely mirror those from the continuous specification, both in sign and statistical significance. %The magnitude of the estimated effect is substantial: being above rather than below the median exposure reduces the number of live births by approximately 5,000, or about 100\% of the pre-reform average. 
+As expected and consistent with results using male exposure as placebo, replacing the treatment variable with the share of women aged 15-24 in 1940 yields a coefficient that is statistically indistinguishable from zero. The same holds when we examine marriage rates: areas with higher concentrations of reform-exposed women (aged 0-14 in 1940) do not exhibit significant differences in marriage outcomes relative to less-exposed areas.
+
+Finally, one may still be concerned that the estimates reported in Table \ref{table_macro} might merely reflect the broader process of the second demographic transition, a common phenomenon in industrialized countries. As discussed in Section \ref{data}, due to data limitations, we cannot construct suitable fertility measures for local units (e.g. Total Fertility Rate, TFR) that vary over time and allow spatial and temporal comparisons before and after Spain’s industrialization. However, Figure \ref{RC_demographic_transition} displays national TFR estimates by decade from 1850 to 2020, as reconstructed by the National Institute of Statistics of Spain (INE). Although Figure \ref{RC_demographic_transition} confirms a long-term decline in fertility, it also shows that the TFR remained relatively stable during the post-treatment decades that are relevant for our analysis (that is, 1940-1970s). Thus, this provides suggestive evidence that our estimated decline in fertility was not driven by the demographic transition, but rather reflects the genuine effect of the Francoist primary education reform.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion} \label{conclusion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%This study contributes to the literature on the demographic effects of political indoctrination and education policies. The Francoist regime's primary education reform led to significant demographic changes. The policy, which included indoctrination through education, generated unintended effects on the fertility rates in Spain. The analysis of beliefs shows lasting hostility in the following decades by the cohorts exposed to Franco's education reforms towards the values of religion, family and gender roles promoted by the regime. This hostility was likely a key driver of the fertility backlash documented here.
+
+This paper examines the demographic consequences of the 1945 Francoist primary education reform in Spain, which sought to increase fertility by reinforcing traditional gender roles and promoting a vision of women in society as wives and mothers. Exploiting plausibly exogenous variation in exposure across birth cohorts and localities, we show that the reform not only failed to achieve its intended goals, but in fact reduced fertility. Women who completed their primary education under the new curriculum bore significantly fewer children than comparable cohorts, with the effect operating primarily at the intensive margin. Complementary evidence suggests that this fertility decline was not accompanied by a differential labour market participation, but rather by a cultural backlash: treated women were more likely to reject the values promoted by the regime in terms of gender roles, family and motherhood. At the aggregate level, areas with a higher share of girls exposed to the reform subsequently experienced a marked reduction in fertility rates. Taken together, even though data limitations prevent us from isolating the contribution of each component of the reform, such as differences in curricula, class division, or teaching materials for boys and girls, these results demonstrate that attempts to engineer social norms through indoctrination in school may produce outcomes directly opposite to those envisioned by the policymaker.
+
+Our findings have important implications for contemporary policy debates. In a growing number of advanced economies, low fertility has ignited calls for a “return” to traditional values as a path to demographic recovery. Public figures in the U.S. and several other Western democracies have advocated restoring more conservative family structures as a way to encourage childbearing. The evidence presented here challenges this narrative. Far from stimulating fertility, policies that seek to reassert gender stereotypes risk depressing rather than boosting demographic outcomes. In modern low-fertility settings, where women often bear the highest costs of childbirth, attempts to reinforce traditional gender roles may trigger resistance, especially when implemented through coercive policies in societies with limited gender equality or media pluralism.%\footnote{Orban's attempt to stimulate fertility in Hungary through conservative discourses and economic incentives arguably constitutes a recent example \citep{orban}.}
+
+This study generates four lessons for pro-natalist policy. First, unlike economic incentives, stressing traditional gender roles through education is shown to be counterproductive, adding a new dimension to our understanding of policy effectiveness. Second, it provides suggestive evidence that state-led efforts to enshrine traditional roles can produce long-lasting changes in attitudes in the opposite direction. Third, it shows that  authoritarian propaganda has the potential to extend beyond beliefs to core demographic behavior. Finally, our results highlight the limits of authoritarian attempts to redefine intimate life.
+
+In conclusion, the Francoist reform illustrates the demographic risks of using education as a vehicle for ideological engineering. Rather than achieving a “demographic recovery”, the policy provoked a cultural and demographic backlash with lasting effects. For modern policymakers confronting low fertility, this paper suggests that effective pronatalist strategies are not those that attempt to reimpose outdated gender norms.
+
+
+\clearpage
+\justifying 
+\printbibliography
+
+
+%%%%%%%%%%%%%%%%%%
+%
+% 				APPENDIX
+%
+%%%%%%%%%%%%%%%%%%
+ \pagebreak
+%\appendix
+\section*{Appendix}
+
+\addcontentsline{toc}{section}{Appendices}
+\renewcommand{\thesection}{\Alph{section}}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+
+\setcounter{table}{0}
+%\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thetable}{\Alph{subsection}\arabic{table}}
+
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{ \Alph{subsection}\arabic{figure}}
+
+
+
+%% Data
+\subsection{Data }
+
+
+\input{Educated to Be Mothers-slides/results/summary_panels}\label{table:summary}
+
+
+\begin{longtable}{p{.2\textwidth} p{.05\textwidth} p{.75\textwidth} } 
+\caption{Questions from CIS}\label{questions_cis}\\ \hline
+\textbf{Survey \textit{(Numb.)}} & \textbf{Year} & \textbf{Question}  \\\hline
+\endfirsthead
+
+\multicolumn{3}{c}%
+{{ \tablename\ \thetable{} -- continued from previous page}} \\
+\hline \textbf{Survey \textit{(Number)}} & \textbf{Year} & \textbf{Question }   \\\hline
+\endhead
+
+\hline \multicolumn{3}{r}{{\textit{Continued on next page}}} \\ 
+\endfoot
+
+\hline \hline
+\endlastfoot
+%Cuestiones sobre los valores \textit{(2001)} &   1992 & \textit{Importance of family.} I am going to read you a series of aspects of people's lives that are considered important. Please rate each from 1 to 10, according to how important it is to you, knowing that 1 means it has no importance at all and 10 means it has the highest importance: family. \\ \hline
+
+%Desigualdad en la familia  \textit{(1867)} &   1990 &  \textit{Realized woman: Marry.} Changing the topic, for the following situations that I am about to mention, could you indicate whether you believe they are very important, quite important, slightly important, or not important at all for women today? getting married   \\ \hline
+&&\textbf{Roles in the family}\\ \hline
+Intra-household inequality   \textit{(1867)} &   1990 &  \textit{Gender roles: equal.} As you know, there are currently different types of families. Of the three options I am about to read to you, could you tell me which one best matches your ideal family? \textbf{\textit{a)}} A family in which both the man and the woman work outside the home and share household chores and childcare. \textit{b)}   A family in which the woman works fewer hours outside the home and therefore takes on a greater share of household chores and childcare.   \textit{c)}  A family in which only the man works outside the home, and the woman is exclusively responsible for household chores and childcare. \\ \hline
+
+Intra-household inequality  \textit{(1867)}  &   1990&  \textit{Husband less housework.}  To what extent do you think a man should share household chores? \textit{a)} Equally with the woman. \textit{b)} To a lesser extent than the woman. \textit{c)} Only in case of necessity.     \\ \hline  
+
+                             
+Intra-household inequality  \textit{(1867)}  &   1990&    \textit{Couple's stability: Shared housework.} Now I am going to read you a series of attitudes and situations that some people believe contribute to a happy marriage. For each one, please tell me whether you think it is very important, quite important, slightly important, or not important at all for achieving the stability of the couple: sharing household chores.   \\ \hline 
+
+&&\textbf{Motherhood}\\ \hline
+Intra-household inequality  \textit{(1867)}  & 1990 & \textit{Couple's stability: Kids.}  Now I am going to read you a series of attitudes and situations that some people believe contribute to a happy marriage. For each one, please tell me whether you think it is very important, quite important, slightly important, or not important at all for achieving the stability of the couple: having children. \\ \hline   
+
+Intra-household inequality  \textit{(1867)}  & 1990&   \textit{Real woman has kids.} In the case of women, do you believe that being a mother is an experience one must have in order to truly feel like a woman? \textit{a)} Yes, \textit{b)} No, \textit{c)} Don't know, \textit{d)} No answer. \\ \hline 
+
+ &&\textbf{Working}\\ \hline
+ Questions about values \textit{(2001)}  & 1992&   \textit{Importance of working for women}  I am now going to read you a series of aspects of people’s lives that are considered important. Please rate each one from 1 to 10, according to how important it is for you, knowing that 1 means it has no importance at all and 10 means it has the greatest importance. \\ \hline    
+ 
+ Intra-household inequality  \textit{(1867)}  & 1990&   \textit{Couple's stability: Wife works.} Now I am going to read you a series of attitudes and situations that some people believe contribute to a happy marriage. For each one, please tell me whether you think it is very important, quite important, slightly important, or not important at all for achieving the stability of the couple: the woman works outside the home. \\ \hline 
+ 
+&&\textbf{Church}\\ \hline
+February Barometer\textit{(1860)} &1990& \textit{Agree with Church: abortion.} Do you tend to agree or disagree with the recommendations made by the Catholic Church regarding abortion?\\ \hline
+February Barometer \textit{(1860)} &1990& \textit{Agree with Church: artificial procreation.} Do you tend to agree or disagree with the recommendations made by the Catholic Church regarding artificial fertilization methods?\\ \hline
+February Barometer \textit{(1860)} &1990& \textit{Agree with Church: contraception.} Do you tend to agree or disagree with the recommendations made by the Catholic Church regarding  contraceptives?\\ \hline
+%Desigualdad en la familia  \textit{(1867)} &   1990 &  \textit{Birth control: Both.} In your opinion, from the list of activities I am going to mention, could you tell me which ones you think are generally more appropriate for men, more appropriate for women, or \textbf{equally appropriate for both}? Using birth control methods\\ \hline
+
+%Desigualdad en la familia  \textit{(1867)} &   1990 &  \textit{School meetings: Wife.} In your opinion, from the list of activities I am going to mention, could you tell me which ones you think are generally more appropriate for men, \textbf{more appropriate for women}, or equally appropriate for both? Attending parent-teacher meetings \\ \hline
+
+
+%Desigualdad en la familia  \textit{(1867)} &   1990 &  \textit{Absent from work: Wife.} In your opinion, from the list of activities I am going to mention, could you tell me which ones you think are generally more appropriate for men, \textbf{more appropriate for women}, or equally appropriate for both? to be absent from work because of a child's illness.\\ \hline
+
+%Desigualdad en la familia  \textit{(1867)}  &   1990     &   \textit{Husband no housework.} Could you tell me which of the following opinions you agree with the most? \textit{a)} The husband should not do housework, \textit{b)} It is natural for the man to share household chores with the woman.   \\ \hline                         
+                           
+%Cuestiones sobre los valores \textit{(2001)} & 1992 & \textit{Couple's happiness: Shared housework.} I am going to read you a series of things that some people believe contribute to a happy marriage or living together as a couple. For each one, please tell me whether you think it is very important, quite important, slightly important, or not important at all for achieving the couple's happiness: sharing household chores.    \\ \hline                               
+                            
+% Cuestiones sobre los valores \textit{(2001)} & 1992 & \textit{Couple's happiness: Kids.} I am going to read you a series of things that some people believe contribute to a happy marriage or living together as a couple. For each one, please tell me whether you think it is very important, quite important, slightly important, or not important at all for achieving the couple's happiness: having children.  \\ \hline                               
+ %Desigualdad en la familia  \textit{(1867)}  & 1990 & \textit{Realized woman: Kids.}  Changing the topic, for the following situations that I am about to mention, could you indicate whether you believe they are very important, quite important, slightly important, or not important at all for women today? being a mother. \\ \hline                               
+         
+
+                             
+                              
+%Desigualdad en la familia  \textit{(1867)}  & 1990&   \textit{Realized woman: Work.} Changing the topic, for the following situations that I am about to mention, could you indicate whether you believe they are very important, quite important, slightly important, or not important at all for women today? having a job.\\ \hline  
+\end{longtable}
+
+
+ 
+\clearpage
+\subsection{Additional Tables and Figures}
+
+
+
+\begin{table}[htp!]
+\caption{The impact of Francoist educational reform on childbearing decision: Different clusters}
+\label{table_cis_kids_cluster}
+	\center
+	\resizebox{.8\linewidth}{!}{
+	\begin{threeparttable}		
+        \input{Educated to Be Mothers-slides/results/table_cis_kids_cluster}
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textbf{Dependent variable:} \textit{Ever had a child} (Col. 1 and 2), \textit{Number of children ever had} (Col. 3 and 4). All estimates are based on the 1979 and 1990–1992 waves of the CIS barometer surveys. \textit{1930/1938} is a dummy equal to 1 for women born between 1930 and 1938; \textit{1939/1950} is a dummy equal to 1 for women born between 1939 and 1950. The omitted category comprises women born between 1920 and 1929. All specifications include the full interaction between year, municipality of residence, and age group fixed effects. Standard errors are robust to heteroskedasticity and clustered at the birth cohort level (col. 1 and 3), or using a two-way clustering procedure both at the birth cohort and survey year level (col. 2 and 4). Columns 1 and 3 also report the p-value obtained using wild bootstrap clustering with 9999 repetitions. The last row reports the mean of the dependent variable for the reference category (i.e., women born between 1920 and 1929).  *, **, and *** indicate statistical significance at the 10\%, 5\%, and 1\% levels, respectively.
+\end{tablenotes}
+\end{threeparttable}}
+
+\end{table}
+
+
+
+\begin{table}[htp!]
+\caption{The impact of Francoist educational reform on childbearing decision: Census}
+\label{table_census}
+	\center
+	\resizebox{.4\linewidth}{!}{
+	\begin{threeparttable}		
+        \input{Educated to Be Mothers-slides/results/table_census_kids}
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textbf{Dependent variable:} \textit{Ever had a child} (Column 1), \textit{Number of children ever had} (Column 2). All estimates are based on the 1991 and 2011 waves of the Spanish Census. \textit{1930/1938} is a dummy equal to 1 for women born between 1930 and 1938; \textit{1939/1950} is a dummy equal to 1 for those born between 1939 and 1950. The omitted reference category includes women born between 1920 and 1929. All specifications include the full interaction between year, municipality of residence, and age group fixed effects. Standard errors are robust to heteroskedasticity and clustered at the birth cohort $\times$ survey year level. The last row reports the mean of the dependent variable for the reference category (i.e., women born between 1920 and 1929).  *, **, and *** indicate statistical significance at the 10\%, 5\%, and 1\% levels, respectively.
+\end{tablenotes}
+\end{threeparttable}}
+
+\end{table}
+
+
+
+\begin{table}[htp!]
+\caption{The impact of Francoist educational reform on childbearing decision: Portugal}
+\label{table_ivs}
+	\center
+	\resizebox{.6\linewidth}{!}{
+	\begin{threeparttable}		
+        \input{Educated to Be Mothers-slides/results/table_ivs_kids}
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textbf{Dependent variable:} \textit{Ever had a child} (Column 1), \textit{Number of children ever had} (Column 2). All estimates are based on the 1990, 1999, 2008 and 2020 waves of the Integrated Values Surveys (IVS) for Portugal. \textit{1930/1938} is a dummy equal to 1 for women born between 1930 and 1938; \textit{1939/1950} is a dummy equal to 1 for those born between 1939 and 1950. The omitted reference category comprises women born between 1920 and 1929. All specifications include region of residence (NUTS2)-by-age group-by-year fixed effects. Standard errors are robust to heteroskedasticity and clustered at the birth cohort $\times$ survey year level. The final row reports the mean of the dependent variable for the reference group (i.e., women born 1920–1929). *, **, and *** denote statistical significance at the 10\%, 5\%, and 1\% levels, respectively.
+
+\end{tablenotes}
+\end{threeparttable}}
+
+\end{table}
+
+
+
+\begin{table}[htp!]
+\caption{The impact of Francoist educational reform on labor force participation, education and political ideology}
+\label{table_cis_emp}
+	\center
+	\resizebox{1\linewidth}{!}{
+	\begin{threeparttable}		
+        \input{Educated to Be Mothers-slides/results/table_cis_emp}
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textbf{Dependent variables}: \textit{Employed (col. 1), Unemployed (col. 2), Housewife (col. 3), Tertiary Education (col. 4), Voted for Right-Wing Parties (col. 5).} All results except column 5 rely on the 1979 and 1986–1988 waves of the CIS Barometer; column 5 uses only the 1986–1988 waves. \textit{1930/1938} is a dummy equal to 1 for women born between 1930 and 1938; \textit{1939/1950} is a dummy for women born between 1939 and 1950. The reference group consists of women born between 1920 and 1929. All specifications include the full set of fixed effects defined by the interaction between year, place of residence, and age group. Standard errors are robust to heteroskedasticity and clustered at the year-by-year-of-birth level. The last row reports the average value of the dependent variable for the reference group (i.e., women born between 1920 and 1929). *, **, and *** denote statistical significance at the 10\%, 5\%, and 1\% levels, respectively.
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}
+
+
+
+
+
+\begin{table}[htp!] \centering
+        \caption{Treated vs Control - Balancing Tests}
+        \label{table_balancing}
+		\centering
+		\resizebox{.55\textwidth}{!}{
+		\begin{threeparttable}
+			\normalsize
+			\label{balancing}
+\input{Educated to Be Mothers-slides/results/table_balancing.tex}
+			\begin{tablenotes}[flushleft]\scriptsize
+\item \textbf{Note:}  This table presents balancing tests between treated and control areas across various local characteristics. %We estimate cross-sectional regressions that closely follow the structure of Equation \ref{eq_macro}, changing only the dependent variable. 
+Each covariate is regressed on the treatment indicator $Treat_i$. All specifications include province fixed effects and a dummy variable distinguishing provincial capitals to the rest of the province.
+\end{tablenotes}
+		\end{threeparttable}
+		}        
+	\end{table}
+
+
+
+\clearpage
+\begin{figure}[htp!]
+\caption{Proportion of female population aged 0-14 in 1940 } \label{map_popw}
+\vspace{-0.15cm}
+\centering
+\begin{minipage}{0.9\textwidth}
+\begin{threeparttable}
+    \includegraphics[width=\textwidth]{Educated to Be Mothers-slides/descriptive_maps/popw_newlegend.png}
+       
+    \begin{tablenotes}[flushleft]\scriptsize
+    \item \textbf{Note:} The map shows the proportion of the female population aged 0–14 in 1940. Darker shades indicate a higher proportion of young females relative to the total female population.
+    \end{tablenotes}
+\end{threeparttable}
+\end{minipage}
+\end{figure}
+
+
+
+
+
+
+ 
+
+
+
+
+\clearpage
+
+
+\begin{table}[htp!]
+\caption{The impact of Francoist educational reform on the number of births: DiD - Robustness}
+\label{table_macro_rob}
+	\center
+	\resizebox{1\linewidth}{!}{
+	\begin{threeparttable}		
+        \input{Educated to Be Mothers-slides/results/table_reg_female_rob}
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textbf{Dependent variable}: \textit{Number of births (cols. 1–6); Number of weddings (cols. 7–8)}. In columns 1–2 and 7–8, \textit{Treat (w)} $\times$ \textit{Post} denotes the interaction between the share of women aged 0–14 in 1940 in each observational unit (\textit{Treat (w)}) and the post-treatment indicator \textit{Post}, which equals 1 for years after 1945 and 0 otherwise. In columns 3–4, \textit{Treat (w)} is a dummy equal to 1 if the unit belongs to the upper half of the distribution of the share of women aged 0–14 in 1940, and 0 otherwise. In columns 5–6, \textit{Treat (w)} refers to the share of women aged 15–24 in 1940. All specifications include unit, year, and province-year fixed effects, as well as controls for the size of the female reproductive-age population by age group and decade.  Columns 1–2 also control for the interaction between year fixed effects and the share of votes received by the Socialist party in 1931 at the unit level. Standard errors are robust to heteroskedasticity and clustered at the unit level. The last row reports the average number of births per unit during the pre-treatment period (1939–1944). *, **, and *** indicate statistical significance at the 10\%, 5\%, and 1\% levels, respectively.
+\end{tablenotes}
+\end{threeparttable}}
+\end{table}
+
+
+\begin{comment}
+\begin{figure}[htp!]
+\centering
+\captionsetup{width=0.55\textwidth}
+\caption{Total Fertility Rate in Spain}
+            
+\includegraphics[width=0.8\textwidth]{TFR}
+       \caption*{\textbf{Note:} The figure displays the Total Fertility Rate (TFR) in Spain from 1860 to 2020. TFR represents the average number of children a woman would have over her lifetime based on age-specific fertility rates observed in a given year.
+Sources: Instituto Nacional de Estadística (INE), United Nations Population Division, and Statista. }    
+\end{figure}
+\end{comment}
+
+ 
+
+ 
+\begin{figure}[htp!]
+\caption{Total Fertility Rate in Spain} \label{RC_demographic_transition}
+\centering
+\begin{minipage}{0.8\textwidth}
+\begin{threeparttable}
+    \includegraphics[width=\textwidth]{TFR}
+    \begin{tablenotes}[flushleft]\scriptsize
+    \item \textbf{Note:} The figure displays the Total Fertility Rate (TFR) in Spain from 1860 to 2020. TFR represents the average number of children a woman would have over her lifetime based on age-specific fertility rates observed in a given year. Sources: Instituto Nacional de Estadística (INE), United Nations Population Division, and Statista.
+    \end{tablenotes}
+\end{threeparttable}
+\end{minipage}
+\end{figure}
+
+\end{document}

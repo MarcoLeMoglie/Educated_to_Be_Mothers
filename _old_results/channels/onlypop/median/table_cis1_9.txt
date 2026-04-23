@@ -1,0 +1,13 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)	(11)	(12)	(13)	(14)	(15)
+VARIABLES	LABELS	problem_son_divorces	problem_son_livetog	problem_dau_divorces	problem_dau_livetog	problem_son_kid	problem_dau_kid	happ_sharehousework	happ_kids	happ_ecoindepend	prefer_marry_church	prefer_marry_civil	prefer_live_notmarry	extra_money	need_econ	love_job
+																
+post_sum1	Female pop X Treat	0.026	-0.004	0.039	0.017	0.036	0.000	0.023	0.010	0.093*	0.048	-0.017	-0.044	0.212	0.204	0.220
+		(0.065)	(0.040)	(0.058)	(0.042)	(0.072)	(0.064)	(0.054)	(0.044)	(0.052)	(0.043)	(0.023)	(0.032)	(0.178)	(0.165)	(0.266)
+post_sum21	Male pop X Treat	-0.056	-0.152***	-0.082	-0.140***	-0.116	-0.063	-0.002	0.040	-0.181***	0.095**	-0.008	-0.028	-0.184	-0.193	-0.017
+		(0.066)	(0.041)	(0.057)	(0.042)	(0.073)	(0.063)	(0.053)	(0.045)	(0.056)	(0.042)	(0.023)	(0.032)	(0.127)	(0.157)	(0.271)
+																
+Observations		1,801	1,823	1,737	1,752	1,805	1,773	1,934	1,939	1,895	1,894	1,894	1,894	300	304	298
+R-squared		0.273	0.318	0.272	0.321	0.300	0.313	0.196	0.137	0.170	0.274	0.103	0.107	0.384	0.317	0.383
+Mun. FE		YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+Cohort		YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+Mean of depvar		0.315	0.203	0.318	0.221	0.345	0.398	0.719	0.857	0.544	0.675	0.0952	0.0780	0.594	0.808	0.747

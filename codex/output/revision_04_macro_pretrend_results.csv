@@ -1,0 +1,11 @@
+sample,outcome,spec,coefname,b,se,p,N
+macro,alive,church_0,interaction,-1535.176345823288,408.57974,.0019021345,876
+macro,alive,church_0,interaction2,-147.6053382667112,468.89505,.75725448,876
+macro,alive,church_1,interaction,-218.6671257620867,83.312141,.020998884,784
+macro,alive,church_1,interaction2,-50.39251997380317,100.32085,.62384754,784
+macro,alive,war_0,interaction,-170.1718225597579,144.96927,.27058235,560
+macro,alive,war_0,interaction2,-270.3108089076514,250.26704,.30819488,560
+macro,alive,war_1,interaction,-737.3337573595139,1796.8826,.69382471,448
+macro,alive,war_1,interaction2,-781.0517818823544,2852.0696,.79210132,448
+macro,birthrate_lin,pretrend_joint,pretrend_F,15.17515930626488,,,5458
+macro,birthrate_lin,pretrend_joint,pretrend_p,1.95412492777e-19,,,5458

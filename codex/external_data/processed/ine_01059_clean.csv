@@ -1,0 +1,442 @@
+sexo,relaciónmunicipio1970y1981,ramadeactividad,total
+TOTAL,TOTAL,TOTAL,10724581
+TOTAL,TOTAL,AGRICULTURA,1686081
+TOTAL,TOTAL,ENERGÍA y AGUA,175410
+TOTAL,TOTAL,INDUSTRIA,2799314
+TOTAL,TOTAL,CONSTRUCCIÓN,926652
+TOTAL,TOTAL,SERVICIOS,4957535
+TOTAL,TOTAL,No Clasificables,179589
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,9007834
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,AGRICULTURA,1610936
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,ENERGÍA y AGUA,146721
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,INDUSTRIA,2338732
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,CONSTRUCCIÓN,776269
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,SERVICIOS,3983368
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,No Clasificables,151808
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,1716747
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,AGRICULTURA,75145
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,ENERGÍA y AGUA,28689
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,INDUSTRIA,460583
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,CONSTRUCCIÓN,150383
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,SERVICIOS,974167
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,No Clasificables,27780
+TOTAL,Misma CCAA,TOTAL,928753
+TOTAL,Misma CCAA,AGRICULTURA,50688
+TOTAL,Misma CCAA,ENERGÍA y AGUA,16564
+TOTAL,Misma CCAA,INDUSTRIA,275476
+TOTAL,Misma CCAA,CONSTRUCCIÓN,79667
+TOTAL,Misma CCAA,SERVICIOS,492685
+TOTAL,Misma CCAA,No Clasificables,13674
+TOTAL,"Misma Provincia, Total",TOTAL,796409
+TOTAL,"Misma Provincia, Total",AGRICULTURA,43279
+TOTAL,"Misma Provincia, Total",ENERGÍA y AGUA,13741
+TOTAL,"Misma Provincia, Total",INDUSTRIA,248523
+TOTAL,"Misma Provincia, Total",CONSTRUCCIÓN,70258
+TOTAL,"Misma Provincia, Total",SERVICIOS,409114
+TOTAL,"Misma Provincia, Total",No Clasificables,11493
+TOTAL,Capital,TOTAL,280309
+TOTAL,Capital,AGRICULTURA,3875
+TOTAL,Capital,ENERGÍA y AGUA,3554
+TOTAL,Capital,INDUSTRIA,91449
+TOTAL,Capital,CONSTRUCCIÓN,21483
+TOTAL,Capital,SERVICIOS,154812
+TOTAL,Capital,No Clasificables,5136
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,60087
+TOTAL,Municipios no capital mayores de 50.000 hab.,AGRICULTURA,1166
+TOTAL,Municipios no capital mayores de 50.000 hab.,ENERGÍA y AGUA,1632
+TOTAL,Municipios no capital mayores de 50.000 hab.,INDUSTRIA,24397
+TOTAL,Municipios no capital mayores de 50.000 hab.,CONSTRUCCIÓN,4747
+TOTAL,Municipios no capital mayores de 50.000 hab.,SERVICIOS,27341
+TOTAL,Municipios no capital mayores de 50.000 hab.,No Clasificables,804
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,88356
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,AGRICULTURA,3555
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,ENERGÍA y AGUA,1608
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,INDUSTRIA,30555
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,CONSTRUCCIÓN,7224
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,SERVICIOS,44239
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,No Clasificables,1176
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,367657
+TOTAL,Municipios no capital menores de 20.001 hab.,AGRICULTURA,34684
+TOTAL,Municipios no capital menores de 20.001 hab.,ENERGÍA y AGUA,6947
+TOTAL,Municipios no capital menores de 20.001 hab.,INDUSTRIA,102122
+TOTAL,Municipios no capital menores de 20.001 hab.,CONSTRUCCIÓN,36804
+TOTAL,Municipios no capital menores de 20.001 hab.,SERVICIOS,182723
+TOTAL,Municipios no capital menores de 20.001 hab.,No Clasificables,4377
+TOTAL,"Misma CCAA, distinta Provincia, Total",TOTAL,132341
+TOTAL,"Misma CCAA, distinta Provincia, Total",AGRICULTURA,7408
+TOTAL,"Misma CCAA, distinta Provincia, Total",ENERGÍA y AGUA,2823
+TOTAL,"Misma CCAA, distinta Provincia, Total",INDUSTRIA,26953
+TOTAL,"Misma CCAA, distinta Provincia, Total",CONSTRUCCIÓN,9408
+TOTAL,"Misma CCAA, distinta Provincia, Total",SERVICIOS,83567
+TOTAL,"Misma CCAA, distinta Provincia, Total",No Clasificables,2181
+TOTAL,Capital,TOTAL,44913
+TOTAL,Capital,AGRICULTURA,1196
+TOTAL,Capital,ENERGÍA y AGUA,990
+TOTAL,Capital,INDUSTRIA,6971
+TOTAL,Capital,CONSTRUCCIÓN,2772
+TOTAL,Capital,SERVICIOS,32144
+TOTAL,Capital,No Clasificables,840
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,8715
+TOTAL,Municipios no capital mayores de 50.000 hab.,AGRICULTURA,368
+TOTAL,Municipios no capital mayores de 50.000 hab.,ENERGÍA y AGUA,140
+TOTAL,Municipios no capital mayores de 50.000 hab.,INDUSTRIA,1509
+TOTAL,Municipios no capital mayores de 50.000 hab.,CONSTRUCCIÓN,581
+TOTAL,Municipios no capital mayores de 50.000 hab.,SERVICIOS,5980
+TOTAL,Municipios no capital mayores de 50.000 hab.,No Clasificables,137
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,13097
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,AGRICULTURA,756
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,ENERGÍA y AGUA,234
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,INDUSTRIA,2982
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,CONSTRUCCIÓN,941
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,SERVICIOS,8008
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,No Clasificables,176
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,65615
+TOTAL,Municipios no capital menores de 20.001 hab.,AGRICULTURA,5089
+TOTAL,Municipios no capital menores de 20.001 hab.,ENERGÍA y AGUA,1458
+TOTAL,Municipios no capital menores de 20.001 hab.,INDUSTRIA,16491
+TOTAL,Municipios no capital menores de 20.001 hab.,CONSTRUCCIÓN,5114
+TOTAL,Municipios no capital menores de 20.001 hab.,SERVICIOS,37436
+TOTAL,Municipios no capital menores de 20.001 hab.,No Clasificables,1028
+TOTAL,"Distinta CCAA, Total",TOTAL,637196
+TOTAL,"Distinta CCAA, Total",AGRICULTURA,16419
+TOTAL,"Distinta CCAA, Total",ENERGÍA y AGUA,9693
+TOTAL,"Distinta CCAA, Total",INDUSTRIA,151077
+TOTAL,"Distinta CCAA, Total",CONSTRUCCIÓN,56726
+TOTAL,"Distinta CCAA, Total",SERVICIOS,392240
+TOTAL,"Distinta CCAA, Total",No Clasificables,11041
+TOTAL,Capital,TOTAL,238541
+TOTAL,Capital,AGRICULTURA,4876
+TOTAL,Capital,ENERGÍA y AGUA,3556
+TOTAL,Capital,INDUSTRIA,37797
+TOTAL,Capital,CONSTRUCCIÓN,16425
+TOTAL,Capital,SERVICIOS,171455
+TOTAL,Capital,No Clasificables,4433
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,33861
+TOTAL,Municipios no capital mayores de 50.000 hab.,AGRICULTURA,802
+TOTAL,Municipios no capital mayores de 50.000 hab.,ENERGÍA y AGUA,1131
+TOTAL,Municipios no capital mayores de 50.000 hab.,INDUSTRIA,7443
+TOTAL,Municipios no capital mayores de 50.000 hab.,CONSTRUCCIÓN,3244
+TOTAL,Municipios no capital mayores de 50.000 hab.,SERVICIOS,20616
+TOTAL,Municipios no capital mayores de 50.000 hab.,No Clasificables,625
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,52099
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,AGRICULTURA,1517
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,ENERGÍA y AGUA,1084
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,INDUSTRIA,13742
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,CONSTRUCCIÓN,5804
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,SERVICIOS,29143
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,No Clasificables,809
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,312695
+TOTAL,Municipios no capital menores de 20.001 hab.,AGRICULTURA,9225
+TOTAL,Municipios no capital menores de 20.001 hab.,ENERGÍA y AGUA,3923
+TOTAL,Municipios no capital menores de 20.001 hab.,INDUSTRIA,92095
+TOTAL,Municipios no capital menores de 20.001 hab.,CONSTRUCCIÓN,31252
+TOTAL,Municipios no capital menores de 20.001 hab.,SERVICIOS,171025
+TOTAL,Municipios no capital menores de 20.001 hab.,No Clasificables,5174
+TOTAL,"De Ceuta, Melilla y otros territorios",TOTAL,10326
+TOTAL,"De Ceuta, Melilla y otros territorios",AGRICULTURA,265
+TOTAL,"De Ceuta, Melilla y otros territorios",ENERGÍA y AGUA,134
+TOTAL,"De Ceuta, Melilla y otros territorios",INDUSTRIA,1176
+TOTAL,"De Ceuta, Melilla y otros territorios",CONSTRUCCIÓN,492
+TOTAL,"De Ceuta, Melilla y otros territorios",SERVICIOS,8141
+TOTAL,"De Ceuta, Melilla y otros territorios",No Clasificables,118
+TOTAL,Del extranjero,TOTAL,140440
+TOTAL,Del extranjero,AGRICULTURA,7773
+TOTAL,Del extranjero,ENERGÍA y AGUA,2299
+TOTAL,Del extranjero,INDUSTRIA,32841
+TOTAL,Del extranjero,CONSTRUCCIÓN,13498
+TOTAL,Del extranjero,SERVICIOS,81082
+TOTAL,Del extranjero,No Clasificables,2947
+VARONES,TOTAL,TOTAL,8214538
+VARONES,TOTAL,AGRICULTURA,1454039
+VARONES,TOTAL,ENERGÍA y AGUA,163482
+VARONES,TOTAL,INDUSTRIA,2245718
+VARONES,TOTAL,CONSTRUCCIÓN,906618
+VARONES,TOTAL,SERVICIOS,3311734
+VARONES,TOTAL,No Clasificables,132947
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,6916182
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,AGRICULTURA,1387050
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,ENERGÍA y AGUA,136384
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,INDUSTRIA,1866660
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,CONSTRUCCIÓN,769205
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,SERVICIOS,2654428
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,No Clasificables,112455
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,1296356
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,AGRICULTURA,66988
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,ENERGÍA y AGUA,27097
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,INDUSTRIA,379058
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,CONSTRUCCIÓN,147413
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,SERVICIOS,657307
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,No Clasificables,20493
+VARONES,Misma CCAA,TOTAL,718223
+VARONES,Misma CCAA,AGRICULTURA,44864
+VARONES,Misma CCAA,ENERGÍA y AGUA,15701
+VARONES,Misma CCAA,INDUSTRIA,230197
+VARONES,Misma CCAA,CONSTRUCCIÓN,78014
+VARONES,Misma CCAA,SERVICIOS,339071
+VARONES,Misma CCAA,No Clasificables,10376
+VARONES,"Misma Provincia, Total",TOTAL,619492
+VARONES,"Misma Provincia, Total",AGRICULTURA,38315
+VARONES,"Misma Provincia, Total",ENERGÍA y AGUA,13023
+VARONES,"Misma Provincia, Total",INDUSTRIA,207394
+VARONES,"Misma Provincia, Total",CONSTRUCCIÓN,68797
+VARONES,"Misma Provincia, Total",SERVICIOS,283189
+VARONES,"Misma Provincia, Total",No Clasificables,8775
+VARONES,Capital,TOTAL,220053
+VARONES,Capital,AGRICULTURA,3430
+VARONES,Capital,ENERGÍA y AGUA,3237
+VARONES,Capital,INDUSTRIA,77487
+VARONES,Capital,CONSTRUCCIÓN,20794
+VARONES,Capital,SERVICIOS,111221
+VARONES,Capital,No Clasificables,3884
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,47803
+VARONES,Municipios no capital mayores de 50.000 hab.,AGRICULTURA,997
+VARONES,Municipios no capital mayores de 50.000 hab.,ENERGÍA y AGUA,1567
+VARONES,Municipios no capital mayores de 50.000 hab.,INDUSTRIA,20895
+VARONES,Municipios no capital mayores de 50.000 hab.,CONSTRUCCIÓN,4666
+VARONES,Municipios no capital mayores de 50.000 hab.,SERVICIOS,19000
+VARONES,Municipios no capital mayores de 50.000 hab.,No Clasificables,678
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,69294
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,AGRICULTURA,3281
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,ENERGÍA y AGUA,1548
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,INDUSTRIA,25757
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,CONSTRUCCIÓN,7105
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,SERVICIOS,30722
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,No Clasificables,881
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,282342
+VARONES,Municipios no capital menores de 20.001 hab.,AGRICULTURA,30606
+VARONES,Municipios no capital menores de 20.001 hab.,ENERGÍA y AGUA,6672
+VARONES,Municipios no capital menores de 20.001 hab.,INDUSTRIA,83254
+VARONES,Municipios no capital menores de 20.001 hab.,CONSTRUCCIÓN,36232
+VARONES,Municipios no capital menores de 20.001 hab.,SERVICIOS,122247
+VARONES,Municipios no capital menores de 20.001 hab.,No Clasificables,3332
+VARONES,"Misma CCAA, distinta Provincia, Total",TOTAL,98727
+VARONES,"Misma CCAA, distinta Provincia, Total",AGRICULTURA,6549
+VARONES,"Misma CCAA, distinta Provincia, Total",ENERGÍA y AGUA,2679
+VARONES,"Misma CCAA, distinta Provincia, Total",INDUSTRIA,22803
+VARONES,"Misma CCAA, distinta Provincia, Total",CONSTRUCCIÓN,9217
+VARONES,"Misma CCAA, distinta Provincia, Total",SERVICIOS,55878
+VARONES,"Misma CCAA, distinta Provincia, Total",No Clasificables,1601
+VARONES,Capital,TOTAL,32914
+VARONES,Capital,AGRICULTURA,1083
+VARONES,Capital,ENERGÍA y AGUA,929
+VARONES,Capital,INDUSTRIA,6179
+VARONES,Capital,CONSTRUCCIÓN,2715
+VARONES,Capital,SERVICIOS,21381
+VARONES,Capital,No Clasificables,627
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,6515
+VARONES,Municipios no capital mayores de 50.000 hab.,AGRICULTURA,283
+VARONES,Municipios no capital mayores de 50.000 hab.,ENERGÍA y AGUA,124
+VARONES,Municipios no capital mayores de 50.000 hab.,INDUSTRIA,1264
+VARONES,Municipios no capital mayores de 50.000 hab.,CONSTRUCCIÓN,563
+VARONES,Municipios no capital mayores de 50.000 hab.,SERVICIOS,4179
+VARONES,Municipios no capital mayores de 50.000 hab.,No Clasificables,104
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,9986
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,AGRICULTURA,686
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,ENERGÍA y AGUA,227
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,INDUSTRIA,2556
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,CONSTRUCCIÓN,936
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,SERVICIOS,5457
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,No Clasificables,123
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,49311
+VARONES,Municipios no capital menores de 20.001 hab.,AGRICULTURA,4497
+VARONES,Municipios no capital menores de 20.001 hab.,ENERGÍA y AGUA,1399
+VARONES,Municipios no capital menores de 20.001 hab.,INDUSTRIA,12804
+VARONES,Municipios no capital menores de 20.001 hab.,CONSTRUCCIÓN,5002
+VARONES,Municipios no capital menores de 20.001 hab.,SERVICIOS,24861
+VARONES,Municipios no capital menores de 20.001 hab.,No Clasificables,748
+VARONES,"Distinta CCAA, Total",TOTAL,467578
+VARONES,"Distinta CCAA, Total",AGRICULTURA,15089
+VARONES,"Distinta CCAA, Total",ENERGÍA y AGUA,9183
+VARONES,"Distinta CCAA, Total",INDUSTRIA,120514
+VARONES,"Distinta CCAA, Total",CONSTRUCCIÓN,55702
+VARONES,"Distinta CCAA, Total",SERVICIOS,259198
+VARONES,"Distinta CCAA, Total",No Clasificables,7891
+VARONES,Capital,TOTAL,174764
+VARONES,Capital,AGRICULTURA,4382
+VARONES,Capital,ENERGÍA y AGUA,3374
+VARONES,Capital,INDUSTRIA,32205
+VARONES,Capital,CONSTRUCCIÓN,15989
+VARONES,Capital,SERVICIOS,115637
+VARONES,Capital,No Clasificables,3177
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,26227
+VARONES,Municipios no capital mayores de 50.000 hab.,AGRICULTURA,755
+VARONES,Municipios no capital mayores de 50.000 hab.,ENERGÍA y AGUA,1098
+VARONES,Municipios no capital mayores de 50.000 hab.,INDUSTRIA,6179
+VARONES,Municipios no capital mayores de 50.000 hab.,CONSTRUCCIÓN,3200
+VARONES,Municipios no capital mayores de 50.000 hab.,SERVICIOS,14518
+VARONES,Municipios no capital mayores de 50.000 hab.,No Clasificables,477
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,39699
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,AGRICULTURA,1401
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,ENERGÍA y AGUA,1047
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,INDUSTRIA,10974
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,CONSTRUCCIÓN,5744
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,SERVICIOS,19929
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,No Clasificables,605
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,226887
+VARONES,Municipios no capital menores de 20.001 hab.,AGRICULTURA,8551
+VARONES,Municipios no capital menores de 20.001 hab.,ENERGÍA y AGUA,3664
+VARONES,Municipios no capital menores de 20.001 hab.,INDUSTRIA,71155
+VARONES,Municipios no capital menores de 20.001 hab.,CONSTRUCCIÓN,30769
+VARONES,Municipios no capital menores de 20.001 hab.,SERVICIOS,109115
+VARONES,Municipios no capital menores de 20.001 hab.,No Clasificables,3632
+VARONES,"De Ceuta, Melilla y otros territorios",TOTAL,8475
+VARONES,"De Ceuta, Melilla y otros territorios",AGRICULTURA,261
+VARONES,"De Ceuta, Melilla y otros territorios",ENERGÍA y AGUA,134
+VARONES,"De Ceuta, Melilla y otros territorios",INDUSTRIA,950
+VARONES,"De Ceuta, Melilla y otros territorios",CONSTRUCCIÓN,488
+VARONES,"De Ceuta, Melilla y otros territorios",SERVICIOS,6551
+VARONES,"De Ceuta, Melilla y otros territorios",No Clasificables,90
+VARONES,Del extranjero,TOTAL,104057
+VARONES,Del extranjero,AGRICULTURA,6774
+VARONES,Del extranjero,ENERGÍA y AGUA,2079
+VARONES,Del extranjero,INDUSTRIA,27393
+VARONES,Del extranjero,CONSTRUCCIÓN,13208
+VARONES,Del extranjero,SERVICIOS,52467
+VARONES,Del extranjero,No Clasificables,2135
+MUJERES,TOTAL,TOTAL,2510043
+MUJERES,TOTAL,AGRICULTURA,232042
+MUJERES,TOTAL,ENERGÍA y AGUA,11929
+MUJERES,TOTAL,INDUSTRIA,553597
+MUJERES,TOTAL,CONSTRUCCIÓN,20034
+MUJERES,TOTAL,SERVICIOS,1645801
+MUJERES,TOTAL,No Clasificables,46641
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,2091652
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,AGRICULTURA,223885
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,ENERGÍA y AGUA,10337
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,INDUSTRIA,472072
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,CONSTRUCCIÓN,17064
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,SERVICIOS,1328940
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,No Clasificables,39354
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,418391
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,AGRICULTURA,8157
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,ENERGÍA y AGUA,1692
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,INDUSTRIA,81525
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,CONSTRUCCIÓN,2970
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,SERVICIOS,316860
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,No Clasificables,7288
+MUJERES,Misma CCAA,TOTAL,210530
+MUJERES,Misma CCAA,AGRICULTURA,5824
+MUJERES,Misma CCAA,ENERGÍA y AGUA,863
+MUJERES,Misma CCAA,INDUSTRIA,45280
+MUJERES,Misma CCAA,CONSTRUCCIÓN,1653
+MUJERES,Misma CCAA,SERVICIOS,153614
+MUJERES,Misma CCAA,No Clasificables,3298
+MUJERES,"Misma Provincia, Total",TOTAL,176917
+MUJERES,"Misma Provincia, Total",AGRICULTURA,4965
+MUJERES,"Misma Provincia, Total",ENERGÍA y AGUA,719
+MUJERES,"Misma Provincia, Total",INDUSTRIA,41129
+MUJERES,"Misma Provincia, Total",CONSTRUCCIÓN,1461
+MUJERES,"Misma Provincia, Total",SERVICIOS,125925
+MUJERES,"Misma Provincia, Total",No Clasificables,2719
+MUJERES,Capital,TOTAL,60255
+MUJERES,Capital,AGRICULTURA,445
+MUJERES,Capital,ENERGÍA y AGUA,317
+MUJERES,Capital,INDUSTRIA,13962
+MUJERES,Capital,CONSTRUCCIÓN,688
+MUJERES,Capital,SERVICIOS,43591
+MUJERES,Capital,No Clasificables,1253
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,12284
+MUJERES,Municipios no capital mayores de 50.000 hab.,AGRICULTURA,169
+MUJERES,Municipios no capital mayores de 50.000 hab.,ENERGÍA y AGUA,65
+MUJERES,Municipios no capital mayores de 50.000 hab.,INDUSTRIA,3502
+MUJERES,Municipios no capital mayores de 50.000 hab.,CONSTRUCCIÓN,82
+MUJERES,Municipios no capital mayores de 50.000 hab.,SERVICIOS,8341
+MUJERES,Municipios no capital mayores de 50.000 hab.,No Clasificables,126
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,19062
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,AGRICULTURA,274
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,ENERGÍA y AGUA,61
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,INDUSTRIA,4798
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,CONSTRUCCIÓN,118
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,SERVICIOS,13517
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,No Clasificables,294
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,85315
+MUJERES,Municipios no capital menores de 20.001 hab.,AGRICULTURA,4077
+MUJERES,Municipios no capital menores de 20.001 hab.,ENERGÍA y AGUA,275
+MUJERES,Municipios no capital menores de 20.001 hab.,INDUSTRIA,18868
+MUJERES,Municipios no capital menores de 20.001 hab.,CONSTRUCCIÓN,573
+MUJERES,Municipios no capital menores de 20.001 hab.,SERVICIOS,60476
+MUJERES,Municipios no capital menores de 20.001 hab.,No Clasificables,1046
+MUJERES,"Misma CCAA, distinta Provincia, Total",TOTAL,33613
+MUJERES,"Misma CCAA, distinta Provincia, Total",AGRICULTURA,859
+MUJERES,"Misma CCAA, distinta Provincia, Total",ENERGÍA y AGUA,144
+MUJERES,"Misma CCAA, distinta Provincia, Total",INDUSTRIA,4151
+MUJERES,"Misma CCAA, distinta Provincia, Total",CONSTRUCCIÓN,191
+MUJERES,"Misma CCAA, distinta Provincia, Total",SERVICIOS,27689
+MUJERES,"Misma CCAA, distinta Provincia, Total",No Clasificables,579
+MUJERES,Capital,TOTAL,11999
+MUJERES,Capital,AGRICULTURA,113
+MUJERES,Capital,ENERGÍA y AGUA,61
+MUJERES,Capital,INDUSTRIA,792
+MUJERES,Capital,CONSTRUCCIÓN,56
+MUJERES,Capital,SERVICIOS,10763
+MUJERES,Capital,No Clasificables,213
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,2199
+MUJERES,Municipios no capital mayores de 50.000 hab.,AGRICULTURA,85
+MUJERES,Municipios no capital mayores de 50.000 hab.,ENERGÍA y AGUA,17
+MUJERES,Municipios no capital mayores de 50.000 hab.,INDUSTRIA,245
+MUJERES,Municipios no capital mayores de 50.000 hab.,CONSTRUCCIÓN,18
+MUJERES,Municipios no capital mayores de 50.000 hab.,SERVICIOS,1801
+MUJERES,Municipios no capital mayores de 50.000 hab.,No Clasificables,33
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,3111
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,AGRICULTURA,69
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,ENERGÍA y AGUA,7
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,INDUSTRIA,426
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,CONSTRUCCIÓN,5
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,SERVICIOS,2650
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,No Clasificables,53
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,16304
+MUJERES,Municipios no capital menores de 20.001 hab.,AGRICULTURA,591
+MUJERES,Municipios no capital menores de 20.001 hab.,ENERGÍA y AGUA,59
+MUJERES,Municipios no capital menores de 20.001 hab.,INDUSTRIA,2687
+MUJERES,Municipios no capital menores de 20.001 hab.,CONSTRUCCIÓN,112
+MUJERES,Municipios no capital menores de 20.001 hab.,SERVICIOS,12574
+MUJERES,Municipios no capital menores de 20.001 hab.,No Clasificables,280
+MUJERES,"Distinta CCAA, Total",TOTAL,169618
+MUJERES,"Distinta CCAA, Total",AGRICULTURA,1331
+MUJERES,"Distinta CCAA, Total",ENERGÍA y AGUA,509
+MUJERES,"Distinta CCAA, Total",INDUSTRIA,30563
+MUJERES,"Distinta CCAA, Total",CONSTRUCCIÓN,1023
+MUJERES,"Distinta CCAA, Total",SERVICIOS,133042
+MUJERES,"Distinta CCAA, Total",No Clasificables,3149
+MUJERES,Capital,TOTAL,63777
+MUJERES,Capital,AGRICULTURA,494
+MUJERES,Capital,ENERGÍA y AGUA,182
+MUJERES,Capital,INDUSTRIA,5591
+MUJERES,Capital,CONSTRUCCIÓN,436
+MUJERES,Capital,SERVICIOS,55818
+MUJERES,Capital,No Clasificables,1256
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,7634
+MUJERES,Municipios no capital mayores de 50.000 hab.,AGRICULTURA,47
+MUJERES,Municipios no capital mayores de 50.000 hab.,ENERGÍA y AGUA,33
+MUJERES,Municipios no capital mayores de 50.000 hab.,INDUSTRIA,1264
+MUJERES,Municipios no capital mayores de 50.000 hab.,CONSTRUCCIÓN,44
+MUJERES,Municipios no capital mayores de 50.000 hab.,SERVICIOS,6099
+MUJERES,Municipios no capital mayores de 50.000 hab.,No Clasificables,147
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,12399
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,AGRICULTURA,116
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,ENERGÍA y AGUA,37
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,INDUSTRIA,2768
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,CONSTRUCCIÓN,60
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,SERVICIOS,9215
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,No Clasificables,204
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,85807
+MUJERES,Municipios no capital menores de 20.001 hab.,AGRICULTURA,673
+MUJERES,Municipios no capital menores de 20.001 hab.,ENERGÍA y AGUA,258
+MUJERES,Municipios no capital menores de 20.001 hab.,INDUSTRIA,20940
+MUJERES,Municipios no capital menores de 20.001 hab.,CONSTRUCCIÓN,483
+MUJERES,Municipios no capital menores de 20.001 hab.,SERVICIOS,61910
+MUJERES,Municipios no capital menores de 20.001 hab.,No Clasificables,1542
+MUJERES,"De Ceuta, Melilla y otros territorios",TOTAL,1851
+MUJERES,"De Ceuta, Melilla y otros territorios",AGRICULTURA,3
+MUJERES,"De Ceuta, Melilla y otros territorios",ENERGÍA y AGUA,
+MUJERES,"De Ceuta, Melilla y otros territorios",INDUSTRIA,225
+MUJERES,"De Ceuta, Melilla y otros territorios",CONSTRUCCIÓN,4
+MUJERES,"De Ceuta, Melilla y otros territorios",SERVICIOS,1589
+MUJERES,"De Ceuta, Melilla y otros territorios",No Clasificables,28
+MUJERES,Del extranjero,TOTAL,36384
+MUJERES,Del extranjero,AGRICULTURA,999
+MUJERES,Del extranjero,ENERGÍA y AGUA,220
+MUJERES,Del extranjero,INDUSTRIA,5448
+MUJERES,Del extranjero,CONSTRUCCIÓN,290
+MUJERES,Del extranjero,SERVICIOS,28615
+MUJERES,Del extranjero,No Clasificables,812

@@ -1,0 +1,29 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)
+VARIABLES	LABELS	N. kids	N. kids	N. kids	N. kids	N. kids	N. kids	N. kids
+								
+treat_2	1930/1938	-0.0716**	-0.0833***	-0.0829***	-0.0827***	-0.0827***	-0.0822***	-0.0816***
+		(0.0270)	(0.0262)	(0.0258)	(0.0259)	(0.0259)	(0.0262)	(0.0266)
+treat_3	1939/1950	-0.147***	-0.168***	-0.166***	-0.165***	-0.165***	-0.166***	-0.164***
+		(0.0345)	(0.0334)	(0.0329)	(0.0330)	(0.0330)	(0.0333)	(0.0336)
+indcore_t2	1930/1938 X Industrial core			0.0503***				-0.219*
+				(0.0164)				(0.129)
+indcore_t3	1939/1950 X Industrial core			0.0780***				-0.570***
+				(0.0216)				(0.174)
+oilsens_t2	1930/1938 X Oil-sensitive				0.0545***			-0.00894
+					(0.0173)			(0.142)
+oilsens_t3	1939/1950 X Oil-sensitive				0.0828***			0.393*
+					(0.0224)			(0.218)
+manuftr_t2	1930/1938 X Manuf./trade					0.0553***		0.215***
+						(0.0166)		(0.0618)
+manuftr_t3	1939/1950 X Manuf./trade					0.0860***		0.307***
+						(0.0219)		(0.0735)
+nonag_t2	1930/1938 X Non-agric.						0.0641***	0.0784**
+							(0.0181)	(0.0344)
+nonag_t3	1939/1950 X Non-agric.						0.0824***	-0.0466
+							(0.0219)	(0.0498)
+								
+Observations		802,362	792,962	792,962	792,962	792,962	792,962	792,962
+R-squared		0.030	0.107	0.107	0.107	0.107	0.107	0.107
+Specification		Baseline restricted	+ Birthplace FE	Industrial core	Oil-sensitive	Manuf./trade	Non-agric.	All
+Mun. X Year X Age-class X Birth Prov. FE		NO	YES	YES	YES	YES	YES	YES
+Mean of depvar		2.89	2.89	2.89	2.89	2.89	2.89	2.89

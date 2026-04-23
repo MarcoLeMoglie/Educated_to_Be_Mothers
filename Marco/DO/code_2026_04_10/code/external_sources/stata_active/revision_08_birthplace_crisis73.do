@@ -1,0 +1,185 @@
+version 17.0
+clear all
+set more off
+
+capture log close
+
+global root "/Users/marcolemoglie_1_2/Library/CloudStorage/Dropbox/PURGE"
+global datain2 "$root/original_data/INE_microdatos/"
+global proxies "$root/codex/external_revisions/generated/province_pre73_crisis_proxies.dta"
+global codex "$root/codex"
+global out "$codex/output"
+global logs "$codex/logs"
+
+log using "$logs/revision_08_birthplace_crisis73.log", replace text
+
+capture program drop post_selected_coefs
+program define post_selected_coefs
+    syntax , Handle(name) Sample(string) Outcome(string) Spec(string) Coefs(string)
+
+    foreach coef of local coefs {
+        capture scalar b = _b[`coef']
+        if _rc == 0 {
+            scalar se = _se[`coef']
+            capture scalar p = 2 * ttail(e(df_r), abs(b / se))
+            if _rc != 0 {
+                scalar p = .
+            }
+            post `handle' ("`sample'") ("`outcome'") ("`spec'") ("`coef'") (b) (se) (p) (e(N))
+        }
+    }
+end
+
+display as text "Preparing province-level pre-1973 crisis proxies"
+preserve
+use "$proxies", clear
+keep codprov proxy_usable_pre73 industrial_core_share_1950 oil_sensitive_share_1950 ///
+    manuf_trade_share_1950 nonag_share_1950
+rename codprov codprov_born
+duplicates drop
+tempfile province_controls
+save "`province_controls'"
+restore
+
+display as text "Preparing 1991 census sample"
+use ${datain2}censo1991/por_provincias/censo1991_provincias.dta, clear
+rename *, lower
+replace fecha = . if fecha > 100
+gen anac = 1992 - fecha
+
+keep if inrange(anac, 1920, 1970)
+
+gen kids2 = hijos > 0 & hijos != .
+replace kids2 = . if hijos == .
+
+gen year = 1991
+rename munacin cmunn
+rename prov codprov
+rename pronacin codprov_born
+rename mun cmun
+rename hijos nhijos
+gen weight = fe / 10000
+
+tempfile c1991
+save "`c1991'"
+
+display as text "Preparing 2011 census sample"
+use ${datain2}censo2011/por_provincias/censo2011_provincias.dta, clear
+rename *, lower
+
+keep if inrange(anac, 1920, 1970)
+
+gen kids = nhijo > 0 & nhijo != .
+replace kids = . if nhijo == .
+gen kids2 = hijos == 1
+replace kids2 = . if hijos == .
+replace nhijos = 0 if kids2 == 0
+
+gen year = 2011
+rename cpro codprov
+rename cpron codprov_born
+gen weight = factor
+
+append using "`c1991'"
+
+merge m:1 codprov_born using "`province_controls'", keep(match master) nogen
+
+gen treat = .
+replace treat = 0 if anac <= 1929
+replace treat = 1 if anac > 1929 & anac < 1939
+replace treat = 2 if anac >= 1939
+tab treat, gen(treat_)
+
+gen weight2 = fe if year == 1991
+replace weight2 = factor if year == 2011
+
+gen age_c = floor(edad / 10)
+
+egen z_indcore = std(industrial_core_share_1950) if proxy_usable_pre73 == 1
+egen z_oilsens = std(oil_sensitive_share_1950) if proxy_usable_pre73 == 1
+egen z_manuftr = std(manuf_trade_share_1950) if proxy_usable_pre73 == 1
+egen z_nonag = std(nonag_share_1950) if proxy_usable_pre73 == 1
+
+gen indcore_t2 = z_indcore * treat_2 if z_indcore < .
+gen indcore_t3 = z_indcore * treat_3 if z_indcore < .
+gen oilsens_t2 = z_oilsens * treat_2 if z_oilsens < .
+gen oilsens_t3 = z_oilsens * treat_3 if z_oilsens < .
+gen manuftr_t2 = z_manuftr * treat_2 if z_manuftr < .
+gen manuftr_t3 = z_manuftr * treat_3 if z_manuftr < .
+gen nonag_t2 = z_nonag * treat_2 if z_nonag < .
+gen nonag_t3 = z_nonag * treat_3 if z_nonag < .
+
+tempfile crisis_results
+tempname posth
+postfile `posth' str12 sample str12 outcome str48 spec str24 coefname double b se p N using "`crisis_results'", replace
+
+foreach outcome in kids2 nhijos {
+    quietly reghdfe `outcome' treat_2 treat_3 ///
+        if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+        a(cmun##i.age_c##year##i.codprov_born) cluster(year#anac) version(5)
+    post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") spec("birthprov_fe_proxy") ///
+        coefs("treat_2 treat_3")
+
+    quietly reghdfe `outcome' treat_2 treat_3 ///
+        if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+        a(i.year##i.age_c##i.codprov##i.codprov_born) cluster(year#anac) version(5)
+    post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") spec("birth_current_fe_proxy") ///
+        coefs("treat_2 treat_3")
+
+    quietly reghdfe `outcome' treat_2 treat_3 indcore_t2 indcore_t3 ///
+            if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+            a(cmun##i.age_c##year##i.codprov_born) cluster(year#anac) version(5)
+        post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") ///
+            spec("birthprov_industrial_core_share_1950") coefs("treat_2 treat_3 indcore_t2 indcore_t3")
+
+    quietly reghdfe `outcome' treat_2 treat_3 indcore_t2 indcore_t3 ///
+            if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+            a(i.year##i.age_c##i.codprov##i.codprov_born) cluster(year#anac) version(5)
+        post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") ///
+            spec("birth_current_industrial_core_share_1950") coefs("treat_2 treat_3 indcore_t2 indcore_t3")
+
+    quietly reghdfe `outcome' treat_2 treat_3 oilsens_t2 oilsens_t3 ///
+            if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+            a(cmun##i.age_c##year##i.codprov_born) cluster(year#anac) version(5)
+        post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") ///
+            spec("birthprov_oil_sensitive_share_1950") coefs("treat_2 treat_3 oilsens_t2 oilsens_t3")
+
+    quietly reghdfe `outcome' treat_2 treat_3 oilsens_t2 oilsens_t3 ///
+            if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+            a(i.year##i.age_c##i.codprov##i.codprov_born) cluster(year#anac) version(5)
+        post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") ///
+            spec("birth_current_oil_sensitive_share_1950") coefs("treat_2 treat_3 oilsens_t2 oilsens_t3")
+
+    quietly reghdfe `outcome' treat_2 treat_3 manuftr_t2 manuftr_t3 ///
+            if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+            a(cmun##i.age_c##year##i.codprov_born) cluster(year#anac) version(5)
+        post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") ///
+            spec("birthprov_manuf_trade_share_1950") coefs("treat_2 treat_3 manuftr_t2 manuftr_t3")
+
+    quietly reghdfe `outcome' treat_2 treat_3 manuftr_t2 manuftr_t3 ///
+            if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+            a(i.year##i.age_c##i.codprov##i.codprov_born) cluster(year#anac) version(5)
+        post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") ///
+            spec("birth_current_manuf_trade_share_1950") coefs("treat_2 treat_3 manuftr_t2 manuftr_t3")
+
+    quietly reghdfe `outcome' treat_2 treat_3 nonag_t2 nonag_t3 ///
+            if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+            a(cmun##i.age_c##year##i.codprov_born) cluster(year#anac) version(5)
+        post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") ///
+            spec("birthprov_nonag_share_1950") coefs("treat_2 treat_3 nonag_t2 nonag_t3")
+
+    quietly reghdfe `outcome' treat_2 treat_3 nonag_t2 nonag_t3 ///
+            if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+            a(i.year##i.age_c##i.codprov##i.codprov_born) cluster(year#anac) version(5)
+        post_selected_coefs, handle(`posth') sample("census") outcome("`outcome'") ///
+            spec("birth_current_nonag_share_1950") coefs("treat_2 treat_3 nonag_t2 nonag_t3")
+}
+
+postclose `posth'
+
+use "`crisis_results'", clear
+sort outcome spec coefname
+save "$out/revision_08_birthplace_crisis73_results.dta", replace
+export delimited using "$out/revision_08_birthplace_crisis73_results.csv", replace
+
+log close

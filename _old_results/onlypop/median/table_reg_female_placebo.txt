@@ -1,0 +1,18 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	Births	Births	Weddings	Weddings
+					
+post_sum1		-150.579***		-24.097***	
+		(12.833)		(4.055)	
+post_sum21		3.583		0.678	
+		(12.833)		(4.055)	
+post_sum2	Female pop (Age ) X Post 1945 -		161.578***		20.529***
+			(15.620)		(3.655)
+post_sum22	Male pop (Age ) X Post 1945 -		10.448		10.384***
+			(15.619)		(3.664)
+					
+Observations		5,487	5,487	5,482	5,482
+R-squared		0.723	0.747	0.735	0.749
+Mun. FE		YES	YES	YES	YES
+Prov. X Year FE		YES	YES	YES	YES
+Cohort		0-14	15-44	0-14	15-44
+Mean of depvar		191.5	98.01	54.65	36.05

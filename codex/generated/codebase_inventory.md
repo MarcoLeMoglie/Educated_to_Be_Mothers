@@ -1,0 +1,565 @@
+# Codebase Inventory
+
+Root: `/Users/marcolemoglie_1_2/Library/CloudStorage/Dropbox/PURGE`
+
+## By directory
+
+### progs
+
+Tracked files: 71
+
+- `progs/00_Master.do` (38 lines)
+- `progs/01_summary_stats.do` (187 lines)
+- `progs/02_dataset.do` (396 lines)
+- `progs/02_dataset_provincelevel.do` (313 lines)
+- `progs/03_maps_arcgis.do` (97 lines)
+- `progs/_old/01_summary.do` (84 lines)
+- `progs/_old/04_ttest.do` (106 lines)
+- `progs/_old/04_ttest_.do` (84 lines)
+- `progs/data/01A_teachers.do` (2620 lines)
+- `progs/data/01a1_census_capprovincebyage_1940.do` (376 lines)
+- `progs/data/01a2_census_capprovincebyage_1930.do` (294 lines)
+- `progs/data/01a3_census_provincebyage_1930.do` (468 lines)
+- `progs/data/01a4_census_municipbyage_1940.do` (225 lines)
+- `progs/data/01a5_census_provincebyage_1930.do` (480 lines)
+- `progs/data/01a5_census_provincebyage_1940.do` (504 lines)
+- `progs/data/01a6_append_census1930.do` (197 lines)
+- `progs/data/01a6_append_census1940.do` (255 lines)
+- `progs/data/01a6_append_census1950.do` (566 lines)
+- `progs/data/01a6_append_census1960.do` (545 lines)
+- `progs/data/01a6_append_census1970.do` (528 lines)
+- `progs/data/01b1_MNP_1971_1985.do` (278 lines)
+- `progs/data/01b1_MNP_deaths.do` (93 lines)
+- `progs/data/01b1_MNP_upto1970.do` (305 lines)
+- `progs/data/01c1_population_1950s_import.do` (427 lines)
+- `progs/data/01d1_codmun.do` (22 lines)
+- `progs/data/01e1_elections.do` (410 lines)
+- `progs/data/01e2_anuarios_estad_30s.do` (452 lines)
+- `progs/data/01e2_anuarios_estad_40s.do` (535 lines)
+- `progs/data/01e3_anuarios_estad_finanzas.do` (232 lines)
+- `progs/data/02A_depuracion.do` (64 lines)
+- `progs/data/02b1_teachers.do` (65 lines)
+- `progs/data/02b2_teachers_histog.do` (13 lines)
+- `progs/data/02b3_teachers_graph.do` (21 lines)
+- `progs/data/03_conccamps_province.do` (42 lines)
+- `progs/data/04_front_civilwar.do` (127 lines)
+- `progs/data/05_import_cis.do` (1553 lines)
+- `progs/data/06_ine_microdatos.do` (551 lines)
+- `progs/data/1.3.1_victims.do` (2535 lines)
+- `progs/data/1.3.2_victims_withcodes.do` (143 lines)
+- `progs/data/_old/01b1_MNP.do` (171 lines)
+- `progs/data/_old/01b1_MNP_import.do` (146 lines)
+- `progs/data/_old/02a1_victims.do` (481 lines)
+- `progs/data/_old/02a2_victims_withcodes.do` (177 lines)
+- `progs/data/_old/03_conccamps_province.do` (40 lines)
+- `progs/reg/1_balancing.do` (233 lines)
+- `progs/reg/1_main_reg_cont.do` (1351 lines)
+- `progs/reg/1_main_reg_cont_PROV.do` (1353 lines)
+- `progs/reg/1_main_reg_median.do` (1437 lines)
+- `progs/reg/2_reg.do` (95 lines)
+- `progs/reg/3_cis.do` (66 lines)
+- `progs/reg/3_cis_cont_table.do` (86 lines)
+- `progs/reg/3_cis_eventstudy.do` (189 lines)
+- `progs/reg/3_cis_eventstudy_cont.do` (279 lines)
+- `progs/reg/3_cis_graphs_cont.do` (107 lines)
+- `progs/reg/3_cis_graphs_median.do` (246 lines)
+- `progs/reg/3_cis_median_table.do` (602 lines)
+- `progs/reg/4_graphs_age.do` (306 lines)
+- `progs/reg/4_graphs_qualitative.do` (54 lines)
+- `progs/reg/5_graph_global_fertility_rate.do` (14 lines)
+- `progs/reg/6_microdata.do` (23 lines)
+- `progs/reg/7_UN.do` (122 lines)
+- `progs/reg/7_eurostat.do` (116 lines)
+- `progs/reg/7_oecd.do` (74 lines)
+- `progs/reg/_old/1.do` (167 lines)
+- `progs/reg/_old/1_eventstudy_nointeractions.do` (122 lines)
+- `progs/reg/es_graphs.do` (75 lines)
+- `progs/reg/only1treat/1_main_reg_cont_ONLYPOP.do` (685 lines)
+- `progs/reg/only1treat/1_main_reg_median_ONLYPOP.do` (723 lines)
+- `progs/reg/only1treat/1_main_reg_separateregressors.do` (417 lines)
+- `progs/reg/only1treat/3_cis_median_table_1treatment.do` (386 lines)
+- `progs/reg/only1treat/3_cis_median_table_ONLYPOP.do` (602 lines)
+
+### Paper
+
+Tracked files: 2
+
+- `Paper/JOLE_review_detailed_notes_it.md` (173 lines)
+- `Paper/make_hyperlinked_pdf.py` (187 lines)
+
+### Marco
+
+Tracked files: 69
+
+- `Marco/DO/ESS.do` (115 lines)
+- `Marco/DO/Main_analysis.do` (1933 lines)
+- `Marco/DO/RDD.do` (790 lines)
+- `Marco/DO/new/Main_analysis.do` (2672 lines)
+- `Marco/Data/ESS_households_data.dta` (141458 lines)
+- `Marco/Data/dataset.dta` (42178 lines)
+- `Marco/Data/table_diffdisc_lag.tex` (12 lines)
+- `Marco/Results/__000000.dta` (527 lines)
+- `Marco/Results/__000001.dta` (274 lines)
+- `Marco/Results/__pllmy15pvqqv9_dataset.dta` (5 lines)
+- `Marco/Results/__pllmy15pvqqv9_do0001.do` (71 lines)
+- `Marco/Results/__pllmy15pvqqv9_do0002.do` (71 lines)
+- `Marco/Results/__pllmy15pvqqv9_do0003.do` (71 lines)
+- `Marco/Results/__pllmy15pvqqv9_do0004.do` (71 lines)
+- `Marco/Results/__pllmy15pvqqv9_dta0001.dta` (4 lines)
+- `Marco/Results/__pllmy15pvqqv9_dta0002.dta` (4 lines)
+- `Marco/Results/__pllmy15pvqqv9_dta0003.dta` (4 lines)
+- `Marco/Results/__pllmy15pvqqv9_dta0004.dta` (4 lines)
+- `Marco/Results/__pllmy15pvqqv9_glob.do` (28 lines)
+- `Marco/Results/performance_data_flag.dta` (163946 lines)
+- `Marco/Results/table_balancing.tex` (24 lines)
+- `Marco/Results/table_census.tex` (13 lines)
+- `Marco/Results/table_census_kids.tex` (16 lines)
+- `Marco/Results/table_census_kids2.tex` (12 lines)
+- `Marco/Results/table_census_married.tex` (13 lines)
+- `Marco/Results/table_census_nhijo.tex` (13 lines)
+- `Marco/Results/table_census_ntothij.tex` (12 lines)
+- `Marco/Results/table_cis.tex` (14 lines)
+- `Marco/Results/table_cis_emp.tex` (16 lines)
+- `Marco/Results/table_cis_family_attitudes.tex` (14 lines)
+- `Marco/Results/table_cis_ideology.tex` (13 lines)
+- `Marco/Results/table_cis_kids.tex` (17 lines)
+- `Marco/Results/table_cis_kids_cluster.tex` (19 lines)
+- `Marco/Results/table_cis_kids_dec.tex` (18 lines)
+- `Marco/Results/table_cis_kids_marriage.tex` (16 lines)
+- `Marco/Results/table_cis_nkids.tex` (13 lines)
+- `Marco/Results/table_cis_primary.tex` (13 lines)
+- `Marco/Results/table_cis_role_women.tex` (13 lines)
+- `Marco/Results/table_cis_secondary.tex` (14 lines)
+- `Marco/Results/table_cis_sig.tex` (16 lines)
+- `Marco/Results/table_cis_unemp.tex` (14 lines)
+- `Marco/Results/table_diffdisc_lag.tex` (15 lines)
+- `Marco/Results/table_ess_kids.tex` (15 lines)
+- `Marco/Results/table_ivs_kids.tex` (17 lines)
+- `Marco/Results/table_rdd.tex` (14 lines)
+- `Marco/Results/table_reg_female.tex` (14 lines)
+- `Marco/Results/table_reg_female_1544.tex` (16 lines)
+- `Marco/Results/table_reg_female_1930.tex` (16 lines)
+- `Marco/Results/table_reg_female_basefissa.tex` (16 lines)
+- `Marco/Results/table_reg_female_basemobile.tex` (16 lines)
+- `Marco/Results/table_reg_female_discrete.tex` (16 lines)
+- `Marco/Results/table_reg_female_flag4.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag41.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag42.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag43.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag44.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag45.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag6.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag61.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag62.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag63.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag64.tex` (15 lines)
+- `Marco/Results/table_reg_female_flag65.tex` (15 lines)
+- `Marco/Results/table_reg_female_placebo.tex` (15 lines)
+- `Marco/Results/table_reg_female_rob.tex` (18 lines)
+- `Marco/Results/table_reg_female_share.tex` (16 lines)
+- `Marco/Results/table_reg_female_teachers.tex` (14 lines)
+- `Marco/Results/table_reg_female_trends.tex` (16 lines)
+- `Marco/Results/table_reg_female_wedding.tex` (16 lines)
+
+### original_data
+
+Tracked files: 400
+
+- `original_data/CIS/Barometro Dec 1986/MD1567/1567_etiq.csv` (2489 lines)
+- `original_data/CIS/Barometro Dec 1986/MD1567/1567_num.csv` (2489 lines)
+- `original_data/CIS/Barometro Jan 1987/MD1595/1595_etiq.csv` (2493 lines)
+- `original_data/CIS/Barometro Jan 1987/MD1595/1595_num.csv` (2493 lines)
+- `original_data/CIS/Barometro Julio 1979/1193_etiq.csv` (1201 lines)
+- `original_data/CIS/Barometro Julio 1979/1193_num.csv` (1201 lines)
+- `original_data/CIS/Barometro Oct 1986/MD1552/1552_etiq.csv` (2485 lines)
+- `original_data/CIS/Barometro Oct 1986/MD1552/1552_num.csv` (2485 lines)
+- `original_data/CIS/Barometro Sept 1979/MD1196/1196_etiq.csv` (1171 lines)
+- `original_data/CIS/Barometro Sept 1979/MD1196/1196_num.csv` (1171 lines)
+- `original_data/CIS/Cuestiones de Actualidad 1978 no hay mun/1141_etiq.csv` (5654 lines)
+- `original_data/CIS/Cuestiones de Actualidad 1978 no hay mun/1141_num.csv` (5654 lines)
+- `original_data/CIS/Cuestiones de actualidad 1977/1130_etiq.csv` (2953 lines)
+- `original_data/CIS/Cuestiones de actualidad 1977/1130_num.csv` (2953 lines)
+- `original_data/CIS/Desigualdad en la Familia 1990/MD1867/1867_etiq.csv` (2486 lines)
+- `original_data/CIS/Desigualdad en la Familia 1990/MD1867/1867_num.csv` (2486 lines)
+- `original_data/CIS/Familia y Formas de Convivencia 1991/MD1965/1965_etiq.csv` (7532 lines)
+- `original_data/CIS/Familia y Formas de Convivencia 1991/MD1965/1965_num.csv` (7532 lines)
+- `original_data/CIS/Funcionarios de Hacienda Oct 1979/MD1194/1194_etiq.csv` (1175 lines)
+- `original_data/CIS/Funcionarios de Hacienda Oct 1979/MD1194/1194_num.csv` (1175 lines)
+- `original_data/CIS/Juventud 1984/MD1434/1434_etiq.csv` (2001 lines)
+- `original_data/CIS/Juventud 1984/MD1434/1434_num.csv` (2001 lines)
+- `original_data/CIS/Servicio Militar 1986/MD1518/1518_etiq.csv` (2481 lines)
+- `original_data/CIS/Servicio Militar 1986/MD1518/1518_num.csv` (2481 lines)
+- `original_data/CIS/_data_cis/aborto_1992.dta` (1892 lines)
+- `original_data/CIS/_data_cis/actualidad_1980.dta` (75780 lines)
+- `original_data/CIS/_data_cis/barometro_apr1991.dta` (1074 lines)
+- `original_data/CIS/_data_cis/barometro_dec1990.dta` (1988 lines)
+- `original_data/CIS/_data_cis/barometro_dec1992.dta` (2631 lines)
+- `original_data/CIS/_data_cis/barometro_dic1986.dta` (1074 lines)
+- `original_data/CIS/_data_cis/barometro_feb1990.dta` (2250 lines)
+- `original_data/CIS/_data_cis/barometro_jan1987.dta` (615 lines)
+- `original_data/CIS/_data_cis/barometro_mar1990.dta` (1830 lines)
+- `original_data/CIS/_data_cis/barometro_nov1988.dta` (4389 lines)
+- `original_data/CIS/_data_cis/barometro_oct1986.dta` (2789 lines)
+- `original_data/CIS/_data_cis/barometro_oct1988.dta` (5023 lines)
+- `original_data/CIS/_data_cis/barometro_sept1979.dta` (1005 lines)
+- `original_data/CIS/_data_cis/barometros.dta` (196329 lines)
+- `original_data/CIS/_data_cis/barometros_data.dta` (234494 lines)
+- `original_data/CIS/_data_cis/desigualdad_1990.dta` (1399 lines)
+- `original_data/CIS/_data_cis/embarazo_aborto_1991.dta` (1736 lines)
+- `original_data/CIS/_data_cis/expectativas_1989.dta` (1757 lines)
+- `original_data/CIS/_data_cis/expectativas_1992.dta` (1631 lines)
+- `original_data/CIS/_data_cis/valores_1983.dta` (376 lines)
+- `original_data/CIS/_data_cis/valores_1992.dta` (13051 lines)
+- `original_data/CIS/primary_secondary_beliefs.xlsx` (56 lines)
+- `original_data/CIS/questions.xlsx` (390 lines)
+- `original_data/CIS_microdatos/Actitudes_inmigracion/act_inmigracion.dta` (63874 lines)
+- `original_data/CIS_microdatos/Barometro_mensual/barometromensual.dta` (1331040 lines)
+- `original_data/CIS_microdatos/Cooperacion y America Latina/coop_amerlatina.dta` (23158 lines)
+- `original_data/CIS_microdatos/ICC/ICC.dta` (238014 lines)
+- `original_data/INE_codes/INE_municip.dta` (1022 lines)
+- `original_data/INE_codes/codmun.dta` (2005 lines)
+- `original_data/INE_codes/codmun.xlsx` (2336 lines)
+- `original_data/INE_codes/codmun_lower.dta` (2051 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/censo1991_provincias.dta` (51867 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p01mper_cen91/P01MPER.dta` (59 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p02mper_cen91/P02MPER.dta` (54 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p03mper_cen91/P03MPER.dta` (105 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p04mper_cen91/P04MPER.dta` (10496 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p05mper_cen91/P05MPER.dta` (53 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p06mper_cen91/P06MPER.dta` (1153 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p07mper_cen91/P07MPER.dta` (63 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p08mper_cen91/P08MPER.dta` (4205 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p09mper_cen91/P09MPER.dta` (54 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p10mper_cen91/P10MPER.dta` (53 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p11mper_cen91/P11MPER.dta` (57 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p12mper_cen91/P12MPER.dta` (12468 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p13mper_cen91/P13MPER.dta` (60 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p14mper_cen91/P14MPER.dta` (54 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p15mper_cen91/P15MPER.dta` (204 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p16mper_cen91/P16MPER.dta` (55 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p17mper_cen91/P17MPER.dta` (70 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p18mper_cen91/P18MPER.dta` (85 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p19mper_cen91/P19MPER.dta` (86 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p20mper_cen91/P20MPER.dta` (63 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p21mper_cen91/P21MPER.dta` (55 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p22mper_cen91/P22MPER.dta` (70 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p23mper_cen91/P23MPER.dta` (53 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p24mper_cen91/P24MPER.dta` (60 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p25mper_cen91/P25MPER.dta` (56 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p26mper_cen91/P26MPER.dta` (57 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p27mper_cen91/P27MPER.dta` (62 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p28mper_cen91/P28MPER.dta` (129 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p29mper_cen91/P29MPER.dta` (69 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p30mper_cen91/P30MPER.dta` (63 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p31mper_cen91/P31MPER.dta` (55 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p32mper_cen91/P32MPER.dta` (12686 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p33mper_cen91/P33MPER.dta` (57 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p34mper_cen91/P34MPER.dta` (53 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p35mper_cen91/P35MPER.dta` (62 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p36mper_cen91/P36MPER.dta` (63 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p37mper_cen91/P37MPER.dta` (57 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p38mper_cen91/P38MPER.dta` (58 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p39mper_cen91/P39MPER.dta` (9017 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p40mper_cen91/P40MPER.dta` (53 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p41mper_cen91/P41MPER.dta` (1349 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p42mper_cen91/P42MPER.dta` (55 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p43mper_cen91/P43MPER.dta` (137 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p44mper_cen91/P44MPER.dta` (81 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p45mper_cen91/P45MPER.dta` (55 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p46mper_cen91/P46MPER.dta` (181 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p47mper_cen91/P47MPER.dta` (54 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p48mper_cen91/P48MPER.dta` (85 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p49mper_cen91/P49MPER.dta` (53 lines)
+- `original_data/INE_microdatos/censo1991/por_provincias/p50mper_cen91/P50MPER.dta` (87 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/censo2001_provincias.dta` (51147 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p01ph_cen01/P01FASEMUES.dta` (360 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p02ph_cen01/P02FASEMUES.dta` (552 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p03ph_cen01/P03FASEMUES.dta` (1873 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p04ph_cen01/P04FASEMUES.dta` (1116 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p05ph_cen01/P05FASEMUES.dta` (319 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p06ph_cen01/P06FASEMUES.dta` (605 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p07ph_cen01/P07FASEMUES.dta` (1040 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p08ph_cen01/P08FASEMUES.dta` (4787 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p09ph_cen01/P09FASEMUES.dta` (364 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p10ph_cen01/P10FASEMUES.dta` (666 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p11ph_cen01/P11FASEMUES.dta` (2744 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p12ph_cen01/P12FASEMUES.dta` (5164 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p13ph_cen01/P13FASEMUES.dta` (447 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p14ph_cen01/P14FASEMUES.dta` (614 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p15ph_cen01/P15FASEMUES.dta` (651 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p16ph_cen01/P16FASEMUES.dta` (339 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p17ph_cen01/P17FASEMUES.dta` (794 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p18ph_cen01/P18FASEMUES.dta` (923 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p19ph_cen01/P19FASEMUES.dta` (302 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p20ph_cen01/P20FASEMUES.dta` (858 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p21ph_cen01/P21FASEMUES.dta` (480 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p22ph_cen01/P22FASEMUES.dta` (342 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p23ph_cen01/P23FASEMUES.dta` (574 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p24ph_cen01/P24FASEMUES.dta` (468 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p25ph_cen01/P25FASEMUES.dta` (680 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p26ph_cen01/P26FASEMUES.dta` (487 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p27ph_cen01/P27FASEMUES.dta` (353 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p28ph_cen01/P28FASEMUES.dta` (5423 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p29ph_cen01/P29FASEMUES.dta` (6952 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p30ph_cen01/P30FASEMUES.dta` (5776 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p31ph_cen01/P31FASEMUES.dta` (776 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p32ph_cen01/P32FASEMUES.dta` (403 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p33ph_cen01/P33FASEMUES.dta` (842 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p34ph_cen01/P34FASEMUES.dta` (311 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p35ph_cen01/P35FASEMUES.dta` (1209 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p36ph_cen01/P36FASEMUES.dta` (616 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p37ph_cen01/P37FASEMUES.dta` (387 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p38ph_cen01/P38FASEMUES.dta` (953 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p39ph_cen01/P39FASEMUES.dta` (471 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p40ph_cen01/P40FASEMUES.dta` (288 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p41ph_cen01/P41FASEMUES.dta` (1773 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p42ph_cen01/P42FASEMUES.dta` (245 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p43ph_cen01/P43FASEMUES.dta` (969 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p44ph_cen01/P44FASEMUES.dta` (341 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p45ph_cen01/P45FASEMUES.dta` (571 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p46ph_cen01/P46FASEMUES.dta` (2388 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p47ph_cen01/P47FASEMUES.dta` (423 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p48ph_cen01/P48FASEMUES.dta` (1374 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p49ph_cen01/P49FASEMUES.dta` (308 lines)
+- `original_data/INE_microdatos/censo2001/por_provincias/p50ph_cen01/P50FASEMUES.dta` (800 lines)
+- `original_data/INE_microdatos/censo2011/Personas detallado_WEB.xlsx` (254 lines)
+- `original_data/INE_microdatos/censo2011/por_provincias/censo2011_provincias.dta` (188357 lines)
+- `original_data/INE_microdatos/censo2011/por_provincias/microdatos1.dta` (39053 lines)
+- `original_data/INE_microdatos/censo2011/por_provincias/microdatos2.dta` (37260 lines)
+- `original_data/INE_microdatos/censo2011/por_provincias/microdatos3.dta` (60907 lines)
+- `original_data/INE_microdatos/censo2011/por_provincias/microdatos4.dta` (51633 lines)
+- `original_data/IVS/Integrated_values_surveys_1981-2022.dta` (3925896 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_12.xlsx` (88 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_14.xlsx` (77 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_15.xlsx` (61 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_17.xlsx` (93 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_18.xlsx` (78 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_19.xlsx` (77 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_20.xlsx` (92 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_21.xlsx` (74 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_23.xlsx` (116 lines)
+- `original_data/MNP/1933_1953/1933_extracted pages/1933_9.xlsx` (79 lines)
+- `original_data/MNP/1933_1953/1951_extracted pages/43.xlsx` (62 lines)
+- `original_data/MNP/1933_1953/1951_extracted pages/44.xlsx` (65 lines)
+- `original_data/MNP/1933_1953/1951_extracted pages/45.xlsx` (75 lines)
+- `original_data/MNP/1933_1953/1951_extracted pages/46.xlsx` (70 lines)
+- `original_data/MNP/1933_1953/1951_extracted pages/47.xlsx` (73 lines)
+- `original_data/MNP/MNP.dta` (596 lines)
+- `original_data/MNP/MNP_municip.xlsx` (206 lines)
+- `original_data/MNP/MNP_province.xlsx` (315 lines)
+- `original_data/MNP/NF/1. Dataset 1930-1953.do` (188 lines)
+- `original_data/MNP/NF/dta/MNP_1930_1953.dta` (1396 lines)
+- `original_data/MNP/NF/dta/MNP_1930_1953_clean.dta` (230 lines)
+- `original_data/MNP/NF/dta/MNP_1930_1953_clean_v2.dta` (639 lines)
+- `original_data/MNP/NF/output/MNP_1930_1970_clean.dta` (356 lines)
+- `original_data/MNP/NF/output/MNP_1930_1970_clean_v2.dta` (235 lines)
+- `original_data/MNP/NF/output/MNP_1930_1970_clean_v2_PROVINCElevel.dta` (225 lines)
+- `original_data/MNP/NF/raw/1930-1953.xlsx` (2674 lines)
+- `original_data/MNP/NF/trash/MNP_1930.dta` (55 lines)
+- `original_data/MNP/NF/trash/MNP_1930_1953_clean_1.dta` (1393 lines)
+- `original_data/MNP/NF/trash/MNP_1931.dta` (57 lines)
+- `original_data/MNP/NF/trash/MNP_1932.dta` (73 lines)
+- `original_data/MNP/NF/trash/MNP_1933.dta` (132 lines)
+- `original_data/MNP/NF/trash/MNP_1934.dta` (75 lines)
+- `original_data/MNP/NF/trash/MNP_1935.dta` (72 lines)
+- `original_data/MNP/NF/trash/MNP_1936.dta` (65 lines)
+- `original_data/MNP/NF/trash/MNP_1937.dta` (80 lines)
+- `original_data/MNP/NF/trash/MNP_1938.dta` (67 lines)
+- ... 200 more
+
+### output_data
+
+Tracked files: 28
+
+- `output_data/dataset.dta` (45281 lines)
+- `output_data/dataset_PROVINCElevel.dta` (21040 lines)
+- `output_data/dataset_PROVINCElevel_tmp.dta` (350 lines)
+- `output_data/dataset_forcis.dta` (3886 lines)
+- `output_data/dataset_forcis_provincelevel.dta` (449 lines)
+- `output_data/dataset_microdata1991.dta` (5633852 lines)
+- `output_data/dataset_microdata1991_2pc.dta` (6588 lines)
+- `output_data/dataset_microdata1991_cleanedMarco.dta` (52038 lines)
+- `output_data/dataset_microdata2001.dta` (6441998 lines)
+- `output_data/dataset_microdata2001_cleanedMarco.dta` (3684304 lines)
+- `output_data/dataset_microdata2011.dta` (12561297 lines)
+- `output_data/dataset_microdata2011_cleanedMarco.dta` (162632 lines)
+- `output_data/depuracion/depuracion_province.dta` (8 lines)
+- `output_data/descriptive_maps/maps_qgis.dta` (48 lines)
+- `output_data/purge/teachers.dta` (39 lines)
+- `output_data/purge/teachers_new.dta` (15 lines)
+- `output_data/purge/teachers_newbyyear.dta` (25 lines)
+- `output_data/purge/victims_archive.dta` (2109 lines)
+- `output_data/purge/victims_archive_new.dta` (2975 lines)
+- `output_data/purge/victims_archive_temp.dta` (14227 lines)
+- `output_data/purge/victims_archive_temp_new.dta` (7231 lines)
+- `output_data/purge/victims_archive_v1.dta` (83654 lines)
+- `output_data/purge/victims_archive_v2.dta` (5389 lines)
+- `output_data/purge/victims_mun.dta` (1319 lines)
+- `output_data/purge/victims_mun_gender.dta` (2991 lines)
+- `output_data/purge/victims_muncode.dta` (448 lines)
+- `output_data/purge/victimsarchive_muncode.dta` (1906 lines)
+- `output_data/purge/victimsarchive_muncode_v2.dta` (1082 lines)
+
+### results
+
+Tracked files: 7
+
+- `results/summary_panels.tex` (29 lines)
+- `results/table_balancing.tex` (24 lines)
+- `results/table_cis_kids.tex` (14 lines)
+- `results/table_cis_primary.tex` (13 lines)
+- `results/table_reg_female_rob.tex` (18 lines)
+- `results/table_reg_female_trends.tex` (16 lines)
+- `results/table_reg_female_trends_deaths.tex` (18 lines)
+
+### comments
+
+Tracked files: 1
+
+- `comments/refine-feedback-priority-sorted.md` (234 lines)
+
+## Keyword hits
+
+- `Marco/DO/ESS.do` (115 lines): birth
+- `Marco/DO/Main_analysis.do` (1933 lines): 1961, birth
+- `Marco/DO/new/Main_analysis.do` (2672 lines): 1961, birth
+- `Marco/Data/ESS_households_data.dta` (141458 lines): birth
+- `Marco/Data/dataset.dta` (42178 lines): birth
+- `Marco/Data/table_diffdisc_lag.tex` (12 lines): birth
+- `Marco/Results/performance_data_flag.dta` (163946 lines): 1961
+- `Marco/Results/table_reg_female.tex` (14 lines): birth
+- `Marco/Results/table_reg_female_1544.tex` (16 lines): birth
+- `Marco/Results/table_reg_female_1930.tex` (16 lines): birth
+- `Marco/Results/table_reg_female_basefissa.tex` (16 lines): birth
+- `Marco/Results/table_reg_female_basemobile.tex` (16 lines): birth
+- `Marco/Results/table_reg_female_discrete.tex` (16 lines): birth
+- `Marco/Results/table_reg_female_flag4.tex` (15 lines): birth
+- `Marco/Results/table_reg_female_placebo.tex` (15 lines): birth
+- `Marco/Results/table_reg_female_rob.tex` (18 lines): birth
+- `Marco/Results/table_reg_female_share.tex` (16 lines): birth
+- `Marco/Results/table_reg_female_teachers.tex` (14 lines): birth
+- `Marco/Results/table_reg_female_trends.tex` (16 lines): birth
+- `Marco/Results/table_reg_female_wedding.tex` (16 lines): birth
+- `Paper/JOLE_review_detailed_notes_it.md` (173 lines): 1961, Law 56, migracion, migraciones, birth, stayer, mover
+- `comments/refine-feedback-priority-sorted.md` (234 lines): birth
+- `original_data/CIS/Barometro Dec 1986/MD1567/1567_etiq.csv` (2489 lines): 1961, mover
+- `original_data/CIS/Barometro Dec 1986/MD1567/1567_num.csv` (2489 lines): 1961
+- `original_data/CIS/Barometro Jan 1987/MD1595/1595_etiq.csv` (2493 lines): 1961
+- `original_data/CIS/Barometro Jan 1987/MD1595/1595_num.csv` (2493 lines): 1961
+- `original_data/CIS/Barometro Oct 1986/MD1552/1552_etiq.csv` (2485 lines): 1961
+- `original_data/CIS/Barometro Oct 1986/MD1552/1552_num.csv` (2485 lines): 1961
+- `original_data/CIS/Barometro Sept 1979/MD1196/1196_etiq.csv` (1171 lines): 1961
+- `original_data/CIS/Barometro Sept 1979/MD1196/1196_num.csv` (1171 lines): 1961
+- `original_data/CIS/Cuestiones de Actualidad 1978 no hay mun/1141_etiq.csv` (5654 lines): 1961
+- `original_data/CIS/Cuestiones de Actualidad 1978 no hay mun/1141_num.csv` (5654 lines): 1961
+- `original_data/CIS/Cuestiones de actualidad 1977/1130_etiq.csv` (2953 lines): 1961
+- `original_data/CIS/Cuestiones de actualidad 1977/1130_num.csv` (2953 lines): 1961
+- `original_data/CIS/Desigualdad en la Familia 1990/MD1867/1867_etiq.csv` (2486 lines): 1961
+- `original_data/CIS/Desigualdad en la Familia 1990/MD1867/1867_num.csv` (2486 lines): 1961
+- `original_data/CIS/Familia y Formas de Convivencia 1991/MD1965/1965_etiq.csv` (7532 lines): 1961
+- `original_data/CIS/Familia y Formas de Convivencia 1991/MD1965/1965_num.csv` (7532 lines): 1961
+- `original_data/CIS/Servicio Militar 1986/MD1518/1518_etiq.csv` (2481 lines): 1961
+- `original_data/CIS/Servicio Militar 1986/MD1518/1518_num.csv` (2481 lines): 1961
+- `original_data/CIS/_data_cis/barometro_oct1988.dta` (5023 lines): 1961, mover
+- `original_data/CIS/_data_cis/barometros.dta` (196329 lines): birth
+- `original_data/CIS/_data_cis/barometros_data.dta` (234494 lines): migration
+- `original_data/CIS/_data_cis/embarazo_aborto_1991.dta` (1736 lines): 1961
+- `original_data/CIS/_data_cis/expectativas_1989.dta` (1757 lines): 1961
+- `original_data/CIS_microdatos/Cooperacion y America Latina/coop_amerlatina.dta` (23158 lines): mover
+- `original_data/INE_codes/INE_municip.dta` (1022 lines): 1961
+- `original_data/IVS/Integrated_values_surveys_1981-2022.dta` (3925896 lines): migration, birth
+- `original_data/MNP/NF/1. Dataset 1930-1953.do` (188 lines): birth
+- `original_data/MNP/NF/dta/MNP_1930_1953.dta` (1396 lines): birth
+- `original_data/MNP/NF/dta/MNP_1930_1953_clean.dta` (230 lines): birth
+- `original_data/MNP/NF/dta/MNP_1930_1953_clean_v2.dta` (639 lines): birth
+- `original_data/MNP/NF/output/MNP_1930_1970_clean.dta` (356 lines): birth
+- `original_data/MNP/NF/output/MNP_1930_1970_clean_v2.dta` (235 lines): birth
+- `original_data/MNP/NF/output/MNP_1930_1970_clean_v2_PROVINCElevel.dta` (225 lines): birth
+- `original_data/MNP/NF/trash/MNP_1930.dta` (55 lines): birth
+- `original_data/MNP/NF/trash/MNP_1930_1953_clean_1.dta` (1393 lines): birth
+- `original_data/MNP/NF/trash/MNP_1931.dta` (57 lines): birth
+- `original_data/MNP/NF/trash/MNP_1932.dta` (73 lines): birth
+- `original_data/MNP/NF/trash/MNP_1933.dta` (132 lines): birth
+- `original_data/MNP/NF/trash/MNP_1934.dta` (75 lines): birth
+- `original_data/MNP/NF/trash/MNP_1935.dta` (72 lines): birth
+- `original_data/MNP/NF/trash/MNP_1936.dta` (65 lines): birth
+- `original_data/MNP/NF/trash/MNP_1937.dta` (80 lines): birth
+- `original_data/MNP/NF/trash/MNP_1938.dta` (67 lines): birth
+- `original_data/MNP/NF/trash/MNP_1939.dta` (84 lines): birth
+- `original_data/MNP/NF/trash/MNP_1940.dta` (76 lines): birth
+- `original_data/MNP/NF/trash/MNP_1941.dta` (115 lines): birth
+- `original_data/MNP/NF/trash/MNP_1942.dta` (101 lines): birth
+- `original_data/MNP/NF/trash/MNP_1943.dta` (100 lines): birth
+- `original_data/MNP/NF/trash/MNP_1944.dta` (112 lines): birth
+- `original_data/MNP/NF/trash/MNP_1945.dta` (103 lines): birth
+- `original_data/MNP/NF/trash/MNP_1946.dta` (111 lines): birth
+- `original_data/MNP/NF/trash/MNP_1947.dta` (101 lines): birth
+- `original_data/MNP/NF/trash/MNP_1948.dta` (96 lines): birth
+- `original_data/MNP/NF/trash/MNP_1949.dta` (99 lines): birth
+- `original_data/MNP/NF/trash/MNP_1950.dta` (86 lines): birth
+- `original_data/MNP/NF/trash/MNP_1951.dta` (104 lines): birth
+- `original_data/MNP/NF/trash/MNP_1952.dta` (98 lines): birth
+- `original_data/MNP/NF/trash/MNP_1953.dta` (97 lines): birth
+- `original_data/MNP/NF/trash/province_known.dta` (61 lines): birth
+- `original_data/MNP/NF/trash/province_rest.dta` (137 lines): birth
+- `original_data/MNP/NF/trash/province_tot.dta` (530 lines): birth
+- `original_data/MNP/anuarios_estadisticos_from1954/MNP_1971_1985/MNP_1971_1985_clean.dta` (476 lines): birth
+- `original_data/MNP/anuarios_estadisticos_from1954/MNP_1971_1985/MNP_1971_1985_clean_PROVINCElevel.dta` (277 lines): birth
+- `original_data/census/census_provinces_byage/1930/census - Copy.dta` (99 lines): birth
+- `original_data/purge/PARES/output01.csv` (4927 lines): 1961
+- `original_data/purge/PARES/pares1.csv` (25680 lines): 1961
+- `original_data/purge/PARES/pares1.dta` (5996 lines): 1961
+- `original_data/purge/PARES/pares2.csv` (356683 lines): 1961, mover
+- `original_data/purge/PARES/pares2.dta` (99809 lines): 1961, mover
+- `original_data/purge/PARES/pares3.csv` (60457 lines): 1961, mover
+- `original_data/purge/PARES/pares3.dta` (14244 lines): 1961, mover
+- `original_data/purge/PARES/pares4.csv` (507470 lines): 1961
+- `original_data/purge/PARES/pares4.dta` (114555 lines): 1961
+- `original_data/purge/PARES/pares5.csv` (66587 lines): 1961, mover
+- `original_data/purge/PARES/pares5.dta` (15813 lines): 1961
+- `original_data/purge/replication_Balcells_Villamil_2020_NEPS/replication_Balcells_Villamil_2020_NEPS/dataset.csv` (10364 lines): 1961
+- `output_data/dataset.dta` (45281 lines): birth
+- `output_data/dataset_PROVINCElevel.dta` (21040 lines): birth
+- `output_data/dataset_PROVINCElevel_tmp.dta` (350 lines): birth
+- `output_data/dataset_microdata1991.dta` (5633852 lines): birth
+- `output_data/purge/victims_archive_temp.dta` (14227 lines): 1961
+- `output_data/purge/victims_archive_v1.dta` (83654 lines): 1961, mover
+- `output_data/purge/victims_archive_v2.dta` (5389 lines): 1961
+- `output_data/purge/victims_mun_gender.dta` (2991 lines): 1961, mover
+- `progs/01_summary_stats.do` (187 lines): birth
+- `progs/02_dataset.do` (396 lines): birth
+- `progs/02_dataset_provincelevel.do` (313 lines): birth
+- `progs/_old/01_summary.do` (84 lines): birth
+- `progs/_old/04_ttest.do` (106 lines): birth
+- `progs/_old/04_ttest_.do` (84 lines): birth
+- `progs/data/01b1_MNP_1971_1985.do` (278 lines): birth
+- `progs/data/01b1_MNP_upto1970.do` (305 lines): birth
+- `progs/data/05_import_cis.do` (1553 lines): birth
+- `progs/data/_old/01b1_MNP_import.do` (146 lines): birth
+- `progs/reg/1_balancing.do` (233 lines): birth
+- `progs/reg/1_main_reg_cont.do` (1351 lines): 1961, birth
+- `progs/reg/1_main_reg_cont_PROV.do` (1353 lines): 1961, birth
+- `progs/reg/1_main_reg_median.do` (1437 lines): 1961, birth
+- `progs/reg/2_reg.do` (95 lines): birth
+- `progs/reg/3_cis.do` (66 lines): birth
+- `progs/reg/3_cis_cont_table.do` (86 lines): birth
+- `progs/reg/3_cis_eventstudy.do` (189 lines): 1961, birth
+- `progs/reg/3_cis_eventstudy_cont.do` (279 lines): 1961, birth
+- `progs/reg/3_cis_graphs_cont.do` (107 lines): birth
+- `progs/reg/3_cis_graphs_median.do` (246 lines): birth
+- `progs/reg/3_cis_median_table.do` (602 lines): birth
+- `progs/reg/4_graphs_qualitative.do` (54 lines): birth
+- `progs/reg/5_graph_global_fertility_rate.do` (14 lines): birth
+- `progs/reg/6_microdata.do` (23 lines): birth
+- `progs/reg/_old/1.do` (167 lines): 1961, birth
+- `progs/reg/_old/1_eventstudy_nointeractions.do` (122 lines): 1961, birth
+- `progs/reg/es_graphs.do` (75 lines): 1961, birth
+- `progs/reg/only1treat/1_main_reg_cont_ONLYPOP.do` (685 lines): 1961, birth
+- `progs/reg/only1treat/1_main_reg_median_ONLYPOP.do` (723 lines): 1961, birth
+- `progs/reg/only1treat/1_main_reg_separateregressors.do` (417 lines): 1961, birth
+- `progs/reg/only1treat/3_cis_median_table_1treatment.do` (386 lines): birth
+- `progs/reg/only1treat/3_cis_median_table_ONLYPOP.do` (602 lines): birth
+- `results/summary_panels.tex` (29 lines): birth
+- `results/table_reg_female_rob.tex` (18 lines): birth
+- `results/table_reg_female_trends.tex` (16 lines): birth
+- `results/table_reg_female_trends_deaths.tex` (18 lines): birth

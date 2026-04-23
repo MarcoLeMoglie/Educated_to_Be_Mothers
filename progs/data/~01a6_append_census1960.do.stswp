@@ -1,0 +1,545 @@
+*******************************
+**# 1960 CENSUS 
+*******************************
+
+*******************************
+**# 1. 1960 Total population  
+*******************************
+import excel "$Data\census\1960\Census_1960.xlsx", sheet("Sheet1") cellrange(A1:C151)  firstrow  clear
+*br if province =="Alava"
+drop if type =="total province"
+replace province = lower(province)
+replace province = subinstr(province, "Á", "a",.) 
+replace province = subinstr(province, "í", "i",.) 
+replace province = subinstr(province, "ó", "o",.) 
+replace province = subinstr(province, "á", "a",.) 
+replace province = subinstr(province, "é", "e",.) 
+replace province = subinstr(province, "ú", "u",.) 
+**# Province code #
+gen codprov =4 if province == "almeria" 
+replace codprov =11 if province == "cadiz" 
+replace codprov =14 if province == "cordoba"  
+replace codprov =18 if province == "granada"  
+replace codprov =21 if province == "huelva" 
+replace codprov =23 if province == "jaen" 
+replace codprov =29 if province == "malaga" 
+replace codprov =41 if province == "sevilla" 
+replace codprov =22 if province == "huesca" 
+replace codprov =44 if province == "teruel" 
+replace codprov =50 if province == "zaragoza"
+replace province = "asturias"  if province == "oviedo" 
+replace codprov =33 if province == "asturias" 
+replace codprov =7 if province == "baleares" 
+replace province = "laspalmas"  if province == "palmas" 
+replace province = "laspalmas"  if province == "palmas (las)" 
+
+replace codprov =35 if province == "laspalmas" 
+replace codprov =38 if province == "santa cruz de tenerife" 
+replace province = "cantabria"  if province == "santander" 
+replace codprov =39 if province == "cantabria" 
+replace codprov =5 if province == "avila"
+replace codprov =9 if province == "burgos" 
+replace codprov =24 if province == "leon" 
+replace codprov =34 if province == "palencia" 
+replace codprov =37 if province == "salamanca" 
+replace codprov =40 if province == "segovia" 
+replace codprov =42 if province == "soria" 
+replace codprov =47 if province == "valladolid"
+replace codprov =49 if province == "zamora" 
+replace codprov =2 if province == "albacete"
+replace codprov =13 if province == "ciudad real" 
+replace codprov =16 if province == "cuenca" 
+replace codprov =19 if province == "guadalajara"
+replace codprov =45 if province == "toledo"
+replace codprov =8 if province == "barcelona" 
+replace codprov =17 if province == "gerona" 
+replace codprov =25 if province == "lerida" 
+replace codprov =43 if province == "tarragona"
+replace codprov =3 if province == "alicante" 
+replace codprov =12 if province == "castellon" 
+replace codprov =46 if province == "valencia" 
+replace codprov =6 if province == "badajoz" 
+replace codprov =10 if province == "caceres" 
+replace province = "a coruña"  if province == "coruna" 
+replace province = "a coruña"  if province == "coruña" 
+replace codprov =15 if province == "a coruña"
+replace codprov =27 if province == "lugo"
+replace province = "ourense"  if province == "orense" 
+replace codprov =32 if province == "ourense"
+replace codprov =36 if province == "pontevedra" 
+replace codprov =28 if province == "madrid"
+replace codprov =30 if province == "murcia"
+replace codprov =31 if province == "navarra" 
+replace codprov =1 if province == "alava" 
+replace codprov =48 if province == "vizcaya"
+replace codprov =20 if province == "guipuzcoa"
+replace codprov =26 if province == "larioja"| province == "logroño"
+
+save "$Data\census\census_1960_step1.dta", replace
+
+*******************************
+**# 2. 1960 population by age
+*******************************
+import excel "$Data\census\1960\by_age\censo1960_byage.xlsx", cellrange(A1:V301) sheet("Sheet1") firstrow clear
+drop if  province =="burgos" | province =="malaga" | province =="badajoz"
+
+drop V 
+replace group17=0 if missing(group17)
+replace group2=group2+group3
+drop group3
+gen group3 = group4+group5 //15-24
+drop group4 group5
+gen group4 = group6+group7 //25-34
+drop group6 group7
+gen group5 = group8+group9
+drop group8 group9
+gen group6 = group10+group11
+drop group10 group11
+gen group7 = group12+ group13
+gen group8=group14+group15+group16+group17
+*rename group17 non_stated
+drop group12-group17
+replace province = lower(province)
+replace province = subinstr(province, "Á", "a",.) 
+replace province = subinstr(province, "í", "i",.) 
+replace province = subinstr(province, "ó", "o",.) 
+replace province = subinstr(province, "á", "a",.) 
+replace province = subinstr(province, "é", "e",.) 
+replace province = subinstr(province, "ú", "u",.) 
+replace province = lower(province)
+**# Province code #
+gen codprov =4 if province == "almeria" 
+replace codprov =11 if province == "cadiz" 
+replace codprov =14 if province == "cordoba"  
+replace codprov =18 if province == "granada"  
+replace codprov =21 if province == "huelva" 
+replace codprov =23 if province == "jaen" 
+replace codprov =29 if province == "malaga" 
+replace codprov =41 if province == "sevilla" 
+replace codprov =22 if province == "huesca" 
+replace codprov =44 if province == "teruel" 
+replace codprov =50 if province == "zaragoza"
+replace province = "asturias"  if province == "oviedo" 
+replace codprov =33 if province == "asturias" 
+replace codprov =7 if province == "baleares" 
+replace province = "laspalmas"  if province == "palmas" 
+replace province = "laspalmas"  if province == "palmas (las)" 
+replace province = "laspalmas"  if province == "las palmas" 
+
+replace codprov =35 if province == "laspalmas" 
+replace province = "santa cruz de tenerife" if province == "tenerife" 
+replace province = "santa cruz de tenerife" if province == "sta. c. tenerife" |province == "santacruztenerife"
+replace codprov =38 if province == "santa cruz de tenerife" 
+replace codprov =38 if province == "santa cruz tenerife" 
+replace province = "cantabria"  if province == "santander" 
+replace codprov =39 if province == "cantabria" 
+replace codprov =5 if province == "avila"
+replace codprov =9 if province == "burgos" 
+replace codprov =24 if province == "leon" 
+replace codprov =34 if province == "palencia" 
+replace codprov =37 if province == "salamanca" 
+replace codprov =40 if province == "segovia" 
+replace codprov =42 if province == "soria" 
+replace codprov =47 if province == "valladolid"
+replace codprov =49 if province == "zamora" 
+replace codprov =2 if province == "albacete"
+replace codprov =13 if province == "ciudad real" 
+replace codprov =16 if province == "cuenca" 
+replace codprov =19 if province == "guadalajara"
+replace codprov =45 if province == "toledo"
+replace codprov =8 if province == "barcelona" 
+replace province = "gerona"  if province == "gerona" 
+replace codprov =17 if province == "gerona" 
+replace codprov =25 if province == "lerida" |province=="lleida"
+replace codprov =43 if province == "tarragona"
+replace codprov =3 if province == "alicante" 
+replace codprov =12 if province == "castellon" 
+replace codprov =12 if province == "castellon de la p." 
+replace codprov =12 if province == "castellon de la plana" 
+replace codprov =46 if province == "valencia" 
+replace codprov =6 if province == "badajoz" 
+replace codprov =10 if province == "caceres" 
+replace province = "a coruña"  if province == "coruna" 
+replace province = "a coruña"  if province == "coruña" 
+replace province = "a coruña"  if province == "coruña (la)" 
+replace codprov =15 if province == "a coruña"
+replace codprov =27 if province == "lugo"
+replace province = "ourense"  if province == "orense" 
+replace codprov =32 if province == "ourense"
+replace codprov =36 if province == "pontevedra" 
+replace codprov =28 if province == "madrid"
+replace codprov =30 if province == "murcia"
+replace codprov =31 if province == "navarra" 
+replace codprov =1 if province == "alava" 
+replace codprov =48 if province == "vizcaya"
+replace codprov =20 if province == "guipuzcoa"
+replace codprov =26 if province == "larioja"| province == "logroño"| province == "logrono"
+
+sort province type sex
+egen id = group(province type)
+egen Sex = group(sex)
+order id  sex type
+
+reshape wide total type sex group* , i(id) j(Sex)
+
+
+order province
+rename total1 pop_male
+rename total2 pop_total
+rename total3 pop_female
+drop sex* type2 type3 
+rename type1 type
+rename group(#)1 group(#)_male
+rename group(#)2 group(#)_total
+rename group(#)3 group(#)_female
+*rename non_stated1 non_stated_male
+*rename non_stated2 non_stated_total
+*rename non_stated3 non_stated_female
+drop id  
+order prov type pop* codprov
+
+ 
+/*
+replace type ="full province" if type =="total province"
+foreach v of varlist pop_male - pop_female {
+    replace `v' = -`v' if type == "full province"  
+	egen `v'_restprov = total(`v'), by(codprov)
+	replace `v' = -`v'_restprov if type == "full province"
+	drop `v'_restprov
+}
+replace type ="rest province" if type =="full province"
+*/
+
+
+foreach v of numlist 1/8{
+rename group`v'_female popwomen_agegroup`v'_1960
+rename group`v'_male popmen_agegroup`v'_1960
+rename group`v'_total pop_agegroup`v'_1960
+
+}
+
+
+* Compute Pop share by age groups
+local group ""1" "2" "3" "4" "5" "6" "7" "8""
+ foreach x of local group{ 
+bysort codprov: gen popshare_agegroup`x' =pop_agegroup`x'/ pop_total if province !="burgos"
+bysort codprov: gen popsharemen_agegroup`x' =popmen_agegroup`x'/ pop_male if province !="burgos" & province !="malaga" & province !="badajoz"
+bysort codprov: gen popsharewomen_agegroup`x' =popwomen_agegroup`x'/ pop_female if province !="burgos" & province !="malaga" & province !="badajoz"
+
+label variable popshare_agegroup`x' "Pop. share age gr.`x'"
+
+
+rename popshare_agegroup`x' popshare_agegroup`x'_1960 
+rename popsharemen_agegroup`x' popsharemen_agegroup`x'_1960 
+rename popsharewomen_agegroup`x' popsharewomen_agegroup`x'_1960 
+}
+
+
+foreach x in women men {
+label var pop`x'_agegroup1_1960 "Pop. below 5"
+label var pop`x'_agegroup2_1960 "Pop. 5-14"
+label var pop`x'_agegroup3_1960 "Pop. 15-24"
+label var pop`x'_agegroup4_1960 "Pop. 25-34"
+label var pop`x'_agegroup5_1960 "Pop. 35-44"
+label var pop`x'_agegroup6_1960 "Pop. 45-54"
+label var pop`x'_agegroup7_1960 "Pop. 55-64"
+label var pop`x'_agegroup8_1960 "Pop. >65" 
+}
+label var pop_agegroup1_1960 "Pop. below 5"
+label var pop_agegroup2_1960 "Pop. 5-14"
+label var pop_agegroup3_1960 "Pop. 15-24"
+label var pop_agegroup4_1960 "Pop. 25-34"
+label var pop_agegroup5_1960 "Pop. 35-44"
+label var pop_agegroup6_1960 "Pop. 45-54"
+label var pop_agegroup7_1960 "Pop. 55-64"
+label var pop_agegroup8_1960 "Pop. >65"
+/*
+rename non_stated_female non_stated_women_1960
+rename non_stated_male non_stated_men_1960
+rename non_stated_total non_stated_1960
+label variable non_stated_women_1960 "Non-stated age"
+label variable non_stated_men_1960 "Non-stated age"
+label variable non_stated_1960 "Non-stated age"
+*/
+rename pop_total pop_1960 
+rename pop_female pop_female_1960 
+rename pop_male pop_male_1960 
+label variable pop_1960 "Population 1960"
+label variable pop_female_1960 "Female population 1960"
+label variable pop_male_1960 "Male population 1960"
+* Next step it is not necessary (as the current dataset contains total population, I did it just to check all is fine)
+
+*merge 1:1 codprov type using "$Data\census\census_1960_step1.dta"
+order province codprov type pop_* pop_male_* pop_female* 
+replace type ="rest province" if type=="total province"
+save "$Data\census\census_1960.dta",replace
+
+erase "$Data\census\census_1960_step1.dta"
+
+use "$Data\census\census_1960.dta", clear
+
+
+* * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * *
+**# PROVINCE LEVEL DATASET
+* * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * *
+*******************************
+**# 1960 CENSUS 
+*******************************
+
+*******************************
+**# 1. 1960 Total population  
+*******************************
+import excel "$Data\census\1960\Census_1960.xlsx", sheet("Sheet1") cellrange(A1:C151)  firstrow  clear
+*br if province =="Alava"
+keep if type =="total province"
+replace province = lower(province)
+replace province = subinstr(province, "Á", "a",.) 
+replace province = subinstr(province, "í", "i",.) 
+replace province = subinstr(province, "ó", "o",.) 
+replace province = subinstr(province, "á", "a",.) 
+replace province = subinstr(province, "é", "e",.) 
+replace province = subinstr(province, "ú", "u",.) 
+**# Province code #
+gen codprov =4 if province == "almeria" 
+replace codprov =11 if province == "cadiz" 
+replace codprov =14 if province == "cordoba"  
+replace codprov =18 if province == "granada"  
+replace codprov =21 if province == "huelva" 
+replace codprov =23 if province == "jaen" 
+replace codprov =29 if province == "malaga" 
+replace codprov =41 if province == "sevilla" 
+replace codprov =22 if province == "huesca" 
+replace codprov =44 if province == "teruel" 
+replace codprov =50 if province == "zaragoza"
+replace province = "asturias"  if province == "oviedo" 
+replace codprov =33 if province == "asturias" 
+replace codprov =7 if province == "baleares" 
+replace province = "laspalmas"  if province == "palmas" 
+replace province = "laspalmas"  if province == "palmas (las)" 
+
+replace codprov =35 if province == "laspalmas" 
+replace codprov =38 if province == "santa cruz de tenerife" 
+replace province = "cantabria"  if province == "santander" 
+replace codprov =39 if province == "cantabria" 
+replace codprov =5 if province == "avila"
+replace codprov =9 if province == "burgos" 
+replace codprov =24 if province == "leon" 
+replace codprov =34 if province == "palencia" 
+replace codprov =37 if province == "salamanca" 
+replace codprov =40 if province == "segovia" 
+replace codprov =42 if province == "soria" 
+replace codprov =47 if province == "valladolid"
+replace codprov =49 if province == "zamora" 
+replace codprov =2 if province == "albacete"
+replace codprov =13 if province == "ciudad real" 
+replace codprov =16 if province == "cuenca" 
+replace codprov =19 if province == "guadalajara"
+replace codprov =45 if province == "toledo"
+replace codprov =8 if province == "barcelona" 
+replace codprov =17 if province == "gerona" 
+replace codprov =25 if province == "lerida" 
+replace codprov =43 if province == "tarragona"
+replace codprov =3 if province == "alicante" 
+replace codprov =12 if province == "castellon" 
+replace codprov =46 if province == "valencia" 
+replace codprov =6 if province == "badajoz" 
+replace codprov =10 if province == "caceres" 
+replace province = "a coruña"  if province == "coruna" 
+replace province = "a coruña"  if province == "coruña" 
+replace codprov =15 if province == "a coruña"
+replace codprov =27 if province == "lugo"
+replace province = "ourense"  if province == "orense" 
+replace codprov =32 if province == "ourense"
+replace codprov =36 if province == "pontevedra" 
+replace codprov =28 if province == "madrid"
+replace codprov =30 if province == "murcia"
+replace codprov =31 if province == "navarra" 
+replace codprov =1 if province == "alava" 
+replace codprov =48 if province == "vizcaya"
+replace codprov =20 if province == "guipuzcoa"
+replace codprov =26 if province == "larioja"| province == "logroño"
+
+save "$Data\census\census_1960_step1_PROVINCElevel.dta", replace
+
+*******************************
+**# 2. 1960 population by age
+*******************************
+import excel "$Data\census\1960\by_age\censo1960_byage.xlsx", cellrange(A1:V301) sheet("Sheet1") firstrow clear
+drop if type=="municipality"
+drop if  province =="burgos" | province =="malaga" | province =="badajoz"
+
+
+drop V 
+replace group17=0 if missing(group17)
+replace group2=group2+group3
+drop group3
+gen group3 = group4+group5 //15-24
+drop group4 group5
+gen group4 = group6+group7 //25-34
+drop group6 group7
+gen group5 = group8+group9
+drop group8 group9
+gen group6 = group10+group11
+drop group10 group11
+gen group7 = group12+ group13
+gen group8=group14+group15+group16+group17
+*rename group17 non_stated
+drop group12-group17
+replace province = lower(province)
+replace province = subinstr(province, "Á", "a",.) 
+replace province = subinstr(province, "í", "i",.) 
+replace province = subinstr(province, "ó", "o",.) 
+replace province = subinstr(province, "á", "a",.) 
+replace province = subinstr(province, "é", "e",.) 
+replace province = subinstr(province, "ú", "u",.) 
+replace province = lower(province)
+**# Province code #
+gen codprov =4 if province == "almeria" 
+replace codprov =11 if province == "cadiz" 
+replace codprov =14 if province == "cordoba"  
+replace codprov =18 if province == "granada"  
+replace codprov =21 if province == "huelva" 
+replace codprov =23 if province == "jaen" 
+replace codprov =29 if province == "malaga" 
+replace codprov =41 if province == "sevilla" 
+replace codprov =22 if province == "huesca" 
+replace codprov =44 if province == "teruel" 
+replace codprov =50 if province == "zaragoza"
+replace province = "asturias"  if province == "oviedo" 
+replace codprov =33 if province == "asturias" 
+replace codprov =7 if province == "baleares" 
+replace province = "laspalmas"  if province == "palmas" 
+replace province = "laspalmas"  if province == "palmas (las)" 
+replace province = "laspalmas"  if province == "las palmas" 
+
+replace codprov =35 if province == "laspalmas" 
+replace province = "santa cruz de tenerife" if province == "tenerife" 
+replace province = "santa cruz de tenerife" if province == "sta. c. tenerife" |province == "santacruztenerife"
+replace codprov =38 if province == "santa cruz de tenerife" 
+replace codprov =38 if province == "santa cruz tenerife" 
+replace province = "cantabria"  if province == "santander" 
+replace codprov =39 if province == "cantabria" 
+replace codprov =5 if province == "avila"
+replace codprov =9 if province == "burgos" 
+replace codprov =24 if province == "leon" 
+replace codprov =34 if province == "palencia" 
+replace codprov =37 if province == "salamanca" 
+replace codprov =40 if province == "segovia" 
+replace codprov =42 if province == "soria" 
+replace codprov =47 if province == "valladolid"
+replace codprov =49 if province == "zamora" 
+replace codprov =2 if province == "albacete"
+replace codprov =13 if province == "ciudad real" 
+replace codprov =16 if province == "cuenca" 
+replace codprov =19 if province == "guadalajara"
+replace codprov =45 if province == "toledo"
+replace codprov =8 if province == "barcelona" 
+replace province = "gerona"  if province == "gerona" 
+replace codprov =17 if province == "gerona" 
+replace codprov =25 if province == "lerida" |province=="lleida"
+replace codprov =43 if province == "tarragona"
+replace codprov =3 if province == "alicante" 
+replace codprov =12 if province == "castellon" 
+replace codprov =12 if province == "castellon de la p." 
+replace codprov =12 if province == "castellon de la plana" 
+replace codprov =46 if province == "valencia" 
+replace codprov =6 if province == "badajoz" 
+replace codprov =10 if province == "caceres" 
+replace province = "a coruña"  if province == "coruna" 
+replace province = "a coruña"  if province == "coruña" 
+replace province = "a coruña"  if province == "coruña (la)" 
+replace codprov =15 if province == "a coruña"
+replace codprov =27 if province == "lugo"
+replace province = "ourense"  if province == "orense" 
+replace codprov =32 if province == "ourense"
+replace codprov =36 if province == "pontevedra" 
+replace codprov =28 if province == "madrid"
+replace codprov =30 if province == "murcia"
+replace codprov =31 if province == "navarra" 
+replace codprov =1 if province == "alava" 
+replace codprov =48 if province == "vizcaya"
+replace codprov =20 if province == "guipuzcoa"
+replace codprov =26 if province == "larioja"| province == "logroño"| province == "logrono"
+
+sort province type sex
+egen id = group(province type)
+egen Sex = group(sex)
+order id  sex type
+
+reshape wide total type sex group* , i(id) j(Sex)
+
+
+order province
+rename total1 pop_male
+rename total2 pop_total
+rename total3 pop_female
+drop sex* type2 type3 
+rename type1 type
+rename group(#)1 group(#)_male
+rename group(#)2 group(#)_total
+rename group(#)3 group(#)_female
+ 
+drop id  
+order prov type pop* codprov
+
+
+foreach v of numlist 1/8{
+rename group`v'_female popwomen_agegroup`v'_1960
+rename group`v'_male popmen_agegroup`v'_1960
+rename group`v'_total pop_agegroup`v'_1960
+
+}
+
+
+* Compute Pop share by age groups
+local group ""1" "2" "3" "4" "5" "6" "7" "8""
+ foreach x of local group{ 
+bysort codprov: gen popshare_agegroup`x' =pop_agegroup`x'/ pop_total if province !="burgos"
+bysort codprov: gen popsharemen_agegroup`x' =popmen_agegroup`x'/ pop_male if province !="burgos" & province !="malaga" & province !="badajoz"
+bysort codprov: gen popsharewomen_agegroup`x' =popwomen_agegroup`x'/ pop_female if province !="burgos" & province !="malaga" & province !="badajoz"
+
+label variable popshare_agegroup`x' "Pop. share age gr.`x'"
+
+
+rename popshare_agegroup`x' popshare_agegroup`x'_1960 
+rename popsharemen_agegroup`x' popsharemen_agegroup`x'_1960 
+rename popsharewomen_agegroup`x' popsharewomen_agegroup`x'_1960 
+}
+
+
+foreach x in women men {
+label var pop`x'_agegroup1_1960 "Pop. below 5"
+label var pop`x'_agegroup2_1960 "Pop. 5-14"
+label var pop`x'_agegroup3_1960 "Pop. 15-24"
+label var pop`x'_agegroup4_1960 "Pop. 25-34"
+label var pop`x'_agegroup5_1960 "Pop. 35-44"
+label var pop`x'_agegroup6_1960 "Pop. 45-54"
+label var pop`x'_agegroup7_1960 "Pop. 55-64"
+label var pop`x'_agegroup8_1960 "Pop. >65" 
+}
+label var pop_agegroup1_1960 "Pop. below 5"
+label var pop_agegroup2_1960 "Pop. 5-14"
+label var pop_agegroup3_1960 "Pop. 15-24"
+label var pop_agegroup4_1960 "Pop. 25-34"
+label var pop_agegroup5_1960 "Pop. 35-44"
+label var pop_agegroup6_1960 "Pop. 45-54"
+label var pop_agegroup7_1960 "Pop. 55-64"
+label var pop_agegroup8_1960 "Pop. >65"
+ 
+rename pop_total pop_1960 
+rename pop_female pop_female_1960 
+rename pop_male pop_male_1960 
+label variable pop_1960 "Population 1960"
+label variable pop_female_1960 "Female population 1960"
+label variable pop_male_1960 "Male population 1960"
+* Next step it is not necessary (as the current dataset contains total population, I did it just to check all is fine)
+
+*merge 1:1 codprov type using "$Data\census\census_1960_step1.dta"
+order province codprov type pop_* pop_male_* pop_female* 
+drop
+save "$Data\census\census_1960_PROVINCElevel.dta",replace
+
+erase "$Data\census\census_1960_step1_PROVINCElevel.dta"
+

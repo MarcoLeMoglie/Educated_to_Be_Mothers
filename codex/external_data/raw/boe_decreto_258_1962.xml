@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20241014200341">
+  <metadatos>
+    <identificador>BOE-A-1962-3718</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="4410">Ministerio de Trabajo</departamento>
+    <rango codigo="1510">Decreto</rango>
+    <fecha_disposicion>19620201</fecha_disposicion>
+    <numero_oficial>258/1962</numero_oficial>
+    <titulo>Decreto 258/1962, de 1 de febrero, por el que se aplica a la esfera laboral la Ley 56/1961, de 22 de julio, que equipara a los trabajadores de uno y otro sexo en sus derechos de orden laboral.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>19620216</fecha_publicacion>
+    <diario_numero>41</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>2345</pagina_inicial>
+    <pagina_final>2346</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>/boe/dias/1962/02/16/pdfs/A02345-02346.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>S</estatus_derogacion>
+    <fecha_derogacion>19700914</fecha_derogacion>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>S</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+  </metadatos>
+  <analisis>
+    <materias>
+      <materia codigo="420" orden="">Ayudas</materia>
+      <materia codigo="4051" orden="">Igualdad de oportunidades</materia>
+      <materia codigo="5066" orden="">Mujer</materia>
+      <materia codigo="6909" orden="">Trabajadores</materia>
+      <materia codigo="6910" orden="">Trabajo</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1957-11398" orden="5010">
+          <palabra codigo="480">DECLARA la vigencia</palabra>
+          <texto>de lo indicado del Decreto de 26 de julio de 1957</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1956-9834" orden="5010">
+          <palabra codigo="480">DECLARA la vigencia</palabra>
+          <texto>de lo indicado del Decreto de 22 de junio de 1956 (Gazeta)</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-1970-932" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>, por Decreto 2310/1970, de 20 de agosto</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas/>
+  </analisis>
+  <texto>
+    <p class="parrafo">Desde que el Movimiento se inició ha sido preocupación constante de su política laboral no sólo garantizar la equidad en las condiciones del trabajo femenino, sino rodearle de toda la solícita protección que las características vitales de la mujer reclaman. El examen de las Leyes laborales españolas no causa diferencias en perjuicio del trabajo femenino, antes bien, ellas establecen una serie de instituciones, tanto de seguridad social como referidas directamente a la relación laboral, que otorgan a la mujer privilegios y defensas relevantes: Así al otorgarle descansos especiales, al apartarla de trabajos peligrosos, nocivos o fatigosos, al valorar más sus horas extraordinarias, al concederle dotes e indemnizaciones especiales. Pero como disposiciones de rango inferior dictadas en aplicación de tales normas al compás de circunstancias concretas, han establecido diferencias no siempre justificadas y que se refieren principalmente a la valoración del trabajo de la mujer y a su cesación forzosa en caso de matrimonio, si bien concediéndola una indemnización, es preciso, en cumplimiento de la Ley de veintidós de julio de mil novecientos sesenta y uno, terminar con tales discriminaciones en cuanto perjudiquen a la trabajadora, concediendo ademas a ésta un privilegio con respecto al varón que consiste en que al casarse pueda optar entre seguir o cesar, previa indemnización, en su puesto de trabajo, o permanecer un tiempo sin reintegrarse a dicho puesto, con posibilidad durante tal período de reingreso; es decir, en situación análoga a la que en otras actividades se llama de excedencia voluntaria, que con el mismo nombres se implanta ahora en la Legislación Patria en beneficio no sólo de la mujer trabajadora, sino, y sobre todo, del hogar que funda al casarse.</p>
+    <p class="parrafo">En las presentes normas se persigue –siguiendo el espíritu y la letra de la Ley que aplican– no una igualdad material entre los trabajadores de ambos sexos –propósito que más que demagógico resultaría utópico–, sino suprimir discriminaciones injustas para la mujer y, sobre todo, garantizar el debido respeto a su personalidad de trabajadora, sin perjudicar con ello su futura colocación con un proteccionismo exagerado e injusto, y facilitando su posible preferencia por permanecer en el hogar después del matrimonio que, en suma, cuando las circunstancias de la familia lo permitan, es la versión más noble y trascedente del trabajo femenino.</p>
+    <p class="parrafo">En su virtud, a propuesta del Ministro de Trabajo y previa deliberación del Consejo de Ministros en su reunión del día veintiséis de enero de mil novecientos sesenta y dos,</p>
+    <p class="centro_redonda">DISPONGO:</p>
+    <p class="articulo">Artículo 1.</p>
+    <p class="parrafo">La mujer podrá celebrar toda clase de contratos de trabajo, concertar convenios colectivos y ejercer funciones laborales propias o en representación ante las empresas en que trabaja, sin perjuicio todo ello de las disposiciones legales protectoras del trabajo femenino y de las que regulan la capacidad de la mujer casada.</p>
+    <p class="articulo">Artículo 2.</p>
+    <p class="parrafo">Uno. El cambio de estado civil no rompe la relación laboral; no obstante, en defensa del hogar familiar se concede a la mujer trabajadora al contraer matrimonio el derecho de optar entre las siguientes situaciones:</p>
+    <p class="parrafo_2">Primera. Continuar su trabajo en la empresa.</p>
+    <p class="parrafo">Segunda. Rescindir su contrato con percibo de la indemnización que señalen las disposiciones estatales susceptibles de ser mejoradas en convenios colectivos sindicales y Reglamentos de régimen interior de las empresas respectivas.</p>
+    <p class="parrafo">Tercera. Quedar en situación de excedencia voluntaria por un periodo no inferior a un año ni superior a cinco.</p>
+    <p class="parrafo_2">Dos. Ninguna de las situaciones señaladas en el epígrafe anterior limitan el derecho de la mujer a colocarse en cualquier otra actividad o empresa, pero al hacerlo caduca su derecho de reingresar en la anterior.</p>
+    <p class="parrafo">Tres. El reingreso de la trabajadora en situación de excedencia voluntaria se efectuará a petición de la interesada, cubriendo la primera vacante de la misma categoría que tuviese en el momento de la baja por matrimonio. De acuerdo con la empresa podrá reingresar en categoría superior o inferior a la indicada.</p>
+    <p class="articulo">Artículo 3.</p>
+    <p class="parrafo">Uno. La mujer disfrutará del mismo salario que el hombre a trabajo de rendimiento igual. Las Reglamentaciones de Trabajo, convenios colectivos y Reglamentos interiores de Empresa señalarán normas específicas que adecuen la retribución al diferente valor o calidad del trabajo femenino. Las diferencias deberán quedar justificadas debidamente en la disposición que las establezca.</p>
+    <p class="parrafo">Dos. Será nulo todo pacto o acuerdo que en los contratos de trabajo vulnere lo dispuesto en este artículo.</p>
+    <p class="articulo">Artículo 4.</p>
+    <p class="parrafo">Los salarios señalados para trabajos específicos femeninos continuarán al régimen establecido hasta la fecha de la presente disposición.</p>
+    <p class="articulo">Artículo 5.</p>
+    <p class="parrafo">Las normas reguladoras del aprendizaje, admisión, período de prueba, clasificaciones, ascensos, retribución de trabajos especiales, premios, pluses, primas y demás de carácter análogo establecerán un criterio de igualdad entre ambos sexos, de forma que sea eliminada cualquier discriminación en perjuicio de la mujer sin más excepción que las que imponen las normas protectoras del sexo.</p>
+    <p class="articulo">Artículo 6.</p>
+    <p class="parrafo">Los trabajos que por su carácter de penosos, peligrosos o insalubres están exceptuados para la mujer, serán los señalados reglamentariamente en consonancia con los Convenios internacionales y Leyes específicas dictadas sobre las respectivas materias.</p>
+    <p class="articulo">Artículo 7.</p>
+    <p class="parrafo_2">El Régimen de Ayuda a la Familia aplicable a la mujer se atendrá a lo dispuesto en las normas que regulan dicha Institución de la Seguridad Social, en equiparación de derechos y obligaciones con el trabajador varón.</p>
+    <p class="articulo">Artículo 8.</p>
+    <p class="parrafo">El Ministerio de Trabajo dictará o propondrá al Gobierno, en su caso, las disposiciones necesarias para el desarrollo del presente Decreto.</p>
+    <p class="articulo">Disposición adicional.</p>
+    <p class="parrafo">Lo dispuesto en el artículo segundo del presente Decreto no alcanza a las situaciones laborales de los trabajadores femeninos surgidas o creadas con anterioridad a uno de enero del corriente año. Tampoco podrán reclamarse diferencias correspondientes a períodos anteriores a la indicada fecha en los casos en que –de acuerdo con lo dispuesto en la Ley de veintidós de julio de mil novecientos sesenta y uno– se reconozcan aumentos de salario por equiparación con los atribuidos a los varones en los casos de trabajo de valor igual.</p>
+    <p class="articulo">Disposición derogatoria.</p>
+    <p class="parrafo">Quedan derogados los preceptos contenidos en las Reglamentaciones de Trabajo o cualquier otra disposición o convenio colectivo en que se establezca con carácter imperativo la excedencia forzosa de la mujer por razón de matrimonio. Si la cláusula consta en contrato de trabajo se tendrá por no puesta.</p>
+    <p class="articulo">Tabla de equivalencias.</p>
+    <p class="parrafo">Se declaran expresamente en vigor las normas que regulan el trabajo de la mujer en tareas tóxicas, penosas, peligrosas o insalubres y, en especial, lo dispuesto en el Decreto de veintidós de junio de mil novecientos cincuenta y seis y Orden de veintiséis de julio de mil novecientos cincuenta y siete.</p>
+    <p class="parrafo_2">Así lo dispongo por el presente Decreto dado en Madrid a uno de febrero de mil novecientos sesenta y dos.</p>
+    <p class="firma_rey">FRANCISCO FRANCO</p>
+    <p class="firma_ministro">El Ministro de Trabajo,</p>
+    <p class="firma_ministro">FERMIN SANZ ORRIO</p>
+    <p class="parrafo_2"> </p>
+  </texto>
+</documento>

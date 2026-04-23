@@ -1,0 +1,1372 @@
+%\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer}
+\setbeamersize{text margin left=5mm,text margin right=5mm} 
+\usepackage{xcolor}
+\setbeamertemplate{footline}{%
+   \raisebox{5pt}{\makebox[\paperwidth]{\hfill\makebox[20pt]{\scriptsize\insertframenumber}}}}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{natbib}
+\renewcommand\bibname{References}
+\usepackage{tikz}
+% Define less saturated colors
+\definecolor{softred}{RGB}{204,  82,  82}
+\definecolor{softblue}{RGB}{82, 122, 204}
+\usepackage{appendixnumberbeamer}
+\setbeamertemplate{navigation symbols}{}
+\usepackage{inputenc}
+%\usepackage{caption}
+\usepackage{subcaption}
+\setbeamertemplate{itemize items}[circle]
+\usepackage{multirow}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+\usepackage{makecell}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{bbm}
+\usepackage{epigraph}
+\usepackage{graphicx} % Load graphics
+\usepackage{dcolumn} % Booktabs column spacing
+\usepackage{threeparttable}  % Align column caption, table, and notes
+\usepackage{adjustbox} % Shrink boxes
+%\definecolor{UniBlue}{rgb}{0.16,0.32,.8} % Set color 
+\definecolor{UniBlue}{rgb}{0.03,0.3,.67} % Set color .
+\definecolor{maroon}{RGB}{139,0,0} % Set color
+%\definecolor{UniBlue}{rgb}{0.0,0.0,.55} % Set color .
+%\definecolor{UniBlue}{RGB}{46,69,97} % Set color
+%\definecolor{UniBlue}{RGB}{139,0,0} % Set color 
+\setbeamercolor{title}{fg=UniBlue}
+\setbeamercolor{frametitle}{fg=UniBlue}
+\setbeamercolor{structure}{fg=UniBlue}
+\setbeamercolor{button}{bg=UniBlue}
+\usepackage{tikz}
+%\usetikzlibrary{positioning}
+%\usetikzlibrary{snakes}
+%\usetikzlibrary{calc}
+%\usetikzlibrary{arrows}
+%\usetikzlibrary{decorations.markings}
+%\usetikzlibrary{shapes.misc}
+%\usetikzlibrary{matrix,shapes,arrows,fit,tikzmark}
+\usepackage{comment}
+\usepackage{pgfpages}
+ \def\i{\item}
+\def\ni{\noindent}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\s{\small}
+\def\f{\footnotesize}
+
+\newcommand{\Tablepath}{"Tables"}
+\graphicspath{"Figures/"}
+
+
+
+
+% create a command to push the things at the bottom of the slide
+\newcommand{\bottom}{\vskip0pt plus 1filll}
+
+% Define colors
+\definecolor{light-gray}{gray}{0.7}
+\setbeamerfont{title}{size=\fontsize{13.2}{20}}
+
+
+\makeatletter
+\patchcmd{\beamer@sectionintoc}
+ {\vfill}
+  {\vskip\itemsep}
+  {}
+  {}
+\makeatother  
+ 
+
+\title[]{Educated to Be Mothers:\\ Indoctrination and Demographic Backlash}
+\author[Lax-Mart\'{i}nez, Le Moglie, Sandi]{
+Gema Lax-Martinez\inst{1}
+        \and 
+        Marco Le Moglie\inst{2} 
+        \and 
+        Matteo Sandi\inst{3}  }
+\institute[Unicatt]{ 
+\inst{1}%
+University of Catania and CLEAN, Bocconi \and
+\inst{2}%
+Catholic University of Milan and CLEAN, Bocconi \and
+\inst{3}%
+Catholic University of Milan and CEP, LSE}
+
+
+ \date[ ] 
+%{\textbf{Summer Crime.} Ortigia, July $4^{th}$ 2024}
+%{\textbf{Fourth Winter Symposium in Economics and Finance} \\ December $20^{th}$ 2024}
+
+
+%% set the numbering of the subsection, 
+\defbeamertemplate{subsection in toc}{subsections numbered roman}{%
+  \leavevmode\leftskip=2.5em
+  \MakeLowercase{\romannumeral\inserttocsubsectionnumber}.\ %
+  \inserttocsubsection\par}
+%% set the numbering of the subsection
+\defbeamertemplate{section in toc}{sections numbered roman}{%
+  \leavevmode\leftskip=1em
+  \MakeUppercase{\romannumeral\inserttocsectionnumber}.\ %
+  \inserttocsection\par}
+  % set color sections
+  
+  % I would like a more visible not highlighted text and blue roman numbers always
+\setbeamercolor{section in toc}{fg=black, bg=black}
+
+% set numbering system to roman
+\setbeamertemplate{section in toc}[sections numbered roman]
+\setbeamertemplate{subsection in toc}[subsections numbered roman]
+
+%This allows adjustable spacing in itemize environment
+\newenvironment{wideitemize}{\itemize\addtolength{\itemsep}{10pt}}{\enditemize}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+\frame{\titlepage}
+\addtocounter{framenumber}{-1}
+\setcounter{framenumber}{0}
+
+\newif\iflattersubsect
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%\frametitle{Motivation}
+%\centering
+%\footnotesize\textbf{{\color{blue}Demographic winter}}: \textit{decline in birth rates and an aging population}
+
+ %   \begin{figure}
+    %\centering
+  %  \includegraphics[width=\textwidth]{Educated to Be Mothers-slides/Screenshot 2024-12-10 alle 22.00.59.png}
+   %     \end{figure} 
+        
+%\end{frame}
+
+
+
+\begin{frame}
+
+    \begin{figure}
+    %\centering
+    \includegraphics[width=.75\textwidth]{Educated to Be Mothers-slides/collage_inverno demografico.png}
+        \end{figure} 
+        
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Motivation}
+
+\textbf{Demographic Winter} (i.e., \textit{declining birth rates coupled with aging population}) has become a salient issue among national governments and public opinions due to its potential  negative effect on:
+\medskip
+
+\begin{itemize}
+    \item Innovation, productivity and  economic growth slowdown
+    \medskip
+    \item Welfare system sustainability
+    \medskip
+    \item Cultural and societal shifts 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Motivation}
+Western democracies have started to address some of its economic aspects:
+\medskip
+\begin{itemize}
+    \item \textbf{The cost of childbearing}: provision of financial and/or fiscal incentives depending on the number of children (e.g., Family Act 2020, Social Security Contribution Exemption with 2+ children in Budget Law 2024)
+\medskip
+\item \textbf{Work-life balance}: maternity/paternity leaves, provision of affordable kindergartens (e.g., Kindergarten Bonus in Budget Law 2024) 
+\end{itemize}
+\medskip
+Part of the electorate view demographic winter as primarily due to the change in gender roles within households, advocating for a return to a "traditional family" via:
+\medskip
+
+\begin{itemize}
+\item  \textbf{Indirect intervention by rising the economic costs} of alternative models (e.g., the use of the "family quotient" instead of separated taxation) 
+    \medskip
+
+    \item \textbf{Direct intervention on beliefs} (e.g., propaganda, indoctrination)
+
+    
+\end{itemize}
+
+
+\end{frame}
+
+
+\begin{frame}
+ \begin{figure}
+    %\centering
+    \includegraphics[width=.6\textwidth]{Educated to Be Mothers-slides/imrs.jpeg}
+        \end{figure} 
+
+        \textit{"Respect for stay-at-home mothers has been poisoned by a toxic combination of the village elders’ war on the traditional family and radical feminism’s misogynistic crusade to make working outside the home the only marker of social value and self-respect"} 
+        \medskip
+        \\US Senate's third-ranking Republican senator \textbf{Rick Santorum} (\textit{It Takes a Family}, 2005).
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{What We Do}
+\centering
+We study how a public policy aimed at stimulating fertility\\ by stressing traditional gender roles  affects childbearing decisions
+
+
+\medskip
+\centering
+\downarrow
+
+\begin{center}
+    \textit{RQ: What is the impact of \textbf{indoctrination} on \textbf{fertility}}
+
+\end{center}
+\begin{itemize}
+    
+ \item We leverage a policy reform in the Primary Education System imposed by the Francoist regime in Spain
+ \begin{itemize}
+ 
+\medskip
+     \item Gender-specific classes
+          \medskip
+
+     \item Explicit aim to educate girls \textit{"to be mothers (and wives)"} 
+ \end{itemize}
+
+          \medskip
+
+ \item We exploit variation in the exposure to the reform at the birth cohort level 
+           \medskip
+%
+ %\item Novel historical dataset
+\end{itemize}
+ 
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+\addtocounter{framenumber}{-1} % do not page count
+\begin{figure}
+    %\centering
+    \begin{minipage}{.4\linewidth}
+            \begin{subfigure}[t]{1\linewidth}
+                \includegraphics[width=\textwidth]{foto6}
+                \caption{Kids singing \textit{"Cara al Sol"}}
+            \end{subfigure}
+        \end{minipage}
+    \begin{minipage}{.4\linewidth}
+        \begin{subfigure}[t]{1\linewidth}
+            \includegraphics[width=\textwidth]{foto3}
+            \caption{Women taking cooking classes}
+        \end{subfigure} \\
+        \begin{subfigure}[b]{1\linewidth}
+            \includegraphics[width=\textwidth]{foto4}
+            \caption{\textit{"Prepare the kids"}}
+        \end{subfigure} 
+    \end{minipage}
+   % \caption{ }
+\end{figure}
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%\addtocounter{framenumber}{-1} % do not page count
+%\begin{figure}
+    %\centering
+% \begin{minipage}{.465\linewidth}
+ %       \begin{subfigure}[t]{1\linewidth}
+            %\includegraphics[width=\textwidth]{sf4}
+            %\caption{Women taking cooking classes}
+        %\end{subfigure} \\
+        %\begin{subfigure}[b]{1\linewidth}
+            %\includegraphics[width=\textwidth]{sf3}
+            %\caption{\textit{"Prepare the kids"}}
+        %\end{subfigure} 
+    %\end{minipage}
+    %\begin{minipage}{.45\linewidth}
+     %   \begin{subfigure}[t]{1\linewidth}
+            %\includegraphics[width=\textwidth]{sf2}
+            %\caption{Women taking cooking classes}
+       % \end{subfigure} \\
+       % \begin{subfigure}[b]{1\linewidth}
+            %\includegraphics[width=\textwidth]{sf1}
+            %\caption{\textit{"Prepare the kids"}}
+       
+    %\end{subfigure} 
+   % \end{minipage}
+   % \caption{ }
+%\end{figure}
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%0.43 1
+%0.35 1
+
+
+\begin{frame}
+\addtocounter{framenumber}{-1} % do not page count
+\begin{figure}
+    \centering
+   \begin{minipage}{.43\linewidth}
+          \begin{subfigure}[t]{1\linewidth}
+                \includegraphics[width=\textwidth]{Educated to Be Mothers-slides/books/leedme ninas/portada.jpg}
+                 
+           \end{subfigure}
+       \end{minipage}
+  \begin{minipage}{.35\linewidth}
+        \begin{subfigure}[t]{1\linewidth}
+               \includegraphics[width=\textwidth]{Educated to Be Mothers-slides/books/leedme ninas/page158 - Copy.jpg}
+                 
+           \end{subfigure}
+   \end{minipage}
+ 
+\end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\addtocounter{framenumber}{-1} % do not page count
+\justifying 
+\footnotesize
+  \textit{"Little girls, budding women:\\
+  I offer you one teaching: May you always feel in your soul the sacred fear of God, \textbf{may you always be sweet little mothers} [...], eyes to ease pain, little hands to heal suffering. [...] you will always be the sweetest, the most beautiful, the most delicate in the world." }\\
+   \medskip
+\vspace{1cm}
+ \textit{"From girlhood, a \textbf{woman is feminine}, and her differentiation from boys is evident even in the smallest details and games. The care invested in her education will later be reflected in the home, where the girl, now a woman, must shape all those around her: husband, children [...] And isn't it a \textbf{serious responsibility of a teacher} - or of an \textbf{educational system} - not to have fully nurtured the seed that was planted? [...] If we enable our women to become complete women, we will have eliminated many of the unhappy and uncomfortable households that exist in our society today. Because the mother will raise her daughters just as we have raised her [...]. This is a call to the \textbf{conscience and responsibility of every female teacher}." } 
+
+\end{frame}
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{What We May Find}
+
+In principle, the impact of indoctrination on fertility is not obvious \textit{a priori}:
+\medskip
+\begin{itemize}
+    \item Indoctrination works $\rightarrow$ fertility $\uparrow$
+    \medskip
+    
+    \item Indoctrination does not work $\rightarrow$ fertility $=$
+    \medskip
+    
+    \item Indoctrination creates backlash $\rightarrow$ fertility $\downarrow$
+    \medskip
+    
+\end{itemize}
+\end{frame} 
+
+
+\begin{frame}
+\frametitle{What We Find}
+\begin{itemize}
+    \item At the aggregate level, fertility dropped significantly in places with a bigger share of female population potentially exposed to the reform.
+\medskip
+ \item At the individual level,   women belonging to birth cohorts affected by the reform do not show a different probability to become mothers with respect to women who are not affected by that. Nonetheless, the former have significantly fewer children than the latter.
+\medskip
+    \item The drop in fertility outcomes for treated cohorts is associated with a shift in (primary and secondary) beliefs possibly affected by the reform, eventually back-lashing the indoctrination perpetrated by the regime.
+
+\end{itemize}
+
+
+\end{frame} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Literature review}
+\medskip
+
+\begin{itemize}
+\item {\color{blue}Family policies and fertility}: 
+Lalive and Zweimüller (2009), Dahl et al (2016), Raute (2019), Farr\'e and Gonz\'alez (2019)
+   \medskip  
+
+   \item {\color{blue}Gender norms}: Bertrand et al. (2015), Fortin (2015), Goussé et al. (2017),
+Andresen and Nix, (2019), Grewenig et al. (2020), Olivetti et al. (2020)
+ 
+   \medskip
+
+\item {\color{blue}Indoctrination and propaganda by authoritarian regimes}: Waldinger (2010), Adena et al. (2015), Voigtländer and Voth (2015), Cantoni et al. (2017), Homola et al. (2020)
+ 
+\medskip
+    \item {\color{blue}Formation of cultural beliefs, the marriage market and fertility}: Chong and La Ferrara (2009), La Ferrara et al. (2012)
+  
+
+ 
+\end{itemize}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Background}
+
+\begin{frame}
+\frametitle{Historical Background}
+\begin{itemize}
+\item Civil War (1936-1939), followed by a military dictatorship (1939-1975)
+\item Interest on demographic policies
+\begin{itemize}
+    \item {\tiny {\color{gray}Ramiro Ledesma- founder of the political party \textit{JONS}: "We can only seriously speak of Spain's superiority when it becomes attainable through a population that has at least doubled"}}
+
+    \item {\tiny {\color{gray}Maternity was described as an \textit{"ordinary way of life to reach perfection"} and represented the feminine goal: \textit{"the feminine profession should be oriented towards family life: it belongs to the very essence of a woman to be always and everywhere a mother, to devote and sacrifice herself, and to care attentively for others"} }}
+\end{itemize}
+\item Primary Education Law under Franco rule \textit{(BOE 1945)}
+    \begin{itemize}
+    \item \textbf{Religion} became compulsory at all educational levels
+    \item Strong \textbf{National identity}
+    \item \textbf{Strict control} of all educational materials and contents (Canales, 2021)
+    \item  \textbf{Prohibition} of regional languages and mandatory use of the Spanish language
+    \item \textbf{Teachers} were subordinated to the national interest
+    \item \textbf{Gender-specific} education
+    \begin{itemize}
+    \item Separate classes for boys and girls
+     
+     \item Different education for girls to prepare for domestic life and motherhood
+\end{itemize}
+     \end{itemize}
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%\frametitle{Historical Background:  Cleansing of Teachers}
+   
+%\begin{itemize}
+%\item The purge of teachers stood among the cleansing of other professionals: teachers were perceived as a threat to the traditional order. %page 188,193 book la depuracion del magisterio nacional
+ %              \medskip
+%
+%\item       Three phases: 
+      % \medskip
+%\begin{enumerate}
+%\medskip
+%
+ %       \item Killings during the first months of the war
+  %             \medskip
+%
+ %       \item Disorganized purges
+ %              \medskip
+%
+ %       \item Creation of provincial commissions in charge of the examination of teachers 
+  %             \begin{enumerate}
+   %             \medskip
+    %            \item Formed by a high school principal, primary school inspector, president of the association of  parents and 2 people of max influence and moral and technical worthiness% they are nominated by the president of the Technical Assembly of the State and could not refuse to do so %(page 195 book la depuracion del magisterio nacional)
+   %            \item They requested at least four different reports from the mayor, the military police, the parish priest, and a person of absolute ideological reliability
+    %            \item Every teacher had to go through a commission
+                %\item \textbf{Sanctions:} permanent/temporal dismissal, transfer to another locality. %"Permanent dismissal of any teacher who contributed to the state of anarchy $[ \ldots ]$" {\footnotesize \textit{(Spanish Official Bulletin n.51, 1936)}} %(max 20km distance) within the same province  %page 196 214 book la depuracion del magisterio nacional
+                %\item \textbf{Objectives} %page 198
+                 %   \begin{itemize}
+                  %      \item Ensure no teacher works without being previously examined
+                   %     \item Solve staffing issues %por ejemplo, admitiendo informes entregados fuera de plazo
+                    %    \item They were supposed to provide a response within 3 months, which became impossible %la resolucion debia publicarse en el Boletin Oficial del Estado (BOE) pero dada la gran cantidad del volumen de maestros se acordo que se publicasen en los Boletines de las Provincias
+                   % \end{itemize}
+        %        \end{enumerate}
+        %\end{enumerate}
+       % \medskip
+%\item Purging commissions ("sacred mission") examined the records of each teacher {\footnotesize \textit{(Spanish Official Bulletin n.52, 1936)}}
+      % \medskip
+%\medskip
+%\item  Historians estimate 60,000 teachers were depurated. %p45 book
+%Approx. 25\% of teachers were sanctioned %page 345
+
+%\end{itemize}
+ 
+%\end{frame}
+
+    
+
+%\begin{frame}
+%\addtocounter{framenumber}{-1} % do not page count
+%\vspace{-0.5cm}
+%\texttt{Primary Education Law (1945)}
+%\centering
+%\begin{figure}
+% \begin{minipage}{.5\linewidth}
+ %       \begin{subfigure}[t]{1.2\linewidth}
+  %          \includegraphics[width=\textwidth]{ley1.png}
+           % \caption{\tiny "The republican era led the school to a radical subversion of values."}
+   %     \end{subfigure} \vspace{-0.5cm}
+    %    \begin{subfigure}[b]{1.1\linewidth}
+     %       \includegraphics[width=\textwidth]{ley2}
+           % \caption{\tiny \textit{"For this reason, the national movement dedicated its most determined will to restoring Catholic education for its youth throughout our entire educational system, and more specifically in primary education."}}
+      %  \end{subfigure} 
+     
+    %\end{minipage}
+    % \caption{ }
+%\end{figure}
+%\vspace{0.1cm}
+%{\color{red} \tiny \textit{"The republican era led the school to a radical subversion of values."}}\\
+%{\color{blue}   \tiny \textit{"For this reason, the National Movement dedicated its most determined will to restoring Catholic education for its youth throughout our entire educational system, and more specifically in primary education. The Church is recognized with the authority to establish schools. Likewise, the family is recognized with the primary right to educate their children and to choose their educators."}}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=databack]
+ \frametitle{Data }
+
+Panel data for 50 years (1930-1979).
+\\
+\medskip
+100 units of observation: capital of province and rest of province
+
+\medskip
+\begin{itemize}
+
+
+\footnotesize
+\item {\color{blue}Population} censuses from 1930 to 1970: number of inhabitants by age and gender
+\medskip
+\item {\color{blue}Fertility and weddings}: Natural movement of the population - National  Institute of Statistics \textit{(INE)}  %{\color{gray}94\% of births are legitimate in 1930}
+\medskip
+
+%\item {\color{blue}Teachers} %removed from their workplace 
+%(44k files): General Archive of the Administration \hyperlink{histogram_teachers}{\beamerbutton{Dist.}} 
+%\hyperlink{cleansed}{\beamerbutton{Time}} \hyperlink{map_teachers}{\beamerbutton{Geo}} 
+%\medskip
+
+
+\item {\color{blue}Robustness and Channels:} Center for Sociological Research \textit{(CIS)} individual 1979-92 surveys
+%\begin{itemize}
+ %   \item Birth year
+  %  \item Attitudes towards abortion, housework, education, religion, politics...
+%\end{itemize}
+\medskip
+
+
+\item {\color{blue}Additional variables:} pre-dictatorial elections (1931), unofficial political census from the Francoist regime (1947), distance to the Civil War front
+\end{itemize}
+%\hyperlink{summary}{\beamerbutton{Summary}} 
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Outcome Variable}
+\label{empirical}
+\textbf{Measuring Fertility}:
+\medskip
+\begin{itemize}
+    \item \textit{Total Fertility Rates} are the most suited to make comparisons within and between units. Unfortunately, we do not have the number of childbirths by women's age groups. 
+    \medskip
+    \item \textbf{What we have:} \textit{Total alive births}. 
+    \begin{itemize}
+
+\medskip 
+    \item Once we control for the number of women in fertile age, i.e., aged 15-44 in each census decade, it is like using the \textit{General Fertility Rates}  
+    \medskip
+    \item GFRs are a legitimate measure of fertility as long as the  (relative) size and the composition of the fertile age group remain constant in time and space \hyperlink{stability_age}{\beamerbutton{Stability of age groups' size}}
+
+    \end{itemize}
+
+    \medskip
+    
+\end{itemize}
+
+\end{frame} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=empirical_reg]
+\frametitle{Empirical Strategy: DiD}
+ 
+ \begin{equation}\label{main_eq}
+%\begin{split} 
+%\small
+y_{it} =\beta_0+  \beta_1   \big( \textit{Post}_t \times Treat (W)_i \big)+\mathbf{X}_{it}+\Gamma_i+ \tau_{t}+\epsilon_{it}
+%\end{split}
+\end{equation}
+\smallskip
+\begin{itemize}
+\item  $i$  denotes an administrative unit and $t$  indicates year
+\medskip
+\item $y_{it}$ = Number of alive births 
+\medskip
+\item $Post= \mathbbm{1} \{> 1945\}$ 
+\medskip
+
+\item \textit{Treat (W)} is the female population share with 0-14 years old in 1940
+\medskip
+
+
+\item $\mathbf{X}_{it} = Post_t \times  Treat (M)$, $Treat (W)_{15-44}$
+
+\end{itemize}
+
+\medskip
+
+\hyperlink{map_together}{\beamerbutton{Map}} \hyperlink{balancing}{\beamerbutton{Balancing}} \hyperlink{descriptives}{\beamerbutton{Descriptives}} 
+
+ 
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Results: DiD}
+\begin{table}[h!]
+	%\caption{Baseline estimates}
+	\center
+	\resizebox{0.7\linewidth}{!}{
+		\begin{threeparttable}		\input{Educated to Be Mothers-slides/results/table_reg_female_trends}
+		%NOTES:
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textsc{Notes}: Standard errors are clustered at Mun. level  in parentheses. * significant at 10\% , ** significant at 5\%,  *** significant at 1\%.
+
+  \end{tablenotes}
+\end{threeparttable}
+}
+\end{table}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Results: Event Study}
+\begin{figure}
+    \centering
+            \includegraphics[width=0.7\textwidth]{Educated to Be Mothers-slides/results/event_1940_cont_alive_birth1.pdf}    
+   % \caption{ }
+\end{figure}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+    
+\begin{frame}
+\frametitle{Discussion}
+Distribution of population by age groups (va fatto per posti treated e non treated)
+\begin{figure}
+    \centering
+ \begin{minipage}{.46\linewidth}
+        \begin{subfigure}[l]{1.2\linewidth}
+            \includegraphics[width=\textwidth]{men.png}
+            \caption{Male population}
+        \end{subfigure} \\
+    \end{minipage}
+    \begin{minipage}{.45\linewidth}
+              \begin{subfigure}[r]{1.2\linewidth}
+            \includegraphics[width=\textwidth]{women.png}
+            \caption{Female population}
+        \end{subfigure} 
+    \end{minipage}
+   % \caption{ }
+\end{figure}
+%Questa va messa come discussione results per escludere che l'effetto sia dovuto ad un cambiamento della composizone della popolazione
+\end{frame}
+
+\end{comment}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+%\frametitle{Descriptive: \textit{Weddings}}
+%\begin{figure}
+ %   \centering
+  %          \includegraphics[width=0.7\textwidth]{Educated to Be Mothers-slides/desc_1940_female_weddings.pdf}    
+   % \caption{ }
+%\end{figure}
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[label=RC]
+\frametitle{Robustness Checks}
+
+\begin{table}[h!]
+	%\caption{Baseline estimates}
+	\center
+	\resizebox{0.7\linewidth}{!}{
+		\begin{threeparttable}		\input{Educated to Be Mothers-slides/results/table_reg_female_rob}
+		%NOTES:
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textsc{Notes}: Standard errors are clustered at Mun. level  in parentheses. * significant at 10\% , ** significant at 5\%,  *** significant at 1\%.
+
+  \end{tablenotes}
+\end{threeparttable}
+}
+\end{table}
+\bigskip
+\centering
+     \hyperlink{median_event}{\beamerbutton{ES - Discrete}} \hyperlink{placebo_1544}{\beamerbutton{ES - Placebo}} \hyperlink{eventstudy_weddings}{\beamerbutton{ES - Weddings}} \hyperlink{tfr_back}{\beamerbutton{Demographic transition}}
+     \hyperlink{map_deaths}{\beamerbutton{Map: male deaths}}
+   
+\end{frame}
+
+
+\begin{comment}
+    
+
+\begin{frame}[label=empirical2]
+\frametitle{Interpretation of the Results}
+
+
+\textbf{Isolating the effect of the reform:}
+\medskip
+\begin{itemize}
+\item Lack of data on fertility rates by age group does not allow us to directly interpret the coefficients shown so far as the effect of the reform on fertility. 
+\begin{itemize}
+
+\medskip
+\item We cannot directly compare, within and between units, the fertility rate of age groups exposed or not to the reform over time 
+\medskip
+\item We can compare the general fertility rate within and between units where the share of population exposed to the reform is higher or lower
+%\medskip 
+%\item Thus, we cannot distinguish the effect of the reform from the natural impact on fertility to have a smaller fertile group within the population
+\end{itemize}
+\end{itemize}
+\medskip
+\textbf{Solution:}
+\begin{itemize}
+    \item On the one hand, the generational turnover in the female fertile age group allows us to roughly predict when the largest impact on general fertility rates should occur.
+\medskip
+\item On the other hand, by using individual-level fertility data, we estimate the effect of the reform by exploiting variation in reform exposure across birth cohorts
+
+\end{itemize}
+
+
+
+
+\end{frame}
+
+\end{comment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Individual Identification}
+\textbf{Isolating the effect of the reform}
+\begin{itemize}
+    \item The generational turnover in the female fertile age group allows us to roughly predict when the largest impact on general fertility rates should occur
+ 
+\item By using individual-level fertility data, we estimate the effect of the reform by exploiting variation in reform exposure across birth cohorts
+
+\end{itemize}
+\medskip
+\vspace{1cm}
+\begin{itemize}
+    \item We exploit information contained in different waves of the barometer run by the CIS about respondents' demographics and childbearing history
+
+    \medskip
+ \item We complement this analysis by using the Spanish census micro-data for the waves 1991 and 2011.
+    \medskip
+    \begin{itemize}
+        \item Caveat: Information on the entire childbearing history is available only for women
+    \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Individual Analysis: Identification}
+%We estimate the following equation:
+    \begin{equation}\label{main_eq}
+y_{it} =\beta_0+  \beta_1  \textit{Cohorts 1931-1939}_i + \beta_2 \textit{Cohorts 1940-1952}_i+FE_{unitXage class} +FE_{wave} +\epsilon_{it}
+\end{equation}
+    \begin{itemize}
+        \item $\textit{Cohorts 1931-1939}_i$ is a dummy equal to 1 for cohorts only partially exposed to the reform 
+    \medskip
+    \item  $\textit{Cohorts 1940-1952}_i$ is a dummy equal to 1 for cohorts fully exposed to the reform
+    \medskip
+    \item The reference category include cohorts 1920-1930
+    \medskip
+    \item $FE_{unitXage class} $ are fixed effects at the unit-age class level, where age is grouped in ten-years classes (e.g., 20 years old, 30 years old, ....). For the census, units are substituted by municipalities.
+    \medskip
+    \item  $FE_{wave}$ are fixed effect at the wave level
+    \medskip
+    \item $\epsilon_{it}$ are heteroskedastic-robust standard errors clustered at the unit-age class  evel
+    
+    \end{itemize}
+
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Individual Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Individual Analyisis: DiD}
+\begin{table}[h!]
+	%\caption{Baseline estimates}
+	\center
+	\resizebox{0.5\linewidth}{!}{
+		\begin{threeparttable}		\input{Educated to Be Mothers-slides/results/table_cis_kids}
+		%NOTES:
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textsc{Notes}: Standard errors are clustered at Mun. level  in parentheses. * significant at 10\% , ** significant at 5\%,  *** significant at 1\%.
+
+  \end{tablenotes}
+\end{threeparttable}
+}
+\end{table}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Individual Analysis:  Event Study}
+\begin{figure}
+\label{cic_ev_female}
+    \centering
+            \includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/results/nkids_female.pdf}    
+   % \caption{ }
+\end{figure}
+\centering
+\hyperlink{nkids_male}{\beamerbutton{Males}} \hyperlink{nkids_census_did}{\beamerbutton{Census - DiD}} \hyperlink{nkids_census}{\beamerbutton{Census - Event}} 
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Mechanisms}
+\begin{itemize}
+    \item We use information contained in different waves of the barometer run by the CIS about respondents' beliefs on several topics of relevance 
+    \medskip 
+    \begin{itemize}
+    %\item SPIEGARE BENE CHE DOMANDE UTILIZZIAMO E SE PRIMARY O SECONDARY BELIEFS
+    \medskip
+        \item Caveat: Questions on beliefs are mostly wave-specific
+    \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\frametitle{Mechanisms: Identification}
+We estimate the following equation using the sample of  female respondents:
+
+\begin{equation}\label{main_eq}
+%\begin{split} 
+%\small
+y_{i} =\beta_0+  \beta_1  \textit{Cohorts 1931-1939}_i + \beta_2 \textit{Cohorts 1940-1970}_i+\Gamma_i +\epsilon_{i}
+%\end{split}
+\end{equation}
+\smallskip
+\begin{itemize}
+    \item $y_i$ are respondent \textit{i}'s  primary and secondary beliefs 
+    \medskip
+    \item $\textit{Cohorts 1931-1939}_i$ is a dummy equal to 1 for cohorts only partially exposed to the reform 
+    \medskip
+    \item  $\textit{Cohorts 1940-1970}_i$ is a dummy equal to 1 for cohorts fully exposed to the reform
+    \medskip
+    \item $\Gamma_i$ are fixed effects at the unit level
+    \medskip
+    \item $\epsilon_i$ are heteroskedastic-robust standard errors clustered at the unit level
+
+\end{itemize}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Mechanisms: DiD}
+\label{mech}
+\begin{figure}
+    \centering
+            \includegraphics[width=0.65\textwidth]{Educated to Be Mothers-slides/results/cis.pdf}    
+    %\caption{Source: CIS *}
+\end{figure}
+
+\hyperlink{event_cis}{\beamerbutton{Event Study}}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Conclusion}
+\begin{itemize}
+\item This study contributes to the  literature on the demographic effects of political indoctrination and education policies
+\medskip
+
+    \item The Francoist regime's primary education reform led to significant demographic changes
+    \medskip
+
+\item The policy, which included indoctrination through education, generated unintended effects on the fertility rates in Spain
+\medskip
+
+\item Analysis of beliefs shows lasting hostility in the following decades by the cohorts exposed to Franco's education reforms towards the values of religion, family and gender roles promoted by the regime
+\medskip
+
+\item This hostility was likely a key driver of the fertility backlash documented here
+\item Policy message: avoid coercive narratives. Promoting gender equity may be more effective
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{}
+ \begin{frame}
+\begin{center}
+\textbf{{\LARGE THANK YOU}}\\
+
+\vspace{2cm}
+%{\color{magenta}{\LARGE Gema Lax Mart\'{i}nez}}
+\thispagestyle{empty}
+\addtocounter{framenumber}{-1} % do not page count
+\end{center}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label= histogram_teachers]
+%\frametitle{Cleansed Teachers: Distribution}
+%\addtocounter{framenumber}{-1} % do not page count
+%\begin{figure}
+    %\centering
+            %\includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/histogram_teachers.png}
+            %\caption{Teachers removed from their workplace}
+   % \caption{ }
+%\end{figure}
+%\hyperlink{databack<4>}%{\beamerbutton{Back}}
+%\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label=cleansed]
+%\section*{}
+%\addtocounter{framenumber}{-1} % do not page count
+%\frametitle{Cleansed Teachers: Time Distribution}
+%\begin{figure}
+ %   \centering
+            %\includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/teachers_year.pdf}    
+   % \caption{ }
+%\end{figure}
+%\hyperlink{databack<4>}{\beamerbutton{Back}}
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label= map_teachers]
+%\frametitle{Cleansed Teachers: Geographical Distribution}
+%\addtocounter{framenumber}{-1} % do not page count
+
+%\begin{figure}
+    %\centering
+            %\includegraphics[width=0.6\textwidth]{desc_maps/teacherspc.png}
+            %\caption{Teachers per 10,000 inhabitants}
+   % \caption{ }
+%\end{figure}
+%\hyperlink{databack<4>}{\beamerbutton{Back}}
+%\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Stability of Fertile Age Groups}
+\label{stability_age}
+
+\begin{figure}[htp]
+	\centering		\includegraphics[width=0.67\textwidth]{Educated to Be Mothers-slides/women.pdf}
+%\caption{Teachers removed and female population at schooling age in 1940} 
+\end{figure}
+
+\hyperlink{empirical}{\beamerbutton{Back}}
+\end{frame}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[label= map_together]
+\frametitle{Geographical Distribution of the Treatment}
+\addtocounter{framenumber}{-1} % do not page count
+\begin{figure}[htp]
+	\centering		\includegraphics[width=0.8\textwidth]{Educated to Be Mothers-slides/descriptive_maps/popw.pdf}
+    \vspace{-1.5cm}
+%\caption{Teachers removed and female population at schooling age in 1940} 
+\end{figure}
+\hyperlink{empirical_reg}{\beamerbutton{Back}}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label=definition_tfr]
+%\section*{}
+%\frametitle{Measures of fertility: definitions}
+%\addtocounter{framenumber}{-1} % do not page count
+
+%\textbf{General fertility rate} Number of births in a year per 1,000 women aged 15 to 44
+
+ %\textbf{Total fertility rate (TFR)} is the mean number of children a woman would have by age 50 if she survived to age 50 and was subject, throughout her life, to the age-specific fertility rates observed in a given year. The total fertility is expressed as the number of children per woman. %Total fertility is computed as the sum of age-specific fertility rates divided by 1,000: 
+% $$TFR=\frac{5}{1000}\sum_{a=15-19}^{45-49} f_a$$
+%Where $f_a$ is the age-specific fertility rate for women in age group $a$
+
+
+%\textbf{Crude Birth rate}  Number of births occurring in a year divided by the population times 1,000\\
+
+
+ %\begin{tiny}
+%\textit{Source: United Nations}
+%\end{tiny}
+%\hyperlink{tfr_back}{\beamerbutton{back}}
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label=gfr]
+%\section*{}
+%\addtocounter{framenumber}{-1} % do not page count
+%\begin{figure}
+    %\centering
+ %           \includegraphics[width=0.8\textwidth]{gfr}
+  %          \caption{Global Fertility Rate}
+   %         \vspace{-.5cm}
+            %\caption*{\tiny \textit{Source:} INE, UN Population Division and Statista}
+%\end{figure}
+
+%\begin{tiny}
+%\textbf{General fertility rate} Number of births in a year per 1,000 women aged 15 to 44 \hyperlink{tfr_back}{\beamerbutton{back}}
+%\end{tiny}
+%\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[label=summary]
+ %\section*{}
+%\addtocounter{framenumber}{-1} % do not page count
+%\frametitle{Summary}
+%\vspace{-1cm}
+%\begin{table}[htp]\centering \caption{Summary Statistics \label{sumstat_appendixdams}}
+%\resizebox{0.6\linewidth}{!}{
+%\begin{tabular}{l*{1}{ccccc}}
+%\toprule
+%                    &        Mean&          SD&         Min&         Max&           N\\
+%\midrule
+%Alive births per 1,000 inh.&      109.46&       75.01&        0.05&      651.34&       4,591\\
+%Weddings per 1,000 inh.&       35.49&       19.04&        1.09&      412.03&       4,588\\
+%Distance to the National front&        0.45&        0.50&        0.00&        1.00&       4,591\\
+%Female pop. share aged 0-14&        0.28&        0.05&        0.12&        0.38&       4,591\\
+%Male pop. share aged 0-14&        0.31&        0.05&        0.16&        0.40&       4,591\\
+%\bottomrule
+%\end{tabular}}
+%\end{table}
+
+%\hyperlink{databack}{\beamerbutton{back}}
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label=trends]
+%\section*{}
+%\addtocounter{framenumber}{-1} % do not page count
+%\begin{table}[h!]
+%	\caption{Trends}
+%	\center
+%	\resizebox{0.45\linewidth}{!}{
+%		\begin{threeparttable}		\input{Educated to Be Mothers-slides/continuous/table_reg_female_trends.tex}
+		%NOTES:
+%\begin{tablenotes}[flushleft]\scriptsize
+%\item \textsc{Notes}: Standard errors are clustered at Mun. level  in parentheses. * significant at 10\% , ** significant at 5\%,  *** significant at 1\%.
+
+ % \end{tablenotes}
+%\end{threeparttable}
+%}
+%\end{table}
+%\hyperlink{RC}{\beamerbutton{back}}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label=baseline_weddings]
+%\section*{}
+%\addtocounter{framenumber}{-1} % do not page count
+%\begin{table}[h!]
+%	\caption{Weddings}
+%	\center
+%	\resizebox{0.45\linewidth}{!}{
+%		\begin{threeparttable}		\input{Educated to Be Mothers-slides/continuous/table_reg_female_weddings.tex}
+		%NOTES:
+%\begin{tablenotes}[flushleft]\scriptsize
+%\item \textsc{Notes}: Standard errors are clustered at Mun. level  in parentheses. * significant at 10\% , ** significant at 5\%,  *** significant at 1\%.
+
+ % \end{tablenotes}
+%\end{threeparttable}
+%}
+%\end{table}
+%\hyperlink{RC}{\beamerbutton{back}}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label=trends_weddings]
+%\section*{}
+%\addtocounter{framenumber}{-1} % do not page count
+%\begin{table}[h!]
+%	\caption{Weddings: Trends}
+%	\center
+%	\resizebox{0.45\linewidth}{!}{
+%		\begin{threeparttable}		\input{Educated to Be Mothers-slides/continuous/table_reg_female_trends_weddings.tex}
+		%NOTES:
+%\begin{tablenotes}[flushleft]\scriptsize
+%\item \textsc{Notes}: Standard errors are clustered at Mun. level  in parentheses. * significant at 10\% , ** significant at 5\%,  *** significant at 1\%.
+
+%  \end{tablenotes}
+%\end{threeparttable}
+%}
+%\end{table}
+%\hyperlink{RC}{\beamerbutton{back}}
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+\frametitle{Balancing}
+\label{balancing}
+\begin{table}[htbp]
+		\centering
+		\resizebox{.31\textwidth}{!}{
+		\begin{threeparttable}
+			\normalsize
+			%\caption{Treated vs Control - Balancing Tests }
+			\label{balancing}
+\input{Educated to Be Mothers-slides/results/table_balancing.tex}
+			
+		\end{threeparttable}
+		}
+	\end{table}
+    \hyperlink{empirical_reg}{\beamerbutton{Back}}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Descriptives}
+\label{descriptives}
+\begin{figure}
+    \centering
+            \includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/desc_1940_female_fertility.pdf}    
+    %\caption{ }
+\end{figure}
+\hyperlink{empirical_reg}{\beamerbutton{Back}}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label=median]
+%\section*{}
+% \addtocounter{framenumber}{-1} % do not page count
+%\begin{table}[h!]
+%	\caption{Robustness Checks: Discrete version}
+%	\center
+%	\resizebox{0.5\linewidth}{!}{
+%		\begin{threeparttable}		\input{Educated to Be Mothers-slides/median/table_reg_female.tex}
+		%NOTES:
+%\begin{tablenotes}[flushleft]\scriptsize
+%\item \textsc{Notes}: Standard errors are clustered at Mun. level  in parentheses. * significant at 10\% , ** significant at 5\%,  *** significant at 1\%.
+
+  %\end{tablenotes}
+%\end{threeparttable}
+%}
+%\end{table}
+%\hyperlink{RC}{\beamerbutton{back}}
+%\end{frame}
+
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=median_event]
+\section*{}
+\frametitle{Discrete Treatment: Event Study}
+ \addtocounter{framenumber}{-1} % do not page count
+\begin{figure}
+     %\caption{}
+    \centering
+            \includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/results/event_1940_discrete_alive_birth1.pdf}    
+
+\end{figure}
+\hyperlink{RC}{\beamerbutton{Back}}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[label=base_mobile_event]
+%\section*{}
+%\frametitle{Fixing Fertile Population: Event Study}
+% \addtocounter{framenumber}{-1} % do not page count
+%\begin{figure}
+     %\caption{}
+ %   \centering
+            %\includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/event_1940_basefissa_flag41.pdf}    
+
+%\end{figure}
+%\hyperlink{RC}{\beamerbutton{Back}}
+%\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=eventstudy_weddings]
+\frametitle{Weddings: Event Study}
+\begin{figure}
+    \centering
+            \includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/results/event_1940_wedding_total_wedding1.pdf}    
+   % \caption{ }
+\end{figure}
+\hyperlink{RC}{\beamerbutton{Back}}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{frame}[label=placebo_1544]
+ \section*{}
+ \addtocounter{framenumber}{-1} % do not page count
+\frametitle{Placebo with Population 15-24 in 1940: Event Study}
+\begin{figure}
+    \centering
+            \includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/results/event_1940_alive_birth2.pdf}    
+    %\caption{ }
+\end{figure}
+\hyperlink{RC}{\beamerbutton{Back}}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=tfr_back]
+\frametitle{Excluding Demographic Transition}
+\begin{figure}
+    %\centering
+            \includegraphics[width=0.6\textwidth]{TFR}
+            \caption{Total Fertility Rate}
+            \vspace{-.5cm}
+            %\floatfoot{\tiny Source: INE, UN Population Division and Statista}
+            \caption*{\tiny \textit{Source:} INE, UN Population Division and Statista}
+\end{figure}
+\hyperlink{RC}{\beamerbutton{Back}}
+%\hyperlink{gfr}{\beamerbutton{Global Fertility Rate}}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Individual Analysis:  Event study - Males}
+\begin{figure}
+\label{nkids_male}
+    \centering
+            \includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/results/nkids_male.pdf}    
+   % \caption{ }
+\end{figure}
+%Caveat: we control for wife's age\\
+\hyperlink{cic_ev_female}{\beamerbutton{Back}} 
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Individual Analysis: Census - DiD}
+\label{nkids_census_did}
+\begin{table}[h!]
+	\center
+	\resizebox{0.5\linewidth}{!}{
+		\begin{threeparttable}		\input{Educated to Be Mothers-slides/table_census_kids}
+		%NOTES:
+\begin{tablenotes}[flushleft]\scriptsize
+\item \textsc{Notes}: Standard errors are clustered at Mun. level  in parentheses. * significant at 10\% , ** significant at 5\%,  *** significant at 1\%.
+
+  \end{tablenotes}
+\end{threeparttable}
+}
+\end{table}
+\hyperlink{cic_ev_female}{\beamerbutton{Back}} 
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+\label{nkids_census}
+    \centering
+            \includegraphics[width=0.6\textwidth]{Educated to Be Mothers-slides/nhijos_census.pdf}    
+   % \caption{ }
+\end{figure}
+\hyperlink{cic_ev_female}{\beamerbutton{Back}} 
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Mechanisms: Event Study}
+\label{event_cis}
+\begin{figure}
+    \centering
+            \includegraphics[width=0.65\textwidth]{cis_event.pdf}    
+    %\caption{Source: CIS *}
+\end{figure}
+\hyperlink{mech}{\beamerbutton{Back}}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[label=map_deaths]
+\frametitle{Male deaths (1936-39)}
+\begin{figure}[htbp]
+    \centering
+          \includegraphics[width=0.5\textwidth]{Educated to Be Mothers-slides/descriptive_maps/deaths_male_1936_39quintile.pdf}
+        
+    \caption{Male deaths per 1,000 inhabitants}\label{maps_deaths_civilwar}
+\end{figure}
+\hyperlink{RC}{\beamerbutton{Back}}
+\end{frame}
+ \end{document} 
+ \begin{frame}[label=ttest]
+\addtocounter{framenumber}{-1} % do not page count
+%\frametitle{Summary}
+%\vspace{-1cm}
+\begin{table}[htp]\centering \caption{Summary Statistics \label{sumstat_appendixdams}}
+\resizebox{0.7\linewidth}{!}{
+\begin{tabular}{ l |c c| c c| c c }\hline\hline
+\multicolumn{7}{l}{\textit{\small PANEL A: Above median proportion teachers and women at schooling age}   }   \\     \hline            
+ \multicolumn{1}{l}{\textit{Main variables} }    &\multicolumn{2}{c}{}&\multicolumn{2}{c}{}  &\multicolumn{2}{c}{Mean-Diff}\\ \hline
+
+Alive births per 1,000 inh.&       76.28&     (18.03)&      114.73&     (27.78)&      -38.45***&     (0.000)\\
+Weddings per 1,000 inh.&       24.90&      (9.68)&       26.89&      (8.92)&       -1.99** &     (0.003)\\
+Area share in National Front&       47.92&     (48.81)&       45.45&     (44.23)&        2.47   &     (0.464)\\
+N                   &         375&            &         390&            &         765   &            \\
+\hline
+\multicolumn{7}{l}{\textit{\small PANEL B: Above median proportion teachers and below median women at schooling age}   }   \\     \hline                  
+ &\multicolumn{2}{c}{ \shortstack{\vspace{0.1cm}  }}&\multicolumn{2}{c}{ \shortstack{\vspace{0.1cm}  }}&\multicolumn{1}{c}{Mean-Diff}\\ \hline
+Alive births per 1,000 inh.&       97.28&     (29.10)&       69.17&     (20.20)&       28.11***&     (0.000)\\
+Weddings per 1,000 inh.&       25.74&     (15.16)&       23.98&      (8.74)&        1.77*  &     (0.020)\\
+Area share in National Front&       48.04&     (45.93)&       34.70&     (45.99)&       13.34***&     (0.000)\\
+N                   &       1,005&            &         225&            &       1,230   &            \\
+\hline
+\multicolumn{7}{l}{\textit{\small PANELC: Below median proportion teachers and above women at schooling age}   }   \\     \hline                  
+ &\multicolumn{2}{c}{ \shortstack{\vspace{0.1cm} }}&\multicolumn{2}{c}{ \shortstack{\vspace{0.1cm} }}&\multicolumn{1}{c}{Mean-Diff}\\ \hline
+ Alive births per 1,000 inh.&       89.81&     (30.50)&      101.72&     (24.18)&      -11.91***&     (0.000)\\
+Weddings per 1,000 inh.&       25.48&      (9.24)&       25.18&     (26.20)&        0.29   &     (0.866)\\
+Area share in National Front&       43.95&     (46.65)&       53.44&     (43.21)&       -9.50** &     (0.006)\\
+N                   &         990&            &         240&            &       1,230   &            \\
+\hline
+\hline\end{tabular}}
+%\begin{minipage}{12cm}
+ %   \scriptsize
+  %  \textsc{Notes}:  
+%\end{minipage}
+\end{table}
+\hyperlink{databack}{\beamerbutton{back}}
+\end{frame}

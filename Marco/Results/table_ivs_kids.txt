@@ -1,0 +1,15 @@
+		(1)	(2)
+VARIABLES	LABELS	Kids	N. kids
+			
+treat_2	1930/1938	0.164***	0.445**
+		(0.040)	(0.195)
+treat_3	1939/1950	0.241***	0.748***
+		(0.056)	(0.211)
+			
+Observations		1,190	1,185
+R-squared		0.035	0.037
+Year FE		YES	YES
+Mun. FE		YES	YES
+Age class FE		YES	YES
+Year X Age group X Residence FE		YES	YES
+Base value		.85	2.48

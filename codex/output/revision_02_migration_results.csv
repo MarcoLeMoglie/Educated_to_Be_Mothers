@@ -1,0 +1,15 @@
+sample,outcome,spec,coefname,b,se,p,N
+macro,alive,baseline_cont,interaction,-477.9992157123089,238.85851,.048110079,5518
+macro,alive,baseline_cont,interaction2,-176.3478064432542,148.67668,.23841533,5518
+macro,birthrate_lin,1940_1965,interaction,-2.855686869279687,.91308933,.0023153287,2504
+macro,birthrate_lin,1940_1965,interaction2,-4.217408181263751,1.0813136,.00017516616,2504
+macro,birthrate_lin,baseline_cont,interaction,-4.617764054403997,1.4313722,.0017012551,5458
+macro,birthrate_lin,baseline_cont,interaction2,-8.311913253635053,1.9690664,.00005396107,5458
+macro,birthrate_lin,discrete,dinteraction,-71.59140935253097,10.463916,6.5710848e-10,5458
+macro,birthrate_lin,discrete,dinteraction2,-23.17974749819803,14.588166,.11526216,5458
+macro,birthrate_lin,through_1972,interaction,-4.444139253824455,1.3062031,.0009652907,4160
+macro,birthrate_lin,through_1972,interaction2,-6.86744804917566,1.4897066,.000012041643,4160
+macro,ln_female1544,baseline_cont,interaction,.0015599006363515,.002377758,.51332128,5458
+macro,ln_female1544,baseline_cont,interaction2,-.0150834769489381,.0043753148,.00083236658,5458
+macro,ln_female1544,discrete,dinteraction,-.0250460600176322,.026325511,.34371895,5458
+macro,ln_female1544,discrete,dinteraction2,-.08676793030096,.033100788,.01014023,5458

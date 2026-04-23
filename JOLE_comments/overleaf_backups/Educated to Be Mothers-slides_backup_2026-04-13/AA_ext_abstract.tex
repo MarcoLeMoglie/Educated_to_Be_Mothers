@@ -1,0 +1,199 @@
+\documentclass[a4paper,oneside,final,onecolumn,11pt,english]{article}
+\usepackage{comment}
+\usepackage{cancel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{subcaption}
+\usepackage{bbding}
+\usepackage{pgfplots}
+\usepackage{amsfonts}
+\usepackage{graphics}
+\usepackage{bbm}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{changepage} %this is to insert narrower margins paragraphs
+%\usepackage[margin=1.3in]{geometry}
+\usepackage[a4paper]{geometry}
+\geometry{left=2.0cm, right=2.0cm, footnotesep=0.4cm, headheight=15pt, headsep=1.5cm, bmargin=2cm, tmargin=3cm}
+%\usepackage{subfigure}
+\usepackage[toc,page]{appendix}
+\usepackage{threeparttable}
+\usepackage{color}
+\usepackage{lscape}
+\usepackage{umoline}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{ulem} %\xout
+\usepackage{blindtext}
+\usepackage{chngcntr}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{eucal}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+%\usepackage{authblk}
+\usepackage{flafter} %which prevents figures ever floating backwards up the current page.
+\usepackage{flafter} %which prevents figures ever floating backwards up the current page.
+\usepackage{lmodern,microtype}
+\usepackage{ragged2e} %justify
+\usepackage{enumitem}
+\usepackage{mwe} % new package from Martin scharrer
+\usepackage{titling}%
+\usepackage{caption}
+\usepackage{multirow}
+ 
+\usepackage{tabularx}
+\usepackage{pdfpages}
+\usepackage{chronosys}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=blue,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+}
+\usepackage{xstring}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{parskip} 
+ 
+\makeatletter
+\newread\pin@file
+\newcounter{pinlineno}
+\newcommand\pin@accu{}
+\newcommand\pin@ext{pintmp}
+% inputs #3, selecting only lines #1 to #2 (inclusive)
+\newcommand*\partialinput [3] {%
+  \IfFileExists{#3}{%
+    \openin\pin@file #3
+    % skip lines 1 to #1 (exclusive)
+    \setcounter{pinlineno}{1}
+    \@whilenum\value{pinlineno}<#1 \do{%
+      \read\pin@file to\pin@line
+      \stepcounter{pinlineno}%
+    }
+    % prepare reading lines #1 to #2 inclusive
+    \addtocounter{pinlineno}{-1}
+    \let\pin@accu\empty
+    \begingroup
+    \endlinechar\newlinechar
+    \@whilenum\value{pinlineno}<#2 \do{%
+      % use safe catcodes provided by e-TeX's \readline
+      \readline\pin@file to\pin@line
+      \edef\pin@accu{\pin@accu\pin@line}%
+      \stepcounter{pinlineno}%
+    }
+    \closein\pin@file
+    \expandafter\endgroup
+    \scantokens\expandafter{\pin@accu}%
+  }{%
+    \errmessage{File `#3' doesn't exist!}%
+  }%
+}
+\makeatother
+
+
+ 
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+\usetikzlibrary{decorations.pathreplacing, fit, calc}
+\makeatletter
+\def\ps@pprintTitle{%
+  \let\@oddhead\@empty
+  \let\@evenhead\@empty
+  \def\@oddfoot{\reset@font\hfil\thepage\hfil}
+  \let\@evenfoot\@oddfoot
+}
+\makeatother
+
+\setcounter{MaxMatrixCols}{10}
+
+\linespread{1.5}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+
+\newcommand{\percentsym}{\%}
+\usepackage[natbib,hyperref,sorting=nyt,citestyle=ext-authoryear,bibstyle=authortitle,mincitenames=1, maxcitenames=1,]{biblatex}
+\addbibresource{bibli.bib} 
+
+
+\begin{document}
+
+
+
+%\begin{titlepage}
+
+\title{ \vspace{-2cm} \huge Educated to Be Mothers? \\ Indoctrination and Demographic Backlash\thanks{\small  We are grateful to Lorenzo Cappellari, Davide Cipullo, Libertad Gonzalez and Felipe Valencia for invaluable comments and suggestions. We also thank participants at the Summer Crime Workshop 2024 at Bocconi University, the Fourth Winter Symposium in Economics and Finance at the Catholic University of Milan, seminar at UNSW Sydney, the AXA Gender Lab Seminar Series at Bocconi University and Economic History Seminar at Universidad Carlos III of Madrid. We thank Noemi Fachetti for excellent research assistance. } \vspace{-0.2cm}}
+ 
+\date{\today }
+
+\author{
+Gema Lax-Mart\'{i}nez\thanks{University of Catania, Department of Economics, and CLEAN Unit on the Economic Analysis of Crime at the BAFFI-CAREFIN Center. Email: gema.laxmartinez@unict.it} \\ 
+        \and 
+        Marco Le Moglie\thanks{Catholic University of the Sacred Heart, Department of Economics, and CLEAN Unit on the Economic Analysis of Crime at the BAFFI-CAREFIN Center. Email: marco.lemoglie@unicatt.it} \\ 
+        \and 
+        Matteo Sandi\thanks{Catholic University of the Sacred Heart, Department of Economics. Email: matteo.sandi@unicatt.it}\\ 
+        }
+        
+        
+\maketitle
+
+%\end{titlepage}
+
+
+
+\hspace{1cm} In the course of history, autocratic regimes have often tried to interfere in several aspects of the private lives of their citizens, and fertility decisions are no exception. Typically, autocratic regimes have attempted to stimulate fertility rates through propaganda and/or indoctrination. Historical examples are
+ the Lebensborn program created by Nazi authorities to %increase Germany’s population by 
+ encourage German women deemed “racially valuable” (\citeauthor{holocaust}),  the award of Medals of motherhoods in the Soviet Union (\citeauthor{cabinet_oxford}) or the National Birthrate Awards to promote an increase in the country's fertility rate established by the Franco regime in Spain. 
+ 
+ This paper examines the demographic impact of the indoctrination carried out by the Francoist regime following the Nationalist victory in the Spanish Civil War.
+  The Francoist regime repeatedly expressed its determination regarding demographic policy, considering it one of the state's fundamental concerns, as demonstrated by the approval of the 1941 law that prohibited abortion and anti-contraceptive propaganda \citep[][p. 768-770]{boe1941}. Likewise, it was recognized that the specific education of women as wives, mothers, and educators of their children should begin in primary school \citep[][]{consigna1941}. The first Primary Education Law enacted during the Francoist regime dates back from 1945, six years after the Nationalists' victory in the  Civil War. Primary education is divided into four periods: initiation (4-6), elementary (6-10), advanced (10-12) and introduction to professional practice (12-15). The law defines the main characteristics of primary education: inclusion of religious education, promotion of strong national identity, mandatory use of the Spanish language, and a different curriculum for girls that prepares them for home life, crafts, and domestic industries, among others.  %The regime also highlighted how the reform would elevate the dignity of the teaching profession and how the spirit of the national movement would endure in Spain’s future through the younger generations.   %Additionally, the state also mandated the separation of sexes in primary education, while kindergarten schools and coeducational schools would always be run by female teachers.\footnote{Coeducational schools will not be authorized except in exceptional cases where the population does not provide a school contingent of more than 30 students between the ages of 6 and 12. Primary school comprises four periods:  nursery schools up to four years old,  kindergarten (4-6 years old)- which could admit both boys and girls when enrollment does not allow for gender division-, elementary education (6-10 years old), improvement (10-12 years old), and vocational initiation (12-15 years old).} Books in all schools had to be approved by the Ministry of National Education and the ecclesiastical hierarchy \citep[][p. 385-390]{boe1945} and the curriculum was modified in all the schools of the country so as to teach traditional gender roles to students enrolled in private and public schools. 
+ Additionally, the state mandates the separation of sexes in primary education and establishes the subjects that must be taught in schools: core subjects (such as writing and arithmetic), formative subjects (such as mathematics), and complementary subjects (such as feminine tasks). Material such as books had to be approved by the Ministry of National Education and the ecclesiastical hierarchy. We can find numerous examples of different reading books for boys and girls. The latter were given books that narrated the birth of the protagonists (though without referencing sex, instead attributing it to God or the stork), stories where young girls were responsible for entire families, or tales emphasizing the important role of women as mothers \citep[][]{mahamud2016}.
+
+
+We measure exposure to this reform through cohorts exposed to the Francoist primary education system measured as share of female population that attended Francoist schools, using a difference-in- difference approach.  
+
+Our paper contributes to different strands of literature. First, on the impact of indoctrination and propaganda carried out by authoritarian regimes. \citet{adena2015} analyze the political effects of mass media before the fall of democracy in the Weimar Republic and after the consolidation of Nazis rule. \citet{voigtlander2015} demonstrate that Nazi indoctrination in schools was highly effective as Germans who grew up under the Nazis are much more anti-Semitic than those born before or after that period. Similarly, \citet{homola} demonstrate that current political intolerance or xenophobia are associated by proximity to Nazi concentration camps in Germany, as neighboring communities were more exposed to outgroup hatred beliefs.
+
+Second, we also contribute to the literature on family policies on fertility. See for example the analysis of Nazi family policies on fertility by \citet[][]{baudin2023}. However, to the best of our knowledge, our paper is the first to analyze the impact of indoctrination policies and authoritarian propaganda on fertility decisions.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+We examine the impact of indoctrination carried out by the Franco regime using a panel dataset covering almost 50 years (1930-1979). Due to data availability across different sources, the units of observation in the baseline analysis are provincial capitals and the rest of the provinces. 
+We collected novel data on the number of inhabitants by age and gender from various population censuses spanning 1930 to 1970, obtained from the Statistics National Institute of Spain (\textit{Instituto Nacional de Estad\'istica, INE}). The outcome variable \textit{Number of alive births } from 1930 to 1979 comes from the Natural Movement of the Population dataset provided by \textit{INE}.
+
+Our analysis documents that Francoist indoctrination resulted in a demographic backlash for treated individuals, as a disproportionately lower number of births is observed in areas that had a higher proportion of girls at schooling age during the Franco reform. Several checks suggest this is not the result of selective migration across regions either before or after the Franco regime, and a set of placebo tests confirm our causal interpretation of these results. These findings, in turn, show that authoritarian policies often create resistance and reach unintended effects rather than fostering compliance and obedience in the population.
+
+We also employ individual-survey data from 1990 and 1992 to analyze the channels driving the main findings. These data are provided by the Spanish Sociological Research Center (\textit{Centro de Investigaciones Sociol\'ogicas, CIS}), an official institution that conducts multiple surveys throughout the year in Spain.  Our analysis specifically relies on thematic surveys, which focus on particular topics relevant to our study, such as attitudes toward gender roles and perceptions of motherhood.
+
+ 
+
+\clearpage
+\printbibliography
+
+
+\end{document}

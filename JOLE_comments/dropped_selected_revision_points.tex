@@ -1,0 +1,302 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\title{JOLE Revision Package: Tests We Ran But Decided Not to Keep}
+\author{}
+\date{April 3, 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Purpose of this document}
+
+This note records the exercises we ran but decided not to keep in the final selected revision design.
+
+For each dropped block, this document explains:
+\begin{itemize}[leftmargin=*]
+\item what reviewer concern the test was trying to answer;
+\item why the test looked attractive in principle;
+\item what a ``great'' result would have looked like;
+\item what we actually found;
+\item why we decided not to keep it.
+\end{itemize}
+
+The point of this document is not to say that the dropped tests were useless. Many of them were extremely useful diagnostically. They helped us learn what \emph{not} to build the revised paper around.
+
+\section{Portugal as a placebo or counterfactual}
+
+\subsection*{Reviewer concern addressed}
+
+This block tried to answer the concern that the cohort pattern in Spain might simply reflect a broader Southern European fertility trend rather than a Spain-specific institutional story.
+
+\subsection*{Why it looked promising}
+
+Portugal is an obvious nearby comparison country:
+\begin{itemize}[leftmargin=*]
+\item geographically close;
+\item culturally closer than a Northern European country;
+\item potentially useful as a rough check against region-wide secular trends.
+\end{itemize}
+
+\subsection*{What the ``cool'' result would have been}
+
+The ideal result would have been:
+
+\begin{quote}
+``Portugal does not show the same treated-cohort pattern, and Spain remains clearly different from Portugal under reasonable controls.''
+\end{quote}
+
+That would have been a strong and intuitive placebo story for the response letter.
+
+\subsection*{What we actually tried}
+
+We tried several versions:
+\begin{itemize}[leftmargin=*]
+\item HFD / OWID cohort fertility comparisons;
+\item IVS pooled Spain--Portugal regressions;
+\item stricter pooled specifications with saturated fixed effects;
+\item Portugal-only analogues of the cohort design.
+\end{itemize}
+
+\subsection*{What we found}
+
+The pattern was too unstable:
+\begin{itemize}[leftmargin=*]
+\item HFD looked helpful in some specifications and unhelpful in others, especially once country-specific trends were introduced.
+\item IVS pooled models did not show a clean, stable Spain-minus-Portugal differential.
+\item The more saturated Spain--Portugal models were too specification-sensitive to be reassuring.
+\item Portugal-only regressions sometimes showed their own significant cohort gradients, which weakens the placebo logic.
+\end{itemize}
+
+\subsection*{Why we drop it}
+
+We drop the Portugal block entirely because it is too weak, too sensitive, and too easy for a referee to turn against us. It does not fail because Portugal is uninteresting. It fails because it does not produce a sufficiently clean reviewer-facing message.
+
+\section{External pooled beliefs with IVS / Spain--Portugal}
+
+\subsection*{Reviewer concern addressed}
+
+This block tried to strengthen the mechanism section by showing that treated Spanish cohorts also differ in gender and family attitudes in external cross-wave data.
+
+\subsection*{Why it looked promising}
+
+If the beliefs results had been stable across several waves and a second country comparison, we could have upgraded the mechanisms section from ``single-wave suggestive'' to something broader and more credible.
+
+\subsection*{What the ``cool'' result would have been}
+
+The great version of this block would have shown:
+\begin{quote}
+``A stable and significant Spain-specific effect on a broad traditional-gender or family-values index, robust across waves and specifications.''
+\end{quote}
+
+\subsection*{What we found}
+
+That did not happen. The indices were weak and inconsistent, and the signal was at best sporadic at the single-item level. That is not enough to support a strong mechanism claim.
+
+\subsection*{Why we drop it}
+
+We drop the new external beliefs block because it does not add enough. Instead, we keep only the old Spanish barometer exercise already in the paper, and we frame it even more cautiously as suggestive evidence only.
+
+\section{Post-1950 cohort profiles in the 2011 census}
+
+\subsection*{Reviewer concern addressed}
+
+This block tried to answer the criticism that the paper might merely be picking up a smooth secular cohort trend in fertility.
+
+\subsection*{Why it looked promising}
+
+In principle, if post-1950 cohorts clearly broke the monotonic trend, this would have given us a simple descriptive figure to say:
+\begin{quote}
+``Look, the profile is not just a smooth long-run decline.''
+\end{quote}
+
+\subsection*{What the ``cool'' result would have been}
+
+The best-case outcome would have been a convincing non-monotonic profile that clearly undermined the ``just a trend'' objection.
+
+\subsection*{What we found}
+
+We did see some non-monotonic movement after 1950 in the 2011 census profile, but this was not strong enough to trust as a headline response because later cohorts are not observed at equally comparable completed-fertility ages.
+
+\subsection*{Why we drop it}
+
+We drop it because the age-comparability problem is too easy to attack. A skeptical referee can always say that the pattern is lifecycle or incomplete fertility rather than a real break in the cohort profile.
+
+\section{Macro joint pretrend test}
+
+\subsection*{Reviewer concern addressed}
+
+This block tried to answer the DiD concern about parallel trends in the macro design.
+
+\subsection*{Why it looked promising}
+
+In theory, a formal joint pretrend test can look disciplined and reassuring if it comes out clean.
+
+\subsection*{What the ``cool'' result would have been}
+
+The ideal result would have been a comfortably insignificant joint pretrend test, allowing us to say:
+\begin{quote}
+``The treated and control units do not display detectable differential pre-trends before the reform.''
+\end{quote}
+
+\subsection*{What we found}
+
+We did not get that. The joint pretrend test came out very significant. That does not automatically kill the design, but it certainly does not help the paper.
+
+\subsection*{Why we drop it}
+
+We drop it from the selected package because it adds more risk than value. The paper already has dynamic evidence, and we do not need to foreground a formal test that weakens the presentation.
+
+\section{High-war versus low-war macro split}
+
+\subsection*{Reviewer concern addressed}
+
+This block tried to answer whether the macro result was really about Civil War intensity.
+
+\subsection*{Why it looked promising}
+
+A high-war versus low-war split is easy to understand and easy to present.
+
+\subsection*{What the ``cool'' result would have been}
+
+The attractive result would have been a clear demonstration that the macro effect is similar in high-war and low-war areas.
+
+\subsection*{What we found}
+
+The split was weaker and less informative than the direct war-control regression. The direct control is simply the better design.
+
+\subsection*{Why we drop it}
+
+We do not keep the split because we already have a superior version of the same idea: the direct war-intensity interaction inside the main macro regression.
+
+\section{Macro church split and direct Civil War control}
+
+\subsection*{Reviewer concern addressed}
+
+This block tried to answer whether the macro result was really about local religiosity or local Civil War intensity rather than the reform.
+
+\subsection*{Why it looked promising}
+
+At first glance, both exercises looked appealing. The church split seemed potentially informative about where the bundle effect might be stronger, while the direct war-control regression looked like a natural macro robustness check against the war-trauma interpretation.
+
+\subsection*{What the ``cool'' result would have been}
+
+The attractive result would have been a clean and intuitive macro message: once we control directly for war intensity, or split the sample by pre-war religiosity, the female treatment effect still looks essentially the same.
+
+\subsection*{What we found}
+
+The macro direct war-control regression was coherent, but once we decided to keep the cleaner micro birthplace-war test, the macro version became redundant. The church split remained too speculative for the role we would need it to play in the paper: it is suggestive heterogeneity at best, not a serious identification check.
+
+\subsection*{Why we drop it}
+
+We do not keep this block in the selected revision design. The war critique is answered more directly at the micro level by assigning predetermined Civil War exposure to birthplace and allowing it to matter differently for treated cohorts. The church split, in turn, is too speculative and mechanism-like to justify space in the revised paper at this stage.
+
+\section{Law 56 alternative windows and donut restrictions}
+
+\subsection*{Reviewer concern addressed}
+
+This block also addressed the Law 56 confound story, but with alternative exposure windows such as ages 18--30 and with donut-cohort restrictions.
+
+\subsection*{Why it looked promising}
+
+Alternative windows can reassure the reader that the result is not sensitive to one arbitrary coding choice.
+
+\subsection*{What the ``cool'' result would have been}
+
+The best result would have been a clean statement that all reasonable Law 56 windows and all donut-cohort restrictions tell the same story.
+
+\subsection*{What we found}
+
+That did not happen cleanly enough. The 18--30 window is a less attractive comparison because it is not as naturally tied to completed fertility, and the donut restrictions are not stable enough to serve as headline evidence.
+
+\subsection*{Why we drop them}
+
+We do not say they are useless. We say they are not stable or intuitive enough to survive as selected revision evidence. The 20--35 window is the cleaner headline comparison, while the donut restrictions are now fully out of the selected design because they are too easy to challenge and do not sharpen the paper's message.
+
+\section{Step-normalized births and female 15--44 population}
+
+\subsection*{Reviewer concern addressed}
+
+These tests tried to answer the migration story in the macro panel.
+
+\subsection*{Why they looked promising}
+
+At first sight, a normalized birth rate or a direct regression on female population can sound like the most natural reply to a migration comment.
+
+\subsection*{What the ``cool'' result would have been}
+
+The ideal story would have been:
+\begin{quote}
+``The normalized birth-rate result is just as strong as the baseline, and female population outcomes show no treatment pattern at all.''
+\end{quote}
+
+\subsection*{What we found}
+
+The interpolated normalized outcome was useful, but the decennial-step normalization did not add much beyond the original paper setup. The female 15--44 regressions were diagnostic rather than decisive.
+
+\subsection*{Why we drop them}
+
+We do not keep this block in the selected revision design. The decennial-step normalization is too mechanical and the female 15--44 regressions are not persuasive enough to anchor the macro reply. The reviewer-facing macro answer now relies instead on the original non-normalized births specification with age-composition controls and on the external 1981 census evidence on female retention.
+
+\section{HFD completed fertility Spain--Portugal block}
+
+\subsection*{Reviewer concern addressed}
+
+Like the broader Portugal exercise, this block tried to show that Spain had a special cohort pattern relative to Portugal using aggregate completed fertility data.
+
+\subsection*{Why it looked promising}
+
+It used official-looking harmonized cohort fertility series, which gives a lot of visual and presentational appeal.
+
+\subsection*{What the ``cool'' result would have been}
+
+The great result would have been a stable Spain-specific divergence that survived common controls and reasonable trend adjustments.
+
+\subsection*{What we found}
+
+The sign and precision changed too much once the specification became more demanding, especially with country-specific trend terms.
+
+\subsection*{Why we drop it}
+
+We drop it because a visually attractive but unstable aggregate placebo is dangerous. It is better not to use it at all than to use it as a fragile rhetorical prop.
+
+\section{Over-saturated Spain $\times$ cohort placebo specifications}
+
+\subsection*{Reviewer concern addressed}
+
+These were stricter placebo checks trying to let Spain differ by cohort very flexibly relative to Portugal.
+
+\subsection*{Why they looked promising}
+
+At first glance, they look very conservative, because they seem to ``control for everything.''
+
+\subsection*{What the ``cool'' result would have been}
+
+We would have liked a stable residual Spain-specific differential even in a heavily saturated specification.
+
+\subsection*{What we found}
+
+The models became too saturated and too sensitive to normalization choices. They were not a good basis for a clean interpretation.
+
+\subsection*{Why we drop them}
+
+We drop them because a referee can rightly object that the model is too saturated to provide a transparent placebo result. Even if one coefficient looks attractive, it is not a result we would want to defend at length.
+
+\section*{Bottom line}
+
+The dropped tests fall into three groups:
+\begin{enumerate}[leftmargin=*]
+\item tests that were too weak or unstable to help us, especially Portugal and external pooled beliefs;
+\item tests that were not wrong but were worse than the alternatives we now keep, such as the high-war split;
+\item tests that were descriptive but too easy to attack on comparability grounds, such as the post-1950 census profile.
+\end{enumerate}
+
+Keeping this record is useful because it tells us exactly what we explored, what we hoped to get, and why we decided not to build the revision around those pieces.
+
+\end{document}

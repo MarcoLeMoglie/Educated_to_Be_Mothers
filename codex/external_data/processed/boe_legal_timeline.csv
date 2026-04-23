@@ -1,0 +1,4 @@
+boe_id,titulo,fecha_disposicion,fecha_publicacion,rango,departamento,diario,raw_file
+BOE-A-1970-932,"Decreto 2310/1970, de 20 de agosto, por el que se regulan los derechos laborales de la mujer trabajadora en aplicación de la Ley de 22 de julio de 1961.",19700820,19700824,Decreto,Ministerio de Trabajo,Boletín Oficial del Estado,raw/boe_decreto_2310_1970.xml
+BOE-A-1962-3718,"Decreto 258/1962, de 1 de febrero, por el que se aplica a la esfera laboral la Ley 56/1961, de 22 de julio, que equipara a los trabajadores de uno y otro sexo en sus derechos de orden laboral.",19620201,19620216,Decreto,Ministerio de Trabajo,Boletín Oficial del Estado,raw/boe_decreto_258_1962.xml
+BOE-A-1961-14132,"Ley 56/1961, de 22 de julio, sobre derechos políticos profesionales y de trabajo de la mujer.",19610722,19610724,Ley,Jefatura del Estado,Boletín Oficial del Estado,raw/boe_law56_1961.xml

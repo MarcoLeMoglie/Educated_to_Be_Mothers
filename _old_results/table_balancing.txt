@@ -1,0 +1,12 @@
+		(1)
+VARIABLES	LABELS	Fem. relig com
+		
+interaction	interaction	0.002
+		(0.042)
+interaction2	interaction2	-0.029
+		(0.037)
+		
+Observations		66
+R-squared		0.825
+Type FE		YES
+Prov. FE		YES

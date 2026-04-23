@@ -1,0 +1,11 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)	(11)	(12)	(13)	(14)	(15)	(16)	(17)	(18)	(19)	(20)	(21)
+			Husb works																			
+VARIABLES	LABELS	Both work equally	wife home	Both members should control natality (1990)	school_meet_wife	absentwork_wife	Husband should not do housework (1990)	Husb less housework	Share housework	Kids imp. couple stability (1992)	Wife works	realwoman_kids	cleanhouse_woman	women_work	{it:Women working:} to liberate from housework (1990)	Important get married (1990)	Working is important for women (1990)	import_mother	import_family	import_religion	Sharing housework import. couple happiness (1992)	Kids imp. couple happiness (1992)
+																						
+treat_2	1931/1939	0.091**	-0.176***	0.022	-0.055	0.037	-0.164***	-0.119***	-0.019	-0.002	-0.007	-0.009	0.238***	0.115***	0.091	-0.074*	0.018	-0.013	0.056	-0.661***	-0.019	-0.031
+		(0.039)	(0.041)	(0.043)	(0.039)	(0.042)	(0.032)	(0.042)	(0.047)	(0.023)	(0.056)	(0.041)	(0.052)	(0.032)	(0.102)	(0.042)	(0.024)	(0.041)	(0.086)	(0.222)	(0.052)	(0.032)
+																						
+Observations		1,101	1,101	1,059	1,103	1,084	1,124	902	1,115	1,111	1,073	1,081	1,137	1,130	306	1,092	1,112	1,081	1,037	1,002	1,007	1,014
+R-squared		0.190	0.202	0.171	0.149	0.197	0.186	0.168	0.161	0.155	0.164	0.195	0.105	0.176	0.223	0.182	0.103	0.179	0.134	0.246	0.187	0.159
+Mun. X Age class FE		YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+Year FE		YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES

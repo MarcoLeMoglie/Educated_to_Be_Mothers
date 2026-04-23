@@ -1,0 +1,11 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	Presence woman in politics is import. (1990)	Belongs to a femminist union or group (1990)	Working is important for women (1990)	import_freesex	Important get married (1990)	import_mother
+							
+1.treat	treat = 1	0.160***	0.114***	0.020	-0.014	-0.083**	-0.029
+		(0.041)	(0.027)	(0.016)	(0.033)	(0.031)	(0.027)
+2.treat	treat = 2	0.343***	0.283***	0.054***	0.117***	-0.251***	-0.121***
+		(0.027)	(0.025)	(0.018)	(0.019)	(0.026)	(0.026)
+							
+Observations		2,097	1,955	2,382	2,108	2,338	2,273
+R-squared		0.197	0.177	0.101	0.140	0.150	0.151
+Mun. FE		YES	YES	YES	YES	YES	YES

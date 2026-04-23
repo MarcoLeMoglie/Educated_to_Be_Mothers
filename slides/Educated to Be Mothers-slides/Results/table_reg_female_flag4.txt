@@ -1,0 +1,13 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	Births	Births	Births
+				
+interaction	Treat (W) X Post 1945	-375.318***	-179.178***	59.620***
+		(66.610)	(27.408)	(19.711)
+interaction2	Treat (M) X Post 1945	139.371***	66.720***	6.855*
+		(33.409)	(13.742)	(3.967)
+				
+Observations		1,980	1,980	1,980
+R-squared		0.741	0.745	0.754
+Mun. FE		YES	YES	YES
+State X Year FE		YES	YES	YES
+Coohrt		0-5	6-14	15-44

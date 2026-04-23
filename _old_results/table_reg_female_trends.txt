@@ -1,0 +1,13 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	Births	Births	Weddings	Weddings
+					
+interaction	Treat (W) X Post 1945	-52.380***	49.727**	-12.665***	11.775***
+		(18.893)	(19.617)	(4.142)	(4.299)
+interaction2	Treat (M) X Post 1945	28.169*	-17.667	5.582	-2.965
+		(16.436)	(10.765)	(3.679)	(2.116)
+					
+Observations		3,694	3,694	3,688	3,688
+R-squared		0.698	0.712	0.804	0.816
+Mun. FE		YES	YES	YES	YES
+Prov. X Year FE		YES	YES	YES	YES
+Cohort		0-14	15-44	0-14	15-44

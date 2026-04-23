@@ -1,0 +1,13 @@
+source_family,table_code,title,rows,columns,raw_file,clean_csv,clean_dta
+ine_censo_1981,01024,"Población de 16 y más años por Ámbito territorial, Sexo y Relación con la actividad económica",525,4,raw/ine_01024.csv_bd,processed/ine_01024_clean.csv,processed/ine_01024_clean.dta
+ine_censo_1981,01025,"Población de 16 y más años por Ámbito territorial, Tasa de actividad y Sexo",225,4,raw/ine_01025.csv_bd,processed/ine_01025_clean.csv,processed/ine_01025_clean.dta
+ine_censo_1981,01029,"Población ocupada por Rama de actividad económica, Ámbito poblacional y Grupos de edad",3192,4,raw/ine_01029.csv_bd,processed/ine_01029_clean.csv,processed/ine_01029_clean.dta
+ine_censo_1981,01030,"Población ocupada por Sexo, Sectores económicos, Ámbito poblacional y Grupos de edad",1176,5,raw/ine_01030.csv_bd,processed/ine_01030_clean.csv,processed/ine_01030_clean.dta
+ine_censo_1981,01033,"Población ocupada por Sexo, Profesión y Ramas de actividad",6552,4,raw/ine_01033.csv_bd,processed/ine_01033_clean.csv,processed/ine_01033_clean.dta
+ine_censo_1981,01057,"Población de 16 y más años  por Sexo, Relación Municipio 1970 y 1981, Grupos de Edad y Activos",882,5,raw/ine_01057.csv_bd,processed/ine_01057_clean.csv,processed/ine_01057_clean.dta
+ine_censo_1981,01058,"Población de 16 y más años  por Sexo, Relación Municipio 1970 y 1981, Grupos de Edad y Ocupados-Parados",882,5,raw/ine_01058.csv_bd,processed/ine_01058_clean.csv,processed/ine_01058_clean.dta
+ine_censo_1981,01059,"Población de 16 y más años  por Sexo, Relación Municipio 1970 y 1981 y Rama de Actividad",441,4,raw/ine_01059.csv_bd,processed/ine_01059_clean.csv,processed/ine_01059_clean.dta
+ine_censo_1981,01061,Población migrante por Provincia de residencia en 1970 y Provincia de residencia en 1981,2862,3,raw/ine_01061.csv_bd,processed/ine_01061_clean.csv,processed/ine_01061_clean.dta
+ine_censo_1981,01064,"Mujeres no solteras de 15 más años por Tipo de zona, Grupo quinquenal de edad y Nº de hijos nacidos vivos",616,4,raw/ine_01064.csv_bd,processed/ine_01064_clean.csv,processed/ine_01064_clean.dta
+ine_censo_1981,01065,"Mujeres no solteras de 15 más años por Tipo de zona, Año de nacimiento y Nº de hijos nacidos vivos",616,4,raw/ine_01065.csv_bd,processed/ine_01065_clean.csv,processed/ine_01065_clean.dta
+ine_censo_1981,01072,"Nº de hijos nacidos vivos de mujeres que permanecen casadas en primeras nupcias por Tipo de zona, Actividad, Año de la boda y Edad de la mujer",1512,5,raw/ine_01072.csv_bd,processed/ine_01072_clean.csv,processed/ine_01072_clean.dta

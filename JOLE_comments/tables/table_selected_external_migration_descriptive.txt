@@ -1,0 +1,25 @@
+		(1)
+		
+VARIABLES	LABELS	alive alive
+		
+mover_active	(max) mover_active	1
+stayer_active	(max) stayer_active	1
+mover_employed	(max) mover_employed	1
+stayer_employed	(max) stayer_employed	1
+mover_active	(max) mover_active	0.289
+stayer_active	(max) stayer_active	0.327
+mover_employed	(max) mover_employed	0.852
+stayer_employed	(max) stayer_employed	0.855
+mover_active	(max) mover_active	
+stayer_active	(max) stayer_active	
+mover_employed	(max) mover_employed	
+stayer_employed	(max) stayer_employed	
+mover_active	(max) mover_active	0.289
+stayer_active	(max) stayer_active	0.327
+mover_employed	(max) mover_employed	0.852
+stayer_employed	(max) stayer_employed	0.855
+mover_active	(max) mover_active	0.289
+stayer_active	(max) stayer_active	0.327
+mover_employed	(max) mover_employed	0.852
+stayer_employed	(max) stayer_employed	0.855
+		

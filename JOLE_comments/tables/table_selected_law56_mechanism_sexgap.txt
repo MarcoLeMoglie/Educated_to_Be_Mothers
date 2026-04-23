@@ -1,0 +1,25 @@
+		(1)
+		
+VARIABLES	LABELS	nkids nkids
+		
+female_activity_rate	Mujeres total	1
+male_activity_rate	Varones total	1
+female_male_activity_ratio	female_male_activity_ratio	1
+activity_gap_male_minus_female	activity_gap_male_minus_female	1
+female_activity_rate	Mujeres total	22.37
+male_activity_rate	Varones total	73.12
+female_male_activity_ratio	female_male_activity_ratio	0.306
+activity_gap_male_minus_female	activity_gap_male_minus_female	50.75
+female_activity_rate	Mujeres total	
+male_activity_rate	Varones total	
+female_male_activity_ratio	female_male_activity_ratio	
+activity_gap_male_minus_female	activity_gap_male_minus_female	
+female_activity_rate	Mujeres total	22.37
+male_activity_rate	Varones total	73.12
+female_male_activity_ratio	female_male_activity_ratio	0.306
+activity_gap_male_minus_female	activity_gap_male_minus_female	50.75
+female_activity_rate	Mujeres total	22.37
+male_activity_rate	Varones total	73.12
+female_male_activity_ratio	female_male_activity_ratio	0.306
+activity_gap_male_minus_female	activity_gap_male_minus_female	50.75
+		

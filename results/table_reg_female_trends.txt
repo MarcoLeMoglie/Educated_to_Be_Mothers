@@ -1,0 +1,14 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	Births	Births	Births	Births
+					
+interaction	Treat (W) X Post 1945	-422.845***	-509.818**	-380.811***	-437.797*
+		(112.127)	(201.039)	(140.961)	(227.868)
+interaction2	Treat (M) X Post 1945			-63.569	-198.384
+				(83.887)	(125.665)
+					
+Observations		4,919	4,918	4,919	4,918
+R-squared		0.797	0.890	0.797	0.891
+Mun. FE		YES	YES	YES	YES
+Year FE		YES	YES	YES	YES
+Mun. X Year FE		NO	YES	NO	YES
+Mean of depvar		5183	5183	5183	5183

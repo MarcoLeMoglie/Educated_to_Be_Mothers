@@ -1,0 +1,14 @@
+		(1)	(2)
+VARIABLES	LABELS	Birthplace FE	Birthplace + current FE
+			
+treat_2	Partially exposed (1930--1938)	-0.0899***	-0.0862***
+		(0.0198)	(0.0207)
+treat_3	Fully exposed (1939--1950)	-0.188***	-0.182***
+		(0.0277)	(0.0286)
+			
+Observations		560,712	565,545
+R-squared		0.107	0.087
+Census-year X Municipality X Age-class FE		YES	YES
+Birthplace FE		YES	YES
+Current residence FE		NO	YES
+Audited proxy sample		YES	YES

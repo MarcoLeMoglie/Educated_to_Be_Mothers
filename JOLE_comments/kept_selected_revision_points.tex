@@ -1,0 +1,963 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[table]{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\title{JOLE Revision Package: Selected Tests We Keep}
+\author{}
+\date{April 10, 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Purpose of this document}
+
+This note explains, in plain English, every reviewer-facing test that we decided to keep in the final revision design.
+
+For each retained block, this document explains:
+\begin{itemize}[leftmargin=*]
+\item which reviewer concern it answers;
+\item why we run the test;
+\item what data we use;
+\item what the regression is doing in intuitive terms;
+\item how to read the coefficient in normal language;
+\item what result we obtained;
+\item why we decided to keep the test;
+\item what output file we generate;
+\item where the test should go in the revised paper.
+\end{itemize}
+
+The current replication package created for the revised paper is now stored in:
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10
+\end{verbatim}
+
+Its preferred single-file replication script is:
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/code/Main_analysis_paper_order.do
+\end{verbatim}
+
+This is now the main file that should be used to reproduce the current paper in manuscript order. It integrates the baseline analysis and the retained revision blocks in the same order as the tables and figures appear in the revised draft. The package also contains labeled final \texttt{.dta} analysis datasets, the external-source scripts used for the retained appendix material, and a detailed \texttt{README.md}.
+
+\section*{Replication package status}
+
+The replication package now includes:
+\begin{itemize}[leftmargin=*]
+\item a single paper-order Stata file that runs the main text first and the appendix afterwards;
+\item final labeled datasets in \texttt{analysis\_data/} containing only the variables needed for the current paper;
+\item appendix figure inputs stored inside the package itself;
+\item a detailed \texttt{README.md} explaining how to rebuild each paper object;
+\item archival copies of the legacy baseline and revision source files in separate subfolders for reference only.
+\end{itemize}
+
+We also ran a cold-start replication test from the package itself. After emptying the package \texttt{results/} folders, the paper-order do-file successfully regenerated the current set of package outputs using the datasets and figure inputs included in the replication folder. Two coding issues were found and fixed through this cold-start check:
+\begin{itemize}[leftmargin=*]
+\item a naming conflict in the balancing-table block;
+\item the need to encode a string municipality-type variable before using it as a factor control.
+\end{itemize}
+
+The package has also been trimmed so that it keeps only the active replication files. Appendix Figure B1 is now reproduced by copying the exact QGIS-rendered map image used in the manuscript into the package results folder, which guarantees a visual match with the draft. Appendix Figure B2 is rebuilt inside the package from the packaged historical workbook, combining Statista for 1850--1920, INE for 1930 and 1940, and the United Nations Population Division for 1950 onward. The exported B2 figure now labels the axes as \textit{Year} and \textit{National TFR}, while leaving source attribution to the LaTeX note rather than printing it inside the image itself.
+
+For exact replication, the paper-order file keeps \texttt{reghdfe} pinned to historical \texttt{version(5)} through a single compatibility switch near the top of the file. This preserves the draft's current results while still allowing the user to disable the compatibility option for exploratory reruns with the latest installed \texttt{reghdfe}.
+
+\section*{Very short map of what stays}
+
+\begin{longtable}{p{0.22\textwidth} p{0.32\textwidth} p{0.38\textwidth}}
+\toprule
+Block & Main reviewer issue & Planned location in paper \\
+\midrule
+\hyperref[sec:law56]{Law 56 / employment channel} & ``Maybe your cohort effect is really post-1961 legal change or female employment'' & Micro robustness section + short mechanisms discussion \\
+\hyperref[sec:migration]{Migration, location, and exposure assignment} & ``Maybe treated places are emptied out by migration, or exposure is assigned to the wrong place'' & Macro discussion + micro robustness table \\
+\hyperref[sec:oilshock]{1973 crisis and pre-1973 economic structure} & ``Maybe your macro effect is really the oil shock, or your micro effect is really pre-existing economic structure'' & Macro discussion + micro robustness paragraph + appendix tables \\
+\hyperref[sec:warbirth]{Birthplace Civil War control} & ``Maybe you are picking up Civil War trauma at birthplace'' & Micro robustness paragraph + appendix table \\
+\hyperref[sec:beliefs]{Bundle effect and Spanish barometer beliefs} & ``Do you have attitudinal evidence, and can you separate channels?'' & Early framing + suggestive mechanisms discussion \\
+\bottomrule
+\end{longtable}
+
+\section*{Color legend for tracked paper changes}
+
+The revised paper draft uses different highlight colors for different retained blocks. This helps us track changes point by point without confusing one revision family with another.
+
+\begin{longtable}{p{0.34\textwidth} p{0.16\textwidth} p{0.38\textwidth}}
+\toprule
+Block in this report & Highlight color in paper & Meaning in practice \\
+\midrule
+\hyperref[sec:law56-1a]{1a. Law 56 / 1961 horse-race} & \colorbox{yellow}{Yellow} & confounding check against later legal timing \\
+\hyperref[sec:law56-1b]{1b. Law 56 mechanism support from Censo 1981} & \colorbox{green!25}{Light green} & mechanism-plausibility evidence on employment \\
+\hyperref[sec:migration-3a]{3a. External migration evidence from Censo 1981} & \colorbox{orange!25}{Light orange} & macro response to simple out-migration story \\
+\hyperref[sec:migration-3b]{3b. Birthplace, current residence, movers, and stayers} & \colorbox{cyan!20}{Light blue} & micro response on exposure assignment and mobility \\
+\hyperref[sec:oilshock-4a]{4a. Pre-1973 provincial proxies as supporting infrastructure} & \colorbox{red!18}{Light red} & data infrastructure behind the oil-shock robustness package \\
+\hyperref[sec:oilshock-4b]{4b. 1973 crisis with external provincial proxies} & \colorbox{violet!22}{Light purple} & macro oil-shock robustness \\
+\hyperref[sec:oilshock-4c]{4c. Birthplace pre-1973 industrial proxies} & \colorbox{black!10}{Light gray} & micro counterpart to the oil-shock robustness \\
+\hyperref[sec:warbirth]{5. Birthplace Civil War control} & \colorbox{pink!25}{Light rose} & micro response to the Civil War trauma critique \\
+\hyperref[sec:beliefs]{6. Bundle effect and suggestive beliefs} & \colorbox{yellow!35}{Light khaki} & early bundle-effect framing and caution on beliefs \\
+\bottomrule
+\end{longtable}
+
+\section{Law 56 / 1961 and the employment channel}\label{sec:law56}
+
+\subsection*{Why these two blocks belong together}
+
+These two retained exercises answer two closely connected versions of the same concern. The first asks whether the main cohort pattern is really just picking up a later legal change, namely Law 56/1961. The second asks whether, even if labor-market attachment matters for some women, the employment channel could plausibly be large enough to explain the entire fertility response on its own.
+
+For that reason, the next two blocks should be read together. The first is a confounding check. The second is a mechanism-plausibility exercise.
+
+\subsection*{1a. Law 56 / 1961 horse-race}\label{sec:law56-1a}
+
+\subsection*{Which reviewer comment does this answer?}
+
+This addresses the concern that the cohort pattern we attribute to the 1945 school reform package may actually be driven by later legal changes in female labor-market rights, especially Law 56/1961.
+
+\subsection*{Why we use this test}
+
+The logic is simple. If the reviewer is right, then once we explicitly add exposure to Law 56, the main cohort coefficient should collapse. If the coefficient survives, then Law 56 does not explain the whole pattern away.
+
+\subsection*{What data we use}
+
+We use the CIS microdata already used in the paper, plus a cohort-level Law 56 exposure file that we built separately. The key outcome we keep is completed fertility, measured as \texttt{nkids}.
+
+\subsection*{What the regression is doing, in plain English}
+
+The regression compares women born in different cohorts, while always netting out survey-year effects, individual fixed effects, and broad age-class differences. Then we add a variable measuring how much of ages 20--35 each cohort lived after the 1961 law. In words:
+
+\begin{quote}
+``Among otherwise comparable women in the same overall empirical structure, do treated cohorts still have fewer children once we explicitly account for how exposed they were to Law 56?''
+\end{quote}
+
+\subsection*{Code used}
+
+New Stata file used:
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/code/Main_analysis_paper_order.do
+\end{verbatim}
+
+\begin{verbatim}
+quietly reghdfe nkids treat_2 treat_3 ///
+    if female == 1 & year_birth <= 1950, ///
+    a(i.year##i.id##age_c) cluster(year#i.year_birth) version(5)
+
+quietly reghdfe nkids treat_2 treat_3 law56_share_20_35 ///
+    if female == 1 & year_birth <= 1950, ///
+    a(i.year##i.id##age_c) cluster(year#i.year_birth) version(5)
+\end{verbatim}
+
+\subsection*{Changes introduced in the revised paper draft}
+
+In the revised paper draft, this point is introduced in four places.
+
+First, in the introduction, we add one short sentence saying that the cohort pattern is not explained away by later institutional change, including the 1961 partial liberalization of women's work.
+
+Second, in the data section, we explicitly explain how the new variable is built: we merge the CIS microdata with a cohort-level measure equal to the share of ages 20--35 lived after Law 56/1961, using the legal timing from the official BOE source.
+We now present this information through two separate footnotes. The first footnote briefly explains what Law 56/1961 changed and why it is the most relevant later institutional change for our purposes. The second footnote gives the cohort examples: a woman born in 1930 lives ages 20--35 mostly before 1961, whereas a woman born in 1945 lives almost all of ages 20--35 after 1961.
+
+Third, in the micro robustness section, we add one compact paragraph explaining the result in plain language: once exposure to Law 56/1961 is added, the coefficient on fully exposed cohorts remains negative and very similar to the baseline.
+
+Fourth, in the appendix, we replace the old placeholder-style table with a new two-column table in the same style as the main paper tables. The table now reports only the baseline specification and the Law 56 horse-race specification, with clean labels for both regressors and fixed effects, including an explicit row for the full interaction between survey-year, residence, and age-class fixed effects.
+
+The revised paper files touched by this point are:
+
+\begin{verbatim}
+Dropbox/Applicazioni/Overleaf/Educated to Be Mothers-slides/AA_paper_new.tex
+Marco/DO/replication_2026-04-10/results/appendix/table_A1_summary_panels.tex
+Marco/DO/replication_2026-04-10/results/appendix/table_B3_law56_horserace.tex
+\end{verbatim}
+
+\subsection*{How to read the result}
+
+The main coefficient is \texttt{treat\_3}. A negative value means the fully treated cohorts have fewer children than the pre-treatment cohorts. The question is not whether the coefficient changes a little; the question is whether it disappears once Law 56 exposure is added.
+
+\subsection*{What we found}
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+Specification & Coefficient & p-value & Interpretation \\
+\midrule
+Baseline, \texttt{treat\_3} & $-0.344$ & $0.023$ & strong negative cohort effect \\
+Law 56 20--35, \texttt{treat\_3} & $-0.364$ & $0.094$ & still negative, similar size \\
+Law 56 20--35, \texttt{law56\_share\_20\_35} & $0.038$ & $0.912$ & no evidence Law 56 absorbs the effect \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{Why we keep it}
+
+We keep it because it is the cleanest direct reply to the Law 56 confound story. The result we care about does not vanish after adding Law 56 exposure.
+
+\subsection*{How we will use it in the paper}
+
+This should be a compact robustness paragraph in the micro robustness section, with the full table in the appendix. The message should be modest and precise:
+
+\begin{quote}
+``Controlling for cohort exposure to Law 56/1961 does not explain away the negative completed-fertility pattern across treated cohorts.''
+\end{quote}
+
+\subsection*{Output generated in the replication package}
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/results/appendix/table_B3_law56_horserace.tex
+\end{verbatim}
+
+\subsection*{1b. Law 56 mechanism support from Censo 1981}\label{sec:law56-1b}
+
+\subsection*{Which reviewer comment does this answer?}
+
+This answers the concern that the paper may really be picking up female employment rather than schooling and socialization.
+
+\subsection*{Why we use this test}
+
+We want to separate two ideas:
+\begin{enumerate}[leftmargin=*]
+\item Is it plausible that women who are more connected to the labor market have fewer children? Yes, that can be checked directly.
+\item Is it plausible that Law 56 created a large enough aggregate labor-market shock to explain the whole paper by itself? That is a different question.
+\end{enumerate}
+
+This block is useful precisely because it helps us answer both.
+
+\subsection*{What data we use}
+
+We use official external tabulations from the 1981 census. These allow us to compare fertility by female activity status and to measure how large female activity actually was around that period.
+
+\subsection*{What the descriptive exercise is doing, in plain English}
+
+This is not a causal regression. It is a descriptive mechanism support exercise. We compare:
+\begin{itemize}[leftmargin=*]
+\item active women versus inactive women in marriage windows close to the 1961 reform period;
+\item female activity rates versus male activity rates in 1981;
+\item the shares of women who are occupied, unemployed, or inactive.
+\end{itemize}
+
+\subsection*{Code used}
+
+New Stata file used:
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/code/Main_analysis_paper_order.do
+\end{verbatim}
+
+\begin{verbatim}
+use "$rep_data/final_law56_window_cells_1981.dta", clear
+keep if zone == "Total Nacional"
+keep if inlist(age_group, "De 25 a 29 años", "De 30 a 34 años")
+keep if inlist(marriage_period, "1961_1965", "1966_1970", "1971_1975")
+
+quietly sum active_minus_inactive if marriage_period == "1961_1965" & age_group == "De 25 a 29 años", meanonly
+local gap_6165_2529 : display %4.2f r(mean)
+quietly sum active_minus_inactive if marriage_period == "1966_1970" & age_group == "De 25 a 29 años", meanonly
+local gap_6670_2529 : display %4.2f r(mean)
+quietly sum active_minus_inactive if marriage_period == "1971_1975" & age_group == "De 25 a 29 años", meanonly
+local gap_7175_2529 : display %4.2f r(mean)
+
+use "$rep_data/final_female_activity_structure_1981.dta", clear
+quietly sum occupied_share_total if ambito_territorial == "Total Nacional", meanonly
+local occupied_total_nat : display %4.2f 100*r(mean)
+
+use "$rep_data/final_sex_activity_gap_1981.dta", clear
+quietly sum totalMujeres if ambito_territorial == "Total Nacional", meanonly
+local female_activity_rate : display %4.2f r(mean)
+\end{verbatim}
+
+\subsection*{Changes introduced in the revised paper draft}
+
+In the revised paper draft, this point is introduced in four places.
+
+First, we no longer give this point its own standalone sentence in the introduction. Instead, we attach it as a short footnote to the sentence stating that the reform does not affect labor-market participation. This keeps the employment mechanism in the mechanisms discussion, where it belongs, while still signaling that we checked whether the channel could be quantitatively important.
+
+Second, in the data section, we add a short paragraph explaining what these tabulations contain and how they are used. We state explicitly that they are not a new causal design. Their role is only to provide descriptive evidence on mechanism plausibility.
+
+Third, in the mechanisms section, immediately after the discussion of the null CIS employment regressions, we add one compact paragraph that makes the logic easy to follow. The paragraph first notes that the sign of the labor-market channel is plausible because active women had fewer children than inactive women. It then immediately adds scale by reporting the key aggregate percentages from the 1981 census: 22.37\% active, 17.72\% employed, and 77.63\% inactive. This allows us to say something balanced: employment may matter for some women, but the aggregate size of the channel still looks too limited to be a complete one-line explanation for the main fertility result.
+
+Fourth, in the appendix, we add one compact descriptive table that combines the two ingredients we want the reader to see in one place: the active-minus-inactive fertility gaps around the post-1961 period and the aggregate scale of female labor-force attachment in 1981. The title of this new appendix table is highlighted in the second revision color used in the draft.
+
+\subsection*{What we found}
+
+Fertility gaps between active and inactive women near the Law 56 window:
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+Marriage period, age 25--29 & Active women & Inactive women & Gap \\
+\midrule
+1961--1965 & 2.10 & 2.80 & $-0.70$ \\
+1966--1970 & 2.56 & 3.20 & $-0.64$ \\
+1971--1975 & 1.76 & 2.20 & $-0.44$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Female labor-force scale in 1981:
+
+\begin{center}
+\begin{tabular}{lc}
+\toprule
+Statistic & Value \\
+\midrule
+Female activity rate, national & 22.37\% \\
+Female activity rate, urban & 24.71\% \\
+Female activity rate, rural & 18.67\% \\
+Male activity rate, national & 73.12\% \\
+Female-to-male activity ratio & 0.306 \\
+Female occupied share, national & 17.72\% \\
+Female inactive share, national & 77.63\% \\
+Female occupied share, urban & 19.21\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{How to interpret this}
+
+This block says two things at the same time:
+\begin{enumerate}[leftmargin=*]
+\item The sign of the employment mechanism is plausible. Women who are economically active do have fewer children.
+\item But the aggregate scale of female labor-force participation is still small. Even in 1981, only about 22\% of women are active and only about 18\% are occupied.
+\end{enumerate}
+
+So the right interpretation is:
+
+\begin{quote}
+``The mechanism is plausible, but the labor-market channel still looks too small to be an easy one-line explanation for the whole main result.''
+\end{quote}
+
+\subsection*{Why we keep it}
+
+We keep it because it helps us answer the reviewer in a balanced way. We are not denying that employment matters. We are showing that the scale of the employment channel is limited.
+
+\subsection*{How we will use it in the paper}
+
+This belongs in a short appendix mechanism table and in one careful paragraph in the main text. We should not oversell it. It is supportive evidence, not identification.
+
+\subsection*{Outputs generated in the replication package}
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/results/appendix/table_B8_law56_mechanism_1981.tex
+\end{verbatim}
+
+\section{Migration, location, and exposure assignment}\label{sec:migration}
+
+\subsection*{Why these two blocks belong together}
+
+The next two retained exercises answer closely related concerns. Together, they ask whether the results could be driven by mobility, sorting, or by assigning exposure to the wrong location rather than by the 1945 reform bundle itself.
+
+At the macro level, we use external 1981 census migration evidence to ask whether the aggregate fertility decline could simply reflect out-migration. At the micro level, we use birthplace, current residence, movers, and stayers to ask whether exposure is being assigned to the wrong place.
+
+These are not the same data and they do not answer the same question. The external migration block uses official 1981 tabulations that directly observe residence in 1970 and in 1981, so it yields a true intertemporal retention outcome but only at the aggregate province level. The birthplace/movers-stayers block instead uses the census microdata already employed for fertility, where we only observe province of birth and province of residence at the census date. That makes it a cleaner test of exposure assignment in the micro design, but not a direct measure of migration over a specific interval.
+
+For that reason, these two blocks should be read as one coherent package, even though the paper presents them in the empirical sections where they fit most naturally.
+
+\subsection*{3a. External migration evidence from Censo 1981}\label{sec:migration-3a}
+
+\subsection*{Which reviewer comment does this answer?}
+
+This answers the migration story with external official data, not only with the internal panel of the paper, but it does so only for the observable 1970--1981 decade.
+
+\subsection*{Why we use this test}
+
+The reviewer's strongest migration story is:
+
+\begin{quote}
+``Maybe treated places did not really reduce fertility; maybe they simply lost women.''
+\end{quote}
+
+This external census block lets us check that idea with official migration tables. It does not let us follow migration over the whole postwar period, but it does let us test whether the simple prediction of persistently lower female retention in more exposed places is visible in the one decade for which official retention data are available.
+
+\subsection*{What the exercise is doing, in plain English}
+
+We do two simple things:
+\begin{enumerate}[leftmargin=*]
+\item Compare women who stayed in the same municipality with women who moved, focusing on ages 25--34.
+\item At the province level, test whether places with larger treatment gaps have lower staying rates between 1970 and 1981.
+\end{enumerate}
+
+\subsection*{Code used}
+
+New Stata file used:
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/code/Main_analysis_paper_order.do
+\end{verbatim}
+
+\begin{verbatim}
+use "$rep_data/final_external_migration_1981.dta", clear
+reg stay_share treat_gap_f treat_gap_m muni_share_1940 ln_origin_total, vce(robust)
+
+outreg2 using "$rep_appendix/table_B11_external_migration.tex", replace tex(frag) ///
+    keep(treat_gap_f treat_gap_m muni_share_1940 ln_origin_total) nocons
+\end{verbatim}
+
+\subsection*{What we found}
+
+Movers versus stayers, ages 25--34:
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+Statistic & Movers & Stayers \\
+\midrule
+Active share & 0.289 & 0.327 \\
+Employed share within labor force & 0.852 & 0.855 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Province-level staying-share regression:
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+Coefficient & Estimate & p-value \\
+\midrule
+\texttt{exposure\_gap\_f} & 0.00825 & 0.016 \\
+\texttt{muni\_share\_1940} & 0.604 & 0.002 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{How to interpret this}
+
+This is one of the clearest substantive results in the external package. If we take the significant province-level coefficient seriously, it points in the opposite direction from the reviewer's fear:
+
+\begin{quote}
+``Higher female treatment exposure is associated, if anything, with more retention, not less.''
+\end{quote}
+
+That does not mean migration is irrelevant. It means the external census evidence does not support a simple pure out-migration bias story. The key reason we use an exposure gap rather than the paper's main municipality-versus-rest panel specification is that the 1981 census tabulations only give us province-of-origin retention outcomes, and only for the 1970--1981 interval. So the closest analogue to the main macro design is to compare, within each province, the 1940 exposure of the municipal component with the 1940 exposure of the rest of the province, and ask whether provinces with larger initial gaps retain fewer women even in that observable decade. They do not.
+
+\subsection*{Why we keep it}
+
+We keep it because it is a clean external-data reply and because its sign is actually helpful.
+
+\subsection*{How we will use it in the paper}
+
+This belongs in an appendix robustness table and in the response letter. In the main text, it can be summarized in a short paragraph. That paragraph should explain both the data constraint and the rationale: the external mobility outcome is only observed at the province-of-origin level, and only for 1970--1981, so the right migration-based analogue to the main macro design is a within-province exposure gap between the municipal component and the rest of the province. The claim should be narrow: we do not observe the whole migration history, but we also do not see the simple continuing retention pattern that the reviewer story would predict.
+
+\subsection*{How we changed the paper}
+
+We keep this as a short complement to the macro migration discussion. In the paper, we add:
+\begin{itemize}[leftmargin=*]
+\item one sentence in the data section noting both what the 1981 census tabulations provide and what they do not provide: province-level female retention measures for 1970--1981, but not a yearly municipality-versus-rest panel and not a full postwar migration history;
+\item a short macro-results paragraph, now placed after the sentence on marriage rates in the macro robustness discussion, explaining why we therefore use the 1940 exposure gap between the municipal component and the rest of the province as the right migration-based counterpart to the main macro design;
+\item one sentence in that paragraph explaining that the external census evidence does not show lower retention in more exposed places and, if anything, points in the opposite direction;
+\item one appendix table with the province-level staying-share regression.
+\end{itemize}
+
+\subsection*{Outputs generated in the replication package}
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/analysis_data/final_external_migration_1981.dta
+Marco/DO/replication_2026-04-10/results/appendix/table_B11_external_migration.tex
+\end{verbatim}
+
+\subsection*{3b. Birthplace, current residence, movers, and stayers}\label{sec:migration-3b}
+
+\subsection*{Which reviewer comment does this answer?}
+
+This answers the concern that we are using current residence when what really matters is where people were socialized and schooled. It is the micro counterpart of the external migration block above.
+
+\subsection*{Why we use this test}
+
+This is the strongest micro robustness block. It directly asks:
+
+\begin{quote}
+``Does the result survive when we compare people using birthplace fixed effects, and does it survive separately for movers and stayers?''
+\end{quote}
+
+\subsection*{What the regression is doing, in plain English}
+
+We estimate the same cohort-treatment pattern on census fertility outcomes, but we progressively tighten geography:
+\begin{enumerate}[leftmargin=*]
+\item baseline;
+\item birthplace fixed effects;
+\item birthplace plus current residence fixed effects;
+\item movers only;
+\item stayers only.
+\end{enumerate}
+
+If the result disappears as soon as we control for birthplace, then the reviewer would have a strong point. If it remains, then the result is not just a current-residence sorting story.
+
+\subsection*{Code used}
+
+New Stata file used:
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/code/Main_analysis_paper_order.do
+\end{verbatim}
+
+\begin{verbatim}
+quietly reghdfe nhijos treat_2 treat_3 ///
+    if sexo == 6 & inrange(anac, 1920, 1950) [aw=weight2], ///
+    a(cmun##i.age_c##year) cluster(year#anac) version(5)
+
+quietly reghdfe nhijos treat_2 treat_3 ///
+    if sexo == 6 & inrange(anac, 1920, 1950) [aw=weight2], ///
+    a(cmun##i.age_c##year##i.codprov_born) cluster(year#anac) version(5)
+
+quietly reghdfe nhijos treat_2 treat_3 ///
+    if sexo == 6 & inrange(anac, 1920, 1950) [aw=weight2], ///
+    a(i.year##i.age_c##i.codprov##i.codprov_born) cluster(year#anac) version(5)
+\end{verbatim}
+
+\subsection*{How we changed the paper}
+
+We use this test in the micro part of the paper, not in the macro section. Concretely, we add:
+\begin{itemize}[leftmargin=*]
+\item one short sentence in the introduction explaining that the census microdata let us compare birthplace-based and residence-based exposure assignments;
+\item one sentence in the data section explaining that the census reports province of birth in addition to current residence;
+\item one new paragraph in the micro robustness subsection, placed after the Law 56 exercise and before the mechanisms discussion;
+\item one appendix table, cited in the text, showing the baseline census estimate, birthplace fixed effects, movers only, and stayers only.
+\end{itemize}
+
+The wording in the paper is intentionally simple: the result does not disappear when geography is anchored to birthplace, and it appears both among movers and among stayers. We do not present this as a new identification strategy. We present it as a direct robustness check on exposure assignment.
+
+\subsection*{What we found}
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+Specification, outcome \texttt{nhijos} & \texttt{treat\_3} & p-value \\
+\midrule
+Baseline & $-0.0777$ & $< 0.001$ \\
+Birthplace FE & $-0.1518$ & $< 0.001$ \\
+Movers only & $-0.1620$ & $< 0.001$ \\
+Stayers only & $-0.1174$ & $< 0.001$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{How to interpret this}
+
+This is a very strong result for the paper. The negative coefficient does not vanish when we control for birthplace. It also appears in both movers and stayers.
+
+So the correct plain-English summary is:
+
+\begin{quote}
+``The result is not just a story about where women live at the time of the survey. It survives when we anchor geography to birthplace, and it is visible among both movers and stayers.''
+\end{quote}
+
+\subsection*{Why we keep it}
+
+We keep it because this is probably the strongest single reviewer-response block in the whole package.
+
+\subsection*{How we will use it in the paper}
+
+This should be one of the central robustness tables in the revised draft, not hidden deep in the appendix.
+
+\subsection*{Output generated in the replication package}
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/results/appendix/table_B4_birthplace_movers_stayers.tex
+\end{verbatim}
+
+\section{1973 crisis and pre-1973 economic structure}\label{sec:oilshock}
+
+\subsection*{Why these three blocks belong together}
+
+These three retained exercises answer closely related versions of the same concern. At the macro level, the concern is that the aggregate fertility result may simply reflect the 1973 oil crisis. At the micro level, the concern is that the cohort pattern may just proxy pre-existing economic structure in the places where women were born. The historical pre-1973 proxy dataset is the common infrastructure that lets us test both ideas in a disciplined way.
+
+For that reason, the next three blocks should be read together. The first is the data infrastructure that makes the package credible. The second is the macro oil-shock check. The third is the micro counterpart based on birthplace.
+
+\subsection*{4a. Pre-1973 provincial proxies as supporting infrastructure}\label{sec:oilshock-4a}
+
+\subsection*{Why we keep this even though it is not a standalone result}
+
+We keep the pre-1973 provincial proxy dataset because it makes later robustness checks more credible. It is not a headline finding. It is an infrastructure asset.
+
+Its substantive role is simple: without a historically measured proxy for local productive structure before the oil shock, both the macro 1973 test and the micro birthplace-structure test would be much easier to dismiss as ad hoc. This block gives both later exercises a common pre-determined basis.
+
+The dataset contains four main measures, each designed to capture a different dimension of local productive structure before the oil shock:
+\begin{itemize}[leftmargin=*]
+\item \texttt{industrial\_core\_share\_1950}
+\item \texttt{oil\_sensitive\_share\_1950}
+\item \texttt{manuf\_trade\_share\_1950}
+\item \texttt{nonag\_share\_1950}
+\end{itemize}
+
+The reason for keeping all four is that they span a range from narrow to broader notions of exposure. \texttt{oil\_sensitive\_share\_1950} is the closest direct proxy for sectors that should have been hit more strongly by the 1973 shock. \texttt{industrial\_core\_share\_1950} and \texttt{manuf\_trade\_share\_1950} capture broader industrial and commercial structure that could also have made local fertility more sensitive to the crisis. \texttt{nonag\_share\_1950} is the broadest measure, useful for checking that the result is not driven only by one narrow classification of oil exposure.
+
+The key fact to report is that we now have historically usable whole-province values for 48 provinces out of 50. The capital/rest-of-province split is no longer used because the OCR is too fragile at that level, but the whole-province extraction has been manually audited and provides the relevant predetermined structure for the 1973 robustness exercises and for assigning economic structure to birthplace in the micro data. In practice, this block answers the question: do we have a historically grounded way to test the oil-shock objection, or are we just adding ex-post controls that could themselves be endogenous?
+
+\subsection*{How we will use it in the paper}
+
+We do not present this as a separate substantive section. We mention it briefly in the data section, where we explain why these historical proxies matter, and then use them in the macro and micro robustness paragraphs that follow.
+
+\subsection*{4b. 1973 crisis with external provincial proxies}\label{sec:oilshock-4b}
+
+\subsection*{Which reviewer comment does this answer?}
+
+This answers the claim that the macro result may simply be a reflection of differential exposure to the 1973 oil crisis rather than a longer-run consequence of the 1945 reform.
+
+\subsection*{Why we use this test}
+
+The reviewer story has two parts: maybe the result only appears after 1973, and maybe it is strongest in places most exposed to oil-sensitive sectors. The point is not to claim that the oil shock was irrelevant for Spain. The point is narrower: if the whole macro result were really just the 1973 crisis in disguise, then the baseline post-1945 female treatment coefficient should not survive once we model the post-1973 dynamics in a way that separately captures a pre-1973 treatment effect, a common post-1973 shift, and an additional post-1973 exposure differential in historically more exposed places.
+
+\subsection*{What the regression is doing, in plain English}
+
+On the restricted oil-exposure sample, we add a hierarchical set of lower- and higher-order interactions combining the main treatment term, the post-1973 indicator, and one predetermined pre-1973 structural proxy at a time. We repeat the exercise for industrial concentration, oil-sensitive structure, manufacturing-and-trade intensity, and the broader non-agricultural share, precisely so that the conclusion does not depend on one single narrow proxy for oil exposure.
+
+In normal language:
+
+\begin{quote}
+``Does the effect survive before the oil shock, is there any common shift in the treatment effect after 1973, and is that shift larger in places whose pre-1973 structure made them more exposed to the shock?''
+\end{quote}
+
+\subsection*{Code used}
+
+New Stata file used:
+
+\begin{verbatim}
+Marco/DO/code_2026_04_10/code/Main_analysis_paper_order.do
+\end{verbatim}
+
+\begin{verbatim}
+gen post73_f = sum1 * post73
+gen post73_m = sum2 * post73
+gen proxy_f = interaction * z_proxy
+gen proxy_m = interaction2 * z_proxy
+gen proxy73_f = interaction * post73 * z_proxy
+gen proxy73_m = interaction2 * post73 * z_proxy
+reghdfe alive interaction interaction2 post73_f post73_m proxy_f proxy_m proxy73_f proxy73_m ///
+    1.post##c.sum1 1.post##c.sum2 flag4_3 flag4_4 flag4_5 ///
+    if proxy_usable_pre73 == 1, a(i.id i.year#i.codprov) cluster(id)
+\end{verbatim}
+
+where the same specification is estimated four times, replacing \texttt{z\_proxy} with the standardized version of:
+\begin{itemize}[leftmargin=*]
+\item \texttt{industrial\_core\_share\_1950}
+\item \texttt{oil\_sensitive\_share\_1950}
+\item \texttt{manuf\_trade\_share\_1950}
+\item \texttt{nonag\_share\_1950}
+\end{itemize}
+
+\subsection*{What we found}
+
+How to read the coefficients:
+\begin{itemize}[leftmargin=*]
+\item \texttt{Treat (W) X Post 1945}: the baseline treatment effect in 1945--1972 for provinces at the average value of the standardized proxy.
+\item \texttt{Treat (W) X Post-1973}: the common shift in that treatment effect after 1973 even in average-exposure provinces.
+\item \texttt{Treat (W) X Post 1945 X Proxy}: whether more exposed provinces already had a different post-1945 effect before 1973. A negative value means the pre-1973 treatment effect was already more negative in higher-exposure places; a positive value means it was less negative there.
+\item \texttt{Treat (W) X Post-1973 X Proxy}: whether the post-1973 shift itself is different in more exposed provinces.
+\item The male rows are the exact placebo counterparts for men.
+\item Because \texttt{Post-1973} is nested inside the post-1945 period, the final triple interaction is algebraically equivalent to writing a quadruple interaction with \texttt{Post 1945}. We report the shorter version for readability.
+\end{itemize}
+
+Across the four proxy columns, the empirical pattern is the following:
+\begin{itemize}[leftmargin=*]
+\item \texttt{Treat (W) X Post 1945} remains negative and statistically significant in every proxy column, ranging from about $-477$ in the oil-sensitive column to about $-437$ in the broad non-agricultural column. This means the baseline treatment effect is already present before the oil crisis.
+\item \texttt{Treat (W) X Post-1973} is also negative and statistically significant in every column. This says the crisis adds a further common negative shift in the treatment effect.
+\item \texttt{Treat (W) X Post 1945 X Proxy} is generally negative, but it is only precisely estimated for the broad non-agricultural proxy. So the pre-1973 treatment effect does not display a clean, proxy-invariant monotonic relationship with these structural measures.
+\item \texttt{Treat (W) X Post-1973 X Proxy} is negative in all four columns but imprecisely estimated. This is the key coefficient for the reviewer story, and it does not show that the post-1973 change became systematically and precisely larger in the more exposed places.
+\item The same general message emerges from the male placebo rows: post-1973 dynamics are not lining up with exposure in a clean female-specific way.
+\end{itemize}
+
+\subsection*{How to interpret this}
+
+The most important message is simple:
+
+\begin{quote}
+``Within the restricted oil-exposure sample, the baseline female treatment effect is already present before 1973. The crisis seems to add a common negative post-1973 shift, but the data do not show that this post-1973 change is systematically larger in the places that were historically more exposed to oil-sensitive structure.''
+\end{quote}
+
+This does not mean 1973 is irrelevant. In fact, the common post-1973 shift is often negative, which is exactly what we would expect if the crisis mattered for fertility in Spain. What it means is that the post-1973 deterioration looks broadly shared rather than clearly concentrated in the provinces with higher ex ante exposure. That is the key distinction for our story. If the reviewer interpretation were the full explanation, we would expect the post-1973 change to become markedly more negative in the historically more exposed columns. We do not find that pattern robustly.
+
+\subsection*{Why we keep it}
+
+We keep it because it is a direct and disciplined response to the crisis story, and because the baseline female coefficient remains negative while the post-1973 exposure differential does not line up with the reviewer's interpretation.
+
+\subsection*{Changes introduced in the revised paper draft}
+
+In the revised paper draft, this point is now implemented in four places.
+
+First, in the introduction, we add one short sentence saying that the aggregate pattern is not easily explained by differential exposure to the 1973 crisis.
+
+Second, in the data section, we add one compact sentence explaining that the analysis uses province-level proxies measured before 1973 and that the macro oil-shock exercise uses the oil-sensitive measure together with a post-1973 interaction, while the same historical dataset is later used in the census microdata through birthplace assignment.
+
+Third, in the macro results section, we add one short paragraph, placed after the sentence on marriage rates in the robustness discussion, that explains the rationale of the test in plain language: a natural concern is that the aggregate decline in births may simply be an oil-shock story. The paragraph then explains how to read the specification coefficient by coefficient: the main female treatment coefficient captures the baseline pre-1973 effect, the post-1973 term captures a common shift after the crisis, and the proxy-specific post-1973 interaction captures whether that shift is systematically larger in more exposed places. The facts we want the reader to retain are that the baseline female treatment coefficient remains negative and that the additional post-1973 exposure differential is imprecisely estimated.
+
+Fourth, in the appendix, we keep one compact table that contains the full post-1973 heterogeneity exercise.
+
+\subsection*{How we will use it in the paper}
+
+This should be a single appendix table, with one column per proxy and a note that explains clearly how to read the baseline pre-1973 coefficient and the common post-1973 shift.
+
+\subsection*{Outputs generated in the replication package}
+
+\begin{verbatim}
+Marco/DO/code_2026_04_10/results/appendix/table_B12_post1973_oil_heterogeneity.tex
+\end{verbatim}
+
+\section{Birthplace Civil War control}\label{sec:warbirth}
+
+\subsection*{Which reviewer comment does this answer?}
+
+This answers the concern that the cohort pattern may really reflect Civil War intensity at birthplace rather than the school reform.
+
+\subsection*{Why we use this test}
+
+The reviewer story here is that war trauma could be uneven across places. So we let war intensity interact with treated cohorts, instead of only adding a simple control.
+
+\subsection*{What the regression is doing, in plain English}
+
+We assign war exposure from birthplace and allow it to affect treated cohorts differently. This is the right test because a simple additive war variable would be absorbed by birthplace fixed effects.
+
+\subsection*{Code used}
+
+New Stata file used:
+
+\begin{verbatim}
+Marco/DO/code_2026_04_10/code/Main_analysis_paper_order.do
+\end{verbatim}
+
+\begin{verbatim}
+quietly reghdfe nhijos treat_2 treat_3 ///
+    if sexo == 6 & inrange(anac, 1920, 1950) [aw=weight2], ///
+    a(cmun##i.age_c##year##i.codprov_born) cluster(year#anac) version(5)
+
+gen front_treat2 = sh_area_front * treat_2 if sh_area_front < .
+gen front_treat3 = sh_area_front * treat_3 if sh_area_front < .
+
+quietly reghdfe nhijos treat_2 treat_3 front_treat2 front_treat3 ///
+    if sexo == 6 & inrange(anac, 1920, 1950) [aw=weight2], ///
+    a(cmun##i.age_c##year##i.codprov_born) cluster(year#anac) version(5)
+\end{verbatim}
+
+\subsection*{What we found}
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+Specification, outcome \texttt{nhijos} & \texttt{treat\_3} & p-value \\
+\midrule
+Baseline with birthplace FE & $-0.1520$ & $< 0.001$ \\
+Birthplace FE + war interaction & $-0.1050$ & $< 0.001$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{How to interpret this}
+
+The main result survives even after we allow Civil War intensity at birthplace to matter differently for treated cohorts. So the reviewer cannot easily say that the completed-fertility result is only birthplace war trauma in disguise.
+
+\subsection*{Why we keep it}
+
+We keep it because it is a clean robustness check and the result remains strong.
+
+\subsection*{Changes introduced in the revised paper draft}
+
+In the revised paper draft, this point is now introduced explicitly in four places.
+
+First, in the introduction, we add one short sentence explaining the rationale: even if adult residence is not the relevant location, the negative fertility pattern is still not explained by predetermined Civil War exposure in women's provinces of birth.
+
+Second, in the data section, we explain that the census microdata report province of birth and can therefore be matched to a predetermined province-level measure of war-front exposure. We also clarify why the war variable has to be interacted with treated cohorts rather than added additively: with saturated birthplace fixed effects, the additive birthplace war term would be absorbed.
+
+Third, in the micro robustness section, we add one compact paragraph explaining the logic of the test in plain language. The text makes two points very clearly. One, the Civil War may well matter for fertility. Two, once we let birthplace war exposure matter differentially across treated cohorts, the main completed-fertility coefficient still survives.
+
+Fourth, in the appendix, we add one compact two-column table contrasting the baseline census specification with birthplace fixed effects against the same specification augmented with the war interactions.
+
+\subsection*{How we will use it in the paper}
+
+This should appear as a short micro-robustness paragraph in the paper, with the full table in the appendix.
+
+\subsection*{Output generated in the replication package}
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/results/appendix/table_B5_birthplace_civil_war.tex
+\end{verbatim}
+
+\subsection*{4c. Birthplace pre-1973 industrial proxies}\label{sec:oilshock-4c}
+
+\subsection*{Which reviewer comment does this answer?}
+
+This addresses the more refined version of the 1973 criticism at the micro level:
+
+\begin{quote}
+``Maybe the micro result is really about being born in places with specific industrial structure before the oil shock.''
+\end{quote}
+
+\subsection*{Why we use this test}
+
+This is a strong design because the proxy is predetermined and assigned to birthplace, not measured from the person's later labor-market outcome. That makes it cleaner than using a late-life individual sector measure as if it were a pre-treatment characteristic. The specific concern we are neutralizing is that the micro fertility coefficient may really be telling us something about where treated women were born economically, not about what they were taught in school. Put differently, this is the micro counterpart to the oil-shock objection: it asks whether ``treated cohorts have fewer children'' is really just shorthand for ``treated cohorts were born in provinces whose pre-1973 productive structure later made them more exposed to the crisis.'' As in the macro block, we deliberately use four proxies rather than one because they cover narrower and broader notions of vulnerability: the oil-sensitive measure is the most direct, while the others capture more general industrial and non-rural structure.
+
+\subsection*{What the regression is doing, in plain English}
+
+We take the same historical pre-1973 proxies used in the macro block and assign them to each person's birthplace. Then we let those proxies interact with treated cohorts.
+
+In words:
+
+\begin{quote}
+``Even if treated cohorts born in more industrial or more oil-sensitive provinces behave differently, does the main treatment effect still survive?''
+\end{quote}
+
+\subsection*{Code used}
+
+New Stata file used:
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/code/Main_analysis_paper_order.do
+\end{verbatim}
+
+\begin{verbatim}
+reghdfe nhijos treat_2 treat_3 oilsens_t2 oilsens_t3 ///
+    if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+    a(cmun##i.age_c##year##i.codprov_born) cluster(year#anac) version(5)
+
+reghdfe nhijos treat_2 treat_3 oilsens_t2 oilsens_t3 ///
+    if sexo == 6 & inrange(anac, 1920, 1950) & proxy_usable_pre73 == 1 [aw=weight2], ///
+    a(i.year##i.age_c##i.codprov##i.codprov_born) cluster(year#anac) version(5)
+\end{verbatim}
+
+\subsection*{What we found}
+
+Baseline on the audited proxy subsample:
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+Specification & \texttt{treat\_3} & p-value \\
+\midrule
+Restricted proxy sample & $-0.147$ & $< 0.001$ \\
+Birthplace FE, proxy sample & $-0.168$ & $< 0.001$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Example with oil-sensitive proxy:
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+Specification & \texttt{treat\_3} & Proxy interaction & p-value \\
+\midrule
+Birthplace FE + oil-sensitive proxy & $-0.165$ & \texttt{oilsens\_t3 = 0.0828} & $< 0.001$ \\
+All proxy interactions jointly & $-0.164$ & \texttt{oilsens\_t3 = 0.393} & $< 0.001$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{How to interpret this}
+
+This is not saying that birthplace industrial structure never matters. It is saying something narrower and more useful:
+
+\begin{quote}
+``Even after we allow pre-1973 birthplace industrial structure to matter differently for treated cohorts, the main completed-fertility coefficient remains negative and precisely estimated. Moreover, the positive interaction coefficients imply that, if anything, the fertility decline is somewhat smaller rather than larger in birthplaces that were more exposed to those oil-related structures.''
+\end{quote}
+
+\subsection*{Why we keep it}
+
+We keep it because it is the cleanest micro counterpart to the macro 1973 robustness block.
+
+\subsection*{Changes introduced in the revised paper draft}
+
+In the revised paper draft, this point is also implemented directly rather than left implicit.
+
+First, in the introduction, we add one short sentence clarifying the rationale for the test: a remaining micro concern is that treated cohorts may simply come disproportionately from places with a different productive structure before the oil shock. The sentence then states that the individual-level fertility pattern is not simply a reflection of pre-existing economic structure in women's places of birth.
+
+Second, in the data section, this block is linked to the same historical pre-1973 proxy dataset described for the macro oil-shock exercises.
+
+Third, in the micro robustness section, we add one compact paragraph stating the concern in simple terms: perhaps the cohort pattern is really birthplace industrial structure. The paragraph then explains that assigning the historical proxies to birthplace and letting them matter differently across treated cohorts does not remove the main completed-fertility result.
+
+Fourth, in the appendix, we add one compact table that starts with the two restricted-sample baseline columns, then reports the four single-proxy interaction columns, and finally adds one column with all birthplace oil-exposure interactions included jointly.
+
+\subsection*{How we will use it in the paper}
+
+This should go into the appendix as the micro-side response to the oil-shock alternative explanation. The table should show all four proxies in one compact format.
+
+\subsection*{Outputs generated in the replication package}
+
+\begin{verbatim}
+Marco/DO/code_2026_04_10/results/appendix/table_B6_birthplace_pre73_oil.tex
+\end{verbatim}
+
+\section{Bundle effect and existing Spanish barometer beliefs}\label{sec:beliefs}
+
+\subsection*{What we keep}
+
+We keep only the beliefs material that is already in the original Spanish barometer block of the paper. We do not keep the new external IVS / Portugal beliefs exercises.
+
+Relevant code location:
+
+\begin{verbatim}
+Marco/DO/replication_2026-04-10/code/Main_analysis_paper_order.do
+\end{verbatim}
+
+\subsection*{Why we keep it}
+
+We keep it because it is still useful as suggestive evidence. But we keep it only under a much more cautious framing than before, and we now tie it explicitly to the broader point that the 1945 reform is estimated as a bundled intervention rather than as one isolated mechanism.
+
+\subsection*{How we will frame it}
+
+The revised text should state very clearly that this is:
+\begin{itemize}[leftmargin=*]
+\item a single-wave exercise;
+\item not a causal design;
+\item not a core identifying pillar of the paper;
+\item only suggestive evidence about possible attitudinal mechanisms;
+\item evidence about reactions to the reform bundle, not evidence isolating curriculum, Catholic content, gender segregation, or any other single internal component.
+\end{itemize}
+
+\subsection*{Changes introduced in the revised paper draft}
+
+In the revised draft, this point is implemented mainly through framing changes rather than through new estimation.
+
+First, the abstract is now more restrained. It keeps the beliefs result, but phrases it simply as evidence that treated women display attitudes suggestive of a rejection of the regime's promoted gender norms, without making the bundle-effect clarification too explicit at that stage.
+
+Second, the introduction now says much earlier that the estimated treatment is a package effect. This matters because it prevents the reader from interpreting later mechanism paragraphs as if they cleanly identified one channel at a time.
+
+Third, the historical background section now spells out why the reform was a bundle. This is the natural place to do it, because that is where we describe the different dimensions of the law and the school environment it created.
+
+Fourth, in the mechanisms section the bundle-effect sentence is now placed immediately before the paragraph on data limitations, and the sentence clarifying that the attitudinal evidence is only suggestive is placed immediately after the paragraph explaining that the bundled treatment cannot be disaggregated. This makes the logic of the caveat more direct and less repetitive.
+
+\subsection*{How we will use it in the paper}
+
+This remains in the paper, but only as a small and heavily caveated mechanism discussion. Its main role is now twofold: to preserve the suggestive backlash evidence already present in the paper, and to discipline the writing so that the reader understands from early on that our estimates capture a bundle effect that cannot be decomposed cleanly.
+
+\section*{Integration into the new paper draft}
+
+The revised draft is now being implemented in:
+
+\begin{verbatim}
+Dropbox/Applicazioni/Overleaf/Educated to Be Mothers-slides/AA_paper_new.tex
+\end{verbatim}
+
+The guiding principle is minimal revision. We are not rewriting the paper from scratch. Instead, we are:
+\begin{itemize}[leftmargin=*]
+\item keeping the original structure of the paper intact;
+\item preserving the original baseline tables and figures;
+\item adding only the robustness blocks that survived our selection process;
+\item reducing the strength of the claims where the reviewers' concerns are valid;
+\item explicitly framing the 1945 reform as a bundled intervention.
+\end{itemize}
+
+Concretely, the new draft incorporates the selected evidence as follows:
+\begin{itemize}[leftmargin=*]
+\item the abstract is now more restrained: it keeps the beliefs result, but leaves the fuller bundle-effect clarification and the ``suggestive evidence only'' caveat to the mechanisms discussion rather than foregrounding them there;
+\item the introduction now clarifies that we estimate the long-run effect of the reform package and do not separately identify its internal channels;
+\item the micro robustness section now drops the Portugal placebo and instead discusses the Law 56 horse-race, birthplace fixed effects, movers versus stayers, Civil War controls, and the proxy-valid pre-1973 census sample;
+\item the mechanisms section now keeps the original CIS mechanism exercises, but tones down the interpretation of the null employment results and adds a short discussion of the 1981 census evidence showing that female employment remained quantitatively limited;
+\item the macro section now adds a compact discussion of the retained reviewer-response blocks on location and aggregate identification: external migration evidence from the 1981 census, followed by the 1973/proxy robustness package;
+\item the conclusion now tones down the claims, stresses the bundled nature of the reform, and treats the backlash interpretation as consistent with the evidence rather than mechanically proven by it;
+\item the appendix replaces the dropped Portugal block with the new selected robustness tables, and the appendix order is now aligned so that the current Law 56 mechanism table follows the current CIS-mechanisms table, while the external migration and post-1973 oil-shock tables follow the current macro-robustness table.
+\end{itemize}
+
+All substantive additions or edits in the new paper draft are marked with block-specific highlight colors in the \texttt{AA\_paper\_new.tex} file, so coauthors can identify them immediately and map them back to this report.
+
+\section*{Final practical use in the revised draft}
+
+The cleanest structure for the revised paper is:
+\begin{enumerate}[leftmargin=*]
+\item keep the original core design;
+\item use birthplace/residence robustness as the strongest new micro response;
+\item use the external migration evidence and the post-1973 heterogeneity robustness as the strongest macro response;
+\item use Law 56 horse-race to answer the main competing-cohort story;
+\item use the Censo 1981 mechanism block to say ``mechanism plausible, but aggregate employment channel too small to explain everything'';
+\item place the rest in a well-organized appendix with compact tables, not a sprawling appendix of weak diagnostics.
+\end{enumerate}
+
+\end{document}

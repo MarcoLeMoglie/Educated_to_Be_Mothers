@@ -1,0 +1,11 @@
+		(1)	(2)	(3)	(4)
+		Number of kids (1979	Number of kids (1979	Number of kids (1979	Number of kids (1979
+VARIABLES	LABELS	90-92)	90-92)	90-92)	90-92)
+					
+1.treat3	treat3 = 1	-1.065**	-0.119	-0.619	0.042
+		(0.481)	(0.171)	(0.558)	(0.166)
+					
+Observations		74	870	60	730
+R-squared		0.424	0.434	0.512	0.352
+Mun. FE		YES	YES	YES	YES
+Period		1930/1931	1921-30/1931-39	1930/1931	1921-30/1931-39

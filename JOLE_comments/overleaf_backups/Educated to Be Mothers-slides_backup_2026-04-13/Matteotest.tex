@@ -1,0 +1,143 @@
+% Cleaned version of your Beamer presentation
+\documentclass[aspectratio=169]{beamer}
+
+\setbeamersize{text margin left=5mm,text margin right=5mm} 
+
+% ------------------------
+% Packages
+% ------------------------
+\usepackage[utf8]{inputenc} % Encoding
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{caption} % Required for subcaption
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{natbib}
+\usepackage{tikz}
+\usepackage{appendixnumberbeamer}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+\usepackage{makecell}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{bbm}
+\usepackage{epigraph}
+\usepackage{dcolumn}
+\usepackage{threeparttable}
+\usepackage{adjustbox}
+\usepackage{comment}
+\usepackage{pgfpages}
+
+% ------------------------
+% Colors and Styles
+% ------------------------
+\definecolor{softred}{RGB}{204, 82, 82}
+\definecolor{softblue}{RGB}{82, 122, 204}
+\definecolor{UniBlue}{rgb}{0.03,0.3,0.67} 
+\definecolor{maroon}{RGB}{139,0,0} 
+\definecolor{light-gray}{gray}{0.7}
+
+\setbeamercolor{title}{fg=UniBlue}
+\setbeamercolor{frametitle}{fg=UniBlue}
+\setbeamercolor{structure}{fg=UniBlue}
+\setbeamercolor{button}{bg=UniBlue}
+\setbeamercolor{section in toc}{fg=black, bg=black}
+
+\setbeamerfont{title}{size=\fontsize{13.2}{20}}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{%
+   \raisebox{5pt}{\makebox[\paperwidth]{\hfill\makebox[20pt]{\scriptsize\insertframenumber}}}}
+
+\setbeamertemplate{itemize items}[circle]
+
+% ------------------------
+% Custom commands
+% ------------------------
+\def\i{\item}
+\def\ni{\noindent}
+\def\bi{\begin{itemize}}
+\def\ei{\end{itemize}}
+\def\s{\small}
+\def\f{\footnotesize}
+
+\newcommand{\bottom}{\vskip0pt plus 1filll}
+\newcommand{\Tablepath}{Tables/}
+\graphicspath{{Figures/}}
+
+% ------------------------
+% TOC Formatting
+% ------------------------
+\makeatletter
+\patchcmd{\beamer@sectionintoc}{\vfill}{\vskip\itemsep}{}{}
+\makeatother
+
+\defbeamertemplate{subsection in toc}{subsections numbered roman}{%
+  \leavevmode\leftskip=2.5em
+  \MakeLowercase{\romannumeral\inserttocsubsectionnumber}.
+  \inserttocsubsection\par}
+
+\defbeamertemplate{section in toc}{sections numbered roman}{%
+  \leavevmode\leftskip=1em
+  \MakeUppercase{\romannumeral\inserttocsectionnumber}.
+  \inserttocsection\par}
+
+\setbeamertemplate{section in toc}[sections numbered roman]
+\setbeamertemplate{subsection in toc}[subsections numbered roman]
+
+\newenvironment{wideitemize}{\itemize\addtolength{\itemsep}{10pt}}{\enditemize}
+
+% ------------------------
+% Title Information
+% ------------------------
+\title[]{Educated to Be Mothers:\\ Indoctrination and Demographic Backlash}
+\author[Lax-Mart\'{i}nez, Le Moglie, Sandi]{%
+Gema Lax-Martinez\inst{1} \and
+Marco Le Moglie\inst{1} \and
+Matteo Sandi\inst{2}}
+\institute[Unicatt]{%
+\inst{1}Catholic University of Milan and CLEAN \and
+\inst{2}Catholic University of Milan and CEP, LSE}
+\date[]{}
+
+% ------------------------
+% Document
+% ------------------------
+\begin{document}
+
+\frame{\titlepage}
+\addtocounter{framenumber}{-1}
+\setcounter{framenumber}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\begin{figure}
+\includegraphics[width=.75\textwidth]{EducatedToBeMothersSlides/collage_inverno_demografico.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Motivation}
+
+\textbf{Demographic Winter} (i.e., \textit{declining birth rates coupled with aging population}) has become a salient issue among national governments and public opinions due to its potential negative effect on:
+
+\bi
+  \i Innovation, productivity and economic growth slowdown
+  \i Welfare system sustainability
+  \i Cultural and societal shifts (backward?)
+\ei
+
+\end{frame}
+
+% Continue with your original frames, ensuring:
+% 1. No content comes after \end{document}
+% 2. File/folder names are corrected (e.g., no spaces)
+% 3. All \includegraphics and \input references exist in the correct path
+
+\end{document)

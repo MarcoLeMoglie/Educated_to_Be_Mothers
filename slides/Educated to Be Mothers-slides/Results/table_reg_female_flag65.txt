@@ -1,0 +1,13 @@
+		(1)
+VARIABLES	LABELS	flag65
+		
+interaction	Treat (W) X Post 1945	54.124***
+		(13.321)
+interaction2	Treat (M) X Post 1945	26.295***
+		(3.740)
+		
+Observations		1,980
+R-squared		0.827
+Mun. FE		YES
+State X Year FE		YES
+Coohrt		35+

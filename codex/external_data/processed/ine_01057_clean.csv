@@ -1,0 +1,883 @@
+sexo,relaciónmunicipio1970y1981,gruposdeedad,activos,total
+TOTAL,TOTAL,TOTAL,Total,27332882
+TOTAL,TOTAL,TOTAL,Activos,12797025
+TOTAL,TOTAL,de 16 a 24 años,Total,5540739
+TOTAL,TOTAL,de 16 a 24 años,Activos,2954935
+TOTAL,TOTAL,de 25 a 34,Total,4992742
+TOTAL,TOTAL,de 25 a 34,Activos,3195763
+TOTAL,TOTAL,de 35 a 44,Total,4301816
+TOTAL,TOTAL,de 35 a 44,Activos,2483928
+TOTAL,TOTAL,de 45 a 54,Total,4626315
+TOTAL,TOTAL,de 45 a 54,Activos,2495760
+TOTAL,TOTAL,de 55 a 64,Total,3634545
+TOTAL,TOTAL,de 55 a 64,Activos,1504304
+TOTAL,TOTAL,de 65 y más,Total,4236725
+TOTAL,TOTAL,de 65 y más,Activos,162335
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Total,23534753
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Activos,10769264
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Total,4754096
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Activos,2536896
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Total,3692493
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Activos,2390471
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Total,3585154
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Activos,2047231
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Total,4170357
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Activos,2241385
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Total,3372037
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Activos,1401008
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Total,3960617
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Activos,152272
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Total,3798129
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Activos,2027761
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Total,786644
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Activos,418039
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Total,1300249
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Activos,805292
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Total,716662
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Activos,436698
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Total,455958
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Activos,254375
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Total,262508
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Activos,103296
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Total,276108
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Activos,10063
+TOTAL,Misma CCAA,TOTAL,Total,2030716
+TOTAL,Misma CCAA,TOTAL,Activos,1082593
+TOTAL,Misma CCAA,de 16 a 24 años,Total,407080
+TOTAL,Misma CCAA,de 16 a 24 años,Activos,213480
+TOTAL,Misma CCAA,de 25 a 34,Total,743148
+TOTAL,Misma CCAA,de 25 a 34,Activos,457790
+TOTAL,Misma CCAA,de 35 a 44,Total,372669
+TOTAL,Misma CCAA,de 35 a 44,Activos,227921
+TOTAL,Misma CCAA,de 45 a 54,Total,226218
+TOTAL,Misma CCAA,de 45 a 54,Activos,126378
+TOTAL,Misma CCAA,de 55 a 64,Total,131796
+TOTAL,Misma CCAA,de 55 a 64,Activos,52132
+TOTAL,Misma CCAA,de 65 y más,Total,149805
+TOTAL,Misma CCAA,de 65 y más,Activos,4893
+TOTAL,"Misma Provincia, Total",TOTAL,Total,1735836
+TOTAL,"Misma Provincia, Total",TOTAL,Activos,930106
+TOTAL,"Misma Provincia, Total",de 16 a 24 años,Total,347267
+TOTAL,"Misma Provincia, Total",de 16 a 24 años,Activos,186976
+TOTAL,"Misma Provincia, Total",de 25 a 34,Total,641634
+TOTAL,"Misma Provincia, Total",de 25 a 34,Activos,394406
+TOTAL,"Misma Provincia, Total",de 35 a 44,Total,318358
+TOTAL,"Misma Provincia, Total",de 35 a 44,Activos,194621
+TOTAL,"Misma Provincia, Total",de 45 a 54,Total,191154
+TOTAL,"Misma Provincia, Total",de 45 a 54,Activos,106562
+TOTAL,"Misma Provincia, Total",de 55 a 64,Total,111269
+TOTAL,"Misma Provincia, Total",de 55 a 64,Activos,43738
+TOTAL,"Misma Provincia, Total",de 65 y más,Total,126144
+TOTAL,"Misma Provincia, Total",de 65 y más,Activos,3801
+TOTAL,Capital,TOTAL,Total,580734
+TOTAL,Capital,TOTAL,Activos,326563
+TOTAL,Capital,de 16 a 24 años,Total,98845
+TOTAL,Capital,de 16 a 24 años,Activos,56620
+TOTAL,Capital,de 25 a 34,Total,240426
+TOTAL,Capital,de 25 a 34,Activos,151876
+TOTAL,Capital,de 35 a 44,Total,117758
+TOTAL,Capital,de 35 a 44,Activos,72985
+TOTAL,Capital,de 45 a 54,Total,56221
+TOTAL,Capital,de 45 a 54,Activos,31582
+TOTAL,Capital,de 55 a 64,Total,31821
+TOTAL,Capital,de 55 a 64,Activos,12409
+TOTAL,Capital,de 65 y más,Total,36664
+TOTAL,Capital,de 65 y más,Activos,1092
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Total,130708
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Activos,71808
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Total,25601
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Activos,14375
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Total,47142
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Activos,29441
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Total,26571
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Activos,16018
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Total,15524
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Activos,8495
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Total,8397
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Activos,3235
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Total,7575
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Activos,243
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Total,192414
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Activos,105402
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Total,39149
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Activos,21093
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Total,72667
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Activos,44980
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Total,37721
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Activos,22968
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Total,20056
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Activos,11385
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Total,11608
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Activos,4603
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Total,11213
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Activos,373
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Total,831980
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Activos,426333
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Total,183773
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Activos,94889
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Total,281399
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Activos,168110
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Total,136309
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Activos,82650
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Total,100364
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Activos,55100
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Total,59443
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Activos,23492
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Total,70692
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Activos,2093
+TOTAL,"Misma CCAA, distinta Provincia, Total",TOTAL,Total,294869
+TOTAL,"Misma CCAA, distinta Provincia, Total",TOTAL,Activos,152484
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Total,59810
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Activos,26504
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Total,101514
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Activos,63383
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Total,54311
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Activos,33300
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Total,35047
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Activos,19812
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Total,20527
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Activos,8393
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 65 y más,Total,23661
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 65 y más,Activos,1092
+TOTAL,Capital,TOTAL,Total,94719
+TOTAL,Capital,TOTAL,Activos,50407
+TOTAL,Capital,de 16 a 24 años,Total,16573
+TOTAL,Capital,de 16 a 24 años,Activos,6676
+TOTAL,Capital,de 25 a 34,Total,34096
+TOTAL,Capital,de 25 a 34,Activos,22150
+TOTAL,Capital,de 35 a 44,Total,19524
+TOTAL,Capital,de 35 a 44,Activos,12261
+TOTAL,Capital,de 45 a 54,Total,10697
+TOTAL,Capital,de 45 a 54,Activos,6356
+TOTAL,Capital,de 55 a 64,Total,6252
+TOTAL,Capital,de 55 a 64,Activos,2533
+TOTAL,Capital,de 65 y más,Total,7577
+TOTAL,Capital,de 65 y más,Activos,430
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Total,19456
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Activos,10360
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Total,4000
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Activos,1719
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Total,6609
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Activos,4196
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Total,3975
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Activos,2471
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Total,2324
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Activos,1371
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Total,1297
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Activos,550
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Total,1250
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Activos,53
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Total,30035
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Activos,15444
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Total,6520
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Activos,2994
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Total,10018
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Activos,6036
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Total,6745
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Activos,3438
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Total,3615
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Activos,2109
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Total,2013
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Activos,739
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Total,2125
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Activos,129
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Total,150660
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Activos,76273
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Total,32716
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Activos,15115
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Total,50791
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Activos,31002
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Total,25067
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Activos,15130
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Total,18412
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Activos,9975
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Total,10965
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Activos,4571
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Total,12708
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Activos,480
+TOTAL,"Distinta CCAA, Total",TOTAL,Total,1397048
+TOTAL,"Distinta CCAA, Total",TOTAL,Activos,757142
+TOTAL,"Distinta CCAA, Total",de 16 a 24 años,Total,313802
+TOTAL,"Distinta CCAA, Total",de 16 a 24 años,Activos,172793
+TOTAL,"Distinta CCAA, Total",de 25 a 34,Total,476597
+TOTAL,"Distinta CCAA, Total",de 25 a 34,Activos,301798
+TOTAL,"Distinta CCAA, Total",de 35 a 44,Total,244710
+TOTAL,"Distinta CCAA, Total",de 35 a 44,Activos,149961
+TOTAL,"Distinta CCAA, Total",de 45 a 54,Total,162987
+TOTAL,"Distinta CCAA, Total",de 45 a 54,Activos,89635
+TOTAL,"Distinta CCAA, Total",de 55 a 64,Total,97573
+TOTAL,"Distinta CCAA, Total",de 55 a 64,Activos,39170
+TOTAL,"Distinta CCAA, Total",de 65 y más,Total,101379
+TOTAL,"Distinta CCAA, Total",de 65 y más,Activos,3785
+TOTAL,Capital,TOTAL,Total,507509
+TOTAL,Capital,TOTAL,Activos,275084
+TOTAL,Capital,de 16 a 24 años,Total,91574
+TOTAL,Capital,de 16 a 24 años,Activos,40511
+TOTAL,Capital,de 25 a 34,Total,179238
+TOTAL,Capital,de 25 a 34,Activos,116982
+TOTAL,Capital,de 35 a 44,Total,110516
+TOTAL,Capital,de 35 a 44,Activos,70077
+TOTAL,Capital,de 45 a 54,Total,56567
+TOTAL,Capital,de 45 a 54,Activos,33089
+TOTAL,Capital,de 55 a 64,Total,31890
+TOTAL,Capital,de 55 a 64,Activos,12565
+TOTAL,Capital,de 65 y más,Total,37726
+TOTAL,Capital,de 65 y más,Activos,1862
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Total,79066
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Activos,40963
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Total,18016
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Activos,8718
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Total,25148
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Activos,15106
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Total,16251
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Activos,9707
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Total,9719
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Activos,5271
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Total,5359
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Activos,1943
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Total,4571
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Activos,218
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Total,119400
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Activos,63743
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Total,29012
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Activos,16174
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Total,38121
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Activos,22943
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Total,21915
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Activos,12893
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Total,15271
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Activos,8182
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Total,8207
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Activos,3275
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Total,6875
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Activos,277
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Total,691072
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Activos,377352
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Total,175199
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Activos,107391
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Total,234091
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Activos,146768
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Total,96028
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Activos,57284
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Total,81430
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Activos,43093
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Total,52117
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Activos,21387
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Total,52208
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Activos,1429
+TOTAL,"De Ceuta, Melilla y otros territorios",TOTAL,Total,25944
+TOTAL,"De Ceuta, Melilla y otros territorios",TOTAL,Activos,12509
+TOTAL,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Total,6322
+TOTAL,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Activos,2739
+TOTAL,"De Ceuta, Melilla y otros territorios",de 25 a 34,Total,6289
+TOTAL,"De Ceuta, Melilla y otros territorios",de 25 a 34,Activos,3943
+TOTAL,"De Ceuta, Melilla y otros territorios",de 35 a 44,Total,4831
+TOTAL,"De Ceuta, Melilla y otros territorios",de 35 a 44,Activos,2748
+TOTAL,"De Ceuta, Melilla y otros territorios",de 45 a 54,Total,4067
+TOTAL,"De Ceuta, Melilla y otros territorios",de 45 a 54,Activos,2151
+TOTAL,"De Ceuta, Melilla y otros territorios",de 55 a 64,Total,2601
+TOTAL,"De Ceuta, Melilla y otros territorios",de 55 a 64,Activos,876
+TOTAL,"De Ceuta, Melilla y otros territorios",de 65 y más,Total,1833
+TOTAL,"De Ceuta, Melilla y otros territorios",de 65 y más,Activos,53
+TOTAL,Del extranjero,TOTAL,Total,344339
+TOTAL,Del extranjero,TOTAL,Activos,175485
+TOTAL,Del extranjero,de 16 a 24 años,Total,59408
+TOTAL,Del extranjero,de 16 a 24 años,Activos,29023
+TOTAL,Del extranjero,de 25 a 34,Total,74206
+TOTAL,Del extranjero,de 25 a 34,Activos,41752
+TOTAL,Del extranjero,de 35 a 44,Total,94438
+TOTAL,Del extranjero,de 35 a 44,Activos,56063
+TOTAL,Del extranjero,de 45 a 54,Total,62677
+TOTAL,Del extranjero,de 45 a 54,Activos,36207
+TOTAL,Del extranjero,de 55 a 64,Total,30523
+TOTAL,Del extranjero,de 55 a 64,Activos,11109
+TOTAL,Del extranjero,de 65 y más,Total,23087
+TOTAL,Del extranjero,de 65 y más,Activos,1331
+VARONES,TOTAL,TOTAL,Total,13168181
+VARONES,TOTAL,TOTAL,Activos,9628895
+VARONES,TOTAL,de 16 a 24 años,Total,2806067
+VARONES,TOTAL,de 16 a 24 años,Activos,1742390
+VARONES,TOTAL,de 25 a 34,Total,2509790
+VARONES,TOTAL,de 25 a 34,Activos,2409276
+VARONES,TOTAL,de 35 a 44,Total,2144160
+VARONES,TOTAL,de 35 a 44,Activos,2064429
+VARONES,TOTAL,de 45 a 54,Total,2276528
+VARONES,TOTAL,de 45 a 54,Activos,2078191
+VARONES,TOTAL,de 55 a 64,Total,1707708
+VARONES,TOTAL,de 55 a 64,Activos,1222517
+VARONES,TOTAL,de 65 y más,Total,1723927
+VARONES,TOTAL,de 65 y más,Activos,112092
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Total,11347366
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Activos,8126519
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Total,2458128
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Activos,1518334
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Total,1884219
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Activos,1799022
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Total,1766270
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Activos,1697160
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Total,2044690
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Activos,1867403
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Total,1582581
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Activos,1138505
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Total,1611480
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Activos,106095
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Total,1820815
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Activos,1502376
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Total,347939
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Activos,224056
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Total,625572
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Activos,610254
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Total,377890
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Activos,367269
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Total,231839
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Activos,210788
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Total,125127
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Activos,84012
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Total,112448
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Activos,5997
+VARONES,Misma CCAA,TOTAL,Total,977529
+VARONES,Misma CCAA,TOTAL,Activos,820265
+VARONES,Misma CCAA,de 16 a 24 años,Total,174288
+VARONES,Misma CCAA,de 16 a 24 años,Activos,115429
+VARONES,Misma CCAA,de 25 a 34,Total,363106
+VARONES,Misma CCAA,de 25 a 34,Activos,356387
+VARONES,Misma CCAA,de 35 a 44,Total,200725
+VARONES,Misma CCAA,de 35 a 44,Activos,195959
+VARONES,Misma CCAA,de 45 a 54,Total,115991
+VARONES,Misma CCAA,de 45 a 54,Activos,106465
+VARONES,Misma CCAA,de 55 a 64,Total,62884
+VARONES,Misma CCAA,de 55 a 64,Activos,42938
+VARONES,Misma CCAA,de 65 y más,Total,60535
+VARONES,Misma CCAA,de 65 y más,Activos,3087
+VARONES,"Misma Provincia, Total",TOTAL,Total,839556
+VARONES,"Misma Provincia, Total",TOTAL,Activos,709423
+VARONES,"Misma Provincia, Total",de 16 a 24 años,Total,147880
+VARONES,"Misma Provincia, Total",de 16 a 24 años,Activos,101071
+VARONES,"Misma Provincia, Total",de 25 a 34,Total,315644
+VARONES,"Misma Provincia, Total",de 25 a 34,Activos,310424
+VARONES,"Misma Provincia, Total",de 35 a 44,Total,172800
+VARONES,"Misma Provincia, Total",de 35 a 44,Activos,168703
+VARONES,"Misma Provincia, Total",de 45 a 54,Total,98694
+VARONES,"Misma Provincia, Total",de 45 a 54,Activos,90460
+VARONES,"Misma Provincia, Total",de 55 a 64,Total,53377
+VARONES,"Misma Provincia, Total",de 55 a 64,Activos,36292
+VARONES,"Misma Provincia, Total",de 65 y más,Total,51160
+VARONES,"Misma Provincia, Total",de 65 y más,Activos,2473
+VARONES,Capital,TOTAL,Total,266609
+VARONES,Capital,TOTAL,Activos,251434
+VARONES,Capital,de 16 a 24 años,Total,43119
+VARONES,Capital,de 16 a 24 años,Activos,30298
+VARONES,Capital,de 25 a 34,Total,121622
+VARONES,Capital,de 25 a 34,Activos,119856
+VARONES,Capital,de 35 a 44,Total,64809
+VARONES,Capital,de 35 a 44,Activos,63584
+VARONES,Capital,de 45 a 54,Total,28876
+VARONES,Capital,de 45 a 54,Activos,26915
+VARONES,Capital,de 55 a 64,Total,14442
+VARONES,Capital,de 55 a 64,Activos,10066
+VARONES,Capital,de 65 y más,Total,13741
+VARONES,Capital,de 65 y más,Activos,715
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Total,65104
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Activos,55771
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Total,11767
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Activos,8151
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Total,23852
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Activos,23333
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Total,14420
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Activos,14017
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Total,8095
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Activos,7379
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Total,4135
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Activos,2746
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Total,2835
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Activos,145
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Total,94553
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Activos,81143
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Total,17418
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Activos,11864
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Total,36071
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Activos,35475
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Total,20582
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Activos,20052
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Total,10447
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Activos,9683
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Total,5548
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Activos,3845
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Total,4489
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Activos,225
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Total,393290
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Activos,321075
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Total,75576
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Activos,50758
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Total,134099
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Activos,131760
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Total,72990
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Activos,71050
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Total,51276
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Activos,46484
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Total,29252
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Activos,19635
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Total,30096
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Activos,1388
+VARONES,"Misma CCAA, distinta Provincia, Total",TOTAL,Total,137969
+VARONES,"Misma CCAA, distinta Provincia, Total",TOTAL,Activos,110839
+VARONES,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Total,26408
+VARONES,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Activos,14358
+VARONES,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Total,47462
+VARONES,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Activos,45963
+VARONES,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Total,27925
+VARONES,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Activos,27256
+VARONES,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Total,17294
+VARONES,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Activos,16001
+VARONES,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Total,9507
+VARONES,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Activos,6646
+VARONES,"Misma CCAA, distinta Provincia, Total",de 65 y más,Total,9375
+VARONES,"Misma CCAA, distinta Provincia, Total",de 65 y más,Activos,614
+VARONES,Capital,TOTAL,Total,44267
+VARONES,Capital,TOTAL,Activos,36042
+VARONES,Capital,de 16 a 24 años,Total,7465
+VARONES,Capital,de 16 a 24 años,Activos,3691
+VARONES,Capital,de 25 a 34,Total,15971
+VARONES,Capital,de 25 a 34,Activos,15461
+VARONES,Capital,de 35 a 44,Total,10079
+VARONES,Capital,de 35 a 44,Activos,9854
+VARONES,Capital,de 45 a 54,Total,5248
+VARONES,Capital,de 45 a 54,Activos,4971
+VARONES,Capital,de 55 a 64,Total,2680
+VARONES,Capital,de 55 a 64,Activos,1842
+VARONES,Capital,de 65 y más,Total,2824
+VARONES,Capital,de 65 y más,Activos,224
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Total,9145
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Activos,7487
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Total,1765
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Activos,955
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Total,3136
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Activos,2993
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Total,2094
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Activos,2035
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Total,1130
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Activos,1058
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Total,558
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Activos,427
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Total,462
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Activos,20
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Total,14091
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Activos,11381
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Total,2843
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Activos,1634
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Total,4683
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Activos,4505
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Total,2910
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Activos,2839
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Total,1834
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Activos,1723
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Total,963
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Activos,604
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Total,857
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Activos,76
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Total,70467
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Activos,55928
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Total,14335
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Activos,8077
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Total,23673
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Activos,23004
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Total,12842
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Activos,12529
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Total,9081
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Activos,8250
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Total,5305
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Activos,3773
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Total,5231
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Activos,294
+VARONES,"Distinta CCAA, Total",TOTAL,Total,664754
+VARONES,"Distinta CCAA, Total",TOTAL,Activos,544177
+VARONES,"Distinta CCAA, Total",de 16 a 24 años,Total,142925
+VARONES,"Distinta CCAA, Total",de 16 a 24 años,Activos,91454
+VARONES,"Distinta CCAA, Total",de 25 a 34,Total,228658
+VARONES,"Distinta CCAA, Total",de 25 a 34,Activos,222740
+VARONES,"Distinta CCAA, Total",de 35 a 44,Total,126614
+VARONES,"Distinta CCAA, Total",de 35 a 44,Activos,123155
+VARONES,"Distinta CCAA, Total",de 45 a 54,Total,80124
+VARONES,"Distinta CCAA, Total",de 45 a 54,Activos,73030
+VARONES,"Distinta CCAA, Total",de 55 a 64,Total,46141
+VARONES,"Distinta CCAA, Total",de 55 a 64,Activos,31702
+VARONES,"Distinta CCAA, Total",de 65 y más,Total,40293
+VARONES,"Distinta CCAA, Total",de 65 y más,Activos,2096
+VARONES,Capital,TOTAL,Total,241771
+VARONES,Capital,TOTAL,Activos,197326
+VARONES,Capital,de 16 a 24 años,Total,42504
+VARONES,Capital,de 16 a 24 años,Activos,22387
+VARONES,Capital,de 25 a 34,Total,84860
+VARONES,Capital,de 25 a 34,Activos,82061
+VARONES,Capital,de 35 a 44,Total,57902
+VARONES,Capital,de 35 a 44,Activos,56532
+VARONES,Capital,de 45 a 54,Total,28084
+VARONES,Capital,de 45 a 54,Activos,26089
+VARONES,Capital,de 55 a 64,Total,14055
+VARONES,Capital,de 55 a 64,Activos,9326
+VARONES,Capital,de 65 y más,Total,14367
+VARONES,Capital,de 65 y más,Activos,929
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Total,38478
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Activos,30840
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Total,8671
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Activos,5055
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Total,11935
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Activos,11500
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Total,8492
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Activos,8222
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Total,4904
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Activos,4398
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Total,2583
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Activos,1550
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Total,1893
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Activos,115
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Total,57040
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Activos,47088
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Total,13422
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Activos,8891
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Total,18111
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Activos,17617
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Total,11253
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Activos,10875
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Total,7594
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Activos,6870
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Total,4047
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Activos,2676
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Total,2613
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Activos,159
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Total,327466
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Activos,268923
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Total,78328
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Activos,55121
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Total,113752
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Activos,111562
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Total,48967
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Activos,47525
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Total,39543
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Activos,35673
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Total,25457
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Activos,18150
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Total,21420
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Activos,893
+VARONES,"De Ceuta, Melilla y otros territorios",TOTAL,Total,13162
+VARONES,"De Ceuta, Melilla y otros territorios",TOTAL,Activos,9897
+VARONES,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Total,3214
+VARONES,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Activos,1743
+VARONES,"De Ceuta, Melilla y otros territorios",de 25 a 34,Total,3240
+VARONES,"De Ceuta, Melilla y otros territorios",de 25 a 34,Activos,3098
+VARONES,"De Ceuta, Melilla y otros territorios",de 35 a 44,Total,2414
+VARONES,"De Ceuta, Melilla y otros territorios",de 35 a 44,Activos,2348
+VARONES,"De Ceuta, Melilla y otros territorios",de 45 a 54,Total,2151
+VARONES,"De Ceuta, Melilla y otros territorios",de 45 a 54,Activos,1899
+VARONES,"De Ceuta, Melilla y otros territorios",de 55 a 64,Total,1443
+VARONES,"De Ceuta, Melilla y otros territorios",de 55 a 64,Activos,787
+VARONES,"De Ceuta, Melilla y otros territorios",de 65 y más,Total,699
+VARONES,"De Ceuta, Melilla y otros territorios",de 65 y más,Activos,23
+VARONES,Del extranjero,TOTAL,Total,165337
+VARONES,Del extranjero,TOTAL,Activos,126014
+VARONES,Del extranjero,de 16 a 24 años,Total,27503
+VARONES,Del extranjero,de 16 a 24 años,Activos,15431
+VARONES,Del extranjero,de 25 a 34,Total,30563
+VARONES,Del extranjero,de 25 a 34,Activos,28025
+VARONES,Del extranjero,de 35 a 44,Total,48132
+VARONES,Del extranjero,de 35 a 44,Activos,45802
+VARONES,Del extranjero,de 45 a 54,Total,33569
+VARONES,Del extranjero,de 45 a 54,Activos,29389
+VARONES,Del extranjero,de 55 a 64,Total,14650
+VARONES,Del extranjero,de 55 a 64,Activos,8576
+VARONES,Del extranjero,de 65 y más,Total,10920
+VARONES,Del extranjero,de 65 y más,Activos,792
+MUJERES,TOTAL,TOTAL,Total,14164701
+MUJERES,TOTAL,TOTAL,Activos,3168130
+MUJERES,TOTAL,de 16 a 24 años,Total,2734672
+MUJERES,TOTAL,de 16 a 24 años,Activos,1212545
+MUJERES,TOTAL,de 25 a 34,Total,2482952
+MUJERES,TOTAL,de 25 a 34,Activos,786487
+MUJERES,TOTAL,de 35 a 44,Total,2157656
+MUJERES,TOTAL,de 35 a 44,Activos,419500
+MUJERES,TOTAL,de 45 a 54,Total,2349787
+MUJERES,TOTAL,de 45 a 54,Activos,417569
+MUJERES,TOTAL,de 55 a 64,Total,1926837
+MUJERES,TOTAL,de 55 a 64,Activos,281787
+MUJERES,TOTAL,de 65 y más,Total,2512797
+MUJERES,TOTAL,de 65 y más,Activos,50242
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Total,12187387
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Activos,2642745
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Total,2295968
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Activos,1018563
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Total,1808274
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Activos,591449
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Total,1818884
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Activos,350071
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Total,2125667
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Activos,373982
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Total,1789456
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Activos,262503
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Total,2349137
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Activos,46177
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Total,1977314
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Activos,525385
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Total,438704
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Activos,193982
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Total,674677
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Activos,195038
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Total,338772
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Activos,69429
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Total,224120
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Activos,43587
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Total,137381
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Activos,19284
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Total,163660
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Activos,4065
+MUJERES,Misma CCAA,TOTAL,Total,1053187
+MUJERES,Misma CCAA,TOTAL,Activos,262328
+MUJERES,Misma CCAA,de 16 a 24 años,Total,232792
+MUJERES,Misma CCAA,de 16 a 24 años,Activos,98051
+MUJERES,Misma CCAA,de 25 a 34,Total,380042
+MUJERES,Misma CCAA,de 25 a 34,Activos,101402
+MUJERES,Misma CCAA,de 35 a 44,Total,171944
+MUJERES,Misma CCAA,de 35 a 44,Activos,31961
+MUJERES,Misma CCAA,de 45 a 54,Total,110227
+MUJERES,Misma CCAA,de 45 a 54,Activos,19913
+MUJERES,Misma CCAA,de 55 a 64,Total,68912
+MUJERES,Misma CCAA,de 55 a 64,Activos,9193
+MUJERES,Misma CCAA,de 65 y más,Total,89270
+MUJERES,Misma CCAA,de 65 y más,Activos,1807
+MUJERES,"Misma Provincia, Total",TOTAL,Total,896280
+MUJERES,"Misma Provincia, Total",TOTAL,Activos,220682
+MUJERES,"Misma Provincia, Total",de 16 a 24 años,Total,199386
+MUJERES,"Misma Provincia, Total",de 16 a 24 años,Activos,85905
+MUJERES,"Misma Provincia, Total",de 25 a 34,Total,325990
+MUJERES,"Misma Provincia, Total",de 25 a 34,Activos,83982
+MUJERES,"Misma Provincia, Total",de 35 a 44,Total,145558
+MUJERES,"Misma Provincia, Total",de 35 a 44,Activos,25918
+MUJERES,"Misma Provincia, Total",de 45 a 54,Total,92471
+MUJERES,"Misma Provincia, Total",de 45 a 54,Activos,16102
+MUJERES,"Misma Provincia, Total",de 55 a 64,Total,57891
+MUJERES,"Misma Provincia, Total",de 55 a 64,Activos,7446
+MUJERES,"Misma Provincia, Total",de 65 y más,Total,74984
+MUJERES,"Misma Provincia, Total",de 65 y más,Activos,1328
+MUJERES,Capital,TOTAL,Total,294125
+MUJERES,Capital,TOTAL,Activos,75129
+MUJERES,Capital,de 16 a 24 años,Total,55725
+MUJERES,Capital,de 16 a 24 años,Activos,26321
+MUJERES,Capital,de 25 a 34,Total,118804
+MUJERES,Capital,de 25 a 34,Activos,32020
+MUJERES,Capital,de 35 a 44,Total,52949
+MUJERES,Capital,de 35 a 44,Activos,9401
+MUJERES,Capital,de 45 a 54,Total,26345
+MUJERES,Capital,de 45 a 54,Activos,4668
+MUJERES,Capital,de 55 a 64,Total,17379
+MUJERES,Capital,de 55 a 64,Activos,2343
+MUJERES,Capital,de 65 y más,Total,22923
+MUJERES,Capital,de 65 y más,Activos,377
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Total,65604
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Activos,16036
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Total,13733
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Activos,6225
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Total,23290
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Activos,6108
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Total,12151
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Activos,2000
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Total,7429
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Activos,1117
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Total,4261
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Activos,489
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Total,4740
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Activos,98
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Total,97861
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Activos,24258
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Total,21731
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Activos,9229
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Total,36596
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Activos,9504
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Total,17139
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Activos,2917
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Total,9609
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Activos,1702
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Total,6061
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Activos,759
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Total,6725
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Activos,148
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Total,438690
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Activos,106259
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Total,108197
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Activos,44130
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Total,147300
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Activos,36350
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Total,63319
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Activos,11600
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Total,49087
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Activos,8616
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Total,30191
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Activos,3856
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Total,40596
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Activos,706
+MUJERES,"Misma CCAA, distinta Provincia, Total",TOTAL,Total,156900
+MUJERES,"Misma CCAA, distinta Provincia, Total",TOTAL,Activos,41645
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Total,33402
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Activos,12146
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Total,54052
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Activos,17420
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Total,26386
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Activos,6043
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Total,17753
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Activos,3811
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Total,11020
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Activos,1747
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 65 y más,Total,14286
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 65 y más,Activos,478
+MUJERES,Capital,TOTAL,Total,50451
+MUJERES,Capital,TOTAL,Activos,14364
+MUJERES,Capital,de 16 a 24 años,Total,9108
+MUJERES,Capital,de 16 a 24 años,Activos,2986
+MUJERES,Capital,de 25 a 34,Total,18125
+MUJERES,Capital,de 25 a 34,Activos,6689
+MUJERES,Capital,de 35 a 44,Total,9445
+MUJERES,Capital,de 35 a 44,Activos,2407
+MUJERES,Capital,de 45 a 54,Total,5448
+MUJERES,Capital,de 45 a 54,Activos,1386
+MUJERES,Capital,de 55 a 64,Total,3572
+MUJERES,Capital,de 55 a 64,Activos,691
+MUJERES,Capital,de 65 y más,Total,4753
+MUJERES,Capital,de 65 y más,Activos,206
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Total,10311
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Activos,2873
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Total,2235
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Activos,764
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Total,3474
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Activos,1203
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Total,1882
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Activos,436
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Total,1193
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Activos,314
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Total,739
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Activos,123
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Total,788
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Activos,33
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Total,15944
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Activos,4063
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Total,3678
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Activos,1359
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Total,5335
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Activos,1531
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Total,2835
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Activos,599
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Total,1780
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Activos,386
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Total,1050
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Activos,135
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Total,1268
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Activos,52
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Total,80193
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Activos,20345
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Total,18381
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Activos,7037
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Total,27119
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Activos,7998
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Total,12225
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Activos,2601
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Total,9331
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Activos,1725
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Total,5659
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Activos,798
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Total,7478
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Activos,186
+MUJERES,"Distinta CCAA, Total",TOTAL,Total,732294
+MUJERES,"Distinta CCAA, Total",TOTAL,Activos,212965
+MUJERES,"Distinta CCAA, Total",de 16 a 24 años,Total,170877
+MUJERES,"Distinta CCAA, Total",de 16 a 24 años,Activos,81339
+MUJERES,"Distinta CCAA, Total",de 25 a 34,Total,247939
+MUJERES,"Distinta CCAA, Total",de 25 a 34,Activos,79059
+MUJERES,"Distinta CCAA, Total",de 35 a 44,Total,118096
+MUJERES,"Distinta CCAA, Total",de 35 a 44,Activos,26806
+MUJERES,"Distinta CCAA, Total",de 45 a 54,Total,82863
+MUJERES,"Distinta CCAA, Total",de 45 a 54,Activos,16604
+MUJERES,"Distinta CCAA, Total",de 55 a 64,Total,51432
+MUJERES,"Distinta CCAA, Total",de 55 a 64,Activos,7468
+MUJERES,"Distinta CCAA, Total",de 65 y más,Total,61086
+MUJERES,"Distinta CCAA, Total",de 65 y más,Activos,1689
+MUJERES,Capital,TOTAL,Total,265739
+MUJERES,Capital,TOTAL,Activos,77768
+MUJERES,Capital,de 16 a 24 años,Total,49069
+MUJERES,Capital,de 16 a 24 años,Activos,18123
+MUJERES,Capital,de 25 a 34,Total,94378
+MUJERES,Capital,de 25 a 34,Activos,34921
+MUJERES,Capital,de 35 a 44,Total,52614
+MUJERES,Capital,de 35 a 44,Activos,13544
+MUJERES,Capital,de 45 a 54,Total,28483
+MUJERES,Capital,de 45 a 54,Activos,6999
+MUJERES,Capital,de 55 a 64,Total,17835
+MUJERES,Capital,de 55 a 64,Activos,3238
+MUJERES,Capital,de 65 y más,Total,23359
+MUJERES,Capital,de 65 y más,Activos,933
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Total,40588
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Activos,10123
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Total,9348
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Activos,3663
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Total,13213
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Activos,3605
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Total,7758
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Activos,1485
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Total,4816
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Activos,873
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Total,2776
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Activos,392
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Total,2678
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Activos,104
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Total,62360
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Activos,16656
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Total,15590
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Activos,7283
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Total,20010
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Activos,5326
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Total,10662
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Activos,2018
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Total,7677
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Activos,1312
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Total,4160
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Activos,600
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Total,4261
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Activos,117
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Total,363606
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Activos,108429
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Total,96871
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Activos,52270
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Total,120339
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Activos,36207
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Total,47062
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Activos,9759
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Total,41887
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Activos,71420
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Total,26660
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Activos,3237
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Total,30788
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Activos,536
+MUJERES,"De Ceuta, Melilla y otros territorios",TOTAL,Total,12782
+MUJERES,"De Ceuta, Melilla y otros territorios",TOTAL,Activos,2612
+MUJERES,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Total,3108
+MUJERES,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Activos,996
+MUJERES,"De Ceuta, Melilla y otros territorios",de 25 a 34,Total,3049
+MUJERES,"De Ceuta, Melilla y otros territorios",de 25 a 34,Activos,845
+MUJERES,"De Ceuta, Melilla y otros territorios",de 35 a 44,Total,2417
+MUJERES,"De Ceuta, Melilla y otros territorios",de 35 a 44,Activos,400
+MUJERES,"De Ceuta, Melilla y otros territorios",de 45 a 54,Total,1917
+MUJERES,"De Ceuta, Melilla y otros territorios",de 45 a 54,Activos,252
+MUJERES,"De Ceuta, Melilla y otros territorios",de 55 a 64,Total,1158
+MUJERES,"De Ceuta, Melilla y otros territorios",de 55 a 64,Activos,89
+MUJERES,"De Ceuta, Melilla y otros territorios",de 65 y más,Total,1134
+MUJERES,"De Ceuta, Melilla y otros territorios",de 65 y más,Activos,30
+MUJERES,Del extranjero,TOTAL,Total,179002
+MUJERES,Del extranjero,TOTAL,Activos,47471
+MUJERES,Del extranjero,de 16 a 24 años,Total,31905
+MUJERES,Del extranjero,de 16 a 24 años,Activos,13592
+MUJERES,Del extranjero,de 25 a 34,Total,43643
+MUJERES,Del extranjero,de 25 a 34,Activos,13727
+MUJERES,Del extranjero,de 35 a 44,Total,46306
+MUJERES,Del extranjero,de 35 a 44,Activos,10261
+MUJERES,Del extranjero,de 45 a 54,Total,29108
+MUJERES,Del extranjero,de 45 a 54,Activos,6818
+MUJERES,Del extranjero,de 55 a 64,Total,15874
+MUJERES,Del extranjero,de 55 a 64,Activos,2534
+MUJERES,Del extranjero,de 65 y más,Total,12166
+MUJERES,Del extranjero,de 65 y más,Activos,539

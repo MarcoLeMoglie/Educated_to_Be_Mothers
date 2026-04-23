@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Población migrante por Provincia de residencia en 1970 y Provincia de residencia en 1981</title>
+  <meta name="description" content="INE. Instituto Nacional de Estad&iacute;stica. National Statistics Institute. Spanish Statistical Office. El INE elabora y distribuye estadisticas de Espana. Este servidor contiene: Censos de Poblacion y Viviendas 2001, Informacion general, Productos de difusion, Espana en cifras, Datos coyunturales, Datos municipales, etc.. Q2016.es">
+    <meta name="keywords" content="Provincia de residencia en 1970, Provincia de residencia en 1981, Censos de Población y Viviendas, null">
+
+    <script>
+	  var pathJaxi = "/jaxiPx/";
+      var tablaId = 0;
+      var fechaInicio= "";
+      var fechaFin= "";
+      var idioma = 0;
+      var notas =  0;
+      isLoadData = true;
+      var isMegatabla =false;
+      var sepMil = ".";
+      var sepDec = ",";
+      </script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="/menus/img/favicon.ico" type="image/x-icon">
+<link href="/menus/img/favicon.png" rel="apple-touch-icon">
+<link href="/menus/img/apple-touch-icon-57x57-precomposed.png" rel="apple-touch-icon" sizes="57x57">
+<link href="/menus/img/apple-touch-icon-60x60-precomposed.png" rel="apple-touch-icon" sizes="60x60">
+<link href="/menus/img/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon" sizes="76x76">
+<link href="/menus/img/apple-touch-icon-76x76-precomposed.png" rel="apple-touch-icon" sizes="76x76">
+<link href="/menus/img/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+<link href="/menus/img/apple-touch-icon-120x120-precomposed.png" rel="apple-touch-icon" sizes="120x120">
+<link href="/menus/img/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+<link href="/menus/img/apple-touch-icon-152x152-precomposed.png" rel="apple-touch-icon" sizes="152x152">
+<link href="/menus/img/apple-touch-icon-160x160-precomposed.png" rel="apple-touch-icon" sizes="160x160">
+<link href="/menus/img/apple-touch-icon-180x180-precomposed.png" rel="apple-touch-icon" sizes="180x180">
+<link href="/menus/img/favicon-192x192.png" rel="icon" sizes="192x192">
+<link href="/menus/img/favicon-160x160.png" rel="icon" sizes="160x160">
+<link href="/menus/img/favicon-128x128.png" rel="icon" sizes="128x128">
+<link href="/menus/img/favicon-96x96.png" rel="icon" sizes="96x96">
+<link href="/menus/img/favicon-32x32.png" rel="icon" sizes="32x32">
+<link href="/menus/img/favicon-16x16.png" rel="icon" sizes="16x16">
+<meta property="og:locale" content="es_ES" >
+	<meta property="og:type" content="website">
+<meta property="og:site_name" content="INE">
+<meta property="og:image" content="https://www.ine.es/menus/_b/img/logoINESocial.png">
+<meta property="og:image:secure_url" content="https://www.ine.es/menus/_b/img/logoINESocial.png">
+<meta property="og:image:alt" content="Logo">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="326">
+<meta property="og:image:height" content="126">
+<meta content="True" name="HandheldFriendly">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+<meta name="robots" content="index, follow">
+  <script type="application/ld+json" id="Organization">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id" :"https://www.ine.es#Organization",
+    "name": "INE - Instituto Nacional de Estadística",
+    "url": "https://www.ine.es/",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Madrid, España",
+        "postalCode": "28050",
+        "streetAddress": "Avenida de Manoteras, 50-52"
+    },
+    "contactPoint": [
+        {
+        "@type": "ContactPoint",
+        "contactType" : "Escribir a InfoINE",
+        "url": "https://www.ine.es/infoine/"
+    },
+    {
+        "@type": "ContactPoint",
+        "telephone": "(+34) 91-583-91-00",
+        "faxNumber": "(+34) 91-583-91-58",
+        "contactType" : "Información al público y centralita",
+        "hoursAvailable":[
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [ "Monday", "Tuesday", "Wednesday", "Thursday"],
+                "opens": "09:00",
+                "closes": "14:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [ "Monday", "Tuesday", "Wednesday", "Thursday"],
+                "opens": "16:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [ "Friday"],
+                "opens": "09:00",
+                "closes": "14:00"            
+            }
+        ]
+    },
+    {
+        "@type": "ContactPoint",
+        "telephone": "(+34) 91-583-94-38",
+        "faxNumber": "(+34) 91-583-45-65",
+        "contactType" : "Librería Índice",
+        "email": "indice@ine.es"
+    },
+    {
+        "@type": "ContactPoint",
+        "telephone": "(+34) 91-583-94-11",
+        "contactType" : "Biblioteca",
+        "email": "biblioteca@ine.es"
+    }
+    ],
+    "logo": [
+        {
+            "@type": "ImageObject",
+            "@id": "https://www.ine.es/#logo",
+            "url": "https://www.ine.es/menus/_b/img/logoINESocial.png",
+            "width": 326,
+            "height": 125,
+            "name": "Logotipo INE (Instituto Nacional de Estadística)"
+        }
+    ],
+    "sameAs": [
+        "https://twitter.com/es_ine",
+        "https://www.youtube.com/@es_ine",
+        "https://www.instagram.com/es_ine_/",
+        "https://es.linkedin.com/company/ine-es"
+    ]
+}
+ 
+</script><script type="application/ld+json" id="WebSite">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://www.ine.es/#WebSite",            
+    "name": "INE - Instituto Nacional de Estadística",
+    "inLanguage": "es",     
+    "headline": "Instituto Nacional de Estadística",
+    "description" : "El INE elabora y distribuye estadisticas de Espana. Este servidor contiene: Censos de Poblacion y Viviendas 2001, Informacion general, Productos de difusion, Espana en cifras, Datos coyunturales, Datos municipales, etc.. Q2016.es",
+    "url": "https://www.ine.es/", 
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.ine.es/buscar/searchResults.do?L=1&searchString={query}",
+        "query" : "required",
+        "query-input": "required name=query"
+    }
+}</script> 
+<script src="/menus/_b/js/general.js?L=0&chars=UTF-8"></script>
+<script src="/menus/_b/js/component/ine.js?L=0"></script>
+<script async src="/menus/js/loading.js"></script>
+<link rel="preload" as="style" media="screen" href="/menus/lib/jquery-ui/1.12.1/jquery-ui.css" onload="this.rel='stylesheet'; this.removeAttribute('onload'); this.removeAttribute('as')"  >
+<noscript>
+	<link rel="stylesheet" media="screen" href="/menus/lib/jquery-ui/1.12.1/jquery-ui.css">	
+	</noscript>
+	
+	<script >
+		var sepMil= ".";var sepDec= ",";
+	 var docIsLoaded=false;
+		var HM_Menu_Dir="/menus/";
+		var HM_Menu_DirVersion="/menus/_b/";
+		var HM_imgDir="/menus/img/";
+		var HM_DirJs="/menus/js/";
+		var HM_idioma="es";
+		var HM_idiomaINE="0";
+		var othethickbox="";
+		var INE_Servidor="";
+		var INE_ServidorAbsoluta="https://www.ine.es";
+		var HTMLVersion=5;
+		var showBtnAddCesta=false;
+		var isIE=false;
+	</script>
+	<script src="/menus/lib/jquery.js"></script>
+	
+	<script async src="/menus/lib/jquery-ui/1.12.1/jquery-ui.js"></script>
+	<link rel="preload" as="style" href="/menus/_b/css/component/components.css?L=0&amp;cbar=1&amp;fadm=1&amp;ilp=1&amp;pnls=1&amp;smap=1&amp;emap=1&amp;sv=2&amp;tbs=1" onload="this.rel='stylesheet'; this.removeAttribute('onload'); this.removeAttribute('as')">
+<noscript>
+    <link rel="stylesheet" href="/menus/_b/css/component/components.css?L=0&amp;cbar=1&amp;fadm=1&amp;ilp=1&amp;pnls=1&amp;smap=1&amp;emap=1&amp;sv=2&amp;tbs=1">
+</noscript>
+<script defer src="/menus/_b/js/component/components.js?L=0&amp;cbar=1&amp;fadm=1&amp;ilp=1&amp;pnls=1&amp;smap=1&amp;emap=1&amp;sv=2&amp;tbs=1"></script><link rel="preload" as="style"  onload="this.rel='stylesheet'; this.removeAttribute('onload'); this.removeAttribute('as')" href="/menus/_b/css/base.css?vnew=0">
+<link rel="preload" as="style"  onload="this.rel='stylesheet'; this.removeAttribute('onload'); this.removeAttribute('as')" href="/menus/_b/css/cabecera_pie.css">
+<link rel="preload" as="style"  onload="this.rel='stylesheet'; this.removeAttribute('onload'); this.removeAttribute('as')" href="/menus/_b/css/cabecera_pie_print.css" media="print">
+<link rel="preload" as="style"  onload="this.rel='stylesheet'; this.removeAttribute('onload'); this.removeAttribute('as')" href="/menus/_b/css/nav.css">
+<link rel="preload" as="style"  onload="this.rel='stylesheet'; this.removeAttribute('onload'); this.removeAttribute('as')" href="/menus/_b/css/nav_print.css" media="print">
+<link rel="preload" as="style"  onload="this.rel='stylesheet'; this.removeAttribute('onload'); this.removeAttribute('as')" href="/menus/_b/css/iconos.css"><noscript>
+	<link rel="stylesheet" href="/menus/_b/css/base.css?vnew=0">
+	<link rel="stylesheet" href="/menus/_b/css/cabecera_pie.css">
+	<link rel="stylesheet" href="/menus/_b/css/cabecera_pie_print.css" media="print">
+	<link rel="stylesheet" href="/menus/_b/css/nav.css">
+	<link rel="stylesheet" href="/menus/_b/css/nav_print.css" media="print">
+	<link rel="stylesheet" href="/menus/_b/css/iconos.css">
+</noscript>
+	
+	
+		<script async src="/menus/NC/status.js?L=0"></script>
+	
+	
+	
+	
+	
+	
+	<script async src="/menus/js/cookie.js"></script>
+	
+	<script async src="/menus/plantillas/buscar/js/liveSearch.js" ></script>
+	<script async src="/menus/_b/js/cabecera.js?v=1&qz=0"></script>	
+	<script async src="/ua/urlcorta.js"></script>
+	<script async src="/menus/_b/js/social.js"></script>
+	<script async src="/menus/js/thickboxINE.js"></script>
+	<script>
+var dirPlantilla='/menus//plantillas/jaxiPx/';
+var dirApp='./';
+</script>
+<script src="/menus/js/validators.js"></script>
+<script src="/menus/plantillas/jaxiPx/js/jaxi.js"></script>
+<script src="/menus/plantillas/jaxiPx/js/jaxiT3Json.js"></script><!--[if IE]><script src="/menus/plantillas/jaxiPx/js/excanvas.js"></script><![endif]-->
+<link rel="stylesheet" href="/menus/plantillas/jaxiPx/css/jaxiT3.css"><link rel="stylesheet" href="/menus/css/mapas.css">	
+		
+	
+</head>
+  <body id="t0">
+    <div class="contenedor">
+	<div class="overlay"></div>
+	<header>
+	
+		 <div class="flex-block-left-auto">
+			<div class="ImagenLogoIne">
+				 <a href="/"><img src="/menus/_b/img/LogoINE.svg" alt="SIGLAS Instituto Nacional de Estad&#237;stica">
+							
+				</a>
+	
+			</div>
+		
+			<div class="MenuDch">
+				<div class="Menu_idioma">
+					
+<div class="Menu_cabeceraIdioma">
+	<ul class="barraIdiomas">
+	
+		<li class="bordeL idioma">
+			<a href="/jaxiPx/Tabla.htm?file=01061.px&amp;path=%2Ft20%2Fe243%2Fe01%2Fa1981%2Fl0%2F&amp;L=1" title="English Page" lang="en" role="button">English</a>
+		</li>
+	</ul>
+</div>
+				</div>
+	
+					<div  class="capa_Menu_cabeceraBuscador">
+					<form name="Menu_cabeceraBuscador" id="Menu_cabeceraBuscador"
+						  action="/buscar/searchResults.do" accept-charset="UTF-8"
+						  onsubmit="return Buscador_Valida();" method="get" class="">
+						<input tabindex="0" placeholder='Escriba el texto para buscar' aria-label='Escriba el texto para buscar' class="Menu_searchString" id="searchString" name="searchString" value="" autocomplete="off" type="search">
+						<button name="Menu_botonBuscador" id="Menu_botonBuscador" aria-label='Acci&#243;n de buscar en el sitio web'></button>
+						<input name="searchType" id="searchType" value="DEF_SEARCH" type="hidden">
+						<input name="startat" id="startat" value="0" type="hidden">
+						<input name="L"  value="0" type="hidden"> </form>
+				</div>
+				
+			</div>
+		
+		</div>
+	</header>
+	
+	
+	<nav aria-label="Menú Principal" class=" main-menu"  >
+	<div>
+		<div class="toggleBtn">
+			<a href="/indiceweb.htm" id="sidebarCollapse" class="btn btn-info no-events" aria-label="Mostrar/ocultar el menú principal de navegación" title="Men&#250; de navegaci&#243;n">
+			<i class="ii ii-bars"></i>
+		</a>
+		<script id="loaderFCPSC">
+			document.head.insertAdjacentHTML("beforeend", `<style id="loaderFCPST">
+				.loaderFCP { background-size: cover; width: 35px; height: 35px; transform: rotate(0deg); animation: rotationLoader 1s linear infinite; display: block; border: 2px solid white; border-radius: 100px; border-color: white white transparent white; }
+				@keyframes rotationLoader { 100% { transform: rotate(360deg); } }
+			</style>`);			document.querySelector(".main-menu .toggleBtn a").onclick=function(){
+				this.children[0].setAttribute("class", "loaderFCP")
+				return false;
+			}
+		</script>
+		
+		<img src="/menus/_b/img/LogoINESiglasMini.svg" class="nav-logo" alt="Instituto Nacional de Estadí­stica">
+		</div>		<div id="sidebarLayer" class="intellimenu-layer" style="display: none;">
+		</div>
+		<ul class="secondList">
+			<li>
+				<a class="tit" href="/dyngs/CEL/index.htm?cid=41" role="button" aria-haspopup="true" aria-expanded="false" aria-label="Censo Electoral" target="_blank">Censo Electoral</a></li>
+			<li>
+				<a class="tit" href="https://sede.ine.gob.es" role="button" aria-haspopup="true" aria-expanded="false"  aria-label="Sede electr&#243;nica" target="_blank" rel="noopener">Sede electr&#243;nica</a>
+			</li>			
+			<li class="dropdown">
+				<a id="shareBtn" data-toggle="drop-down" onclick="this.classList.toggle('active')" href="javascript:void(0)" role="button" aria-haspopup="true" aria-expanded="false"  aria-label="Compartir"> 
+					<span class="tit">Compartir</span>
+					<i class="ii ii-share"></i>
+				</a>
+				<ul class="dropdown-menu" title="Lista de redes para compartir p&#225;gina">
+					<li>
+						<a id="shareTwitter" data-social-text="INE. Instituto Nacional de Estad&#237;stica" data-social-via="es_ine" class="" href="#shareTwitter" target="SocialShared" title="Abre ventana nueva X">
+							<span class="tit">X</span>
+							<i class="ii ii-twitter-x"></i>
+						</a>
+					</li>
+					<li>
+						<a id="shareFacebook" data-social-text="INE. Instituto Nacional de Estad&#237;stica" href="#shareFacebook" target="SocialShared" title="Abre ventana nueva Facebook">
+							<span class="tit">Facebook</span>
+							<i class="ii ii-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a id="shareLinkedin" data-social-text="INE. Instituto Nacional de Estad&#237;stica" href="#shareLinkedin" target="SocialShared" title="Abre ventana nueva Linkedin">
+							<span class="tit">Linkedin</span>
+							<i class="ii ii-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a id="shareWhatsapp" data-social-text="INE. Instituto Nacional de Estad&#237;stica" href="#shareWhatsapp" target="SocialShared" title="Abre ventana nueva WhatsApp">
+							<span class="tit">WhatsApp</span>
+							<i class="ii ii-whatsapp"></i>
+						</a>
+					</li>
+					<li>
+						<a id="shareMail" data-social-text="INE. Instituto Nacional de Estad&#237;stica" href="#shareMail" target="_self" title="Abre ventana nueva">
+							<span class="tit">Correo Electr&#243;nico</span>
+							<i class="ii ii-mail"></i>
+						</a>
+					</li>
+					<li>
+						<a id="shareClipboard" data-social-text="INE. Instituto Nacional de Estad&#237;stica" href="#shareClipboard" target="_self" title="Abre ventana nueva">
+							<span class="tit">Copiar al portapapeles</span>
+							<i class="ii ii-copy"></i>
+						</a>
+					</li>
+				</ul>
+			</li>
+			
+		</ul>
+	</div>
+</nav>
+	<main>
+	
+	
+	
+<script src="/menus/plantillas/jaxiPx/js/jaxiTabla.js"></script>
+<script>
+	function UrlCorta_InfoPOST(){
+		const form = document.getElementById("tablaForm");
+		const formData = new FormData(form);
+		const serialized = [];
+		for (const [name, value] of formData.entries()) {
+			serialized.push({ name, value });
+		}
+		return serialized;
+	}
+</script>
+<div class="customBar cbMiga AppToolBarImg2">
+	<div class="group">
+			<nav class="cbMigaTitle" aria-label="">
+				<ul class="miga">
+		<li><a href="/dyngs/INEbase/listaoperaciones.htm">INEbase</a></li><li class='medio'><a href="/dyngs/INEbase/categoria.htm?c=Estadistica_P&cid=1254735572981">Cifras de población y Censos demográficos</a></li><li class='medio'><a href="/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177108&menu=resultados&idp=1254735572981">Censos de Poblacion y Viviendas</a></li></ul></nav>
+		</div>
+	<div class="group">
+			<a href="/dyngs/INEbase/listaoperaciones.htm">
+						<img src="/menus/img/logoinebase.svg" alt="Inicio Inebase">
+					</a>		
+				</div>
+	</div>
+<br class="limpia">
+   	
+   	<form id="tablaForm" name="tablaForm" action="Datos.htm?path=/t20/e243/e01/a1981/l0/&file=01061.px" method="POST"
+      onsubmit="return enviarTabla(event, 'tablaForm',0, timeOutRequests);" >
+    <input type="hidden" name="isPx" id ="isPx" value="true">
+    <input type="hidden" name="L" value="0">
+    <input type="hidden" name="fromTabla" value="1">
+    <input type="hidden" name="formatoVisible" value="1">
+    <input type="hidden" id="oper" name="oper" value="8">
+         <input type="hidden" id="sel_oper" name="sel_oper" class="input_seleccionados" value="1" >
+      <span class="cab1">Censo 1981. Población: Resultados nacionales</span>
+      <span class="cab2">Relación con la residencia en 1970</span>
+        <h1 class="cab3">Población migrante por Provincia de residencia en 1970 y Provincia de residencia en 1981</h1>
+      <div id="capaIconos" class="titulo_detalle ii-group">
+          <span id="tablaDetalle"><strong class="paddingRight">Unidades:</strong>personas</span>
+          <div class="right">
+          	<a role="button" title="Formatos de descarga disponibles" aria-label="Formatos de descarga disponibles" id="btnDescarga" href="dlgExport.htm?path=/t20/e243/e01/a1981/l0/&file=01061.px" class="thickbox">
+          		<i class="ii ii-circle ii-big ii-download"></i>
+          	</a>
+           </div>
+      </div>
+      <ul class="secciones ii-group" role="menu" data-type="list">
+      <li class="empty" role="menuitem">
+        <span role="button" tabindex=0 title="Plegar/Desplegar" class="title titleOpen texto_variables borderSeccion">Seleccione valores a consultar</span>
+        <ul id="variables" class="variables">
+          <li class="empty" id ="tg0" >
+    <div class="marcoINE">
+		<fieldset>
+			<legend><label for="cri0">Provincia de residencia en 1970</label></legend>
+               <div class="capaSelecBusqueda">
+	               	<label for="busc_0" class="oculto">Valores que contienen</label>
+	                <input title="Valores que contienen" size="10" type="text" id="busc_0" name="busc_0" class="cajaBusquedaVar" value="" >
+	                <button type="button" title="Valores que contienen" onclick="buscar('sel_0','cri0',document.forms['tablaForm'].busc_0.value,'content');">
+	                	<i class="ii ii-small ii-search"></i>
+	                </button>
+            	</div>
+            	<div class="capaSelecTodosNinguno">
+            		<input type="hidden" name="orden_0" id="orden_0" >
+	               	<button type="button" class="opcionesvarDer" title="Seleccionar todos" onclick="todos(true,'cri0','sel_0');return false;">
+	               		<i class="ii ii-small ii-select-all"></i>
+	               	</button>
+	               	<button type="button" title="Borrar selección" onclick="todos(false,'cri0','sel_0');return false;">
+	               		<i class="ii ii-small ii-select-none"></i>
+	               	</button>
+	               	<button type="button" title="Ordenar" onclick="updateSort(this,'#cri'+0,'#orden_'+0)">
+	               		<i class="ii ii-small ii-sort-alpha-asc"></i>
+	               	</button>
+					</div>
+
+				<select id="cri0" name="cri0" class="cajaVariables jax_SELECT" multiple="multiple" size="8" onchange="cuantos('sel_0','cri0');">
+					<option class="jP_0" value="0" selected="selected">Total</option>
+						<option class="jP_0" value="1" selected="selected">Álava</option>
+						<option class="jP_0" value="2" selected="selected">Albacete</option>
+						<option class="jP_0" value="3" selected="selected">Alicante</option>
+						<option class="jP_0" value="4" selected="selected">Almería</option>
+						<option class="jP_0" value="5" selected="selected">Asturias</option>
+						<option class="jP_0" value="6" selected="selected">Ávila</option>
+						<option class="jP_0" value="7" selected="selected">Badajoz</option>
+						<option class="jP_0" value="8" selected="selected">Baleares</option>
+						<option class="jP_0" value="9" selected="selected">Barcelona</option>
+						<option class="jP_0" value="10" selected="selected">Burgos</option>
+						<option class="jP_0" value="11" selected="selected">Cáceres</option>
+						<option class="jP_0" value="12" selected="selected">Cádiz</option>
+						<option class="jP_0" value="13" selected="selected">Castellón</option>
+						<option class="jP_0" value="14" selected="selected">Ciudad Real</option>
+						<option class="jP_0" value="15" selected="selected">Córdoba</option>
+						<option class="jP_0" value="16" selected="selected">Coruña (La)</option>
+						<option class="jP_0" value="17" selected="selected">Cuenca</option>
+						<option class="jP_0" value="18" selected="selected">Gerona</option>
+						<option class="jP_0" value="19" selected="selected">Granada</option>
+						<option class="jP_0" value="20" selected="selected">Guadalajara</option>
+						<option class="jP_0" value="21" selected="selected">Guipúzcoa</option>
+						<option class="jP_0" value="22" selected="selected">Huelva</option>
+						<option class="jP_0" value="23" selected="selected">Huesca</option>
+						<option class="jP_0" value="24" selected="selected">Jaén</option>
+						<option class="jP_0" value="25" selected="selected">León</option>
+						<option class="jP_0" value="26" selected="selected">Lérida</option>
+						<option class="jP_0" value="27" selected="selected">Lugo</option>
+						<option class="jP_0" value="28" selected="selected">Madrid</option>
+						<option class="jP_0" value="29" selected="selected">Málaga</option>
+						<option class="jP_0" value="30" selected="selected">Murcia</option>
+						<option class="jP_0" value="31" selected="selected">Navarra</option>
+						<option class="jP_0" value="32" selected="selected">Orense</option>
+						<option class="jP_0" value="33" selected="selected">Palencia</option>
+						<option class="jP_0" value="34" selected="selected">Palmas (Las)</option>
+						<option class="jP_0" value="35" selected="selected">Pontevedra</option>
+						<option class="jP_0" value="36" selected="selected">Rioja (La)</option>
+						<option class="jP_0" value="37" selected="selected">Salamanca</option>
+						<option class="jP_0" value="38" selected="selected">S.C.Tenerife</option>
+						<option class="jP_0" value="39" selected="selected">Santander</option>
+						<option class="jP_0" value="40" selected="selected">Segovia</option>
+						<option class="jP_0" value="41" selected="selected">Sevilla</option>
+						<option class="jP_0" value="42" selected="selected">Soria</option>
+						<option class="jP_0" value="43" selected="selected">Tarragona</option>
+						<option class="jP_0" value="44" selected="selected">Teruel</option>
+						<option class="jP_0" value="45" selected="selected">Toledo</option>
+						<option class="jP_0" value="46" selected="selected">Valencia</option>
+						<option class="jP_0" value="47" selected="selected">Valladolid</option>
+						<option class="jP_0" value="48" selected="selected">Vizcaya</option>
+						<option class="jP_0" value="49" selected="selected">Zamora</option>
+						<option class="jP_0" value="50" selected="selected">Zaragoza</option>
+						<option class="jP_0" value="51" selected="selected">Ceuta</option>
+						<option class="jP_0" value="52" selected="selected">Melilla</option>
+						<option class="jP_0" value="53" selected="selected">Extranjero y otros</option>
+						</select>
+				<div class="capaClear">
+					<div class="capaSeleccionadosEstado">
+						<span class="paddingRight">Seleccionados:</span><span id="sel_0">54</span>
+					</div>
+					<div class="capaTotalSeleccionadosEstado">
+						<span class="paddingRight">Total:</span><span id="totalvar0">54</span>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+</li><li class="empty" id ="tg1" >
+    <div class="marcoINE">
+		<fieldset>
+			<legend><label for="cri1">Provincia de residencia en 1981</label></legend>
+               <div class="capaSelecBusqueda">
+	               	<label for="busc_1" class="oculto">Valores que contienen</label>
+	                <input title="Valores que contienen" size="10" type="text" id="busc_1" name="busc_1" class="cajaBusquedaVar" value="" >
+	                <button type="button" title="Valores que contienen" onclick="buscar('sel_1','cri1',document.forms['tablaForm'].busc_1.value,'content');">
+	                	<i class="ii ii-small ii-search"></i>
+	                </button>
+            	</div>
+            	<div class="capaSelecTodosNinguno">
+            		<input type="hidden" name="orden_1" id="orden_1" >
+	               	<button type="button" class="opcionesvarDer" title="Seleccionar todos" onclick="todos(true,'cri1','sel_1');return false;">
+	               		<i class="ii ii-small ii-select-all"></i>
+	               	</button>
+	               	<button type="button" title="Borrar selección" onclick="todos(false,'cri1','sel_1');return false;">
+	               		<i class="ii ii-small ii-select-none"></i>
+	               	</button>
+	               	<button type="button" title="Ordenar" onclick="updateSort(this,'#cri'+1,'#orden_'+1)">
+	               		<i class="ii ii-small ii-sort-alpha-asc"></i>
+	               	</button>
+					</div>
+
+				<select id="cri1" name="cri1" class="cajaVariables jax_SELECT" multiple="multiple" size="8" onchange="cuantos('sel_1','cri1');">
+					<option class="jP_0" value="54" selected="selected">Total</option>
+						<option class="jP_0" value="55" >Álava</option>
+						<option class="jP_0" value="56" >Albacete</option>
+						<option class="jP_0" value="57" >Alicante</option>
+						<option class="jP_0" value="58" >Almería</option>
+						<option class="jP_0" value="59" >Asturias</option>
+						<option class="jP_0" value="60" >Ávila</option>
+						<option class="jP_0" value="61" >Badajoz</option>
+						<option class="jP_0" value="62" >Baleares</option>
+						<option class="jP_0" value="63" >Barcelona</option>
+						<option class="jP_0" value="64" >Burgos</option>
+						<option class="jP_0" value="65" >Cáceres</option>
+						<option class="jP_0" value="66" >Cádiz</option>
+						<option class="jP_0" value="67" >Castellón</option>
+						<option class="jP_0" value="68" >Ciudad Real</option>
+						<option class="jP_0" value="69" >Córdoba</option>
+						<option class="jP_0" value="70" >Coruña (La)</option>
+						<option class="jP_0" value="71" >Cuenca</option>
+						<option class="jP_0" value="72" >Gerona</option>
+						<option class="jP_0" value="73" >Granada</option>
+						<option class="jP_0" value="74" >Guadalajara</option>
+						<option class="jP_0" value="75" >Guipúzcoa</option>
+						<option class="jP_0" value="76" >Huelva</option>
+						<option class="jP_0" value="77" >Huesca</option>
+						<option class="jP_0" value="78" >Jaén</option>
+						<option class="jP_0" value="79" >León</option>
+						<option class="jP_0" value="80" >Lérida</option>
+						<option class="jP_0" value="81" >Lugo</option>
+						<option class="jP_0" value="82" >Madrid</option>
+						<option class="jP_0" value="83" >Málaga</option>
+						<option class="jP_0" value="84" >Murcia</option>
+						<option class="jP_0" value="85" >Navarra</option>
+						<option class="jP_0" value="86" >Orense</option>
+						<option class="jP_0" value="87" >Palencia</option>
+						<option class="jP_0" value="88" >Palmas (Las)</option>
+						<option class="jP_0" value="89" >Pontevedra</option>
+						<option class="jP_0" value="90" >Rioja (La)</option>
+						<option class="jP_0" value="91" >Salamanca</option>
+						<option class="jP_0" value="92" >S.C.Tenerife</option>
+						<option class="jP_0" value="93" >Santander</option>
+						<option class="jP_0" value="94" >Segovia</option>
+						<option class="jP_0" value="95" >Sevilla</option>
+						<option class="jP_0" value="96" >Soria</option>
+						<option class="jP_0" value="97" >Tarragona</option>
+						<option class="jP_0" value="98" >Teruel</option>
+						<option class="jP_0" value="99" >Toledo</option>
+						<option class="jP_0" value="100" >Valencia</option>
+						<option class="jP_0" value="101" >Valladolid</option>
+						<option class="jP_0" value="102" >Vizcaya</option>
+						<option class="jP_0" value="103" >Zamora</option>
+						<option class="jP_0" value="104" >Zaragoza</option>
+						<option class="jP_0" value="105" >Ceuta</option>
+						<option class="jP_0" value="106" >Melilla</option>
+						</select>
+				<div class="capaClear">
+					<div class="capaSeleccionadosEstado">
+						<span class="paddingRight">Seleccionados:</span><span id="sel_1">1</span>
+					</div>
+					<div class="capaTotalSeleccionadosEstado">
+						<span class="paddingRight">Total:</span><span id="totalvar1">53</span>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+</li><li class="empty"><input type="hidden" id="periodo" name="periodo" value="-2147483648~0"></li>
+                </ul>
+      </li>
+
+        <li class="empty" id="capaFormato" role="menuitem">
+              <span role="button" tabindex=0 title="Plegar/Desplegar" class="title titleOpen titulo_formato borderSeccion">
+               Elija forma de presentación de la tabla
+</span>
+               <ul>
+               <li>
+               <ul id="capaFilasColumnas" class="floatLeft">
+               <li>
+                 <table class="formato" title="formato">
+                 <tr>
+                 <th  class='celdacabeceravacia'><button type="button" id="swap" class="btn-swap" title="Intercambiar filas por columnas"><i class="ii ii-small ii-sort"></i></button></th>
+                 <th colspan="3" class="tCL_0" id="tCL_col">
+                   <ul id="OrderColumns" class="connectedSortable">
+                            <li>Provincia de residencia en 1981<input type="hidden" name="columns" value="1"><div class="swapContent">
+	<button type="button" class="swapDown swapButtons" tabindex=0 title="Desplazar abajo">
+		<i class="ii ii-small ii-caret-down"></i>
+	</button>
+	<button type="button" class="swapUp swapButtons" tabindex=0 title="Desplazar arriba">
+		<i class="ii ii-small ii-caret-up"></i>
+	</button>
+	<button type="button" class="swapColumn swapChange swapButtons" tabindex=0 title="Pasar a fila">
+		<i class="ii ii-small ii-caret-left"></i>
+	</button>
+	<button type="button" class="swapRown swapChange swapButtons" tabindex=0 title="Pasar a columna">
+		<i class="ii ii-small ii-caret-right"></i>
+	</button></div></li>
+                            	<li><input type="hidden" name="columns" value="p_per"></li>
+                              </ul>
+                 </th>
+                 </tr>
+                 <tr>
+                 <th rowspan="3" class="tCL_0"  id="tCL_row">
+                 <ul id="OrderRows" class="connectedSortable">
+                      <li>Provincia de residencia en 1970<input type="hidden" name="rows" value="0"><div class="swapContent">
+	<button type="button" class="swapDown swapButtons" tabindex=0 title="Desplazar abajo">
+		<i class="ii ii-small ii-caret-down"></i>
+	</button>
+	<button type="button" class="swapUp swapButtons" tabindex=0 title="Desplazar arriba">
+		<i class="ii ii-small ii-caret-up"></i>
+	</button>
+	<button type="button" class="swapColumn swapChange swapButtons" tabindex=0 title="Pasar a fila">
+		<i class="ii ii-small ii-caret-left"></i>
+	</button>
+	<button type="button" class="swapRown swapChange swapButtons" tabindex=0 title="Pasar a columna">
+		<i class="ii ii-small ii-caret-right"></i>
+	</button></div></li>
+                            </ul>
+                 </th>
+                 <td class='dCIe' headers="tCL_row tCL_col">.</td>
+                 <td class='dCIe' headers="tCL_row tCL_col">.</td>
+                 <td class='dCIe' headers="tCL_row tCL_col">.</td>
+                 </tr>
+                 <tr>
+                 <td class='dCIe' headers="tCL_row tCL_col">.</td>
+                 <td class='dCIe' headers="tCL_row tCL_col">.</td>
+                 <td class='dCIe' headers="tCL_row tCL_col">.</td>
+                 </tr>
+                 <tr>
+                 <td class='dCIe' headers="tCL_row tCL_col">.</td>
+                 <td class='dCIe' headers="tCL_row tCL_col">.</td>
+                 <td class='dCIe' headers="tCL_row tCL_col">.</td>
+                 </tr>
+               </table>
+              </li>
+            <li>
+                    <div id="capa_tabla_showdec">
+                      <label for="formato_tabla_dec">
+                        <span>Decimales a mostrar:</span>
+                      </label>
+                      <select id="formato_tabla_dec" name="formato_tabla_dec">
+                             <option title="Por defecto" value="">Por defecto</option>
+                            <option title="0" value="0">0</option>
+                                 </select>
+                      </div>
+                    </li>
+               </ul>
+            </li>
+            </ul>
+
+
+            </li>
+
+          </ul>
+       <div class="capaClear"></div>
+
+       <div id="capaSeparacion"></div>
+         <div id="capaTotalSeriesCeldas" role="status">
+             <span id="totalSeriesCeldas">Total:</span>
+             <span id="NumSeries" class="paddingRight">0</span><span>series</span><span class="paddingBothSides">y </span><span id="NumCeldas" class="paddingRight">0</span><span>datos</span>
+          </div>
+
+
+          <div id="capaBotones">
+                 <input type="hidden" name=totalOps value="4">
+                 <input type="hidden" name="numCri" value="-1">
+                  <input type="submit" class="botonSel" id="botonConsulSele" name="consulsele" value="Consultar selección"
+                      onmouseover="">
+<!-- 				      	 	   		onmouseover="">		 -->
+<input type="submit" class="botonSel all" id="botonConsulTodo" name="ct" value="Consultar todo"
+                          onmouseover="">
+                    </div>
+
+      <div class="capaClear"></div>
+
+
+      </form>
+    	</main>
+<footer><div id="pie" class="d2">	<div class="homePie" >
+		<ul>
+			<li><a href="/infoine/">
+				<i class="ii ii-mail"></i> <strong>Contacto</strong></a>
+			</li>
+			<li><a href="/indiceweb.htm">Mapa web</a></li>
+			<li>
+				<a href="/dyngs/AYU/index.htm?cid=125">
+					Aviso legal
+				</a>
+			</li>
+			<li><a href="/dyngs/AYU/index.htm?cid=127">Accesibilidad</a></li>
+			<li><a href="/prensa/seccion_prensa.htm">Prensa</a></li>			<li class="margen_sup20imp"><a href="/dyngs/MYP/index.htm?cid=1">Clasificaciones y est&#225;ndares</a></li>
+			<li><a href="/dyngs/MYP/index.htm?cid=10">Nuevos proyectos</a></li>
+		</ul>
+	</div>
+	<div class="homePie">
+		<ul>
+			<li><a href="/dyngs/INE/index.htm?cid=498">El INE</a></li>
+			<li><a href="/dyngs/INE/index.htm?cid=401">Transparencia</a></li>
+			<li><a href="/dyngs/INE/index.htm?cid=581">Organizaci&#243;n Estad&#237;stica en Espa&#241;a</a></li>
+			<li><a href="/dyngs/MYP/es/index.htm?cid=35">Calidad</a></li>
+			<li><a href="/dyngs/INE/index.htm?cid=542">Sistema Estad&#237;stico Europeo</a></li>
+		</ul>
+	</div>	<div class="homePie">
+		<ul>
+			<li><a href="/dyngs/FYE/index.htm?cid=1791">Formaci&#243;n y empleo</a></li>
+			<li><a href="/dyngs/FYE/es/index.htm?cid=1802">Pr&#225;cticas universitarias</a></li>
+			<li><a href="/dyngs/FYE/es/index.htm?cid=1802">Becas</a></li>
+			<li><a href="/dyngs/FYE/index.htm?cid=166">Oposiciones</a></li>
+			<li><a href="/explica/explica.htm" target="_blank"  rel="noopener">Explica</a></li>
+		</ul>
+	</div>	<div class="homePie">
+		<ul>
+			<li><a href="/dyngs/SER/index.htm?cid=1550">Atenci&#243;n al p&#250;blico</a></li>
+			<li><a href="/dyngs/DAB/es/index.htm?cid=1722">Datos abiertos</a></li>
+			<li><a href="/dyngs/PUB/index.htm?cid=1440" aria-label="Catalogo de Publicaciones">Publicaciones</a></li>
+			<li><a href="/dyngs/SER/index.htm?cid=1391">Carta de servicios</a></li>
+		</ul>
+	</div>	<div class="homePie" >
+		<ul>
+			<li>S&#237;guenos</li>
+			<li><a class="ii ii-twitter-x" href="https://twitter.com/es_ine" target="_blank" rel="noopener" title="Abre ventana nueva"><span class="tit">X</span></a></li>
+			<li><a class="ii ii-youtube" href="https://www.youtube.com/INEDifusion" target="_blank"  rel="noopener" title="Abre ventana nueva"><span class="tit">Youtube</span></a></li>
+			<li><a class="ii ii-instagram" href="https://www.instagram.com/es_ine_/" target="_blank" rel="noopener" title="Abre ventana nueva"><span class="tit">Instagram</span></a></li>
+			<li><a class="ii ii-linkedin" href="https://www.linkedin.com/company/ine-es" target="_blank" rel="noopener" title="Abre ventana nueva"><span class="tit">LinkedIn</span></a></li>
+			<li><a class="ii ii-feed" href="/dyngs/AYU/index.htm?cid=1303" target="_blank" rel="noopener" title="Abre ventana nueva"><span class="tit">Canal RSS</span></a></li>
+			<li><a class="ii ii-github" href="https://github.com/es-ine" target="_blank" rel="noopener" title="Abre ventana nueva"><span class="tit">GitHub</span></a></li>
+		</ul>
+	</div>	<div class="homePie copyright">
+		<p>
+		<span>	&copy; 2026 <a href="https://www.ine.es/" rel="author cc:attributionURL dct:creator" property="cc:attributionName">INE. Instituto Nacional de Estad&#237;stica</a>
+			<a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;" title ="Este sitio web y su contenido est&#225;n bajo licencia CC BY-SA 4.0">
+				<i class="ii ii-cc ii-normal"></i>
+				<i class="ii ii-by ii-normal"></i>
+			</a>
+		</span>
+		<span>
+			Avda. Manoteras, 52 - 28050 - Madrid - Espa&#241;a Tlf: (+34) 91 583 91 00
+		</span>
+		</p>
+	</div>
+	</div>
+		<!-- boton subir -->
+		
+		<button class="ir-arriba" aria-label="Bot&#243;n para volver arriba" title="Volver arriba">
+			<i class="ii ii-caret-up"></i>
+		</button>
+		
+		<!-- fin boton subir -->
+	</footer>
+	
+		
+			
+						
+			
+		</div>
+				<!-- Codigo de seguimiento de Google Analytics  -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script  src="https://www.googletagmanager.com/gtag/js?id=UA-19028967-1"></script>
+<script >
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());  gtag('config', 'UA-19028967-1');
+</script><!-- Fin Google Analytics  -->
+		<script src='/menus/_b/js/politicaCookies.js' ></script>
+		</body>
+</html>

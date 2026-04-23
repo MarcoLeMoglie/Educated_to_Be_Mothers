@@ -1,0 +1,44 @@
+series_code,description,date_start,date_end,frequency,units,series_type,sheet
+1994GG0001,Encuesta de Población Activa. Activos. Total economía,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_01
+1994GG0002,Encuesta de Población Activa. Activos. Agricultura,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_01
+1994GG0003,Encuesta de Población Activa. Activos. Industria,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_01
+1994GG0004,Encuesta de Población Activa. Activos. Construcción,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_01
+1994GG0005,Encuesta de Población Activa. Activos. Servicios,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_01
+1994GG0006,Encuesta de Población Activa. Activos. Sin clasificar por rama de actividad,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_01
+1994GG0007,Encuesta de Población Activa. Parados. Total economía,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_02
+1994GG0008,Encuesta de Población Activa. Parados. Agricultura,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_02
+1994GG0009,Encuesta de Población Activa. Parados. Industria,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_02
+1994GG0010,Encuesta de Población Activa. Parados. Construcción,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_02
+1994GG0011,Encuesta de Población Activa. Parados. Servicios,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_02
+1994GG0012,Encuesta de Población Activa. Parados. Sin clasificar por rama de actividad,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_02
+1994GG0013,Encuesta de Población Activa. Tasa de paro (%). Total economía,1964T1,1992T4,Trimestral,Porcentaje,Índice,cuadro_03
+1994GG0014,Encuesta de Población Activa. Tasa de paro (%). Agricultura,1964T1,1992T4,Trimestral,Porcentaje,Índice,cuadro_03
+1994GG0015,Encuesta de Población Activa. Tasa de paro (%). Industria,1964T1,1992T4,Trimestral,Porcentaje,Índice,cuadro_03
+1994GG0016,Encuesta de Población Activa. Tasa de paro (%). Construcción,1964T1,1992T4,Trimestral,Porcentaje,Índice,cuadro_03
+1994GG0017,Encuesta de Población Activa. Tasa de paro (%). Servicios,1964T1,1992T4,Trimestral,Porcentaje,Índice,cuadro_03
+1994GG0018,Encuesta de Población Activa. Ocupados. Total economía,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_04
+1994GG0019,Encuesta de Población Activa. Ocupados. Agricultura,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_04
+1994GG0020,Encuesta de Población Activa. Ocupados. Industria,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_04
+1994GG0021,Encuesta de Población Activa. Ocupados. Construcción,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_04
+1994GG0022,Encuesta de Población Activa. Ocupados. Servicios,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_04
+1994GG0023,Encuesta de Población Activa. Ocupados. Administración Pública,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_04
+1994GG0024,Encuesta de Población Activa. Ocupados. Sector privado,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_04
+1994GG0025,Encuesta de Población Activa. Asalariados. Total economía,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_05
+1994GG0026,Encuesta de Población Activa. Asalariados. Agricultura,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_05
+1994GG0027,Encuesta de Población Activa. Asalariados. Industria,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_05
+1994GG0028,Encuesta de Población Activa. Asalariados. Construcción,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_05
+1994GG0029,Encuesta de Población Activa. Asalariados. Servicios,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_05
+1994GG0030,Encuesta de Población Activa. Asalariados. Administración Pública,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_05
+1994GG0031,Encuesta de Población Activa. Asalariados. Sector privado,1964T1,1993T3,Trimestral,Miles,Posición,cuadro_05
+1994GG0032,Encuesta de Población Activa. Ocupados. Industria. Energía,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_06
+1994GG0033,Encuesta de Población Activa. Ocupados. Industria. No energía,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_06
+1994GG0034,Encuesta de Población Activa. Ocupados. Industria. Minerales,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_06
+1994GG0035,Encuesta de Población Activa. Ocupados. Industria. Metales,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_06
+1994GG0036,Encuesta de Población Activa. Ocupados. Industria. Otras manufacturas,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_06
+1994GG0037,Encuesta de Población Activa. Asalariados. Industria. Energía,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_07
+1994GG0038,Encuesta de Población Activa. Asalariados. Industria. No energía,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_07
+1994GG0039,Encuesta de Población Activa. Asalariados. Industria. Minerales,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_07
+1994GG0040,Encuesta de Población Activa. Asalariados. Industria. Metales,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_07
+1994GG0041,Encuesta de Población Activa. Asalariados. Industria. Otras manufacturas,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_07
+1994GG0042,Encuesta de Población Activa. Ocupados. Servicios venta,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_08
+1994GG0043,Encuesta de Población Activa. Asalariados. Servicios venta,1964T1,1992T4,Trimestral,Miles,Posición,cuadro_08

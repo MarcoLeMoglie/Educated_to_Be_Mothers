@@ -1,0 +1,883 @@
+sexo,relaciónmunicipio1970y1981,gruposdeedad,ocupadosparados,total
+TOTAL,TOTAL,TOTAL,Ocupados,10724581
+TOTAL,TOTAL,TOTAL,Parados,2072444
+TOTAL,TOTAL,de 16 a 24 años,Ocupados,1854862
+TOTAL,TOTAL,de 16 a 24 años,Parados,1100073
+TOTAL,TOTAL,de 25 a 34,Ocupados,2768642
+TOTAL,TOTAL,de 25 a 34,Parados,427121
+TOTAL,TOTAL,de 35 a 44,Ocupados,2273190
+TOTAL,TOTAL,de 35 a 44,Parados,210738
+TOTAL,TOTAL,de 45 a 54,Ocupados,2288074
+TOTAL,TOTAL,de 45 a 54,Parados,207686
+TOTAL,TOTAL,de 55 a 64,Ocupados,1383353
+TOTAL,TOTAL,de 55 a 64,Parados,120951
+TOTAL,TOTAL,de 65 y más,Ocupados,156460
+TOTAL,TOTAL,de 65 y más,Parados,5875
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Ocupados,9007834
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Parados,1761430
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Ocupados,1576571
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Parados,960326
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Ocupados,2056227
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Parados,334245
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Ocupados,1874872
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Parados,172359
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Ocupados,2060812
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Parados,180574
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Ocupados,1292469
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Parados,108539
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Ocupados,146884
+TOTAL,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Parados,5388
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Ocupados,1716747
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Parados,311014
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Ocupados,278291
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Parados,139747
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Ocupados,712416
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Parados,92876
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Ocupados,398319
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Parados,38379
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Ocupados,227262
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Parados,27113
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Ocupados,90884
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Parados,12412
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Ocupados,9576
+TOTAL,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Parados,487
+TOTAL,Misma CCAA,TOTAL,Ocupados,928753
+TOTAL,Misma CCAA,TOTAL,Parados,153840
+TOTAL,Misma CCAA,de 16 a 24 años,Ocupados,143448
+TOTAL,Misma CCAA,de 16 a 24 años,Parados,70032
+TOTAL,Misma CCAA,de 25 a 34,Ocupados,408155
+TOTAL,Misma CCAA,de 25 a 34,Parados,49634
+TOTAL,Misma CCAA,de 35 a 44,Ocupados,210126
+TOTAL,Misma CCAA,de 35 a 44,Parados,17795
+TOTAL,Misma CCAA,de 45 a 54,Ocupados,115360
+TOTAL,Misma CCAA,de 45 a 54,Parados,11018
+TOTAL,Misma CCAA,de 55 a 64,Ocupados,46962
+TOTAL,Misma CCAA,de 55 a 64,Parados,5170
+TOTAL,Misma CCAA,de 65 y más,Ocupados,4702
+TOTAL,Misma CCAA,de 65 y más,Parados,192
+TOTAL,"Misma Provincia, Total",TOTAL,Ocupados,796409
+TOTAL,"Misma Provincia, Total",TOTAL,Parados,133696
+TOTAL,"Misma Provincia, Total",de 16 a 24 años,Ocupados,126293
+TOTAL,"Misma Provincia, Total",de 16 a 24 años,Parados,60683
+TOTAL,"Misma Provincia, Total",de 25 a 34,Ocupados,351219
+TOTAL,"Misma Provincia, Total",de 25 a 34,Parados,43187
+TOTAL,"Misma Provincia, Total",de 35 a 44,Ocupados,178979
+TOTAL,"Misma Provincia, Total",de 35 a 44,Parados,15642
+TOTAL,"Misma Provincia, Total",de 45 a 54,Ocupados,97041
+TOTAL,"Misma Provincia, Total",de 45 a 54,Parados,9521
+TOTAL,"Misma Provincia, Total",de 55 a 64,Ocupados,39232
+TOTAL,"Misma Provincia, Total",de 55 a 64,Parados,4506
+TOTAL,"Misma Provincia, Total",de 65 y más,Ocupados,3645
+TOTAL,"Misma Provincia, Total",de 65 y más,Parados,156
+TOTAL,Capital,TOTAL,Ocupados,280309
+TOTAL,Capital,TOTAL,Parados,46254
+TOTAL,Capital,de 16 a 24 años,Ocupados,37992
+TOTAL,Capital,de 16 a 24 años,Parados,18627
+TOTAL,Capital,de 25 a 34,Ocupados,135404
+TOTAL,Capital,de 25 a 34,Parados,16472
+TOTAL,Capital,de 35 a 44,Ocupados,66650
+TOTAL,Capital,de 35 a 44,Parados,6335
+TOTAL,Capital,de 45 a 54,Ocupados,28300
+TOTAL,Capital,de 45 a 54,Parados,3283
+TOTAL,Capital,de 55 a 64,Ocupados,10907
+TOTAL,Capital,de 55 a 64,Parados,1501
+TOTAL,Capital,de 65 y más,Ocupados,1056
+TOTAL,Capital,de 65 y más,Parados,36
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Ocupados,60087
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Parados,11720
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Ocupados,8973
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Parados,5402
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Ocupados,25568
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Parados,3873
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Ocupados,14592
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Parados,1426
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Ocupados,7787
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Parados,709
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Ocupados,2935
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Parados,300
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Ocupados,233
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Parados,10
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Ocupados,88356
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Parados,17045
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Ocupados,13463
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Parados,7630
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Ocupados,39242
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Parados,5737
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Ocupados,20866
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Parados,2102
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Ocupados,10304
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Parados,1080
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Ocupados,4123
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Parados,480
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Ocupados,358
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Parados,15
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Ocupados,367657
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Parados,58677
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Ocupados,65865
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Parados,29023
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Ocupados,151005
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Parados,17105
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Ocupados,76871
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Parados,5779
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Ocupados,50651
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Parados,4449
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Ocupados,21266
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Parados,2225
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Ocupados,1998
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Parados,95
+TOTAL,"Misma CCAA, distinta Provincia, Total",TOTAL,Ocupados,132341
+TOTAL,"Misma CCAA, distinta Provincia, Total",TOTAL,Parados,20143
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Ocupados,17155
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Parados,9349
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Ocupados,56936
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Parados,6447
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Ocupados,31147
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Parados,2153
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Ocupados,18315
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Parados,1497
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Ocupados,7730
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Parados,663
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 65 y más,Ocupados,1057
+TOTAL,"Misma CCAA, distinta Provincia, Total",de 65 y más,Parados,35
+TOTAL,Capital,TOTAL,Ocupados,44913
+TOTAL,Capital,TOTAL,Parados,6494
+TOTAL,Capital,de 16 a 24 años,Ocupados,4376
+TOTAL,Capital,de 16 a 24 años,Parados,2301
+TOTAL,Capital,de 25 a 34,Ocupados,20155
+TOTAL,Capital,de 25 a 34,Parados,1995
+TOTAL,Capital,de 35 a 44,Ocupados,11634
+TOTAL,Capital,de 35 a 44,Parados,627
+TOTAL,Capital,de 45 a 54,Ocupados,5917
+TOTAL,Capital,de 45 a 54,Parados,440
+TOTAL,Capital,de 55 a 64,Ocupados,2402
+TOTAL,Capital,de 55 a 64,Parados,131
+TOTAL,Capital,de 65 y más,Ocupados,429
+TOTAL,Capital,de 65 y más,Parados,1
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Ocupados,8715
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Parados,1646
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Ocupados,984
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Parados,735
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Ocupados,3601
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Parados,696
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Ocupados,2260
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Parados,211
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Ocupados,1289
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Parados,82
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Ocupados,528
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Parados,22
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Ocupados,53
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Parados,
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Ocupados,13097
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Parados,2347
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Ocupados,1790
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Parados,1204
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Ocupados,5397
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Parados,639
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Ocupados,3188
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Parados,250
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Ocupados,1944
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Parados,165
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Ocupados,667
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Parados,72
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Ocupados,112
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Parados,17
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Ocupados,65615
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Parados,10658
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Ocupados,10006
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Parados,5109
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Ocupados,27783
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Parados,3219
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Ocupados,14065
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Parados,1065
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Ocupados,9166
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Parados,810
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Ocupados,4133
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Parados,438
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Ocupados,463
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Parados,17
+TOTAL,"Distinta CCAA, Total",TOTAL,Ocupados,637196
+TOTAL,"Distinta CCAA, Total",TOTAL,Parados,119947
+TOTAL,"Distinta CCAA, Total",de 16 a 24 años,Ocupados,116346
+TOTAL,"Distinta CCAA, Total",de 16 a 24 años,Parados,56446
+TOTAL,"Distinta CCAA, Total",de 25 a 34,Ocupados,266171
+TOTAL,"Distinta CCAA, Total",de 25 a 34,Parados,35628
+TOTAL,"Distinta CCAA, Total",de 35 a 44,Ocupados,137238
+TOTAL,"Distinta CCAA, Total",de 35 a 44,Parados,12723
+TOTAL,"Distinta CCAA, Total",de 45 a 54,Ocupados,79712
+TOTAL,"Distinta CCAA, Total",de 45 a 54,Parados,9922
+TOTAL,"Distinta CCAA, Total",de 55 a 64,Ocupados,34137
+TOTAL,"Distinta CCAA, Total",de 55 a 64,Parados,5032
+TOTAL,"Distinta CCAA, Total",de 65 y más,Ocupados,3591
+TOTAL,"Distinta CCAA, Total",de 65 y más,Parados,195
+TOTAL,Capital,TOTAL,Ocupados,238541
+TOTAL,Capital,TOTAL,Parados,36544
+TOTAL,Capital,de 16 a 24 años,Ocupados,26081
+TOTAL,Capital,de 16 a 24 años,Parados,14429
+TOTAL,Capital,de 25 a 34,Ocupados,104000
+TOTAL,Capital,de 25 a 34,Parados,12982
+TOTAL,Capital,de 35 a 44,Ocupados,64938
+TOTAL,Capital,de 35 a 44,Parados,5139
+TOTAL,Capital,de 45 a 54,Ocupados,30282
+TOTAL,Capital,de 45 a 54,Parados,2807
+TOTAL,Capital,de 55 a 64,Ocupados,11436
+TOTAL,Capital,de 55 a 64,Parados,1129
+TOTAL,Capital,de 65 y más,Ocupados,1804
+TOTAL,Capital,de 65 y más,Parados,58
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Ocupados,33861
+TOTAL,Municipios no capital mayores de 50.000 hab.,TOTAL,Parados,7101
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Ocupados,5331
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Parados,3387
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Ocupados,12924
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Parados,2182
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Ocupados,8817
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Parados,890
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Ocupados,4874
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Parados,398
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Ocupados,1711
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Parados,232
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Ocupados,205
+TOTAL,Municipios no capital mayores de 50.000 hab.,de 65 y más,Parados,14
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Ocupados,52099
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Parados,11645
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Ocupados,10288
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Parados,5886
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Ocupados,19948
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Parados,2994
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Ocupados,11678
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Parados,1215
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Ocupados,7102
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Parados,1080
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Ocupados,2828
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Parados,448
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Ocupados,254
+TOTAL,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Parados,22
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Ocupados,312695
+TOTAL,Municipios no capital menores de 20.001 hab.,TOTAL,Parados,64657
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Ocupados,74646
+TOTAL,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Parados,32745
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Ocupados,129298
+TOTAL,Municipios no capital menores de 20.001 hab.,de 25 a 34,Parados,17470
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Ocupados,51805
+TOTAL,Municipios no capital menores de 20.001 hab.,de 35 a 44,Parados,5480
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Ocupados,37455
+TOTAL,Municipios no capital menores de 20.001 hab.,de 45 a 54,Parados,5638
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Ocupados,18163
+TOTAL,Municipios no capital menores de 20.001 hab.,de 55 a 64,Parados,3224
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Ocupados,1328
+TOTAL,Municipios no capital menores de 20.001 hab.,de 65 y más,Parados,101
+TOTAL,"De Ceuta, Melilla y otros territorios",TOTAL,Ocupados,10326
+TOTAL,"De Ceuta, Melilla y otros territorios",TOTAL,Parados,2184
+TOTAL,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Ocupados,1472
+TOTAL,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Parados,1267
+TOTAL,"De Ceuta, Melilla y otros territorios",de 25 a 34,Ocupados,3480
+TOTAL,"De Ceuta, Melilla y otros territorios",de 25 a 34,Parados,463
+TOTAL,"De Ceuta, Melilla y otros territorios",de 35 a 44,Ocupados,2548
+TOTAL,"De Ceuta, Melilla y otros territorios",de 35 a 44,Parados,200
+TOTAL,"De Ceuta, Melilla y otros territorios",de 45 a 54,Ocupados,1972
+TOTAL,"De Ceuta, Melilla y otros territorios",de 45 a 54,Parados,178
+TOTAL,"De Ceuta, Melilla y otros territorios",de 55 a 64,Ocupados,805
+TOTAL,"De Ceuta, Melilla y otros territorios",de 55 a 64,Parados,71
+TOTAL,"De Ceuta, Melilla y otros territorios",de 65 y más,Ocupados,49
+TOTAL,"De Ceuta, Melilla y otros territorios",de 65 y más,Parados,4
+TOTAL,Del extranjero,TOTAL,Ocupados,140440
+TOTAL,Del extranjero,TOTAL,Parados,35045
+TOTAL,Del extranjero,de 16 a 24 años,Ocupados,17021
+TOTAL,Del extranjero,de 16 a 24 años,Parados,12002
+TOTAL,Del extranjero,de 25 a 34,Ocupados,34601
+TOTAL,Del extranjero,de 25 a 34,Parados,7151
+TOTAL,Del extranjero,de 35 a 44,Ocupados,48402
+TOTAL,Del extranjero,de 35 a 44,Parados,7661
+TOTAL,Del extranjero,de 45 a 54,Ocupados,30213
+TOTAL,Del extranjero,de 45 a 54,Parados,5994
+TOTAL,Del extranjero,de 55 a 64,Ocupados,8970
+TOTAL,Del extranjero,de 55 a 64,Parados,2139
+TOTAL,Del extranjero,de 65 y más,Ocupados,1234
+TOTAL,Del extranjero,de 65 y más,Parados,97
+VARONES,TOTAL,TOTAL,Ocupados,8214538
+VARONES,TOTAL,TOTAL,Parados,1414357
+VARONES,TOTAL,de 16 a 24 años,Ocupados,1114703
+VARONES,TOTAL,de 16 a 24 años,Parados,627687
+VARONES,TOTAL,de 25 a 34,Ocupados,2096911
+VARONES,TOTAL,de 25 a 34,Parados,312365
+VARONES,TOTAL,de 35 a 44,Ocupados,1884484
+VARONES,TOTAL,de 35 a 44,Parados,179945
+VARONES,TOTAL,de 45 a 54,Ocupados,1895467
+VARONES,TOTAL,de 45 a 54,Parados,182724
+VARONES,TOTAL,de 55 a 64,Ocupados,1115535
+VARONES,TOTAL,de 55 a 64,Parados,106981
+VARONES,TOTAL,de 65 y más,Ocupados,107438
+VARONES,TOTAL,de 65 y más,Parados,4655
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Ocupados,6916182
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Parados,1210336
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Ocupados,962990
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Parados,555343
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Ocupados,1550730
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Parados,248292
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Ocupados,1549548
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Parados,147611
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Ocupados,1708399
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Parados,159004
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Ocupados,1042667
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Parados,95838
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Ocupados,101847
+VARONES,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Parados,4248
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Ocupados,1298356
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Parados,204020
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Ocupados,151713
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Parados,72343
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Ocupados,546181
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Parados,64073
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Ocupados,334935
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Parados,32334
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Ocupados,187068
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Parados,23719
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Ocupados,72868
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Parados,11144
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Ocupados,5590
+VARONES,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Parados,407
+VARONES,Misma CCAA,TOTAL,Ocupados,718223
+VARONES,Misma CCAA,TOTAL,Parados,102042
+VARONES,Misma CCAA,de 16 a 24 años,Ocupados,78868
+VARONES,Misma CCAA,de 16 a 24 años,Parados,36561
+VARONES,Misma CCAA,de 25 a 34,Ocupados,320833
+VARONES,Misma CCAA,de 25 a 34,Parados,35554
+VARONES,Misma CCAA,de 35 a 44,Ocupados,180558
+VARONES,Misma CCAA,de 35 a 44,Parados,15402
+VARONES,Misma CCAA,de 45 a 54,Ocupados,96724
+VARONES,Misma CCAA,de 45 a 54,Parados,9741
+VARONES,Misma CCAA,de 55 a 64,Ocupados,38297
+VARONES,Misma CCAA,de 55 a 64,Parados,4642
+VARONES,Misma CCAA,de 65 y más,Ocupados,2944
+VARONES,Misma CCAA,de 65 y más,Parados,143
+VARONES,"Misma Provincia, Total",TOTAL,Ocupados,619492
+VARONES,"Misma Provincia, Total",TOTAL,Parados,89931
+VARONES,"Misma Provincia, Total",de 16 a 24 años,Ocupados,69197
+VARONES,"Misma Provincia, Total",de 16 a 24 años,Parados,31874
+VARONES,"Misma Provincia, Total",de 25 a 34,Ocupados,278694
+VARONES,"Misma Provincia, Total",de 25 a 34,Parados,31730
+VARONES,"Misma Provincia, Total",de 35 a 44,Ocupados,155003
+VARONES,"Misma Provincia, Total",de 35 a 44,Parados,13700
+VARONES,"Misma Provincia, Total",de 45 a 54,Ocupados,81993
+VARONES,"Misma Provincia, Total",de 45 a 54,Parados,8467
+VARONES,"Misma Provincia, Total",de 55 a 64,Ocupados,32243
+VARONES,"Misma Provincia, Total",de 55 a 64,Parados,4049
+VARONES,"Misma Provincia, Total",de 65 y más,Ocupados,2361
+VARONES,"Misma Provincia, Total",de 65 y más,Parados,111
+VARONES,Capital,TOTAL,Ocupados,220053
+VARONES,Capital,TOTAL,Parados,31381
+VARONES,Capital,de 16 a 24 años,Ocupados,20882
+VARONES,Capital,de 16 a 24 años,Parados,9416
+VARONES,Capital,de 25 a 34,Ocupados,107777
+VARONES,Capital,de 25 a 34,Parados,12079
+VARONES,Capital,de 35 a 44,Ocupados,58042
+VARONES,Capital,de 35 a 44,Parados,5542
+VARONES,Capital,de 45 a 54,Ocupados,23937
+VARONES,Capital,de 45 a 54,Parados,2978
+VARONES,Capital,de 55 a 64,Ocupados,8719
+VARONES,Capital,de 55 a 64,Parados,1347
+VARONES,Capital,de 65 y más,Ocupados,696
+VARONES,Capital,de 65 y más,Parados,19
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Ocupados,47803
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Parados,7968
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Ocupados,5180
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Parados,2971
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Ocupados,20493
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Parados,2840
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Ocupados,12758
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Parados,1259
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Ocupados,6761
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Parados,617
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Ocupados,2475
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Parados,271
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Ocupados,136
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Parados,9
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Ocupados,69294
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Parados,11849
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Ocupados,7639
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Parados,4224
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Ocupados,31135
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Parados,4340
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Ocupados,18172
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Parados,1880
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Ocupados,8704
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Parados,978
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Ocupados,3434
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Parados,411
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Ocupados,210
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Parados,15
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Ocupados,282342
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Parados,38733
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Ocupados,35495
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Parados,15263
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Ocupados,119289
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Parados,12470
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Ocupados,66031
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Parados,5019
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Ocupados,42591
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Parados,3893
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Ocupados,17616
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Parados,2019
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Ocupados,1319
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Parados,69
+VARONES,"Misma CCAA, distinta Provincia, Total",TOTAL,Ocupados,98727
+VARONES,"Misma CCAA, distinta Provincia, Total",TOTAL,Parados,12111
+VARONES,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Ocupados,9670
+VARONES,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Parados,4687
+VARONES,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Ocupados,42139
+VARONES,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Parados,3824
+VARONES,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Ocupados,25555
+VARONES,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Parados,702
+VARONES,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Ocupados,14727
+VARONES,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Parados,1274
+VARONES,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Ocupados,6053
+VARONES,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Parados,593
+VARONES,"Misma CCAA, distinta Provincia, Total",de 65 y más,Ocupados,583
+VARONES,"Misma CCAA, distinta Provincia, Total",de 65 y más,Parados,31
+VARONES,Capital,TOTAL,Ocupados,32914
+VARONES,Capital,TOTAL,Parados,3128
+VARONES,Capital,de 16 a 24 años,Ocupados,2580
+VARONES,Capital,de 16 a 24 años,Parados,1111
+VARONES,Capital,de 25 a 34,Ocupados,14402
+VARONES,Capital,de 25 a 34,Parados,1060
+VARONES,Capital,de 35 a 44,Ocupados,9356
+VARONES,Capital,de 35 a 44,Parados,497
+VARONES,Capital,de 45 a 54,Ocupados,4622
+VARONES,Capital,de 45 a 54,Parados,349
+VARONES,Capital,de 55 a 64,Ocupados,1732
+VARONES,Capital,de 55 a 64,Parados,110
+VARONES,Capital,de 65 y más,Ocupados,223
+VARONES,Capital,de 65 y más,Parados,1
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Ocupados,6515
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Parados,972
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Ocupados,567
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Parados,388
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Ocupados,2664
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Parados,328
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Ocupados,1865
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Parados,169
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Ocupados,993
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Parados,65
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Ocupados,405
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Parados,22
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Ocupados,20
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Parados,
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Ocupados,9986
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Parados,1395
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Ocupados,1042
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Parados,592
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Ocupados,4112
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Parados,393
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Ocupados,2653
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Parados,186
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Ocupados,1577
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Parados,145
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Ocupados,542
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Parados,62
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Ocupados,59
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Parados,17
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Ocupados,49311
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Parados,6617
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Ocupados,5481
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Parados,2597
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Ocupados,20961
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Parados,2044
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Ocupados,11680
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Parados,849
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Ocupados,7535
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Parados,715
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Ocupados,3374
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Parados,399
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Ocupados,280
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Parados,13
+VARONES,"Distinta CCAA, Total",TOTAL,Ocupados,467578
+VARONES,"Distinta CCAA, Total",TOTAL,Parados,76599
+VARONES,"Distinta CCAA, Total",de 16 a 24 años,Ocupados,62756
+VARONES,"Distinta CCAA, Total",de 16 a 24 años,Parados,28698
+VARONES,"Distinta CCAA, Total",de 25 a 34,Ocupados,199064
+VARONES,"Distinta CCAA, Total",de 25 a 34,Parados,23675
+VARONES,"Distinta CCAA, Total",de 35 a 44,Ocupados,112514
+VARONES,"Distinta CCAA, Total",de 35 a 44,Parados,10641
+VARONES,"Distinta CCAA, Total",de 45 a 54,Ocupados,64230
+VARONES,"Distinta CCAA, Total",de 45 a 54,Parados,8800
+VARONES,"Distinta CCAA, Total",de 55 a 64,Ocupados,27089
+VARONES,"Distinta CCAA, Total",de 55 a 64,Parados,4613
+VARONES,"Distinta CCAA, Total",de 65 y más,Ocupados,1925
+VARONES,"Distinta CCAA, Total",de 65 y más,Parados,171
+VARONES,Capital,TOTAL,Ocupados,174764
+VARONES,Capital,TOTAL,Parados,22562
+VARONES,Capital,de 16 a 24 años,Ocupados,15097
+VARONES,Capital,de 16 a 24 años,Parados,7290
+VARONES,Capital,de 25 a 34,Ocupados,74261
+VARONES,Capital,de 25 a 34,Parados,7800
+VARONES,Capital,de 35 a 44,Ocupados,52454
+VARONES,Capital,de 35 a 44,Parados,4078
+VARONES,Capital,de 45 a 54,Ocupados,23695
+VARONES,Capital,de 45 a 54,Parados,2394
+VARONES,Capital,de 55 a 64,Ocupados,8378
+VARONES,Capital,de 55 a 64,Parados,948
+VARONES,Capital,de 65 y más,Ocupados,878
+VARONES,Capital,de 65 y más,Parados,52
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Ocupados,26227
+VARONES,Municipios no capital mayores de 50.000 hab.,TOTAL,Parados,4613
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Ocupados,3248
+VARONES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Parados,1807
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Ocupados,10029
+VARONES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Parados,1471
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Ocupados,7465
+VARONES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Parados,757
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Ocupados,4028
+VARONES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Parados,370
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Ocupados,1356
+VARONES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Parados,194
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Ocupados,101
+VARONES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Parados,14
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Ocupados,39699
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Parados,7389
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Ocupados,5976
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Parados,2915
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Ocupados,15601
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Parados,2016
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Ocupados,9799
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Parados,1076
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Ocupados,5900
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Parados,970
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Ocupados,2287
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Parados,389
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Ocupados,137
+VARONES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Parados,22
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Ocupados,226887
+VARONES,Municipios no capital menores de 20.001 hab.,TOTAL,Parados,42036
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Ocupados,38435
+VARONES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Parados,16686
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Ocupados,99173
+VARONES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Parados,12388
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Ocupados,42796
+VARONES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Parados,4730
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Ocupados,30607
+VARONES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Parados,5066
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Ocupados,15067
+VARONES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Parados,3082
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Ocupados,809
+VARONES,Municipios no capital menores de 20.001 hab.,de 65 y más,Parados,84
+VARONES,"De Ceuta, Melilla y otros territorios",TOTAL,Ocupados,8475
+VARONES,"De Ceuta, Melilla y otros territorios",TOTAL,Parados,1423
+VARONES,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Ocupados,980
+VARONES,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Parados,763
+VARONES,"De Ceuta, Melilla y otros territorios",de 25 a 34,Ocupados,2772
+VARONES,"De Ceuta, Melilla y otros territorios",de 25 a 34,Parados,326
+VARONES,"De Ceuta, Melilla y otros territorios",de 35 a 44,Ocupados,2210
+VARONES,"De Ceuta, Melilla y otros territorios",de 35 a 44,Parados,138
+VARONES,"De Ceuta, Melilla y otros territorios",de 45 a 54,Ocupados,1759
+VARONES,"De Ceuta, Melilla y otros territorios",de 45 a 54,Parados,140
+VARONES,"De Ceuta, Melilla y otros territorios",de 55 a 64,Ocupados,730
+VARONES,"De Ceuta, Melilla y otros territorios",de 55 a 64,Parados,67
+VARONES,"De Ceuta, Melilla y otros territorios",de 65 y más,Ocupados,23
+VARONES,"De Ceuta, Melilla y otros territorios",de 65 y más,Parados,
+VARONES,Del extranjero,TOTAL,Ocupados,104057
+VARONES,Del extranjero,TOTAL,Parados,23957
+VARONES,Del extranjero,de 16 a 24 años,Ocupados,9109
+VARONES,Del extranjero,de 16 a 24 años,Parados,6322
+VARONES,Del extranjero,de 25 a 34,Ocupados,23506
+VARONES,Del extranjero,de 25 a 34,Parados,4518
+VARONES,Del extranjero,de 35 a 44,Ocupados,39648
+VARONES,Del extranjero,de 35 a 44,Parados,6153
+VARONES,Del extranjero,de 45 a 54,Ocupados,24351
+VARONES,Del extranjero,de 45 a 54,Parados,5038
+VARONES,Del extranjero,de 55 a 64,Ocupados,6744
+VARONES,Del extranjero,de 55 a 64,Parados,1832
+VARONES,Del extranjero,de 65 y más,Ocupados,698
+VARONES,Del extranjero,de 65 y más,Parados,94
+MUJERES,TOTAL,TOTAL,Ocupados,2510043
+MUJERES,TOTAL,TOTAL,Parados,658087
+MUJERES,TOTAL,de 16 a 24 años,Ocupados,740159
+MUJERES,TOTAL,de 16 a 24 años,Parados,472386
+MUJERES,TOTAL,de 25 a 34,Ocupados,671731
+MUJERES,TOTAL,de 25 a 34,Parados,114755
+MUJERES,TOTAL,de 35 a 44,Ocupados,388707
+MUJERES,TOTAL,de 35 a 44,Parados,30793
+MUJERES,TOTAL,de 45 a 54,Ocupados,392606
+MUJERES,TOTAL,de 45 a 54,Parados,24963
+MUJERES,TOTAL,de 55 a 64,Ocupados,267817
+MUJERES,TOTAL,de 55 a 64,Parados,13970
+MUJERES,TOTAL,de 65 y más,Ocupados,49022
+MUJERES,TOTAL,de 65 y más,Parados,1220
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Ocupados,2091652
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,TOTAL,Parados,551093
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Ocupados,613580
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 16 a 24 años,Parados,404982
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Ocupados,505496
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 25 a 34,Parados,85953
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Ocupados,325323
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 35 a 44,Parados,24748
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Ocupados,352413
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 45 a 54,Parados,21569
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Ocupados,249802
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 55 a 64,Parados,12701
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Ocupados,45037
+MUJERES,EN EL MISMO MUNICIPIO QUE EN 1981,de 65 y más,Parados,1140
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Ocupados,418391
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,TOTAL,Parados,106994
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Ocupados,126578
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 16 a 24 años,Parados,67404
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Ocupados,166235
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 25 a 34,Parados,28802
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Ocupados,63383
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 35 a 44,Parados,6045
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Ocupados,40193
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 45 a 54,Parados,3394
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Ocupados,18016
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 55 a 64,Parados,1268
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Ocupados,3985
+MUJERES,EN DISTINTO MUNICIPIO QUE EN 1981,de 65 y más,Parados,80
+MUJERES,Misma CCAA,TOTAL,Ocupados,210530
+MUJERES,Misma CCAA,TOTAL,Parados,51797
+MUJERES,Misma CCAA,de 16 a 24 años,Ocupados,64581
+MUJERES,Misma CCAA,de 16 a 24 años,Parados,33471
+MUJERES,Misma CCAA,de 25 a 34,Ocupados,87322
+MUJERES,Misma CCAA,de 25 a 34,Parados,14080
+MUJERES,Misma CCAA,de 35 a 44,Ocupados,29568
+MUJERES,Misma CCAA,de 35 a 44,Parados,2393
+MUJERES,Misma CCAA,de 45 a 54,Ocupados,18636
+MUJERES,Misma CCAA,de 45 a 54,Parados,1276
+MUJERES,Misma CCAA,de 55 a 64,Ocupados,8665
+MUJERES,Misma CCAA,de 55 a 64,Parados,528
+MUJERES,Misma CCAA,de 65 y más,Ocupados,1758
+MUJERES,Misma CCAA,de 65 y más,Parados,49
+MUJERES,"Misma Provincia, Total",TOTAL,Ocupados,176917
+MUJERES,"Misma Provincia, Total",TOTAL,Parados,43765
+MUJERES,"Misma Provincia, Total",de 16 a 24 años,Ocupados,57096
+MUJERES,"Misma Provincia, Total",de 16 a 24 años,Parados,28809
+MUJERES,"Misma Provincia, Total",de 25 a 34,Ocupados,72525
+MUJERES,"Misma Provincia, Total",de 25 a 34,Parados,11458
+MUJERES,"Misma Provincia, Total",de 35 a 44,Ocupados,23976
+MUJERES,"Misma Provincia, Total",de 35 a 44,Parados,1942
+MUJERES,"Misma Provincia, Total",de 45 a 54,Ocupados,15048
+MUJERES,"Misma Provincia, Total",de 45 a 54,Parados,1054
+MUJERES,"Misma Provincia, Total",de 55 a 64,Ocupados,6989
+MUJERES,"Misma Provincia, Total",de 55 a 64,Parados,458
+MUJERES,"Misma Provincia, Total",de 65 y más,Ocupados,1284
+MUJERES,"Misma Provincia, Total",de 65 y más,Parados,45
+MUJERES,Capital,TOTAL,Ocupados,60255
+MUJERES,Capital,TOTAL,Parados,14874
+MUJERES,Capital,de 16 a 24 años,Ocupados,17110
+MUJERES,Capital,de 16 a 24 años,Parados,9212
+MUJERES,Capital,de 25 a 34,Ocupados,27627
+MUJERES,Capital,de 25 a 34,Parados,4393
+MUJERES,Capital,de 35 a 44,Ocupados,8607
+MUJERES,Capital,de 35 a 44,Parados,793
+MUJERES,Capital,de 45 a 54,Ocupados,4363
+MUJERES,Capital,de 45 a 54,Parados,305
+MUJERES,Capital,de 55 a 64,Ocupados,2189
+MUJERES,Capital,de 55 a 64,Parados,154
+MUJERES,Capital,de 65 y más,Ocupados,360
+MUJERES,Capital,de 65 y más,Parados,17
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Ocupados,12284
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Parados,3752
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Ocupados,3793
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Parados,2432
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Ocupados,5075
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Parados,1033
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Ocupados,1834
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Parados,167
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Ocupados,1025
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Parados,91
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Ocupados,460
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Parados,29
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Ocupados,97
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Parados,1
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Ocupados,19062
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Parados,5196
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Ocupados,5823
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Parados,3405
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Ocupados,8107
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Parados,1397
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Ocupados,2694
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Parados,222
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Ocupados,1600
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Parados,102
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Ocupados,690
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Parados,69
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Ocupados,148
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Parados,
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Ocupados,85315
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Parados,19944
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Ocupados,30370
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Parados,13761
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Ocupados,31716
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Parados,4635
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Ocupados,10840
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Parados,760
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Ocupados,8060
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Parados,556
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Ocupados,3650
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Parados,206
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Ocupados,679
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Parados,27
+MUJERES,"Misma CCAA, distinta Provincia, Total",TOTAL,Ocupados,33613
+MUJERES,"Misma CCAA, distinta Provincia, Total",TOTAL,Parados,8032
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Ocupados,7485
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 16 a 24 años,Parados,4661
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Ocupados,14797
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 25 a 34,Parados,2623
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Ocupados,5593
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 35 a 44,Parados,451
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Ocupados,3588
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 45 a 54,Parados,223
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Ocupados,1677
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 55 a 64,Parados,70
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 65 y más,Ocupados,474
+MUJERES,"Misma CCAA, distinta Provincia, Total",de 65 y más,Parados,4
+MUJERES,Capital,TOTAL,Ocupados,11999
+MUJERES,Capital,TOTAL,Parados,2366
+MUJERES,Capital,de 16 a 24 años,Ocupados,1796
+MUJERES,Capital,de 16 a 24 años,Parados,1190
+MUJERES,Capital,de 25 a 34,Ocupados,5754
+MUJERES,Capital,de 25 a 34,Parados,935
+MUJERES,Capital,de 35 a 44,Ocupados,2278
+MUJERES,Capital,de 35 a 44,Parados,129
+MUJERES,Capital,de 45 a 54,Ocupados,1295
+MUJERES,Capital,de 45 a 54,Parados,91
+MUJERES,Capital,de 55 a 64,Ocupados,670
+MUJERES,Capital,de 55 a 64,Parados,21
+MUJERES,Capital,de 65 y más,Ocupados,206
+MUJERES,Capital,de 65 y más,Parados,
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Ocupados,2199
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Parados,674
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Ocupados,416
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Parados,347
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Ocupados,936
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Parados,267
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Ocupados,394
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Parados,41
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Ocupados,296
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Parados,18
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Ocupados,123
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Parados,
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Ocupados,33
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Parados,
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Ocupados,3111
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Parados,952
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Ocupados,747
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Parados,612
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Ocupados,1285
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Parados,246
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Ocupados,535
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Parados,64
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Ocupados,366
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Parados,20
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Ocupados,125
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Parados,10
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Ocupados,52
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Parados,
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Ocupados,16304
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Parados,4041
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Ocupados,4525
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Parados,2512
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Ocupados,6822
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Parados,1175
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Ocupados,2385
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Parados,216
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Ocupados,1631
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Parados,94
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Ocupados,759
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Parados,39
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Ocupados,182
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Parados,4
+MUJERES,"Distinta CCAA, Total",TOTAL,Ocupados,169618
+MUJERES,"Distinta CCAA, Total",TOTAL,Parados,43348
+MUJERES,"Distinta CCAA, Total",de 16 a 24 años,Ocupados,53590
+MUJERES,"Distinta CCAA, Total",de 16 a 24 años,Parados,27748
+MUJERES,"Distinta CCAA, Total",de 25 a 34,Ocupados,67106
+MUJERES,"Distinta CCAA, Total",de 25 a 34,Parados,11952
+MUJERES,"Distinta CCAA, Total",de 35 a 44,Ocupados,24724
+MUJERES,"Distinta CCAA, Total",de 35 a 44,Parados,2082
+MUJERES,"Distinta CCAA, Total",de 45 a 54,Ocupados,15482
+MUJERES,"Distinta CCAA, Total",de 45 a 54,Parados,1122
+MUJERES,"Distinta CCAA, Total",de 55 a 64,Ocupados,7049
+MUJERES,"Distinta CCAA, Total",de 55 a 64,Parados,419
+MUJERES,"Distinta CCAA, Total",de 65 y más,Ocupados,1666
+MUJERES,"Distinta CCAA, Total",de 65 y más,Parados,24
+MUJERES,Capital,TOTAL,Ocupados,63777
+MUJERES,Capital,TOTAL,Parados,13982
+MUJERES,Capital,de 16 a 24 años,Ocupados,10984
+MUJERES,Capital,de 16 a 24 años,Parados,7139
+MUJERES,Capital,de 25 a 34,Ocupados,29739
+MUJERES,Capital,de 25 a 34,Parados,5182
+MUJERES,Capital,de 35 a 44,Ocupados,12484
+MUJERES,Capital,de 35 a 44,Parados,1060
+MUJERES,Capital,de 45 a 54,Ocupados,6586
+MUJERES,Capital,de 45 a 54,Parados,413
+MUJERES,Capital,de 55 a 64,Ocupados,3057
+MUJERES,Capital,de 55 a 64,Parados,181
+MUJERES,Capital,de 65 y más,Ocupados,926
+MUJERES,Capital,de 65 y más,Parados,6
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Ocupados,7634
+MUJERES,Municipios no capital mayores de 50.000 hab.,TOTAL,Parados,2489
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Ocupados,2083
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 16 a 24 años,Parados,1580
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Ocupados,2895
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 25 a 34,Parados,710
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Ocupados,1352
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 35 a 44,Parados,133
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Ocupados,846
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 45 a 54,Parados,28
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Ocupados,355
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 55 a 64,Parados,38
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Ocupados,104
+MUJERES,Municipios no capital mayores de 50.000 hab.,de 65 y más,Parados,
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Ocupados,12399
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,TOTAL,Parados,4256
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Ocupados,4313
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 16 a 24 años,Parados,2970
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Ocupados,4347
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 25 a 34,Parados,978
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Ocupados,1879
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 35 a 44,Parados,138
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Ocupados,1201
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 45 a 54,Parados,110
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Ocupados,541
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 55 a 64,Parados,59
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Ocupados,117
+MUJERES,Municipios no capital de 20.001 a 50.000 hab.,de 65 y más,Parados,
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Ocupados,85807
+MUJERES,Municipios no capital menores de 20.001 hab.,TOTAL,Parados,22621
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Ocupados,36211
+MUJERES,Municipios no capital menores de 20.001 hab.,de 16 a 24 años,Parados,16059
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Ocupados,30125
+MUJERES,Municipios no capital menores de 20.001 hab.,de 25 a 34,Parados,5082
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Ocupados,9009
+MUJERES,Municipios no capital menores de 20.001 hab.,de 35 a 44,Parados,750
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Ocupados,6848
+MUJERES,Municipios no capital menores de 20.001 hab.,de 45 a 54,Parados,571
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Ocupados,3096
+MUJERES,Municipios no capital menores de 20.001 hab.,de 55 a 64,Parados,141
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Ocupados,518
+MUJERES,Municipios no capital menores de 20.001 hab.,de 65 y más,Parados,17
+MUJERES,"De Ceuta, Melilla y otros territorios",TOTAL,Ocupados,1851
+MUJERES,"De Ceuta, Melilla y otros territorios",TOTAL,Parados,761
+MUJERES,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Ocupados,492
+MUJERES,"De Ceuta, Melilla y otros territorios",de 16 a 24 años,Parados,505
+MUJERES,"De Ceuta, Melilla y otros territorios",de 25 a 34,Ocupados,707
+MUJERES,"De Ceuta, Melilla y otros territorios",de 25 a 34,Parados,137
+MUJERES,"De Ceuta, Melilla y otros territorios",de 35 a 44,Ocupados,337
+MUJERES,"De Ceuta, Melilla y otros territorios",de 35 a 44,Parados,62
+MUJERES,"De Ceuta, Melilla y otros territorios",de 45 a 54,Ocupados,213
+MUJERES,"De Ceuta, Melilla y otros territorios",de 45 a 54,Parados,39
+MUJERES,"De Ceuta, Melilla y otros territorios",de 55 a 64,Ocupados,75
+MUJERES,"De Ceuta, Melilla y otros territorios",de 55 a 64,Parados,14
+MUJERES,"De Ceuta, Melilla y otros territorios",de 65 y más,Ocupados,26
+MUJERES,"De Ceuta, Melilla y otros territorios",de 65 y más,Parados,4
+MUJERES,Del extranjero,TOTAL,Ocupados,36384
+MUJERES,Del extranjero,TOTAL,Parados,11088
+MUJERES,Del extranjero,de 16 a 24 años,Ocupados,7911
+MUJERES,Del extranjero,de 16 a 24 años,Parados,5680
+MUJERES,Del extranjero,de 25 a 34,Ocupados,11095
+MUJERES,Del extranjero,de 25 a 34,Parados,2632
+MUJERES,Del extranjero,de 35 a 44,Ocupados,8753
+MUJERES,Del extranjero,de 35 a 44,Parados,1508
+MUJERES,Del extranjero,de 45 a 54,Ocupados,5862
+MUJERES,Del extranjero,de 45 a 54,Parados,956
+MUJERES,Del extranjero,de 55 a 64,Ocupados,2226
+MUJERES,Del extranjero,de 55 a 64,Parados,307
+MUJERES,Del extranjero,de 65 y más,Ocupados,536
+MUJERES,Del extranjero,de 65 y más,Parados,4

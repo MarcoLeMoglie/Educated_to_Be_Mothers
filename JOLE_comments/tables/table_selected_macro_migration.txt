@@ -1,0 +1,16 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	Births	Births / women 15--44	Births / women 15--44 <=1972
+				
+interaction	Treat (W) X Post 1945	-478.0**	-4.618***	-4.444***
+		(238.9)	(1.431)	(1.306)
+interaction2	Treat (M) X Post 1945	-176.3	-8.312***	-6.867***
+		(148.7)	(1.969)	(1.490)
+				
+Observations		5,518	5,458	4,160
+R-squared		0.895	0.749	0.716
+Fertile pop.		YES	YES	YES
+Unit FE		YES	YES	YES
+Year FE		YES	YES	YES
+Prov. X Year FE		YES	YES	YES
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

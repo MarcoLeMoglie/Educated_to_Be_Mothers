@@ -1,0 +1,12 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	Weddings	Weddings	Weddings	Weddings	Weddings	Weddings
+							
+interaction	Treat (W) X Post	-12.600*	20.221***	-12.600*	20.221***	-12.600*	20.221***
+		(6.763)	(4.962)	(6.763)	(4.962)	(6.763)	(4.962)
+							
+Observations		5,594	5,594	5,594	5,594	5,594	5,594
+R-squared		0.622	0.647	0.622	0.647	0.622	0.647
+Mun. FE		YES	YES	YES	YES	YES	YES
+Prov. X Year FE		YES	YES	YES	YES	YES	YES
+Cohort		0-14	15-44	0-14	15-44	0-14	15-44
+Mean of depvar		42.41	35.14	42.41	35.14	42.41	35.14

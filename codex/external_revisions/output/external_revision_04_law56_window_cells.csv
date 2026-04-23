@@ -1,0 +1,19 @@
+zone,age_group,marriage_period,avg_childrenactive,avg_childreninactive,active_minus_inactive
+Total Nacional,De 25 a 29 años,1961_1965,2.1,2.8,-.69999999
+Total Nacional,De 30 a 34 años,1961_1965,3.2,3.5,-.30000001
+Total Nacional,De 25 a 29 años,1966_1970,2.56,3.2,-.63999999
+Total Nacional,De 30 a 34 años,1966_1970,2.46,2.82,-.36000001
+Total Nacional,De 25 a 29 años,1971_1975,1.76,2.2,-.44
+Total Nacional,De 30 a 34 años,1971_1975,1.74,2.080000000000001,-.34
+Zona rural,De 25 a 29 años,1961_1965,1.3,1.9,-.60000002
+Zona rural,De 30 a 34 años,1961_1965,3,3.2,-.2
+Zona rural,De 25 a 29 años,1966_1970,2.16,2.94,-.77999997
+Zona rural,De 30 a 34 años,1966_1970,2.42,2.76,-.34
+Zona rural,De 25 a 29 años,1971_1975,1.82,2.2,-.38
+Zona rural,De 30 a 34 años,1971_1975,1.84,2.080000000000001,-.23999999
+Zona urbana,De 25 a 29 años,1961_1965,2.9,3.2,-.30000001
+Zona urbana,De 30 a 34 años,1961_1965,3.3,3.5,-.2
+Zona urbana,De 25 a 29 años,1966_1970,2.62,3.3,-.68000001
+Zona urbana,De 30 a 34 años,1966_1970,2.46,2.82,-.36000001
+Zona urbana,De 25 a 29 años,1971_1975,1.72,2.2,-.47999999
+Zona urbana,De 30 a 34 años,1971_1975,1.74,2.04,-.30000001

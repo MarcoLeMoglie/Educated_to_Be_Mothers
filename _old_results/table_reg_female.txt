@@ -1,0 +1,19 @@
+		(1)
+VARIABLES	LABELS	Births
+		
+post_sum1	Female pop X Post 1945	-119.909
+		(184.823)
+post_sum21	Male pop X Post 1945	-660.671***
+		(205.135)
+post_teachers	Teachers X Post 1945	3.005**
+		(1.368)
+interaction	Treat (W) X Post 1945	-43.248***
+		(15.071)
+interaction2	Treat (M) X Post 1945	22.513*
+		(12.046)
+		
+Observations		4,591
+R-squared		0.582
+Mun. FE		YES
+Prov. X Year FE		YES
+Cohort		0-14

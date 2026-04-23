@@ -1,0 +1,11 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)	(11)	(12)	(13)
+VARIABLES	LABELS	Money belongs husb	school_meet_wife	school_meet_both	absentwork_wife	absentwork_both	realwoman_kids	realman_kids	housework_impede	decision_husb	toomuch_housework	import_marry	import_freesex	import_mother
+														
+post_teachers	Teachers X Treat		-0.008	0.010	0.014	-0.046	-0.021	-0.017	-0.104**	0.046	0.236***	0.080	-0.002	0.142***
+			(0.049)	(0.056)	(0.057)	(0.057)	(0.057)	(0.059)	(0.046)	(0.087)	(0.077)	(0.050)	(0.041)	(0.039)
+														
+Observations		1,578	1,511	1,511	1,474	1,474	1,446	1,425	1,348	592	603	1,496	1,321	1,470
+R-squared			0.145	0.166	0.196	0.201	0.219	0.217	0.191	0.264	0.286	0.172	0.194	0.201
+Mun. FE		YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+Cohort		YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+Mean of depvar		0	0.230	0.698	0.546	0.427	0.641	0.592	0.691	0.469	0.609	0.534	0.825	0.710

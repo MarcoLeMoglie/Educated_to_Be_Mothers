@@ -1,0 +1,14 @@
+		(1)	(2)
+VARIABLES	LABELS	Births	Births
+			
+interaction	Treat (W) X Post 1945	0.000	0.000
+		(0.000)	(0.000)
+interaction2	Treat (M) X Post 1945		-0.000
+			(0.000)
+			
+Observations		5,599	5,599
+R-squared		1.000	1.000
+Mun. FE		YES	YES
+Year FE		YES	YES
+Cohorts		0-14	0-14
+Mean of depvar		88.99	88.99

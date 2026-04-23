@@ -1,0 +1,189 @@
+use "$Data\CIS\_data_cis\barometros.dta", clear
+egen id_type = group(type)
+*gen duce=sh_area_front>50 & sh_area_front!=.
+drop if year_birth<1910
+drop if year_birth<1920
+*drop if year_birth>=1960
+drop if year_birth >=1973
+tab year_birth
+
+tab ESTU
+
+
+gen teachers_pc=teachers/pop_1930*10000
+gen treated = 1 if year_birth >=1940
+replace treated = 0 if missing(treated)
+
+* Women
+gen popsharewomen_agegroup1=popsharewomen_agegroup1_1940+popsharewomen_agegroup2_1940 // T
+gen popsharewomen_agegroup2=popsharewomen_agegroup3_1940+popsharewomen_agegroup4_1940+popsharewomen_agegroup5_1940 // C
+
+sum popsharewomen_agegroup1,d
+gen median_popw1=popsharewomen_agegroup1>r(p50) & popsharewomen_agegroup1!=.
+sum popsharewomen_agegroup2,d
+gen median_popw2=popsharewomen_agegroup2>r(p50) & popsharewomen_agegroup2!=.
+
+* Men
+gen popsharemen_agegroup1=popsharemen_agegroup1_1940+popsharemen_agegroup2_1940
+gen popsharemen_agegroup2=popsharemen_agegroup3_1940+popsharemen_agegroup4_1940+popsharemen_agegroup5_1940
+
+sum popsharemen_agegroup1,d
+gen median_popm1=popsharemen_agegroup1>r(p50) & popsharemen_agegroup1!=.
+sum popsharemen_agegroup2,d
+gen median_popm2=popsharemen_agegroup2>r(p50) & popsharemen_agegroup2!=.
+/*
+**# 1 regression
+	forvalues i=1(1)1 {
+* Mean
+sum `x' if median_popw`i' ==0 & median_tea==0
+local mean_depvar = r(mean)
+
+drop if popsharewomen_agegroup`i'==. | popsharemen_agegroup`i'==.
+gen sum`i'=median_popw`i' //women
+gen sum2`i'=median_popm`i' //men
+
+gen interaction=year_birth*sum`i'*median_tea
+gen interaction2=year_birth*sum2`i'*median_tea
+
+gen post_sum`i'=treated*sum`i'
+gen post_sum2`i'=treated*sum2`i'
+gen post_teachers=treated*median_tea
+
+label var interaction "Fem. pop X Teachers X Treat"
+label var interaction2 "Male pop X Teachers X Treat"
+
+label var post_sum`i' "Female pop X Treat"
+label var post_sum2`i' "Male pop X Treat"
+label var post_teachers "Teachers X Treat"
+
+reghdfe catholic post_sum`i' post_sum2`i' post_teachers interaction interaction2 1.treated##1.sum`i'##1.median_tea 1.treated##1.sum2`i'##1.median_tea, a(i.id i.year_birth i.age i.female) cluster(id) 
+outreg2 using $Results\channels\median\table_cis`i', dec(3)  label nonotes addstat(Mean of depvar, `mean_depvar') addtext( Mun. FE, YES, Cohort, YES)  ct("`tit'") tex(frag) keep(post_sum`i' post_sum2`i' interaction interaction2) nocons replace 
+	
+}
+*drop interaction interaction2 sum* post_*
+	*/
+**# Rest of regressions
+foreach x of varlist catholic catholic2 right right_ideology  sex_education* relig_educ* pro_abort*  pro_law_abort tooprohib_law_abort reduction_illegabort_sp reduction_illegabort_abr reduction_illegabort  pro_art_fert pro_contracep live_notmarried     teachers_extrpolit students_particip gov_withoutconsent  pro_euthanasia pro_laweuthanasia impor_stab_family father_lastword divorce_free divorced_sep pro_euthanasia pro_laweuthanasia students_particip gov_withoutconsent tooprohib_law_abort pro_abort_church ideal_fam_equal ideal_fam_wifehome husb_nothouseworks husb_lesshouseworks stab_fidelity stab_sharehousework stab_wifework school_meet_wife school_meet_both housework_impede decision_husb{ // 
+	forvalues i=1(1)1 {
+sum `x' if median_popw`i' ==0 & median_tea==0
+local mean_depvar = r(mean)
+	
+drop if popsharewomen_agegroup`i'==. | popsharemen_agegroup`i'==.
+gen sum`i'=median_popw`i' //women
+gen sum2`i'=median_popm`i' //men
+
+gen interaction=year_birth*sum`i'*median_tea
+gen interaction2=year_birth*sum2`i'*median_tea
+
+gen post_sum`i'=treated*sum`i'
+gen post_sum2`i'=treated*sum2`i'
+gen post_teachers=treated*median_tea
+
+label var interaction "Fem. pop X Teachers X Treat"
+label var interaction2 "Male pop X Teachers X Treat"
+
+label var post_sum`i' "Female pop X Treat"
+label var post_sum2`i' "Male pop X Treat"
+label var post_teachers "Teachers X Treat"
+
+ local var_label : variable label `x'
+*reghdfe `x' post_sum`i' post_sum2`i' interaction interaction2 1.treated##1.sum`i'##1.median_tea 1.treated##1.sum2`i'##1.median_tea, a(i.id i.year_birth i.age i.female) cluster(id) 
+*outreg2 using $Results\channels\median\table_cis`i', dec(3)  label nonotes addstat(Mean of depvar, `mean_depvar') addtext( Mun. FE, YES, Cohort, YES)  ct("`tit'") tex(frag) keep(post_sum`i' post_sum2`i' interaction interaction2) nocons 
+	*}
+	*drop interaction interaction2 sum* post_*
+	*}
+	
+reghdfe `x' b1940.year_birth##1.sum`i'##1.median_tea b1940.year_birth##1.sum2`i'##1.median_tea, a(i.codprov i.id_type) cluster(id) 
+
+coefplot , keep(*.year_birth#1.sum`i'#1.median_tea) vertical base omitted  yline(0, lc(red) lp(dash)) xline(21, lcolor(blue) lpattern(dash)) ms(m)  ylabel(, angle(horizotal) labsize(tiny)) leg(off)  graphregion(color(white)) msize(vsmall) levels(99 95 90) title("`var_label'", s(small) c(black)) ytitle("`name2'", s(vsmall)) scheme(s2mono) xlabel(, angle(45) labs(tiny))   ///
+coeflabels( ///
+1910.year_birth#1.sum`i'#1.median_tea= "1910" ///
+1911.year_birth#1.sum`i'#1.median_tea= "1911" ///
+1912.year_birth#1.sum`i'#1.median_tea= "1912" ///
+1913.year_birth#1.sum`i'#1.median_tea= "1913" ///
+1914.year_birth#1.sum`i'#1.median_tea= "1914" ///
+1915.year_birth#1.sum`i'#1.median_tea= "1915" ///
+1916.year_birth#1.sum`i'#1.median_tea= "1916" ///
+1917.year_birth#1.sum`i'#1.median_tea= "1917" ///
+1918.year_birth#1.sum`i'#1.median_tea= "1918" ///
+1919.year_birth#1.sum`i'#1.median_tea= "1919" ///
+1920.year_birth#1.sum`i'#1.median_tea= "1920" ///
+1921.year_birth#1.sum`i'#1.median_tea= "1921" ///
+1922.year_birth#1.sum`i'#1.median_tea= "1922" ///
+1923.year_birth#1.sum`i'#1.median_tea= "1923" ///
+1924.year_birth#1.sum`i'#1.median_tea= "1924" ///
+1925.year_birth#1.sum`i'#1.median_tea= "1925" ///
+1926.year_birth#1.sum`i'#1.median_tea= "1926" ///
+1927.year_birth#1.sum`i'#1.median_tea= "1927" ///
+1928.year_birth#1.sum`i'#1.median_tea= "1928" ///
+1929.year_birth#1.sum`i'#1.median_tea= "1929" ///
+1930.year_birth#1.sum`i'#1.median_tea= "1930" ///  
+1931.year_birth#1.sum`i'#1.median_tea= "1931" ///
+1932.year_birth#1.sum`i'#1.median_tea= "1932" ///
+1933.year_birth#1.sum`i'#1.median_tea= "1933" ///
+1934.year_birth#1.sum`i'#1.median_tea= "1934" ///
+1935.year_birth#1.sum`i'#1.median_tea= "1935" ///
+1936.year_birth#1.sum`i'#1.median_tea= "1936" ///
+1937.year_birth#1.sum`i'#1.median_tea= "1937" ///
+1938.year_birth#1.sum`i'#1.median_tea= "1938" ///
+1939.year_birth#1.sum`i'#1.median_tea= "1939" ///
+1940.year_birth#1.sum`i'#1.median_tea= "1940" ///
+1941.year_birth#1.sum`i'#1.median_tea= "1941" ///
+1942.year_birth#1.sum`i'#1.median_tea= "1942" ///
+1943.year_birth#1.sum`i'#1.median_tea= "1943" ///
+1944.year_birth#1.sum`i'#1.median_tea= "1944" ///
+1945.year_birth#1.sum`i'#1.median_tea= "1945" ///
+1946.year_birth#1.sum`i'#1.median_tea= "1946" ///
+1947.year_birth#1.sum`i'#1.median_tea= "1947" ///
+1948.year_birth#1.sum`i'#1.median_tea= "1948" ///
+1949.year_birth#1.sum`i'#1.median_tea= "1949" ///
+1950.year_birth#1.sum`i'#1.median_tea= "1950" ///
+1951.year_birth#1.sum`i'#1.median_tea= "1951" ///
+1952.year_birth#1.sum`i'#1.median_tea= "1952" ///
+1953.year_birth#1.sum`i'#1.median_tea= "1953" ///
+1954.year_birth#1.sum`i'#1.median_tea= "1954" ///
+1955.year_birth#1.sum`i'#1.median_tea= "1955" ///
+1956.year_birth#1.sum`i'#1.median_tea= "1956" ///
+1957.year_birth#1.sum`i'#1.median_tea= "1957" ///
+1958.year_birth#1.sum`i'#1.median_tea= "1958" ///
+1959.year_birth#1.sum`i'#1.median_tea= "1959" ///
+1960.year_birth#1.sum`i'#1.median_tea= "1960" ///
+1961.year_birth#1.sum`i'#1.median_tea= "1961" ///
+1962.year_birth#1.sum`i'#1.median_tea= "1962" ///
+1963.year_birth#1.sum`i'#1.median_tea= "1963" ///
+1964.year_birth#1.sum`i'#1.median_tea= "1964" ///
+1965.year_birth#1.sum`i'#1.median_tea= "1965" ///
+1966.year_birth#1.sum`i'#1.median_tea= "1966" ///
+1967.year_birth#1.sum`i'#1.median_tea= "1967" ///
+1968.year_birth#1.sum`i'#1.median_tea= "1968" ///
+1969.year_birth#1.sum`i'#1.median_tea= "1969" ///
+1970.year_birth#1.sum`i'#1.median_tea= "1970" ///
+1971.year_birth#1.sum`i'#1.median_tea= "1971" ///
+1972.year_birth#1.sum`i'#1.median_tea= "1972" ///
+1973.year_birth#1.sum`i'#1.median_tea= "1973" ///
+1974.year_birth#1.sum`i'#1.median_tea= "1974" ///
+1975.year_birth#1.sum`i'#1.median_tea= "1975" ///
+1976.year_birth#1.sum`i'#1.median_tea= "1976" ///
+1977.year_birth#1.sum`i'#1.median_tea= "1977" ///
+1978.year_birth#1.sum`i'#1.median_tea= "1978" ///
+1979.year_birth#1.sum`i'#1.median_tea= "1979" ///
+1980.year_birth#1.sum`i'#1.median_tea= "1980" ///
+1981.year_birth#1.sum`i'#1.median_tea= "1981" ///
+1982.year_birth#1.sum`i'#1.median_tea= "1982" ///
+1983.year_birth#1.sum`i'#1.median_tea= "1983" ///
+1984.year_birth#1.sum`i'#1.median_tea= "1984" ///
+1985.year_birth#1.sum`i'#1.median_tea= "1985" ///
+) 
+
+
+graph save $Results/channels/median/event_1940_`x'`i'.gph,replace
+graph export $Results/channels/median/event_1940_`x'`i'.pdf,replace
+	}
+	drop  sum* interaction* post_*
+	}
+0	
+cd $Results\median\
+
+graph combine event_1940_flag41.gph event_1940_flag42.gph , graphregion(color(white)) ycommon title("Births", s(small) c(black)) r(1)
+graph save event_1940_female_fertility.gph, replace 
+

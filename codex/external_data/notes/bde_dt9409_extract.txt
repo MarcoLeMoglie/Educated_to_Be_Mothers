@@ -1,0 +1,4322 @@
+ELABORACIÓN DE
+SERIES HISTÓRICAS
+DE EMPLEO
+A PARTIR DE LA
+ENCUESTA DE
+POBLACIÓN ACTIV A
+(1964-1992)
+Pilar García Perea y Ramón Gómez
+Banco de España - Servicio de Estudios
+Documento de Trabajo nº 9409
+
+ELABORACIÓN DE 
+SERIES HISTÓRICAS 
+DE EMPLEO 
+A PARTIR DE LA 
+ENCUESTA DE 
+POBLACIÓN ACTIVA 
+(1964-1992 ) 
+Pilar García Perea y Ramón Gómez (*) 
+(*) Agradecemos los comentarios y ayuda prestada por L. J. Álvarcz, J. Jareño y M.· LI. Matea. 
+Banco de España - Servicio de Estudios 
+Documento de Trabajo n' 9409
+
+El Banco de España al publicar esta serie pretende facilitar 
+la difusión de estudios de interés que contribuyan al mejor 
+conocimiento de la economía española. 
+Los análisis, opiniones y conclusiones de estas investigaciones 
+representan las ideas de los autores, con las que no necesariamente 
+coincide el Banco de España. 
+ISBN,84-7793-293-X 
+Depósito legal: M-11489-1994 
+Imprenta del Banco de España
+
+RESUMEN 
+El objetivo que aborda este trabajo es la construcción de series 
+homogéneas trimestrales de empleo y paro, para un deterDÚnado nivel de 
+desagregación, a partir de la información procedente de la EPA. Para ello 
+se nutre tanto de las homogeneizaciones previamente existentes como de 
+la modelización univariante de algunas de las series. El resultado es un 
+conjunto de series históricas, con origen en 1964, aptas para la realización 
+de estudios sobre el mercado de trabajo español.
+
+
+
+1. INTRODUCCIÓN 
+La realización de estudios sobre el mercado de trabajo en España se 
+enfrenta a la carencia de series históricas homogéneas. Aunque el INE 
+proporciona información sistemática del mercado de trabajo desde 1964, la 
+necesidad de adaptación de sus estadísticas a las circunstancias del 
+mercado de trabajo ha dado lugar a frecuentes rupturas de las series, 
+ocasionando cambios de nivel y distorsionando su perfil de evolución. 
+El objetivo que se pretende abordar en este trabajo consiste en 
+proporcionar series históricas trimestrales para una determinada 
+desagregación, de empleo y paro, a partir de la información procedente 
+de la EPA, que permitan captar un perfil realista de la evolución de las 
+variables, de tal forma que los datos sean susceptibles de utilización en 
+análisis del mercado de trabajo que abarquen un amplio período. En 
+concreto, se presentan series históricas de ocupados y asalariados para 
+los principales sectores productivos -agricultura, industria, 
+construcción, servicios privados y Administraciones Públicas-, así como 
+para las cuatro grandes ramas industriales -energía, minerales, metales 
+y otras manufacturas-, con periodicidad anual y trimestral, desde 1964. 
+Asimismo, se presentan series de parados y de activos para el total de la 
+economía, agricultura, industria, construcción y servicios. Eil el apéndice 
+1, se incluyen las ramas de actividad que, según la Clasificación Nacional 
+de Actividades Económicas con base en 1975 (CNAE-75), pertenecen a los 
+agregados objeto de análisis. 
+Como el problema de la homogeneización de los datos de la EPA ha 
+sido tratado con anterioridad en diversos estudios, se ha optado por 
+aprovechar los enlaces ya disponibles, siempre y cuando se adapten 
+convenientemente al objetivo perseguido. Por ello, en el siguiente 
+apartado, se sintetizan los problemas tratados en los enlaces previos que, 
+junto a los datos originales de la EPA, se van a utilizar como base de este 
+estudio. 
+-5-
+
+2. PRINCIPALES CAMBIOS METODOLÓGICOS DE LA EPA 
+La EPA, publicada por el INE desde el segundo trimestre de 1964, 
+ha experimentado frecuentes cambios de metodología con el fin de 
+adaptarse tanto a las circunstancias del mercado de trabajo español como 
+a las definiciones utilizadas en el contexto internacional, por 10 que su 
+utilización directa no capta de forma adecuada la evolución de las variables 
+objeto de análisis. Los cambios más importantes tuvieron lugar en 1976 y 
+1987; en el primer caso, para ampliar la información sobre el fenómeno del 
+paro, que empezaba a adquirir dimensiones importantes en Espafia, y, en 
+el segundo, para profundizar en el estudio de las nuevas formas de 
+contratación instauradas a raíz de la reforma del Estatuto de los 
+trabajadores y para adaptarse a los criterios de EUROSTA T, permitiendo 
+comparaciones homogéneas en el marco comunitario. En 1992, el INE 
+realizó una nueva reforma, con el objeto de reflejar adecuadamente 
+aspectos relativos a las condiciones de trabajo, profundizar en las 
+caracteristicas laborales y demográficas de la población extranjera 
+residente en España y aportar más detalle en lo relativo a educación 
+recibida y formación permanente. No obstante, este último cambio ha 
+mantenido las partes esenciales de la Encuesta, sin afectar al nivel de las 
+series. 
+Centrando la atención en los cambios metodológicos que han 
+implicado rupturas de las series, pueden distinguirse en cuatro períodos: 
+1) 1964 Il- 1970 ( 2Q semestre) (EPA-64) 
+2) 1971- 1976 Il (EPA-71) 
+3) 1976 IlI- 1987 1 (EPA-76) 
+4) 1987 Il en adelante (EPA 87) 
+Los citados cambios de metodología han provocado importantes 
+diferencias conceptuales, dando lugar a que el colectivo que compone la 
+población activa no sea homogéneo. En concreto, uno de los problemas 
+fundamentales ha residido en el tratamiento dado a los activos marginales, 
+concepto que desapareció con el cambio de metodología de 1987 y que 
+recogía la situación de un conjunto de personas que realizan una actividad 
+limitada en la semana de referencia. Aunque las modificaciones realizadas 
+-6-
+
+han sido numerosas, y se refieren no solo a cuestiones conceptuales, sino 
+también al distinto nivel de agregación utilizado, en este estudio no se va 
+a abordar un análisis detenido de los motivos de ruptura que se haD. ido 
+registrando en cada uno de los periodos, ya que este tema ha sido tratado 
+con gran detalle en otros trabajos. Sin embargo, sí parece necesario 
+detenerse algo más en el cambio metodológico realizado en el segundo 
+trimestre de 1987, al menos para identificar los motivos de la ruptura y las 
+nuevas definiciones empleadas a partir de dicho momento, ya que estas 
+siguen vigentes en la actualidad. Cabe seiíalar J asimismo, que J desde el 
+primer trimestre de 1993, la desagregación utilizada se basa en la nueva 
+clasificación Nacional de Actividades Económicas (CNAE-93) " por lo que, 
+a nivel desagregado, es necesario adaptar la antigua clasificación (CNAE-
+75) a la actual. 
+El cambio de metodologia, implantado en 1987, vino impulsado por 
+la necesidad de adaptarse a los criterios de EUROSTAT con el objetivo de 
+homogeneizar las EPAs de los distintos países comunitarios. Aunque 
+España seguía la normativa internacional establecida por las directrices de 
+la OIT2, este criterio no garantiza, por sí solo, la equivalencia entre las 
+categorías de actividad medidas en los distintos paises. Para subsanar las 
+( 1) 
+(2) 
+En la CNAE-93, y para el agregado de la industria, las nuevas 
+ramas de actividad a nivel de un dígito son las siguientes: 
+industrias extractivas, industria manufacturera, y producción y 
+distribución de energía eléctrica, gas ya gua. 
+Los criterios fundamentales que establece son los siguientes: 
+i) Utilización del período de una semana (la semana de 
+referencia) para las decisiones de clasificación. 
+ti) Primacía de la situación de ocupado frente al resto de las 
+posibilidades de clasificación. Toda persona que haya 
+realizado un trabajo, remunerado o de ayuda familiar (por 
+cuenta ajena o propia), aunque solo haya sido durante una 
+hora en la semana de referencia, se clasifica como ocupada. 
+iti) Restricción de la categoría de parados a las personas que 
+satisfagan los siguientes criterios básicos: a) sin empleo; b) 
+disponible para trabajar (en un plazo de dos semanas); c) que 
+estén buscando trabajo (han emprendido formas concretas de 
+búsqueda en las cuatro últimas semanas). 
+- 7 -
+
+diferencias, la Oficina de Estadistica de la CE (EUROSTAT) realizó un 
+importante esfuerzo en el terreno de la homogeneización de las estadísticas 
+laborales, estableciendo normas más concretas. En general, las 
+discrepancias existentes en la EPA-76 surgían de la concreción de las 
+normas establecidas por EUROSTAT. Las diferencias más importantes se 
+producían, básicamente, en la interpretación de las magnitudes de las 
+categorías de actividad, especialmente en los colectivos situados en la 
+frontera entre actividad e inactividad, tales como las ayudas familiares, 
+los trabajadores ocasionales, estudiantes, jubilados, etc. Adicionalmente, 
+no se incluían preguntas especificas sobre la búsqueda de trabajo en el 
+plazo del mes anterior 8 la entrevista, ni sobre la disponibilidad en el 
+plazo de dos semanas. 
+Con el fin de evitar estas discrepancias, en la EPA-87 se produjo un 
+cambio de cuestionario con las siguientes novedades: 
+a) Para la clasificación de la población en la categoría de ocupada se 
+establece la situación de la población en relación con la actividad en la 
+semana de referencia, considerándose población ocupada aquella que 
+realizó un trabajo durante al menos una hora en dicha semana. Los 
+colectivos así defiIÚdos son equivalentes a los ocupados en las encuestas 
+de otros paises comunitarios. 
+b) En la definición de parado se amplió el periodo de referencia de 
+búsqueda de empleo de una a cuatro semanas y se consideró que una 
+persona está disponible para trabajar si en el plazo de 15 dias a partir de 
+la fecha de la entrevista se puede incorporar a un trabajo que le ofrezcan. 
+El resultado de estos cambios fue un trasvase de inactivos a activos 
+y, dentro de estos, aumentaron los ocupados y disminuyeron los parados. 
+Dicho trasvase se debió a que el nuevo cuestionario permitió detectar 
+mejor el empleo marginal u ocasional, de tal forma que el empleo asalariado 
+no se vio afectado por el cambio de cuestionario, centrándose las 
+diferencias en algunos subconjuntos de los ocupados no asalariados. 
+Debido a que la EPA es la única fuente que proporciona información 
+sobre un conjunto de variables referidas a la población desde 1964 hasta 
+-8-
+
+nuestros días, se han llevado a cabo distintos �rabajos que tratan de 
+salvar las heterogeneidades existentes, aplicando distintas correcciones 
+en función del objetivo perseguido. En Garcla Perea (1991), se aborda la 
+homogeneización de los datos de población activa, ocupados, asalariados 
+y parados desde 1964 hasta 1989, con periodicidad trimestral, para los 
+agregados de agricultura, industria, construcción y servicios. En dicho 
+trabajo, se aborda la problemática de los distintos cambios de metodología 
+y las soluciones que, de forma aislada, y en función del objetivo 
+perseguido, se fueron adoptando previamente para tratar las series de 
+empleo. En concreto, en la homogeneización de dichas series se utilizaron 
+los trabajos realizados por el MInisterio de Economía (1978), el INE (1988) 
+Y la Dirección General de Previsión y Coyuntura (1988), ya que en ellos 
+se resolvían adecuadamente algunos de los problemas planteados. Aunque 
+las citadas series se obtuvieron con periodicidad anual y trimestral, los 
+mayores esfuerzos tendieron a concentrarse en la elaboración de series 
+homogéneas anuales, mientras que se aconsejaba la utilización de las 
+series trimestrales con cierta cautela, especialmente durante los años 
+64-76, periodo durante el cual los datos de la EPA no estaban completos 
+a nivel trimestral. 
+Centrando la atención en el sector industrial, el único trabajo 
+realizado a nivel desagregado basado en los datos de la EPA con origen en 
+1964 se encuentra en Garcla Perea (1988), donde se abordó la 
+homogeneización de los datos de ocupados, con periodicidad anual, para 
+1964-1985. En este caso, el objetivo era el de abordar la máxima 
+desagregación factible dentro del sector industrial, refiriéndose todos los 
+datos exclusivamente a los ocupados en sentido estricto. Este concepto 
+desapareció con el último cambio .metodológíco en el segundo trimestre de 
+1987. Las limitaciones impuestas por los sucesivos cambios metodológicos 
+determinaron una desagregación máxima de �5 ramas industriales. 
+A partir de estos dos trabajos, que, en parte, recogen los estudios 
+previos realizados sobre el tema, y de los datos origínales de la EPA, se 
+va a proceder a la obtención de series históricas trimestrales, tanto de 
+ocupados como de asalariados para la desagregación descrita en el 
+apéndice 1. Para ello será necesario hacer frente a las principales 
+. deficiencias que subsisten en los enlaces de base que se van a utilizar, 
+-9-
+
+entre los que destacan los posibles problemas de las series con 
+periodicidad trimestral entre los años 1964-1976 y la utilización del 
+concepto de ocupados en sentido estricto en las series desagregadas del 
+sector industrial. Adicionalmente, es necesario abordar la obtención de 
+series homogé�eas de asalariados para las cuatro ramas objeto de estudio 
+dentro de la industria y para las Administraciones Públicas, variables 
+sobre las que no existe ningún enlace previo. En el siguiente apartado, 
+se aborda la problemática del enlace anual, para centrar la atención, 
+posteriormente, en la obtención de datos trimestrales, utilizando, siempre 
+que sea posible, los datos de base de la EPA. 
+3. OBTENCIÓN DE SERIES ANUALES 
+Como se ha mencionado anteriormente, existen series homogéneas 
+de ocupados y asalariados desde 1964 para la agricultura, industria, 
+construcción y servicios. El objetivo que se plantea es el de ampliar esta 
+desagregación dentro de la industria a cuatro ramas de actividad, y 
+distinguir, dentro de los servicios, entre privados y Administraciones 
+Públicas. La solución dada a los problemas de heterogeneidad en las ramas 
+industriales difiere significativamente de la forma de proceder en el caso 
+del empleo en las Administraciones Públicas, por lo que conviene llevar a 
+cabo el análisis, separadamente. 
+3.1. Ramas industriales 
+Para abordar la homogeneización de los datos de empleo en las 
+cuatro ramas industriales objeto de análisis, se utilizan los enlaces 
+efectuados en Garcla Perea (1988 y 1991). En el primero, se dispone de 
+series de ocupados en sentido estricto para 15 ramas industriales desde 
+1964 hasta 1985. Dicha serie experimenta una ruptura en 1987, afio a 
+partir del cual desaparece el concepto de ocupados en sentido estricto. En 
+el segundo enlace, están disponibles series homogéneas de ocupados y 
+asalariados, exclusivamente para el conjunto de la industria, pero para 
+todo el perlado objeto de análisis. A partir de estos dos trabajos, la 
+estrategia adoptada ha consistido en respetar la serie anual ya 
+homogeneizada para el conjunto de la industria y corregir las series por 
+-1 0-
+
+ramas de actividad, repartiendo las diferencias surgi,das respecto al 
+agregado en función del peso de cada rama. El problema queda reducido, 
+por tanto, a la realización de las agregaciones para disponer de datos 
+anuales de ocupados y asalariados para las cuatro ramas de actividad 
+durante todo el periodo objeto de estudio para salvar, posteriormente, las 
+rupturas de estas series derivadas de los cambios conceptuales. 
+Aunque el nivel de desagregación que se pretende alcanzar es 
+reducido, no está exento de problemas, ya que, durante los 12 años 
+transcurridos entre 1964 y 1976, se produjeron tres cambios en las 
+clasificaciones utilizadas para establecer las desagregaciones). En el 
+apéndice 2, aparece un cuadro en el que se han establecido las 
+correspondencias entre los niveles de desagregación en función de las 
+distintas metodologías utilizadas. El máximo nivel de desagregación 
+alcanzado se refiere a 15 ramas de actividad, � mitación impuesta por la 
+EPA-64, a partir del cual se efectúa la agregación en cuatro ramas 
+industriales. Hay que hacer notar que, incluso a dicho nivel, las 
+correspondencias no son perfectas. 
+Para el concepto de ocupados, el problema de desagregación queda 
+resuelto prolongando las series de García Perea (1988) con los datos 
+originales de la EPA a partir de 1976, momento a partir del cual ambas 
+series son coincidentes. De esta forma, las rupturas que siguen 
+manteniendo las series asi obtenidas se deben exclusivamente a los 
+cambios conceptuales que a lo largo de todo el periodo se han producido 
+en el concepto de ocupados, 10 que afectó, especialmente, al segundo 
+trimestre de 1987, cuando desapareció el concepto de ocupados en sentido 
+estricto. Como se ha mencionado anteriormente, este problema se resuelve 
+utilizando la serie homogénea de ocupados en la industria elaborada en 
+García Perea (1991) , repartiendo las diferencias existentes en función del 
+peso de cada rama. En el gráfico 1, aparece representado el ritmo de 
+(3) La EPA-64 presenta un nivel de desagregación de 15 sectores 
+industriales, basada en la CNAE-54. La EPA-72 aparece 
+desagregada en 18 sectores industriales y se basa en la CLIO-68, 
+y, por último, la EPA-76 se corresponde con la desagregación de la 
+CNAE-75 a nivel de dos dígitos. A partír de 1993, se produjo un 
+nuevo cambio de clasificaciones basado en la CNAE-93. 
+- 11 -
+
+-10 I 1_10 
+'''& 11&1 1113 1111 1111 1111 1181 1111 1173 1171 11111 11111 11111
+
+crecimiento anual de estas variables, una vez que se han llevado a cabo 
+todas las correcciones. 
+En el caso de los asalariados, al no disponerse de ningún enlace 
+para· �s cuatro ramas de actividad, debe recurrirse a explotar la 
+información contenida en la EPA desde 1964 hasta 1976. Para salvar las 
+rupturas, se utilizan las series homogéneas de ocupados por ramas de 
+actividad. En concreto, a partir de los datos originales de la EPA, se 
+calculan los porcentajes que representan los asalariados sobre el total de 
+ocupados en cada rama, para aplicar, posteriormente, dichos porcentajes 
+a las series enlazadas de ocupados durante el periodo 1964-1976, 
+salvándose de esta forma las rupturas inherentes a los cambios de 
+metodología durante este periodo. Siguiendo el DÜsmo procediDÜento que 
+para: el caso de ocupados, las series se prolongan a partir de 1976 con los 
+datos originales de la EPA Y se procede a ajustar la evolución por ramas 
+de actividad a partir de la serie homogénea de asalariados para el conjunto 
+de la industria. En este caso, la ruptura en 1987 se ve minimizada, dado 
+que el cambio metodológico de dicho año no afectó a dicho colectivo. 
+3.2. Servicios privados y Administraciones Públicas 
+Antes de abordar la problemática de las series de empleo en las 
+AdDÜnistraciones Públicas, cabe hacer la advertencia de que la fuente más 
+adecuada para medir el nivel y perfil de evolución de este colectivo de 
+trabajadores es la Contabilidad Nacional. Pese a ello, ha parecido 
+importante realizar un esfuerzo en esta dirección, ya qu� la eN solo 
+proporciona datos de empleo a partir de 1980, por lo que la única 
+información disponible sobre la evolución del empleo en las AAPP, aunque 
+fragmentaria y con grandes deficiencias, proviene de la EPA'. En efecto: 
+la EPA proporciona información sobre asalariados en el sector público, que 
+incluye, además de los asalariados de las Administraciones Públicas 
+(') En Garcia Perea y Gómez (1994), se presentan series históricas de 
+empleo desde 1964, para el mismo nivel de desagregación que el de 
+este trabajo, a partir de los datos de la Contabilidad Nacional, 
+utilizando como indicador para los años anteriores a 1980 los datos 
+de la EPA. 
+-13-
+
+(AAPP), las Empresas Públicas e Instituciones Financieras Públicas. Solo 
+a partir de 1984 incluye en su investigación, de forma individualizada, el 
+agregado de Administraciones Públicas. No obstante, es posible realizar 
+una aproximación al empleo en las AAPP a partir de las desagregaciones 
+existentes por ramas de actividad. Como es sabido, dichas clasificaciones 
+han ido experimentando cambios asociados a las distintas metodologías 
+utilizadas por la EPA, lo que en ocasiones da lugar a la ruptura de las 
+series. 
+En concreto, en la EPA-64, se han considerado como asalariados de 
+las AAPP los asalariados del sector público pertenecientes a las ramas: 
+servicios oficiales de la Administración Pública, servicios prestados al 
+público y a las empresas comerciales, servicios de esparcimiento, servicios 
+personales y actividades no bien especificadas. En la EPA-71, se incluyen 
+también dentro de los asalariados del sector público las ramas de otros 
+servicios y actividades no bien especificadas, y, por último, para la EPA-
+76 se han considerado los servicios públicos pertenecientes a la rama de 
+otros servicios. Al utilizar estas clasificaciones, se está tratando de 
+excluir a los asalariados pertenecientes a Empresas Públicas. 
+A partir de esta información, se ha construido una serie trimestral 
+con los datos originales de la EPA para todo el período objeto de estudio, 
+presentando rupturas en los años 1971, 1976 Y 1984. En 1987, aunque se 
+produjo un cambio metodológico, este tendió a concentrarse en el 
+componente de no asalariados 5 • La forma de proceder para salvar las 
+rupturas varia en función de la existencia de solapamiento en dichos aftos. 
+A partir de 1984, disponemos de una serie estrictamente de AAPP, 
+lo que ha permitido comprobar la bondad de la aproximación realizada con 
+los datos de asalariados en los servicios públicos dentro de la rúbrica de 
+otros servicios, durante el periodo 1976-1984. Dado que el perfil de ambas 
+series durante el periodo de solapaDÚento es muy similar, se ha procedido 
+a salvar la ruptura de 1984 manteniendo el nivel de la serie de AAPP desde 
+'S) La serie presenta un salto brusco en dicho afto, que no se ha 
+corregido, debido a que el cambio de metodologia no afectó a dicho 
+colectivo. 
+-14-
+
+1984 Y prolongándola hasta 1976 a partir de las tasas de variación de la 
+EPA-76. En 1971 y 1976, no existe ningún afio de solapamiento. La 
+solución adoptada en este caso ha sido la de estimar la magnitud de la 
+ruptura a partir de la elaboración de un modelo ARlMA con datos 
+trimestrales y proceder, sobre la base de dicha estimación, a la corrección 
+de la serie. 
+Una vez que se dispone de una serie homogénea de asalariados en 
+las AAPP, cuyo perfil de crecimiento anual aparece representado en el 
+gráfico 2, Y tomando en consideración la serie homogénea para el conjunto 
+de los servicios disponible en Garcla Perea (1991), se obtienen, por 
+diferencia, tanto los asalariados como los ocupados en los servicios 
+privados, series que también aparecen representadas en el gráfico 2. 
+Cabe resaltar que la serie de empleo en las AAPP presenta una tasa de 
+crecimiento anómala en 1987, afta en el que se produjo un cambio de 
+metodologia en la EPA. No obstante, dado que el cambio de definiciones 
+tendió a concentrarse en el componente del empleo no asalariado, se ha 
+optado por no intervenir este dato. 
+4. TRIMESTRALIZACIÓN 
+Aunque la periodicidad de los datos de la EPA es trimestral, no es 
+completa hasta 1976, presentándose, en ocasiones, los datos con carácter 
+semestral o exclusivamente como media anual. En García Perea (1991), se 
+abordó esta problemática para los cuatro grandes agregados básicos: 
+agricultura, industria, construcción y servicios, y para los conceptos de 
+empleo y paro. En este trabajo, se aborda con mayor precisión el 
+tratamiento de las series trimestrales durante el periodo inicial de la 
+muestra, prescindiéndose de las series trimestrales disponibles para los 
+agregados básicos. Ello ha exigido revisar los datos trimestrales de 
+parados, para mantener la coherencia interna de las series trimestrales de 
+ocupados, parados y población activa. La estimación de los datos 
+trimestrales ausentes se ha realizado con la máxima desagregación, 
+obteniéndose el agregado como suma de sus componentes. 
+- 15 -
+
+Gráfico 2 
+SERVICIOS VENTA 
+Tasas Interanuales 
+15 r-----------------------------, 15 Ocu.,.dol 
+10 10 
+5 5 
+O f-----------""'-1-\-----f-Kr----J---\-+------\'I O 
+_5 L---L--�--L---L--�-�L---L--�-�- 5 
+, •• 15 ,.a. '.'1 ,.7-4 1877 1180 18.3 nas '815' 111112 
+AAPP 
+Tasas Interanuales 
+10 10 A.alariado. 
+8 8 
+6 6 
+4 4 
+2 2 
+O O 
+-2 -2 
+-4 L-__ � ____ -L ____ -L ____ � __ __ L- ____ L_ __ � ____ -L ____ � _4 
+'185 1888 1871 1874 1877 , •• 0 1883 1188 18.8 1992 
+-16-
+
+La forma de proceder ha consistido en estimar un modelo ARlMA 
+para cada una de las variables objeto de trimestralización, cuyos 
+resultados aparecen representados en el apéndice 3, a partir del cual se 
+ha realizado una estimación restringida, siguiendo el método propuesto 
+por Alvarez, Delrieu y Jareño (1993) para la estimación de valores 
+ausentes. En concreto, se ha efectuado una estimación restringida del 
+intervalo que va desde el segundo trimestre de 1976 hasta el primer 
+trimestre de 1964, tomando como restricciones en todos los casos, excepto 
+en AAPP, las medias anuales de las series homogéneas y las tasas 
+interanuales de las series originales de la EPA 6• Para las Administraciones 
+Públicas, no se parte de una serie anual homogénea, por lo que las 
+restricciones son las tasas anuales y las tasas interanuales que se 
+desprenden de las series originales, utilizando el modelo ARlMA para 
+corregir los cambios de nivel en los afios de ruptura. La utilización de esta 
+metodologia permite, por un lado, preservar el perfil estacional y regular 
+de la serie recogido por el modelo, y, por otro lado, se tiene en cuenta la 
+evolución que, en términos de tasas, presentan las series en el tiempo. La 
+metodología utilizada mejora la trimestralización realizada en García Perea 
+(1991), donde se aconsejaba la utilización de las series trimestrales con 
+cierta cautela durante los años 1964-1976. 
+5. CONCLUSIONES 
+En este trabajo, se presentan series históricas de empleo, con 
+periodicidad trimestral, a partir de 1964, para cuatro ramas industriales 
+y para las Administraciones Públicas. Dichas series son compatibles, en 
+términos anuales, con las publicadas en Garcia Perea (1991) referidas a 
+agricultura, industria, construcción y servicios, y mejora, en términos 
+trimestrales, las presentadas en el citado trabajo. Con ello se ha 
+pretendido ampliar la desagregación de las series históricas de empleo, 
+tomando como fuente de información básica la Encuesta de Población Activa 
+(6) Los datos que aparecen de forma semestral se han tomado, a la hora 
+de calcular las tasas, como correspondientes al segundo y al cuarto 
+trimestre, según fueran el primero o el segundo semestre, 
+respectivamente. 
+-1 7 -
+
+(EPA). También se presentan series trimestrales de parados y población 
+activa por sectores coherentes con las series trimestrales de ocupados. 
+El procedimiento que se ha seguido para realizar el enlace se basa 
+en mantener el nivel de las series que actualmente proporciona la EPA y 
+el perfil que se desprende de las distintas encuestas, utilizando la 
+metodología que ha parecido más adecuada para salvar las rupturas en los 
+momentos de cambio metodológico, en función de la información disponible. 
+En este sentido, es de señalar que no solo se han utilizado los datos 
+originales de la EPA, sino que, además, se ha hecho uso de enlaces ya 
+existentes, que solucionaban adecuadamente parte de los problemas 
+planteados. 
+En el trabajo, se incluye un apéndice estadístico en el que aparecen 
+las seríes homogéneas de ocupados y asalariados, anuales y trimestrales, 
+desde 1964, para la desagregación mencionada (véase apéndice 1), así 
+como de parados, población activa y tasas de paro en agricultura, 
+industria, construcción y servicios. También se ha incluido un apéndice 
+gráfico en el que aparecen representados los datos trimestrales. 
+- 1 8-
+
+APÉNDICE 1 
+AGREGACIÓN OBJETO DE ANÁLISIS BASADA EN LA CNAE-75 
+TOTAL DE LA ECONOMfA 
+EMPRESAS (TOTAL-ADMINISTRACIONES PÚBLICAS) 
+AGRICULTURA 
+INDUSTRIA 
+ENERGfA 
+- Extracción y preparación de combustibles sólidos 
+- Extracción de petróleo y gas 
+- Refino de petróleo 
+- Extracción y transformación de minerales radiactivos 
+- Producción, transporte y distribución de energía eléctrica, gas, 
+etc. 
+- Captación, depuración y distribución del agua 
+MINERALES Y QUfMICA 
+- Extracción y preparación de minerales metálicos 
+- Producción y primera transformación de metales 
+- Extracción minerales no metálicos 
+- Industria de productos minerales no metálicos 
+- Industria química 
+METÁLICOS Y MAQUINARIA 
+- Fabricación productos metálicos (excepto maquinaria y material de 
+transporte) 
+- Construcción maquinaria y equipo 
+- Construcción máquinas oficina, ordenadores (incluida instalación) 
+-19-
+
+- Construcción maquinaria y material eléctrico 
+- Fabricación material electrónico (excepto ordenadores) 
+- Construcción vehículos automóviles y repuestos 
+- Construcción naval, reparación, mantenimiento de buques 
+- Construcción otro material transporte 
+- Fabricación instrumentos de precisión, óptica y similares 
+OTRAS MANUFACTURAS 
+- Producción alimenticia, bebidas y tabaco 
+- Industria textil 
+- Industria del cuero 
+- Industria del calzado, vestido, otras confecciones. Industria 
+textil 
+- Industria madera, corcho y muebles de madera 
+- Industria papel, fabricación articulas de papel, artes gráficas 
+- Industria transformadora del caucho y materias plásticas 
+- Otras industrias manufactureras 
+CONSTRUCCIÓN 
+SERVICIOS 
+SERVICIOS PRIVADOS 
+ADMINISTRACIONES PÚBLICAS 
+-20-
+
+'" 
+� 
+I 
+DIVISIONES EPA-64 
+Divisi6n 1 4 Minas de carbón 
+4 Electricidad. ga •• aqua y servicios 
+de eaneamiento 
+Divisi6n 2 4 Otras extracciones 
+4 Industria metAlica 
+� Industria del vidrio. cerAmica. y 
+productoe de arcilla para la 
+con.trucci6n 
+4 Industrias qulmicae. incluido caucho 
+y derivados del petr61eo y del 
+carbón 
+Divisi6n J 4 Industria metAlica 
+� Maquin�ia de todae cIa.... aparato. 
+y accesorios .léctrico. 
+APiKoICB 2 
+� 
+� Mina. d. carb6n 
+4 Derivado. del petr61eo y del carb6n 
+4 Electricidad. gas y agua 
+4 otrae extracciones 
+4 Induetriae metAlicas bAsicas 
+� Induetriaa del vidrio y cerAmicas y 
+productos ds arcilla para la 
+conatt·ucci6n 
+4 Industria. qulmicas. incluido caucho 
+y p16etico 
+4 Pabricaci6n d. productos m.tAlicos 
+4 Maquinaria d. todae cIa •••• 
+aparatos. acc.eorios y suminiatroe 
+eléctricos 
+EPA-76 
+4 Bxtracci6n. preparaci6n y 
+aglomeraci6n de combuetible. e6lidoe 
+y coquerI.as 
+4 Bxtracci6n de petr61eo y gas natural 
+4 Refino de petr6l.o 
+4 Extracci6n y tranaformaci6n da 
+mineral.s radiactivoe 
+4 Blectricidad. gae y agua 
+4 Bxtracci6n y preparaci6n de mineral.a 
+metAlicoe 
+4 Extracci6n de mineralee no metAlicoe 
+ni energéticoe¡ turberas 
+4 Producci6n y primera transfo�aci6n 
+de metales 
+4 Industriae d. productos minera lee no 
+metAlicos 
+4 Industria quLaica 
+4 Metalurgia. maquinaria y material 
+el6ctrico
+
+� 
+I 
+DIVISIONES � 
+Divisi6n 3 -+ Haterlal de transporte 
+Divisi6n 4 -+ �limentaci6n, bebidas y tabaco 
+EP�-72 
+-+ Material de trasporte 
+-+ �limentaci6n, bebidas y tabaco 
+-+ Industrias textiles -+ Industria telttil 
+-+ Industrias de confecci6n, calzado e -+ Confecci6n de prendas da vestir 
+industrias del cuero 
+-+ Industrias de la madera, fabricaci6n -+ Industrias da la madera y corcho. 
+de muebles Fabricaci6n de muebles 
+-+ Industrias del papel y cart6n. 
+Imprentas, editoriales e industrias 
+afines 
+-+ Industrias qutmica., incluido caucho 
+y derivados del petróleo y del 
+carbón 
+-+ Fabricaci6n de papel e industrias 
+del papel y cart6n 
+-+ Industria quLmica. incluido caucho y 
+pUstico 
+� 
+-+ Construcci6n de material da 
+transporte 
+-+ Alimentación, bebidas y tabaco 
+-+ Industria textil 
+-+ Industria del cuero y del calzado y 
+otras confecciones textiles 
+-+ Industria de la madera, corcho y 
+muebles de madera 
+-+ Industria del papel. Artes 9rAficaa y 
+edici6n 
+-+ Industrias de transformaci6n del 
+caucho y materias plAsticaa 
+-+ Fabricaci6n de equipo profesional y -+Instrumentos de precisi6n, 6ptica y 
+cientifico, instrumentos de medida y aifllilar.s 
+control d. fotografla y de óptica 
+-+ otras industrias fabriles 
+-+ otras industrias manufactureras -+ otra. industria. manufacturerae 
+NOTAI Zsta tabla ha sido elaborada a partir de la. tablas de correspondencia de la CNAE-52, CLIU-68 y CNAE-74.
+
+APÉNDICE 3
+
+
+
+OCOPADOS ENERGíA 
+6OCBNBt• 7,2 6I8503t+ 10,7 6SB603t+ 8,5 6I9003t+ 
+P,5) (l,l) (l,a) 
++7,16S9201t+ (1- O,23L2) ., 
+U,l} 
+PERloDO MUESTRAL: 1976/3 - 1992/4 
+NÓMERO EFECTIVO DE OBSERVACIONES: 62 
+DESVIACIÓN TíPICA RESIDUAL: 3,0 
+MEDIA RESIDUOSI -0,39 
+ESTADíSTICO t; DE LA MEDIA: -1,03 
+ESTADíSTICO 8OX-PIERCE-LJUNG: Q(6)=2,7 Q(10)"5,5 Q(14)-11,7 
+Residuos 
+" 
+• 
+Ir 11 l/1 w � lA o 
+1\ 
+v 
+IV v 
+-. 
+-" 
+,tP' -(10' ,tfl'�'.sfJ' ,-,0'�',;P' ",o' 9jP' fJP' ,-,0' flP' flIJ'.¡P' '1,0' q�' 
+-25 -
+
+OCUPADOS MINERALBS 
+A2 OCHINt s 13,1 A2 S7904t- 15,4 A2 S8101t +11, 2A2I8102t - 15,7 A2S8403t + 
+(3,1) (�J,J) (l,') (�,l) 
+• 14, S tJ? I8603t � 15,4 A2 I8702t _ 19,2 A2 S8904t -
+(5.1) (-5,5) ( ..... 6) 
+- 9,8 A2 S9002t+ 1/(1+ 0,71 L+ 0,55 L2+ 0,7 L' 1 " 
+( -2.4) (-7.¡) ( ..... 7) (-1.0) 
+PERíODO HUESTRAL: 1976/3 - 1992/4 
+NÚMERO EFECTIVO DE OBSERVACIONES: 58 
+DESVIACIÓN TíPICA RESIDUAL: 5,1 
+MEDIA RESIDUOS: -0,37 
+ESTADíSTICO t DE LA MEDIA: -0,55 
+ESTADíSTICO BOX-PIERCE-LJUNG: (2(6)-4,9 (2(10);6,6 Q(14);7,8 
+RESIOlOS 
+" " 
+� � 
+, 
+f1v\ I� t 
+, 
+, l A , 
+N 
+v V V\ If'I \ \1 
+., ., 
+.� . " 
+." ." 
+" """"""", 
+-26 -
+
+OCUPADOS METALES 
+tl OCKET t • 29,S tl S8502t- 58,6 A2 S8101t- 32,1 A2S8703t• 
+(2. 3) ( ..... 1) ( -\I.�) 
+• 34,3 6,2 S9101t - 26,7 6,2 S9104t • 
+(2.6) ( -\1.0) 
+.1/(1. 0,45 L+ 0,34 L2) " 
+(-3.4) (-2.6) 
+PERíoDO MUESTRAL: 1976/3 - 1992/4 
+NÚMERO EFECTIVO DE OBSERVACIONES: 60 
+DESVIACIÓN TíPICA RESIDUAL: 14,7 
+MEDIA RESIDUOS: -0,82 
+ESTADíSTICO t DE LA MEDIA: -0,43 
+ESTADíSTICO BOX-PIERCE-LJUNG: Q(6)-6,6 Q(10)-7,3 Q(14)-1l,0 
+RESI ClU:lS 
+.. .. 
+'" ., 
+A : � 'v 1 1 f\ IV h , � A , 
+V V� IV 
+' VI 1/\ 
+V 
+V 
+_m V -� 
+-.. -<O 
+_m -u 
+"""""""", 
+-27 -
+
+OCUPADOS OTRAS MANUFACTURAS 
+44. .. OCOH!\Nt · -34,1 M,. I7904t+ 23,2 44., I8202t- 34,2 M,. I8301t+ 
+(-l,1) (2,1) (-3,1) 
++ (1-0,56L '¡ (1- 0,27 L 2) " 
+(�,1) (2,0) 
+PERíoDO HUESTRAL: 1976/3 - 1992/4 
+NOMBRO EFECTIVO DE OBSERVACIONES I .9 
+DESVIACI6N TíPICA RESIDUAL: 17,7 
+MEDIA RESIDUOS: -0,34 
+ESTADíSTICO t DE LA MEDIAl -0,14 
+ESTADíSTICO BOX-PIBRCE-LJUNGI Q(6)-4,8 Q(10).7,1 Q(14)-15,1 
+Qes Iduos 
+" 
+ro 
+,� , I 1\ "1 I 
+V N 
+� , 11 
+� VI -ro 
+- " 
+-(LO' -(I:P' -fIl'.¡P ' ,.,0' t>-@'.;F' ",0',:Jl'f1P',.10'f1P'f(fP',p:>' .. ,o'�' 
+-28-
+
+ASALARIADOS ENERGfA 
+A ASENEt • -5, 3 A I7904t- 7,' A S8204t+ 6,3 AI8503t+ 10,0 A S8603t+ 
+(-3,8) (�,1) (',') (',3) 
++ 7,2 .6. I9001t+ 6,2 .6. I9003t+ 1/(1-0,33L + O,26L2 la, 
+(',1) (.,2) (2,61) ( -12,13) 
+PERfoDO KUBSTRAL: 1976/3 - 1992/4 
+NOMBRO EFECTIVO DE OBSERVACIONES: 63 
+DESVIACI6N TfPICA RESIDUAL: 2,5 
+MEDIA RESIDUOS: -0,50 
+ESTADfsTIOO t DE LA MBDIA: -1,6 
+ESTADfSTIOO 8OX-PIERCE-LJUNG: Q(6)-2,0 Q(10) .. 3,0 Q(14)"6,5 
+RES I OLlOS 
+• , 
+, , 
+, 
+1M 1M 
+, 
+lA h 111 • 
+Il � 
+1/ 
+, 
+1\ � 
+-, -, 
+-, -, 
+-, -. 
+-, -. 
+"""""""" , 
+- 29 -
+
+ASALARIADOS MINERALES 
+t.,2 ASMINt - 21,0 A2 S7904 t- 16,8 A2 I8004t+ 15,8 A2 S8403 t+ 
+(.,5) (�.7) , ...... . ) 
++ 16,7 A l S8604t - 17,e A 2 See02t- 17,3 A2S8904t+ 
+(l.7) (-J,9) (-l,.) 
++ 1/(1+0,63 L+ 0,64 L2+ 0,70 Ll) " 
+(-6.6) (-7,2) (-7,3) 
+PERíoDO HUESTRAL: 1976/3 - 1992/4 
+NOMBRO EFECTIVO DE OBSERVACIONES: 60 
+DESVIACIÓN TíPICA RESIDUAL: 5,6 
+MEDIA RESIDUOS: -0.64 
+ESTADíSTICO t DE LA MEDIA: -0.88 
+ESTADíSTICO BOX-PIERCE-LJUNGI 12(6) .. 6,7 Q(10) .. e,e Q(1 4)-21,2 
+RES I (U)S 
+.. " 
+" '" 
+, 
+� � , 
+• • 
+�, F / 
+-, -, 
+_" _" 
+_" _" 
+""" """ "", 
+-3 0-
+
+ASALARIADOS METALES 
+4.2 ASHETt • - 36,4 4.2 S8702 t+ 22,3 4.2 I8704 t+ 30,6 4.2 S9101t.-
+(-3.0) (2.7) (2.5) 
+- 41,9 4.2 I9204t + (1-0,87L ) " 
+(-J.3 ) (14.7) 
+PERíODO KUESTRAL: 1976/3 - 1992/4 
+NOMERO EFECTIVO DE OBSERVACIONES: •• 
+DESVIACIÓN TíPICA RESIDUAL: 12,4 
+MEDIA RESIDUOS: 0,7 7 
+ESTADíSTICO t DE LA MEDIA: 0,50 
+ESTADíSTICO BOX-PIERCE-LJUNG: Q(6)- 5,2 Q( 10) .. 7,0 Q(14)>=12,2 
+RE5tOlOS 
+.. .. 
+� R 
+� 
+A 
+� 
+.. 
+(\ I� 
+<O 
+1\ rv 11\ 1(\ lo\ ,A , , 
+V I V 1 1, 
+-<O 
+I V 
+-<O 
+-� - � 
+_M _M 
+"""""""", 
+-3 1-
+
+ASALARIADOS OTRAS MANUFACTURAS 
+.64, ASOMANt - -23 ,5 AA, I8203t- 29,6 .64, I830le+ 
+(-2,6) (-3, 3) 
++(1+0 ,24L + O,39L3_ O,39L' ) " 
+(-2.2) ( -1,8) (l,3) 
+PERiODO HUESTRAL: 1976/3 - 1992/4 
+NÚMERO EFECTIVO DE OBSERVACIONES: 61 
+DESVIACI ÓN TíPICA RESIDUAL: 15,0 
+MEDIA RESIDUOS: -1,04 
+ESTADíSTICO t DE LA MEDIA: -0,54 
+ESTADíSTICO BOX-PIERCE-LJUNG: Q(6)"'O,8 Q(1 0)=6,8 Q(14)" 9,7 
+RES I EX,.OS 
+� <O 
+� � 
+, . A I� IV¡ , 
+\ IV IV 
+_m 
+V 
+-� 
+-<O -� 
+"""""""", 
+-32-
+
+ASALARIADOS AAPP 
+M. ASAAPPt .. -25,7 M, I8104t- 91,7 M, S8S04t+64,3 M,I8602t+ 38,4 A..!\ I8604t-
+( -3 ,0) (-1,') (6,8) (3,9) 
+- 46,9 M. S8702t - 37,1 M, I8703t- 70,1 M, S8803t -
+(""",6) (-3,5) (-6,3) 
+- 39,1 M, S8904t+ (1- 0,41 L'/ (1+ 0,25 L2+ 0,42 L' I " 
+( -3,1) (3,1) (-2,0) (-3,4) 
+PERíODO MUESTRAL: 1976/3 - 1992/4 
+NÚMERO EFECTIVO DE OBSERVACIONES: 57 
+DESVIACIÓN TíPICA RESIDUAL: 15,7 
+MEDIA RESIDUOS: 0,019 
+ESTAD1STICO t DE LA MEDIA: 0,009 
+ESTAD1STICO BOX-PIERCE-LJUNG: Q(6)=1,9 Q(10)=7,S Q(14)=10,B 
+RES1DLOS 
+� � 
+m 
+V 
+m 
+I f � � rI I , 
+\ I �Ir V 
+, 
+_m -" 
+-� -<O 
+"""""""" , 
+- 33 -
+
+PARADOS TOTAL ECONOMíA 
+M, PTOTe • -129,8 M, S8401e+ 165,3 M, S8804e+ 76,6 M, S9103 e+ 
+( -.r.,5) (5.5) (2.5) 
++ 127,1 M, I9204e + (1-0,4 L'/ (1- 0,56 L) " 
+(2,9) (l,1) ('.8) 
+PERíODO HUESTRAL: 1976/3 - 1992/4 
+NÚMERO EFECTIVO DE OBSERVACIONES: 60 
+DESVIACIÓN TíPICA RESIDUAL: 39,2 
+MEDIA RESIDUOS: 1,17 
+ESTADíSTICO t DE LA MEDIA: 0,23 
+ESTADíSTICO BOX-PIERCE-LJUNGl Q(6)=1 ,4 Q(10)-9,O Q(14)K16,9 
+RES IDI.OS 
+� ,� 
+� 
+�, 
+1\,. 
+J I� O , 
+IIJ � 
+Ir 
+\¡ 
+-� -," 
+-�O -,� 
+,� """"""", 
+-34 -
+
+PARADOS INDUSTRIA 
+!J. PINDt .. 155,9 A S8702t - 27,8 A I9201t + 
+(1�,9) (-3,�) 
++ 44,8 A I9203t+ 109,2 A I9204t + 
+{J,8) (5,9) 
++( 1+0,20 L+0,38 L3)/ (1 _0,36 L'-0,38 L8 )at 
+(-l,6) (-3,0) (2,8) (3,0) 
+PERIODO HUESTRAL: 1976/3 - 1992/4 
+NÚMERO EFECTIVO DE OBSERVACIONES: 57 
+DESVIACI6N TíPICA RESIDUAL: 11,6 
+MEDIA RESIDUOS: 0,8 
+ESTADíSTICO t DE LA MEDIA: 0,5 
+ESTADíSTICO BOX-PIERCE-LJUNG: 2( 6)=1,9 2( 10)=4,3 2(1 4)=10,3 
+RESI DLOS 
+� � 
+� � 
+� 
+.1 � \J 1/ I� 
+.. 
+/ ni I� o o 
+IV v 
+1\ 
+" 
+-," -," 
+-� 1\ -," 
+-� -� 
+-" -00 
+"""""""" , 
+- 35 -
+
+PARADOS CONSTRUCCIÓN 
+.6.4., PCONt .. 39,0 .6.4., S8403t+ 40,7 .6.4., S8503t+ 
+(',2) (' ,') 
++75,3 .6.4., S8702 t + 14,3 .6.4., I9203t • 
+(8,') (1,8) 
++(1+0,34 L+O,81 L2+0,43 LJ)/( 1_0,61 L' )at 
+(-2,7) (-7,') (-J,1) (',O) 
+PERíoDO MUESTRAL: 1976/3 - 1992/4 
+NÚMERO EFECTIVO DE OBSERVACIONES: ., 
+DESVIACIÓN TíPICA RESIDUAL: 12,2 
+MEDIA RESIDUOS: 0,8 
+ESTADíSTICO t DE LA MEDIA: O,, 
+ESTADíSTICO BOX-PIERCE-LJUNG: Q(6)=8,6 Q( 10)"'1l,9 Q(14)=16,6 
+RESI DI..OS 
+� � 
+� � 
+� � 
+� 
+A A If'I 
+� 
+V\ , , 
+j 
+I� 1 ,-/ '\ I� -" -," 
+-� -" 
+_E -" 
+-� -<O 
+""" """"", 
+-3 6-
+
+PARADOS SERVICIOS 
+M" PSEI\ • 110,4 AA" S87021.+ 32 ,6 AA.. S9103t+ 
+(9,2) (2,5) 
+• ( 1+0,39 L2¡ ( 1+ 0,32 L") " 
+(-2,t) (-2,2) 
+PERíoDO MUESTRAL: 1976/3 - 1992/4 
+NÚMERO EFECTIVO DE OBSERVACIONES: 51 
+DESVIACIÓN TíPICA RESIDUAL; 15,4 
+MEDIA RESIDUOS: 2,3 
+ESTADíSTICO t DE LA MEDIA: 1,1 
+ESTADíSTICO BOX-PIERCE-LJUNG: Q(6)-2,7 Q(10) .. S,8 Q(14)-13,O 
+RES I OL.OS 
+� � 
+m 
+� 
+m 
+t / , , 
+� IV 
+-m -H 
+-� -.. 
+"" """""", 
+-37 -
+
+
+
+APl!':NmcE ESTADISTICO y GRÁFICO
+
+
+
+TOTAL 
+ECOHOMfA AGR I CUL TUllA 
+ACTIVOS ACTIVOS 
+"" , 11,873 4,652 
+11 11,887 4,548 
+"' " ,848 4,299 
+IV 11,940 4,289 
+1965 , 12,030 4,368 
+11 12,271 4,449 
+"' 12,246 4,457 
+,v 12,329 4,399 
+'966 , 12,319 4,4n 
+11 12,204 4,359 
+"' 12,337 4,413 
+,V 12,320 4,386 
+1967 I 12,345 4,380 
+11 12,281 4,192 
+"' 12,447 4,241 
+,V 12,418 4,243 
+1968 I 12,403 4,266 
+11 12,3&1 4,165 
+"' 12,481 4,154 
+'v 12,478 4,148 
+1969 I 12,554 4,1n 
+11 12,383 4,020 
+"' 12,565 4,010 
+'v 12,452 3,944 
+1970 I 12,517 3,943 
+11 12,456 3,862 
+'" 12,525 3,788 
+'V 12,513 3,753 
+1971 , 12,637 3,763 
+11 12,557 3,659 
+'" 12,701 3,634 
+'v 12,710 3,6" 
+1972 , 12,898 3,654 
+11 12,865 3,566 
+"' 13,012 3,540 
+'v 13,018 3,495 
+"" , 13,127 3,519 
+11 13,140 3,432 
+'" 13,333 3,413 
+'V 13,394 3,389 
+1974 , 13,437 3,429 
+11 13,355 3,313 
+"' 13,515 3,291 
+'v 13,445 3,239 
+"75 , 13,429 3,252 
+11 13,322 3,159 
+'" 13,306 3,044 
+'v 13,203 2,968 
+1976 1 13,191 3,020 
+11 13,121 2,_ 
+"' 13,186 2,812 
+'v 13,253 2,m 
+19n 1 13,265 2,743 
+11 13,285 2,680 
+"' 13,337 2,694 
+'v 13,380 2,687 
+1978 I 13,3n 2,712 
+11 13,Z87 Z,6Z8 
+"' 13,302 2,613 
+'v 13,306 2,591 
+... SERIES EPA DESDE 1964 .. 
+- ACTIVOS -
+Mi les de personas 
+INDUSTRIA CONSTRUCClótI 
+ACTIVOS ACTIVOS 
+2,703 sn 
+2,199 899 
+2,S11 939 
+2,_ 975 
+2,805 97' 
+2,835 1,015 
+2,n4 1,036 
+2,en 1,036 
+2,844 1,031 
+2,852 1,041 
+2,889 1,On 
+2,883 1,075 
+2,936 1,067 
+2,984 1,080 
+2,984 1,119 
+2,940 1,117 
+2,960 1,097 
+2,969 1,111 
+2,962 1,138 
+2,957 1,144 
+3,039 1,128 
+3,053 1,122 
+3,_ 1,160 
+3,027 1,157 
+3,032 1,142 
+3,043 1,169 
+3,061 1,174 
+3,071 1,168 
+3,091 1,153 
+3,113 1,169 
+3,127 ',196 
+3,134 1,198 
+3,167 1,186 
+3,225 1,202 
+3,234 1,226 
+3,256 , ,223 
+3,269 1,208 
+3,349 1,224 
+3,351 1,249 
+3,385 1,253 
+3,422 1,246 
+3,452 1,263 
+3,4&1 1,302 
+3,430 1,3D4 
+3,453 1,2&6 
+3,463 1,285 
+3,512 1,293 
+3,486 1,286 
+3,451 1,269 
+3,482 1,299 
+3,550 1,299 
+3,547 1,306 
+3,552 1,312 
+3,588 1,354 
+3,567 1,391 
+3,560 1,381 
+3,541 1,359 
+3,522 1,349 
+3,498 1,347 
+3,505 1,331 
+-4 1-
+SERVICIOS SIN CLAS IF ICAR 
+ACTIVOS ACTIVOS 
+3,579 67 
+3,576 " 
+3,727 " 
+3,689 '01 
+3,845 37 
+3,940 " 
+3,933 45 
+3,941 80 
+3,952 20 
+3,924 29 
+3,921 38 
+3,897 79 
+3,937 24 
+4,002 " 
+4,054 49 
+4,035 82 
+4,046 35 
+4,102 34 
+4,175 52 
+4,155 " 
+4,181 33 
+4,161 27 
+4,256 53 
+4,243 81 
+4,374 26 
+4,342 41 
+4,449 53 
+4,424 99 
+4,579 " 
+4,549 '7 
+4,659 85 
+4,637 '" 
+4,817 74 
+4,787 85 
+4,909 '" 
+4,891 153 
+5,D48 84 
+5,018 1" 
+5,192 128 
+5,164 203 
+5,208 133 
+5,175 152 
+5,3{l3 139 
+5,286 187 
+5,279 '" 
+5,271 '" 
+5,236 220 
+5,261 201 
+5,253 '" 
+5,260 194 
+5,236 290 
+5,315 309 
+5,355 303 
+5,371 293 
+5,331 ,,, 
+5,381 372 
+5,361 404 
+5,357 432 
+5,350 494 
+5,3n 503
+
+TOTAL 
+ECONOM(A AGR I CULTURA 
+ACTIVOS ACTIVOS 
+1979 I 13,294 2,554 
+11 13,2 57 2,490 
+111 13,327 2,476 
+IV 13,337 2,465 
+1980 1 13,340 2,423 
+11 13,261 2,360 
+111 13,279 2,344 
+IV 13,273 2,343 
+1981 1 13,300 2,336 
+11 13,251 2,2n 
+111 13,354 2,256 
+IV 13,375 2,229 
+1982 1 13,4:23 2,222 
+11 13,419 2,174 
+111 13,493 2,219 
+IV 13,572 2,245 
+1983 1 13,550 2,263 
+11 13,561 2,197 
+111 13,648 :2,223 
+IV 13,703 2,219 
+1984 1 13,679 2,221 
+11 13,623 2,212 
+111 13,691 2,247 
+IV 13,719 2,235 
+1985 I 13,739 2,264 
+11 13,705 2,229 
+111 13,800 2,209 
+IV 13,853 2,164 
+1986 1 13,916 2,105 
+11 13,983 2,057 
+111 14,042 2,003 
+IV 14,145 2,010 
+1987 I 14,232 2,010 
+11 14,266 1,975 
+111 14,440 ',987 
+IV 14,498 1,981 
+lO" 1 14,553 1,996 
+11 14,608 1,934 
+111 14,701 1,933 
+IV 14,621 1,896 
+1989 1 14,702 1,856 
+11 14,749 1,835 
+111 14,895 1,835 
+IV 14,931 1,7 77 
+1990 1 14,992 1,766 
+11 14,995 1,709 
+111 15,049 , ,652 
+IV 15,044 1,617 
+1991 1 15,000 1,_ 
+11 15,010 1,560 
+111 15,157 1,522 
+IV 15,125 1,474 
+1992 1 15,081 1,474 
+11 15,144 1,461 
+111 15,201 1,432 
+IV 15,193 1,417 
+.. SERIES EPA DESDE 1964 .. 
+• ACTIVOS • 
+Miles de personas 
+INDUSTRIA CONSTRUCC IóN 
+ACTiVOS ACTIVOS 
+3,478 1,307 
+3,478 1,327 
+3,433 1,319 
+3,412 1,304 
+3,412 1,301 
+3,342 1 ,314 
+3,354 1,286 
+3,330 1,255 
+3,320 1,241 
+3,293 1,242 
+3,242 1,261 
+3,212 1,249 
+3,177 1,246 
+3,177 1,250 
+3,113 1,240 
+3,112 1,222 
+3,100 1,194 
+3,104 1,238 
+3,078 1,250 
+3,087 1,221 
+3,097 1,166 
+3,G61 1,162 
+3,032 1,1 48 
+3,0 25 ', 122 
+3,012 1,087 
+2,972 1,095 
+2,963 1,079 
+2,962 1,077 
+2,982 l,G65 
+3,005 1,092 
+2,996 1,136 
+3,018 1,145 
+3,018 ',151 
+3,048 1,161 
+3,062 1,163 
+3,083 1,192 
+3,084 l,l8J 
+3,122 1,197 
+3,079 1,261 
+3,099 1,277 
+3,135 1,303 
+3,154 1,298 
+3,184 1,349 
+3,221 1,380 
+3,273 1,398 
+3,274 1,426 
+3,255 1,441 
+3,259 1,469 
+3,216 1,493 
+3,220 1,514 
+3,212 1,534 
+3,213 1,536 
+3,178 1,520 
+3,200 1,529 
+3,177 1,550 
+3,155 1,552 
+-42-
+SERVICIOS SIN CLASI fiC AR 
+ACTIVOS ACTIVOS 
+5,424 '" 
+5,424 538 
+5,503 595 
+5,507 649 
+5,512 '" 
+5,509 737 
+5,497 798 
+5,496 849 
+5,511 892 
+5,523 921 
+5,577 1,018 
+5,605 1,078 
+5,683 1,095 
+5,709 1,109 
+5,738 1,185 
+5,748 1,245 
+5,711 1,282 
+5,m 1,246 
+5,780 1,317 
+5,831 1,344 
+5,m 1,422 
+5,766 1,422 
+5,781 1,483 
+5,767 1,571 
+5,790 1,586 
+5,849 1,561 
+5,941 1,608 
+6,031 1,618 
+6,139 1,626 
+',238 1,592 
+6,313 1,594 
+6,373 1,600 
+6,428 1,625 
+6,488 1,595 
+6,660 ',567 
+6,706 1,536 
+',m 1,513 
+6,830 1,524 
+6,898 1,531 
+6,954 1,395 
+7,084 1,323 
+7,207 1,256 
+7,307 1,220 
+7,384 1,169 
+7,409 1,145 
+7,511 1,075 
+7,612 1,089 
+7,674 1,025 
+7,701 '" 
+7,753 9'3 
+7,891 998 
+7,916 986 
+7,883 1,024 
+7,953 1,001 
+8,045 998 
+8,011 1,058
+
+TOTAL 
+ECONCtUA AGRICULTURA 
+"RAOOS PARADOS 
+1964 1 279 120 
+11 222 , " 
+111 242 '09 
+" 236 97 
+'96 5 1 235 107 
+11 174 94 
+111 '89 86 
+" In 6' 
+, ... 1 In 65 
+11 '" 45 
+111 '''' 49 
+" 144 38 
+1967 I 160 56 
+11 "9 56 
+111 154 54 
+" 162 48 
+'968 1 m " 
+11 124 45 
+111 150 42 
+" 149 42 
+1969 I 153 42 
+11 10' 35 
+111 128 31 
+" m 23 
+1970 1 '" 36 
+11 ,,. 29 
+111 145 31 
+" 161 25 
+1971 1 185 32 
+11 153 28 
+111 198 32 
+" 219 30 
+1972 1 246 " 
+11 21. " 
+111 272 57 
+" 300 49 
+'973 1 334 n 
+11 304 62 
+111 343 65 
+" 350 39 
+1974 1 360 64 
+11 319 47 
+111 364 62 
+" 393 53 
+'975 1 436 62 
+11 41. 71 
+111 474 67 
+" 500 82 
+1976 I 530 67 
+11 512 70 
+111 605 67 
+" 632 68 
+1977 I 644 65 
+11 634 76 
+111 704 78 
+" 750 84 
+1978 I 846 92 
+11 864 79 
+111 934 n 
+IV 996 98 
+.. SERIES EPA DESDE 1964 .. 
+• PARADOS • 
+Mi les de persones 
+INDUSTRIA CONSTRUCCI6N 
+PARADOS PARADOS 
+15 '" 
+16 20 
+17 15 
+15 17 
+19 36 
+22 18 
+21 12 
+21 13 
+21 31 
+20 13 
+18 8 
+14 " 
+17 33 
+18 '6 
+17 13 
+14 15 
+22 35 
+22 '7 
+23 " 
+20 13 
+22 31 
+22 13 
+18 8 
+13 " 
+17 32 
+15 16 
+17 13 
+15 17 
+23 39 
+25 22 
+28 '8 
+24 21 
+31 42 
+36 27 
+35 26 
+32 32 
+45 56 
+38 39 
+44 31 
+32 29 
+34 45 
+36 32 
+46 39 
+36 59 
+47 95 
+58 8' 
+47 71 
+60 78 
+64 109 
+59 ,oa 
+62 96 
+62 10' 
+67 ", 
+74 104 
+66 ,,. 
+n 112 
+89 135 
+95 ,,. 
+98 134 
+107 141 
+-4 3-
+SERVICIOS SIN CLASIFIC AR 
+"RAOOS PARADOS 
+39 67 
+12 64 
+29 72 
+6 10' 
+36 37 
+9 32 
+26 45 
+2 80 
+34 20 
+7 29 
+25 38 
+2 79 
+30 24 
+6 22 
+21 49 
+2 82 
+31 35 
+7 34 
+22 52 
+2 73 
+24 33 
+4 27 
+'8 53 
+5 81 
+37 26 
+5 41 
+31 53 
+6 99 
+41 " 
+" 67 
+36 85 
+14 129 
+" 74 
+21 85 
+53 102 
+34 153 
+n 84 
+47 119 
+76 128 
+47 203 
+84 m 
+" 152 
+77 139 
+60 '87 
+73 159 
+65 144 
+70 220 
+78 201 
+93 '98 
+80 '94 
+89 290 
+92 309 
+97 303 
+88 293 
+100 354 
+'09 m 
+126 404 
+122 432 
+131 494 
+148 503
+
+TOTAL 
+ECONC»4fA AGRICULTURA 
+PARADOS PARADOS 
+1979 I 1,061 88 
+" 1,061 9S 
+111 1,131 87 
+" 1,241 88 
+'980 , '.384 ,OS 
+11 1,449 ", 
+111 1 ,504 10' 
+" 1,631 ", 
+1981 1 1 ,155 m 
+11 1,798 144 
+111 1,891 '16 
+" 2,002 116 
+1982 1 2,on 12. 
+11 2,052 110 
+111 2,148 108 
+" 2,248 117 
+'983 1 2,336 124 
+11 2,215 123 
+111 2,352 117 
+" 2,453 '28 
+1984 1 2,610 '80 
+11 2,681 219 
+111 2,745 228 
+" 2,901 224 
+1985 1 2,963 213 
+11 2,934 257 
+111 2,931 2SS 
+IV 2,981 259 
+1986 1 3,011 263 
+11 2,932 265 
+111 2,894 252 
+IV 2,925 262 
+1987 1 2,992 257 
+11 2,936 252 
+111 2,918 275 
+" 2.904 256 
+1988 I 2,941 238 
+11 2,899 26' 
+111 2,850 258 
+" 2,1 01 223 
+1989 t 2,698 231 
+11 2,555 230 
+111 2,468 220 
+IV 2,522 231 
+, ... 1 2,510 192 
+11 2,438 210 
+111 2,392 203 
+" 2,424 19' 
+'99' 1 2,421 189 
+11 2.388 185 
+111 2,480 212 
+" 2,566 199 
+1992 1 2,632 171 
+11 2 .... 204 
+111 2,189 211 
+" 3,047 '86 
+.. SERIES EPA OESOE 1964 • 
+• PARADOS • 
+Mi les de personas 
+INDUSTRIA COHSTRUCCI6N 
+PARADOS PARADOS 
+122 162 
+119 15. 
+123 ,.7 
+139 10S 
+15. 216 
+,., 217 
+,., 213 
+'79 228 
+'99 253 
+201 259 
+212 260 
+238 2SO 
+24. m 
+2S3 252 
+265 252 
+2M 259 
+28' 268 
+2M 2S4 
+268 26' 
+280 281 
+298 330 
+297 318 
+305 301 
+32S 316 
+339 323 
+32S 308 
+31. 273 
+'" 268 
+31. 278 
+308 2.' 
+298 2S3 
+293 242 
+298 252 
+292 247 
+294 219 
+282 226 
+314 232 
+299 206 
+274 204 
+280 '95 
+Z8S " . 
+268 '99 
+269 '76 
+281 203 
+292 224 
+283 " , 
+276 , . . 
+298 221 
+31. '" 
+32S 239 
+327 243 
+'" 267 
+31' m 
+341 313 
+380 3SS 
+454 387 
+- 44-
+SERVICIOS SIN CLASIFIC AR 
+PARADOS PARADOS 
+159 531 
+m 538 
+1M 595 
+180 649 
+21. .9' 
+219 737 
+230 798 
+261 849 
+275 892 
+274 921 
+285 1,018 
+320 1,018 
+339 '.095 
+328 1,109 
+'38 1,185 
+361 1,245 
+381 1,282 
+386 1,246 
+381 1,311 
+420 1,344 
+440 1,422 
+425 1,422 
+428 1,483 
+472 1,511 
+SOl 1,586 
+483 1,561 
+477 1,608 
+524 1,618 
+536 1,626 
+SOS 1,592 
+497 1,594 
+528 1,600 
+561 1,625 
+SSO 1,595 
+564 1,567 
+60S 1,536 
+644 1,513 
+OO. 1,524 
+584 1,531 
+608 1,395 
+." 1 ,323 
+602 1 ,256 
+584 1,220 
+639 1,169 
+657 1,145 
+659 1,015 
+628 1,089 
+683 1,025 
+701 98' 
+677 963 
+700 998 
+781 986 
+807 1 ,024 
+827 1 ,001 
+845 998 
+96' 1,058
+
+TOTAL 
+ECONOMrA 
+1964 1 2.4 
+11 l., 
+111 2.0 
+" 2.0 
+1965 1 2.0 
+11 1.4 
+111 1.5 
+" 1.4 
+1966 1 1.4 
+11 o., 
+111 1.1 
+" 1.2 
+1967 1 1.3 
+11 1.0 
+111 1.2 
+" 1.3 
+1968 I 1. 4 
+11 1.0 
+111 1.2 
+IV 1.2 
+1969 I 1.2 
+11 0.8 
+111 1.0 
+IV 1.1 
+1970 I 1.2 
+11 O., 
+111 1.2 
+IV 1. 3 
+1971 1 1.5 
+11 1.2 
+111 1.. 
+IV 1. 7 
+1972 1 1.9 
+11 1.7 
+111 2.1 
+IV 2.3 
+1973 1 2.5 
+11 2.3 
+111 2.' 
+IV 2.' 
+1974 1 2.7 
+11 2.4 
+111 2.7 
+IV 2.' 
+1975 1 3.2 
+11 3.1 
+111 3.' 
+IV 3.8 
+1976 1 4.0 
+11 3.' 
+111 4.' 
+IV 4.8 
+1977 1 4.' 
+11 4.8 
+111 5.3 
+IV 5.' 
+1978 1 '.3 
+11 '.5 
+111 7.0 
+IV 7.5 
+.. SERIES EPA DESDE 1964 • 
+• TASAS DE PARO . 
+AGR I CULTURA INDUSTRIA 
+2.' o .• 
+2.4 O., 
+2.5 O., 
+2.3 0.5 
+2.5 0.7 
+2.1 0.8 
+l., 0.7 
+1.4 0.7 
+1.5 0.8 
+1.0 0.7 
+1.1 O., 
+O., 0.5 
+1.3 o .• 
+1.3 O., 
+1.3 o .• 
+1.1 0.5 
+1.2 0.7 
+1.1 0.7 
+1.0 0.8 
+1.0 0.7 
+1.0 0.7 
+O., 0.7 
+0.8 O., 
+O., 0.4 
+O., O., 
+0.8 0.5 
+0.8 O., 
+0.7 0.5 
+O., 0.7 
+0.8 0.8 
+O., O., 
+0.8 0.8 
+1.4 1.0 
+1.4 1.1 
+1.6 1.1 
+1.4 1.0 
+2.0 1.4 
+1.8 1.1 
+1.9 1.3 
+1.1 1.0 
+l., 1.0 
+1.4 1.1 
+l., 1.3 
+1.. 1.0 
+l., 1.4 
+2.2 1.7 
+2.2 1.3 
+2.8 1.7 
+2.2 l.' 
+2.4 1.7 
+2.4 1.7 
+2.4 1.7 
+2.4 l., 
+2.8 2.1 
+2.' 1.8 
+3.1 2.0 
+3.4 2.5 
+3.0 2.7 
+2.' 2.8 
+3.8 3.0 
+-4 5-
+CONSTRUCCIóN SERVICIOS 
+4.3 1.1 
+2.2 0.3 
+1.. 0.8 
+1.7 0.1 
+3.7 O., 
+1.7 0.2 
+1.1 0.7 
+1.2 0.1 
+3.0 o., 
+1.2 0.2 
+0.8 O., 
+1.1 0.0 
+3.0 0.8 
+1.5 0.1 
+1.1 0.5 
+1.4 0.1 
+3.2 0.8 
+1.5 0.2 
+1.0 0.5 
+1.1 0.1 
+2.8 O., 
+1.2 0.1 
+0.7 0.4 
+1.0 0.1 
+2.8 0.8 
+1. 4 0.1 
+1.1 0.7 
+1.5 0.1 
+3.3 O., 
+l., 0.2 
+1.5 0.8 
+1.7 0.3 
+3.5 1.0 
+2.2 0.4 
+2.1 1.1 
+2.' 0.7 
+4.' 1.5 
+3.2 O., 
+2.5 1.5 
+2.3 O., 
+3.' l.. 
+2.5 1.0 
+3.0 1.5 
+4.5 1.1 
+7.4 1.4 
+'.3 1.2 
+5.5 1.3 
+'.0 1.5 
+8.' 1.8 
+8.3 1.5 
+7.4 1.7 
+7.7 1.7 
+8.4 1.8 
+7.7 1.6 
+7.' l., 
+8.1 2.0 
+10.0 2.3 
+10.1 2.3 
+10.0 2.4 
+10.6 2.7
+
+TOTAL 
+ECotlOMfA 
+1979 I 8.0 
+11 8.0 
+111 8.5 
+IV 9.3 
+1980 I 10./0 
+11 10.9 
+111 11. 3 
+IV 12.3 
+1981 1 13.2 
+11 13.6 
+111 1/0.2 
+IV 15.0 
+1982 I 15.5 
+11 15.3 
+111 15.9 
+IV 16.6 
+1983 1 17.2 
+11 16.8 
+111 17.2 
+IV 17.9 
+1984 1 19.5 
+11 19.7 
+111 20.1 
+IV 21.2 
+1985 1 21.6 
+11 21.4 
+111 21.2 
+IV 21.5 
+1986 I 21. 7 
+11 21.0 
+111 20.6 
+IV 20.7 
+1987 I 21.0 
+11 20.6 
+111 20.2 
+IV 20.0 
+1988 I 20.2 
+11 19.8 
+111 19.4 
+IV 18.5 
+1989 I 18.4 
+11 17.3 
+111 16.6 
+IV 16.9 
+1990 1 16.7 
+11 16.3 
+111 15.9 
+IV 16.1 
+1991 1 16.1 
+11 15.9 
+111 16.4 
+IV 17.0 
+1992 1 17.5 
+11 17.7 
+111 18.3 
+IV 20.1 
+.. SUIES EPA OESOE 1964 .. 
+- TASAS DE PARO -
+ACRICULTURA INDUSTRIA 
+3.4 3.5 
+3.8 3.4 
+3.5 3.6 
+3.6 4.1 
+4.3 4.6 
+4.9 4.8 
+4.3 4.8 
+4.9 5.4 
+5.8 6.0 
+6.3 6.1 
+5.1 6.5 
+5.2 7.4 
+5.7 7.7 
+5.1 '.0 
+4.9 8.5 
+5.2 8.6 
+5.5 9.1 
+5.6 8.6 
+5.2 '.7 
+5.8 9.1 
+8.1 9.6 
+9.9 9.7 
+10.2 lO. , 
+10.0 10.8 
+9.4 11. 3 
+11. 5 10.9 
+11. 6 10.7 
+12.0 10.5 
+12.5 10.6 
+12.9 10.l 
+12.6 10.0 
+1l.0 9.7 
+12.8 9.9 
+12.8 9.6 
+13.8 9.6 
+12.9 9.1 
+11. 9 10.2 
+ll.6 9.6 
+13.l 8.9 
+" .8 9.0 
+12./0 9.1 
+12.5 8.5 
+12.0 8.4 
+13.0 8.7 
+10.9 8.9 
+12.3 8.6 
+12.3 8.5 
+12.1 9.2 
+". 7 9.8 
+" .8 10.1 
+13.9 10.2 
+13.5 10.4 
+". 6 10.0 
+13.9 10.6 
+1/0.8 12.0 
+13.2 14.4 
+- 46 -
+CONSTRUCCI6N SERVICIOS 
+12./0 2.9 
+11. 7 2.8 
+12.6 3.0 
+1/0.2 3.3 
+16.6 3.9 
+16.5 4.0 
+16.5 4.2 
+18.' 4.7 
+20./0 5.0 
+20.8 5.0 
+20.6 5.1 
+20.0 5.7 
+21.8 6.0 
+20.2 5.7 
+20.3 5.9 
+21.2 6.3 
+22.5 6.7 
+20.5 6.7 
+21.5 6.6 
+2l.0 7.2 
+28.l 7.6 
+27./0 7.4 
+26.2 7.4 
+28.1 8.2 
+29.7 8.7 
+28.1 8.3 
+25.l 8.0 
+24.8 8.7 
+26.1 '.7 
+2l.9 8.1 
+22.2 7.9 
+21.2 8.3 
+21.9 8.7 
+21.l 8.5 
+18.8 '.5 
+18.9 9.0 
+19.6 9.5 
+17.2 8.9 
+16.2 8.5 
+15.3 8.7 
+16.6 9.1 
+15.3 '.3 
+1l.1 8.0 
+1/0.7 8.7 
+16.0 8.9 
+'/0.8 8.8 
+13.6 8.2 
+15.0 8.9 
+15.7 9.1 
+15.8 8.7 
+15.9 8.9 
+17 .4 9.9 
+20.4 10.2 
+20.5 10.4 
+22.9 10.5 
+25.0 12.0
+
+TOTAL 
+ECONc.tfA AGRIOJL TURA 
+OCUPADOS OCUPADOS 
+1964 1 11 ,594 4,532 
+11 11 ,665 4,437 
+111 11 ,606 4,190 
+IV 11,704 4,192 
+1965 1 11,795 4,261 
+11 12,097 4,356 
+111 12,057 4,372 
+IV 12,152 4,338 
+1966 1 12,147 4,407 
+11 12,091 4,313 
+111 12,199 4,364 
+IV 12,176 4,349 
+1967 1 12,185 4,324 
+11 12,162 4,136 
+111 12,293 4,187 
+IV 12,255 4,195 
+1968 1 12,230 4,215 
+11 12,255 4,120 
+111 12,331 4,112 
+IV 12 ,328 4,107 
+1969 1 12,401 4,130 
+11 12,282 3,986 
+111 12,437 3,979 
+IV 12,319 3,921 
+1970 1 12,370 3,908 
+11 12,350 3,832 
+111 12,379 3,757 
+IV 12,352 3,n8 
+1971 1 12,452 3,731 
+11 12,4G4 3,631 
+111 12,503 3,602 
+IV 12,491 3,581 
+1972 1 12,651 3,604 
+11 12,646 3,515 
+111 12,740 3,483 
+IV 12,718 3,446 
+1973 1 12,793 3,447 
+11 12,836 3,370 
+111 12 ,990 3,348 
+IV 13,043 3,350 
+1974 1 13,on 3,365 
+11 13,036 3,265 
+111 13,151 3,228 
+IV 13,052 3,187 
+1975 1 12,993 3,190 
+11 12,904 3,089 
+111 12 ,832 2,978 
+IV 12 ,703 2,886 
+1976 1 12,660 2,953 
+11 12,610 2,816 
+111 12,581 2,745 
+IV 12,621 2,707 
+1977 1 12,6 21 2,678 
+11 12,652 2,605 
+111 12,633 2,617 
+IV 12,630 2,602 
+1978 1 12,530 2,620 
+11 12,423 2,548 
+111 12,368 2,536 
+IV 12,310 2,493 
+.. SERIES EPA DESOE 1964 • 
+- OCUPADOS -
+Mi les de personas 
+INOUSTRIA CONSTRUCCIóN 
+OCUPADOS OCUPADOS 
+2,688 835 
+2,784 879 
+2,795 924 
+2,871 .,8 
+2,786 939 
+2,813 997 
+2,754 1,025 
+2,852 1,023 
+2,822 1,000 
+2,833 1,028 
+2,871 1,068 
+2,869 1,063 
+2,919 1,035 
+2,966 1,064 
+2,967 1,106 
+2,926 1,1 02 
+2,938 1,062 
+2,947 1,093 
+2,939 1,126 
+2,938 1,131 
+3,017 1,097 
+3,032 1,108 
+3,068 1,151 
+3,014 1,146 
+3,015 1,110 
+3,028 1,153 
+3,044 1,161 
+3,055 1,151 
+3,068 1,115 
+3,088 1,147 
+3, lOO 1,178 
+3,110 1,l n 
+3,137 1,145 
+3,189 1,176 
+3,199 1,201 
+3,223 1,191 
+3,223 1,152 
+3,3" 1,185 
+3,307 ',218 
+3,353 1,224 
+3,388 1,200 
+3,416 1,231 
+3,434 1,262 
+3,394 1,245 
+3,406 1,191 
+3,404 1,204 
+3,465 1,222 
+3,425 1,209 
+3,387 1,160 
+3,423 1,191 
+3,488 1,202 
+3,486 1,205 
+3,484 1,201 
+3,514 1,250 
+3,501 1,285 
+3,488 1,269 
+3,451 1,224 
+3,427 1,213 
+3,399 1,213 
+3,398 1,190 
+-4 7 -
+SECT(lI:t 
+SERVICIOS AAPP PRIVADO 
+OOJPAOOS OCUPADOS OCUPADOS 
+3,539 716 10,8n 
+3,564 734 10,931 
+3,697 788 10,818 
+3,_ 726 10 ,978 
+3,'" 719 ", 076 
+3,931 732 11,365 
+3,907 748 11,309 
+3,939 m 11,425 
+3,918 719 11,428 
+3,918 694 11 ,397 
+3,896 730 ", 469 
+3,896 716 " ,460 
+3,907 711 11,473 
+3,_ 696 11,465 
+4,033 750 11,543 
+4,033 725 11,530 
+4,014 716 11, 514 
+4,096 712 11,543 
+4,153 779 11 ,552 
+4,153 744 11,584 
+4,157 n4 1',6n 
+4,157 730 11,552 
+4,238 781 11,656 
+4,238 756 11,563 
+4,337 756 " ,613 
+4,337 756 11,594 
+4,418 824 11,556 
+4,418 806 11,546 
+4,538 796 " ,656 
+4,538 SOO 11,604 
+4,623 861 11,642 
+4,623 833 11 ,658 
+4,767 827 11,825 
+4,767 830 11 ,816 
+4,857 879 " ,861 
+4,857 854 11,864 
+4,971 862 11,931 
+4,971 865 11,971 
+S, ',7 951 12,039 
+5,117 932 12,111 
+5,124 .. , 12,176 
+5,124 906 12,130 
+5,226 947 12,204 
+5,226 924 12,128 
+5,207 913 12,080 
+5,207 898 12,006 
+5,167 974 11 ,858 
+5,183 971 11,732 
+5,160 967 11,693 
+5,180 976 11,633 
+5,146 , ,051 11,530 
+5,223 1,043 11 ,578 
+5,258 1,032 11,589 
+5,283 1,044 11,608 
+5,231 1,090 11,543 
+5,271 1,070 11 ,560 
+5,235 1,081 11,449 
+5,234 1,098 " ,325 
+5,220 1,166 11,202 
+5,229 1,1 32 11,17 8
+
+TOTAL 
+ECON04fA AGRICULTURA. 
+OCUPADOS OCUPADOS 
+1979 I 12,2 33 2,466 
+11 12,195 2,395 
+111 12, 190 2,390 
+IV 12,096 2,3n 
+1980 1 11 ,956 2,318 
+11 11 ,813 2,245 
+111 11,7 75 2, 243 
+IV 11 ,642 2, 228 
+1981 1 11 ,545 2,201 
+11 11 ,452 2,129 
+111 11,4 63 2,140 
+IV 11 ,372 2,114 
+'982 1 11 ,346 2.0 96 
+11 11 ,366 2.0 64 
+111 11 ,346 2,111 
+IV 11 ,325 2,128 
+'983 1 11, 214 2,1 39 
+11 11,2 86 2, 074 
+111 11,2 96 2,106 
+IV 11,2 49 2,091 
+'984 1 11 ,008 2,041 
+11 10 ,943 ,.m 
+111 10,9 45 2,019 
+IV 10,812 2,011 
+1985 1 10,n6 2,051 
+11 10,n1 1, 972 
+111 10 ,869 1, 954 
+IV 10,872 1, 905 
+1986 1 10 ,899 1, 842 
+11 11 ,052 1,7 91 
+111 11 ,148 1,7 51 
+IV 11 ,220 1,7 49 
+1987 1 11,2 39 1,7 53 
+11 11 ,330 1,7 23 
+111 11,5 21 1,712 
+IV 11,5 94 1,7 25 
+1988 I 11, 6.12 1,7 58 
+11 11 ,709 1, 671 
+111 ", 851 1,6 75 
+IV 11 ,920 1,6 73 
+1989 I 12,0 04 1, 625 
+11 12,194 1,6 05 
+111 12,4 27 1,616 
+IV 12,4 09 1,5 46 
+'990 1 12,482 1,5 75 
+11 12,557 1,4 99 
+111 12,6 57 1, 448 
+IV 12,6 20 1,421 
+'99' 1 12,580 1,421 
+11 12,6 22 1, 376 
+111 12,6n 1,3 09 
+IV 12,559 1,2 75 
+'992 1 12,4 49 1, 304 
+11 12,4 58 1,2 57 
+111 12,413 1,2 20 
+IV 12, 146 1,2 30 
+'993 1 ", 882 1,2 20 
+11 11 ,868 1,212 
+111 1',8n 1, 178 
+.. SERIES EPA DESDE 1964 .. 
+• OCUPADOS • 
+Ni les de personas 
+INDUSTRIA CONSTRUCCIóN 
+. OCUPADOS OCI.OAOOS 
+3, 356 1,145 
+3,358 1,171 
+3,311 1,15 2 
+3, 273 1,11 9 
+3,257 1,0 85 
+3,181 '.0 96 
+3,191 1,0 73 
+3,151 1, 028 
+3,121 988 
+3,091 983 
+3, 030 1,0 01 
+2,974 1,0 00 
+2,931 974 
+2,924 998 
+2,847 988 
+2,846 964 
+2,819 926 
+2.638 984 
+2,810 98' 
+2,807 941 
+2._ 836 
+2,765 844 
+2,7 Z6 847 
+2,700 8<16 
+2,673 764 
+2,647 787 
+2,646 8<lS 
+2,650 810 
+2.666 787 
+2,696 83' 
+2,698 884 
+2,724 902 
+2,720 899 
+2,7 56 914 
+2,769 944 
+2,802 967 
+2.770 95' 
+2, 822 99' 
+2,805 1,0 57 
+2,819 , .1I8l 
+2,851 1, 087 
+2._ , .099 
+2,915 1, 173 
+2,941 1,ln 
+2,981 1, 174 
+2,991 1,215 
+2,979 1,2 45 
+2,961 1, 248 
+2,900 1, 259 
+2, 895 1,2 76 
+2._ 1,2 91 
+2 . ... 1,2 69 
+2.860 1,210 
+2,859 1,216 
+2,7 97 1, 196 
+2,701 1,1 64 
+2, 583 1,1 24 
+2,557 1,1 01 
+2,534 1,0 89 
+- 48-
+SECTOR 
+SERVICIOS M" PRIVADO 
+OCIJI>ADOS OCI.OADOS OCUPADOS 
+5,265 1, 102 11,1 31 
+5,271 1, 103 11 ,092 
+5,337 1, 187 11 ,003 
+5,327 1, 156 10 ,940 
+5,297 1, 154 10,8 02 
+5,290 1,1 61 10,6 52 
+5,267 1, 225 10,550 
+5,235 1, 213 10,4 29 
+5,236 1, 202 10,3 43 
+5,249 1, 183 10,269 
+5,291 1, 258 10,2 05 
+5,285 1,212 10, 160 
+5,344 1,2 39 10,107 
+5,381 1, 242 10,12 4 
+5,399 1, 313 10,0 33 
+5,387 1,2 71 10,0 54 
+5,329 1,2 62 9, 952 
+5,391 1,2 79 10,0 07 
+5,399 1, 368 9, 928 
+5,411 1,331 9,918 
+5,333 1,2 94 9,714 
+5,341 1, 302 9,641 
+5,353 1, 399 9,546 
+5,294 1, 348 9,464 
+5,288 1, 329 9,447 
+S.366 1, 354 9,417 
+5,464 1, 439 9, 430 
+5,507 1,4 80 9, 392 
+5,603 1,4 20 9, 479 
+5,7 33 1, 506 9,546 
+5,816 1,5 38 9,610 
+5,845 1, 549 9,671 
+5,867 1,4 81 9,758 
+5,937 1, 436 9,894 
+6, 097 1,4 60 10,0 61 
+6,101 1, 461 10,133 
+6,133 1, 465 10, 147 
+6, 224 1,4 78 10,2 31 
+6,314 1, 466 10 ,385 
+6, 346 1, 535 10,3 85 
+6,441 1,5 38 10,4 66 
+6,605 1,5 68 10 ,626 
+6,7 23 1,6 48 10 ,779 
+6, 745 1,6 59 10,7 50 
+6, 752 1,6 65 10,817 
+6, 853 '.6 66 10,891 
+6, 984 1, 715 10,9 42 
+6,991 '. 704 10,916 
+7,000 1,711 10,8 69 
+7, 076 1,7 54 10 ,868 
+7,191 1,7 88 10, 889 
+7,136 1, 783 10,n6 
+7,076 1,7 63 10,6 86 
+7,126 l,n 7 10,6 81 
+7,200 1, 803 10,610 
+7,050 1, 760 10,386 
+6, 954 1,7 38 10, 144 
+6, 998 1,7 61 10,106 
+7,076 1, 781 10,0 96
+
+TOTAL 
+ECONOMfA AGRI CUL TURA 
+ASALARIADOS ASALARIADOS 
+1964 1 6,463 1,2 03 
+11 6,389 1, 137 
+111 6,649 1, 117 
+IV 6,753 1,1 38 
+1965 1 6,937 1, 180 
+11 6,915 1,1 19 
+111 6,899 1, 108 
+IV 7,013 1,1 43 
+1966 1 7,035 1, 193 
+11 6,965 1, 126 
+111 6,_ 1, 098 
+IV 7,027 1, 099 
+1967 1 7,080 1,131 
+11 7,073 l,G 49 
+111 7,133 1,042 
+IV 7,167 1, 074 
+1968 1 7,178 1,113 
+11 7,166 1, 058 
+111 7,220 1,029 
+IV 7,255 1,046 
+1969 1 7,349 1,"9 
+11 7,264 1,042 
+111 7,429 1,046 
+IV 7,430 1,059 
+1970 1 7,536 1,081 
+11 7,547 1,031 
+111 7,594 984 
+IV 7,622 1,010 
+1971 1 7,880 1, 067 
+11 7,887 1, 008 
+111 7,996 98' 
+IV 8,023 998 
+1972 1 8,163 1,0 27 
+11 8,193 95' 
+111 8,204 927 
+IV 8,244 951 
+1973 1 8,301 976 
+11 8,361 907 
+111 8,392 892 
+IV 8,485 931 
+1974 1 8,610 975 
+11 8,621 917 
+111 8,660 881 
+IV 8,633 888 
+1975 1 8,601 922 
+11 8,586 869 
+111 8,590 8" 
+IV 8,594 792 
+1976 I 8,594 8" 
+11 8,636 803 
+111 8,643 755 
+IV 8,_ 747 
+19n I 8,697 787 
+11 8,735 730 
+111 8,680 700 
+IV 8,709 727 
+1978 I 8,631 763 
+11 8,563 730 
+111 8,524 702 
+IV 8,482 679 
+.. SERIES EPA DESDE 1964 • 
+- ASALARIADOS -
+Mi les de persornlS 
+INDUSTRIA CONSTRUCCI6/rI 
+ASALARIADOS ASALARIADOS 
+2,052 T74 
+2,100 738 
+2,225 809 
+2,273 852 
+2,254 871 
+2,268 856 
+2,234 904 
+2,2n 91' 
+2,262 910 
+2,282 881 
+2,315 93' 
+2,340 94' 
+2,373 94' 
+2,429 921 
+2,421 969 
+2,401 988 
+2,405 966 
+2,409 947 
+2,411 992 
+2,408 1,018 
+2,463 992 
+2,470 978 
+2,515 1,0 07 
+2,481 1,0 30 
+2,506 996 
+2,552 1,010 
+2,582 1,010 
+2,569 1,0 26 
+2,629 1, 007 
+2,669 1,033 
+2,673 1,019 
+2,685 1,023 
+2,726 998 
+2,789 1,037 
+2,781 1,0 26 
+2,785 1, 038 
+2,810 995 
+2,895 1,0 40 
+2,879 1,031 
+2,902 1, 063 
+2,954 1,045 
+2,981 1, 088 
+2,986 l,on 
+2,937 1,092 
+2,957 1,036 
+2,969 1,062 
+3,023 1,055 
+2,992 1,064 
+2,953 1,001 
+3,009 l,G 46 
+3,on 1,040 
+3,063 1, 040 
+3,076 1,0 04 
+3,095 1,051 
+3,085 1,o al 
+3,067 1,0 54 
+3,031 1,013 
+3,009 1,004 
+3,002 998 
+3,OOS 978 
+- 49 -
+SECTOR 
+SERVICIOS AAPP PRIVADO 
+ASALARIADOS ASALARIADOS ASALARIADOS 
+2,434 716 5,747 
+2,414 734 5,655 
+2,498 788 5,861 
+2,491 726 6,028 
+2,632 719 6,218 
+2,6n m 6,183 
+2,654 748 6,151 
+2,678 m 6,286 
+2,669 719 6,316 
+2,675 694 6,270 
+2,651 730 6,269 
+2,643 716 6,311 
+2,633 711 6,369 
+2,674 696 6,3n 
+2,702 750 6,383 
+2,704 m 6,442 
+2,694 716 6,462 
+2,751 712 6,454 
+2,787 779 6,441 
+2,784 744 6,511 
+2,m m 6,625 
+2,m 730 6,534 
+2,861 781 6,648 
+2,861 756 6,674 
+2,954 756 6,780 
+2,954 756 6,791 
+3,017 824 6,no 
+3,017 806 6,815 
+3,ln 796 7,084 
+3,1n 800 7,087 
+3,318 861 7,135 
+3,318 '" 7,190 
+3,413 827 7,337 
+3,413 8" 7,363 
+3,469 879 7,325 
+3,469 854 7,390 
+3,519 862 7,439 
+3,519 86' 7,496 
+3,590 951 7,440 
+3,589 '" 7 ,553 
+3,636 901 7,710 
+3,636 906 7,714 
+3,716 947 7,713 
+3,716 924 7,709 
+3,687 913 7,688 
+3,687 .. 8 7,688 
+3,703 974 7,616 
+3,745 971 7,623 
+J,745 967 7,627 
+3,777 976 7,660 
+3,n6 1,0 51 7,592 
+3,817 1,0 43 7,623 
+3,829 1, 032 7,665 
+3,858 1,044 7,691 
+3,813 1,090 7,590 
+3,862 1, 070 7,639 
+3,824 1,OS1 7,550 
+3,820 1,0 98 7,465 
+3,821 1, 166 7,358 
+3,817 1, 132 7,350
+
+TOTAL 
+ECONOMiA AGR I CULTURA 
+ASALARIADOS ASALARIADOS 
+1979 I 8,459 m 
+II 8,394 6" 
+JlI 8,319 624 
+IV 8,280 634 
+1980 I 8,225 647 
+JI 8,093 '94 
+JlI 8,018 '84 
+IV 7,926 ,., 
+1981 I 7,859 609 
+JI 7,807 '61 
+JlI 7,788 "8 
+IV 7, 748 '68 
+1982 I 7.m '89 
+JI 7, 774 "6 
+JlI 7,724 m 
+IV 7,731 '89 
+1983 I 7,643 616 
+JI 7,701 '6' 
+JlI 7,641 '54 
+IV 7,613 '" 
+'984 I 7,396 '44 
+JI 7,342 '09 
+JlI 7,302 " , 
+IV 7,229 530 
+1985 I 7,234 '98 
+JI 7,246 548 
+JlI 7,359 536 
+IV 7,399 S47 
+1986 I 7,471 S47 
+JI 7,618 '" 
+JlI 7,745 "6 
+IV 7,797 S33 
+1987 I 7.804 544 
+JI 7,877 S26 
+JlI 8,057 "8 
+IV 8,152 544 
+1988 I 8,17 2 '94 
+JI 8, 285 ,,, 
+JlI 8,416 S03 
+IV 8,531 538 
+1969 1 8,659 52' 
+JI 8,802 48' 
+JlI 9,017 487 
+IV 9,040 4S9 
+1990 I 9,134 '06 
+JI 9,230 469 
+JlI 9,357 443 
+IV 9,372 470 
+199' I 9,339 SOO 
+JI 9,385 489 
+JlI 9,420 437 
+IV 9,347 433 
+1992 I 9,103 441 
+JI 9,144 398 
+JlI 9,135 371 
+IV 8,922 393 
+1993 I 8,711 38' 
+JI 8, 700 377 
+JlI 8,712 344 
+.. SER I ES EPA DESDE 1964 ... 
+- ASALARIADOS -
+Mi t es de personas 
+INDUSTRIA CONSTRUCCI6N 
+ASALARIADOS ASALARIAOOS 
+2,973 932 
+2,974 950 
+2,9 28 922 
+2.690 899 
+2,873 8n 
+2,811 87> 
+2, 805 8'9 
+2,762 813 
+2,7 37 767 
+2,715 763 
+2, 667 78' 
+2,608 784 
+2,585 764 
+2,569 782 
+2,504 768 
+2,507 743 
+2,476 706 
+2,474 m 
+2,442 742 
+2,4 37 708 
+2,417 607 
+2._ 6'8 
+2,355 6" 
+2,330 S74 
+2,305 m 
+2, 263 SS, 
+2,301 '6' 
+2,310 '64 
+2,314 548 
+2,344 '93 
+2, 346 64' 
+2,361 6'7 
+2,367 647 
+2,395 682 
+2,412 714 
+2, 453 730 
+2,421 703 
+2, 472 748 
+2,4 60 8" 
+2,480 83' 
+2,522 846 
+2,541 ... 
+2,565 929 
+2,586 924 
+2,6 26 924 
+2,632 967 
+2,6 35 98' 
+2,621 98' 
+2,552 990 
+2,551 995 
+2, 533 1,0 09 
+2, 533 984 
+2,458 921 
+2,465 924 
+2,424 90s 
+2,339 876 
+2,242 840 
+2, 208 822 
+2,167 80s 
+- 50-
+SECTOR 
+SERVICIOS AAPP PRIVADO 
+ASALARIADOS ASALARIADOS ASALARIADOS 
+3,831 1,1 02 7,357 
+3,816 1, 103 7,291 
+3,845 1, 187 7,132 
+3,856 1,1 56 7,124 
+3,833 1,1 54 7,071 
+3,813 1,1 61 6,932 
+3.no 1, 225 6,793 
+3,759 1,213 6,713 
+3,746 1,2 02 6,657 
+3, 768 1, 183 6,624 
+3, 783 1,2 58 6, 530 
+3,789 1,212 6, 536 
+3,837 1, 239 6,536 
+3,867 1,2 42 6, 532 
+3,897 1,313 6,411 
+3,892 1,2 71 6,460 
+3,844 1,2 62 6,361 
+3,910 1,2 79 6,422 
+3,903 '. 368 6,273 
+3,916 1,331 6, 282 
+3, 626 1, 294 6,102 
+3,829 1, 302 6,040 
+3, 627 1, 399 5, 903 
+3, 795 1, 346 5,681 
+3.7 99 1, 329 5,905 
+3 .... 1, 354 5, 894 
+3,961 1,4 39 5,920 
+3,976 1, 460 5,919 
+4, 063 1,4 20 6,051 
+4,156 1,506 6,112 
+4, 238 1, 538 6,207 
+4, 245 1, 549 6,248 
+4, 246 1,4 81 6,323 
+4, 274 1, 436 6,441 
+4,413 1, 460 6,597 
+4,426 1,4 61 6,691 
+4,454 1,4 65 6,707 
+4,534 1 ,478 6,807 
+4,641 1, 466 6,952 
+4,682 1, 535 6,996 
+4,7 69 1,5 38 7,121 
+4,917 1,5 68 7,234 
+5, 036 1, 646 7,369 
+5,071 1, 659 7,381 
+5,076 1, 665 7,469 
+5,163 1 .... 7,564 
+5,298 1,715 7,642 
+5,301 1,7 04 7 . ... 
+5,297 1,711 7,626 
+5,3 50 1,7 54 7,631 
+5,442 1,7 88 7,632 
+5,396 1,7 63 7, 564 
+5, 284 1, 763 7,340 
+5,357 1,7 77 7,367 
+5,435 1,8 03 7,332 
+5,315 1,7 60 7, 162 
+5,244 1,7 38 6, 973 
+5, 293 1,7 61 6,939 
+5,377 1,7 81 6,931
+
+INDUSTRIA ENERGíA 
+OCUPADOS OCUPADOS 
+1964 1 2,688 '80 
+11 2,784 '76 
+111 2,795 194 
+IV 2,871 ,,, 
+1965 1 2,7 86 180 
+11 2,813 174 
+111 2,754 157 
+IV 2,852 165 
+'966 1 2,822 In 
+11 2,8 33 '66 
+111 2,871 169 
+IV 2,869 '60 
+'967 1 2,919 '56 
+11 2,966 158 
+111 2,967 149 
+IV 2,926 '46 
+'968 1 2,938 149 
+11 2,947 155 
+111 2,939 150 
+IV 2,938 147 
+1969 I 3,017 155 
+11 3,032 '42 
+111 3,1168 15' 
+IV 3,014 140 
+1970 1 3,015 '36 
+11 3,028 '47 
+111 3,044 137 
+IV 3,055 '46 
+1971 1 3,068 144 
+11 3,088 144 
+111 3, lOO 145 
+IV 3,110 '47 
+1972 1 3, 137 149 
+11 3,189 150 
+1 11 3,19 9 ", 
+IV 3, 223 152 
+'973 1 3,223 '43 
+11 3,311 'SO 
+111 3,307 139 
+IV 3, 353 14' 
+1974 1 3,388 144 
+11 3,416 '46 
+111 3,434 '43 
+IV 3,394 137 
+'975 1 3,406 147 
+11 3,404 'SO 
+111 3,465 '53 
+IV 3,425 155 
+1976 1 3, 387 155 
+11 3,423 '43 
+111 3,488 158 
+IV 3, 486 '60 
+1977 1 3, 484 158 
+11 3,514 158 
+111 3,501 '62 
+IV 3,488 '63 
+1978 I 3,451 '62 
+11 3,427 16' 
+111 3,399 158 
+IV 3,398 154 
+.. SERIES EPA DESDE 1964 .. 
+- RAMAS INDUSTRIA -
+Mi les de personas 
+I IfOUSTR lA 
+SIN ENERGíA MINERALES 
+OCUPADOS OCUPADOS 
+2,508 366 
+2,608 404 
+2,601 400 
+2,676 447 
+2,606 414 
+2,639 453 
+2,597 420 
+2,686 457 
+2,651 454 
+2,666 '" 
+2,702 441 
+2,7 09 441 
+2,763 439 
+2,808 462 
+2,818 439 
+2,780 444 
+2,789 "" 
+2,791 433 
+2,789 466 
+2,790 412 
+2,862 444 
+2,889 424 
+2,917 453 
+2,875 '" 
+2,879 448 
+2,881 429 
+2,906 456 
+2,909 446 
+2,924 463 
+2,944 457 
+2,954 463 
+2,963 46' 
+2,987 '" 
+3, 039 484 
+3,048 471 
+3, 071 470 
+3,080 469 
+3,161 509 
+3,168 495 
+3,212 504 
+3,244 '" 
+3, 269 500 
+3,291 521 
+3,257 479 
+3,259 S05 
+3,254 507 
+3,311 547 
+3,271 514 
+3,232 504 
+3, 279 503 
+3,330 549 
+3,326 548 
+3,326 5SO 
+3,355 558 
+3, 340 556 
+3,3 25 558 
+3, 289 5SO 
+3,2 66 546 
+3,241 5SO 
+3,244 560 
+-5 1-
+OTRAS 
+METALES MAMUFACTURAS 
+OCUPADOS OCUPADOS 
+566 1,5 76 
+600 1,M4 
+638 1, 564 
+639 1 ,591 
+678 1,513 
+639 1 ,548 
+", 1 ,526 
+"2 1, 577 
+664 1 ,533 
+673 1 ,561 
+699 1,5 62 
+694 1, 574 
+695 1, 629 
+735 1,611 
+726 1, 653 
+739 1,5 97 
+718 1, 589 
+731 1, 626 
+719 ', 604 
+758 1,6 20 
+787 1,6 31 
+796 1, 669 
+804 ',660 
+802 1, 647 
+810 1,621 
+820 1, 631 
+828 1, 623 
+838 1, 626 
+827 1 ,634 
+814 1,6 73 
+805 1,6 87 
+800 1,7 02 
+800 1 ,715 
+810 1,7 45 
+835 1,7 43 
+868 1, 734 
+8" 1, 740 
+871 1,7 81 
+88' 1,7 93 
+889 1,819 
+907 1,815 
+918 1,8 52 
+939 1,8 31 
+954 1,8 24 
+954 ',7 99 
+"2 1, 805 
+958 1, 807 
+949 1, 808 
+927 1, 800 
+971 1, 805 
+995 1,7 87 
+996 1, 781 
+1,018 1, 758 
+1,0 22 ',m 
+1,0 13 ',m 
+1,021 1, 746 
+1,0 24 1,715 
+1, 002 1,719 
+973 1,718 
+963 1,n1
+
+INDUSTRIA ENERGfA 
+OCUPADOS OCUPADOS 
+1979 1 3,356 151 
+11 3,358 153 
+111 3,311 152 
+IV 3,273 144 
+1980 1 3,256 147 
+11 3,181 1" 
+111 3,191 153 
+IV 3,151 156 
+1981 1 3,121 156 
+11 3,091 151 
+111 3,030 149 
+IV 2,9 74 148 
+1982 1 2,931 1" 
+11 2,9 24 ' " 
+111 2,847 149 
+IV 2,846 156 
+1983 1 2,819 156 
+11 2,838 154 
+111 2,810 152 
+IV 2,807 153 
+1984 1 2. 799 157 
+11 2,765 157 
+111 2, 726 151 
+IV 2,7 00 '" 
+1985 1 2,673 153 
+11 2,647 153 
+111 2,646 159 
+IV 2,650 151 
+1986 1 2.666 152 
+11 2,696 154 
+111 2,698 144 
+IV 2, 724 144 
+1987 1 2, 720 140 
+11 2,756 139 
+111 2,769 135 
+IV 2,602 131 
+1988 1 2.770 134 
+11 2,822 138 
+111 2,805 139 
+IV 2,819 141 
+1989 I 2,851 141 
+11 2 . ... 144 
+111 2,915 143 
+IV 2,941 140 
+1990 1 2,981 147 
+11 2,991 142 
+111 2,979 149 
+IV 2,961 141 
+1991 1 2,900 133 
+11 2,895 m 
+111 2 .... m 
+IV 2,880 127 
+1992 1 2,860 120 
+11 2,859 119 
+111 2,797 120 
+IV 2,701 116 
+.. SERIES EPA DESDE 1964 .. 
+- RAMAS I NDUSTR I A -
+Mi les de personas 
+INDUSTRIA 
+SIN ENERGfA MINERALES 
+OCUPADOS OCUPADOS 
+3,205 m 
+3,206 547 
+3,159 539 
+3,129 524 
+3,109 " . 
+3,031 519 
+3,038 515 
+2.996 500 
+2,965 514 
+2,941 502 
+2,881 496 
+2,826 "2 
+2,781 493 
+2.m 482 
+2,699 471 
+2,690 465 
+2.664 471 
+2.684 467 
+2,658 464 
+2,655 460 
+2,641 463 
+2,608 456 
+2,575 437 
+2, 550 428 
+2,520 421 
+2,494 421 
+2, 487 420 
+2,499 422 
+2,514 417 
+2,543 427 
+2,554 438 
+2, 580 42. 
+2, 580 414 
+2,617 394 
+2,633 403 
+2,6 71 409 
+2,636 403 
+2.684 415 
+2,665 415 
+2,677 416 
+2,7 09 426 
+2,742 433 
+2.m 434 
+2,801 449 
+2,835 439 
+2,849 453 
+2,830 458 
+2, 820 451 
+2,767 43. 
+2,763 436 
+2,754 434 
+2,753 433 
+2,740 421 
+2,740 419 
+2,676 408 
+2, 585 395 
+- 52-
+OTRAS 
+METALES MANUFACTURAS 
+OCUPADOS OCUPADOS 
+949 1,7 03 
+964 1, 695 
+943 ',677 
+950 1, 655 
+95. 1, 627 
+937 1 ,575 
+946 1, 578 
+937 1,558 
+936 1,515 
+919 1,520 
+88' 1,4 98 
+851 1, 473 
+840 1,4 47 
+837 1, 455 
+827 1,401 
+828 1, 397 
+83' 1, 356 
+82' 1, 390 
+816 1, 378 
+835 1, 360 
+817 1, 362 
+818 1, 334 
+815 ',323 
+813 ', 309 
+787 1,312 
+75' 1,317 
+778 , ,289 
+m 1, 305 
+774 1, 324 
+786 1, 330 
+798 1,318 
+8" 1, 350 
+798 1, 368 
+835 1, 387 
+838 1, 393 
+865 1, 397 
+840 1, 393 
+853 1,416 
+868 1, 383 
+... 1, 373 
+882 1,401 
+... 1, 423 
+912 1,427 
+928 1,424 
+944 1,451 
+943 1, 453 
+935 1,4 37 
+931 1, 439 
+898 1, 433 
+907 , ,420 
+902 1,419 
+927 1, 394 
+932 1, 387 
+934 1, 388 
+926 1, 342 
+883 1,307
+
+INDUSTRIA ENERGíA 
+ASALARIADOS ASALARIADOS 
+1964 1 2,052 '" 
+11 2,10 0 159 
+111 2,225 179 
+" 2,273 181 
+1965 1 2,254 172 
+11 2,268 163 
+111 2.234 147 
+" 2,2n 158 
+1966 1 2,262 163 
+11 2,282 152 
+111 2,315 '" " 2,340 148 
+1967 1 2,373 143 
+11 2,429 141 
+1 11 2,421 135 
+" 2,401 134 
+1968 1 2,405 139 
+11 2,409 142 
+111 2,411 136 
+" 2,408 '" 
+1969 1 2,463 141 
+11 2,470 131 
+111 2,515 138 
+" 2,481 125 
+1970 1 2,506 121 
+11 2,552 137 
+111 2,582 129 
+IV 2,569 132 
+1971 1 2.629 '" 
+11 2,669 '" 
+111 2,673 135 
+IV 2,685 139 
+19n 1 2,726 145 
+11 2,789 148 
+111 2,781 148 
+IV 2,785 143 
+1973 1 2,810 141 
+11 2,895 147 
+111 2,879 134 
+IV 2,902 133 
+1974 1 2,954 142 
+11 2,981 144 
+111 2,986 "8 
+IV 2,937 129 
+1975 1 2,957 136 
+11 2,969 148 
+111 3,023 151 
+IV 2,992 152 
+1976 1 2,953 148 
+11 3,009 139 
+111 3,on 154 
+IV 3, 063 15. 
+1m 1 3, 076 154 
+11 3, 095 154 
+111 3, 085 15. 
+IV 3,067 158 
+1978 1 3,031 158 
+11 3.009 157 
+111 3,002 154 
+IV 3.008 150 
+SERIES EPA DESOE 1964 • 
+- RAXAS INDUSTRIA -
+Mi tes de personas 
+INDUSTRIA 
+SIN ENERGiA MINERALES 
+ASALAR lADOS ASALARIADOS 
+1,899 335 
+1,941 355 
+2,046 366 
+2.090 392 
+2.082 389 
+2,106 412 
+2,087 390 
+2,120 399 
+2,100 399 
+2,130 398 
+2,162 409 
+2,192 417 
+2,229 399 
+2,288 425 
+2,286 401 
+2,267 423 
+2,266 440 
+2,267 395 
+2,275 417 
+2,273 387 
+2,323 404 
+2,339 394 
+2,3n 407 
+2,355 398 
+2,384 410 
+2,415 402 
+2,453 418 
+2,437 423 
+2,496 434 
+2,535 435 
+2,538 431 
+2,546 434 
+2,581 438 
+2,640 453 
+2,634 436 
+2,641 438 
+2 .... 437 
+2,748 482 
+2,745 466 
+2,769 47. 
+2,812 488 
+2,837 473 
+2,848 490 
+2,808 454 
+2,821 470 
+2,821 480 
+2,8n 514 
+2,840 486 
+2,805 468 
+2,869 474 
+2,918 511 
+2,906 511 
+2,922 515 
+2,941 525 
+2,929 523 
+2.908 523 
+2,8n 519 
+2,852 517 
+2,848 523 
+2,858 534 
+- 53 -
+OTRAS 
+METALES MANUFACTURAS 
+ASA LAR lADOS ASALARIADOS 
+494 1,069 
+505 1,081 
+548 1,1 32 
+5S2 1, 146 
+579 1,11 3 
+5S2 1,1 41 
+562 1,1 35 
+SS. 1, 164 
+575 1,126 
+580 1,15 2 
+.00 1,15 3 
+.,. 1,17 0 
+612 1,219 
+64. 1,217 
+632 1,2 53 
+647 1, 198 
+.27 1, 199 
+641 1,232 
+636 1,2 23 
+664 1,2 22 
+689 1,230 
+700 1 ,245 
+712 1,2 57 
+712 1,246 
+m 1,252 
+738 1,276 
+742 1,2 92 
+750 1, 263 
+738 1, 324 
+730 1, 370 
+727 1, 380 
+729 1, 384 
+73. 1,407 
+749 1, 436 
+768 1, 429 
+793 1,411 
+801 1,4 30 
+804 1, 462 
+814 1,466 
+818 1,475 
+839 1, 485 
+85. 1,5 09 
+... 1,490 
+87. t,4 78 
+881 1,4 70 
+8n 1, 469 
+879 t, 479 
+8n 1,482 
+8" 1,4 85 
+900 , ,495 
+934 , ,473 
+933 , ,462 
+953 , ,454 
+950 ',466 
+938 1,4 69 
+'43 1, 443 
+943 , ,411 
+921 1,415 
+"8 1, 427 
+892 1,4 32
+
+INDUSTRIA ENERGíA 
+ASALARIADOS ASALARIADOS 
+1979 1 2,973 '''' 
+11 2,974 149 
+111 2,928 14. 
+IV 2,890 140 
+1980 [ 2,873 144 
+11 2,811 14' 
+11[ 2,&15 149 
+IV 2,762 152 
+1981 [ 2,737 152 
+11 2,715 147 
+[11 2,667 14S 
+IV 2,608 144 
+1982 [ 2,585 144 
+11 2,569 147 
+11[ 2,504 144 
+IV 2,507 151 
+1983 [ 2,476 151 
+11 2,474 149 
+11[ 2,44Z 146 
+IV 2,437 14' 
+1984 [ Z,417 152 
+11 2,386 151 
+11[ 2,355 147 
+IV 2,330 145 
+1985 [ 2,305 149 
+11 2,283 149 
+11[ 2,301 154 
+IV Z,310 14' 
+1986 I 2,314 144 
+11 2,344 149 
+11[ 2,346 140 
+IV 2,361 140 
+1987 [ 2,367 135 
+11 2,395 135 
+11[ 2,412 132 
+IV 2,453 129 
+1988 [ 2,421 132 
+11 2,4n 137 
+[11 2,460 13' 
+IV 2,480 141 
+1989 [ 2,522 140 
+11 2,541 143 
+11[ 2,565 141 
+IV 2,586 139 
+1990 [ 2,625 146 
+11 2,632 140 
+11[ 2,635 14. 
+IV 2,621 140 
+1991 [ 2,552 132 
+11 2,551 130 
+[11 2,533 130 
+IV 2,533 126 
+1992 [ 2,458 119 
+11 2,465 11. 
+11[ 2,424 119 
+IV 2,339 115 
+.. SERIES EPA DESOE 1964 .. 
+- RAMAS I NDUSTllIA -
+Mi tes de personas 
+INDUSTRIA 
+SIN ENERGIA MINERALES 
+ASALAR lADOS ASALARIADOS 
+2,826 S28 
+2,825 S21 
+2,780 513 
+2,751 49. 
+2,729 49. 
+2,665 493 
+2,656 486 
+2,610 471 
+2,585 484 
+2,568 m 
+2,521 467 
+2,464 410 
+2,441 466 
+2,423 4S3 
+2,360 443 
+2,356 440 
+2,325 446 
+2,326 439 
+2,296 438 
+2,290 432 
+2,Z65 430 
+2,234 422 
+2,208 403 
+2,185 399 
+2,156 390 
+2,134 389 
+2, 148 395 
+2, 163 396 
+2,l7tl 386 
+2, 195 395 
+2,206 407 
+2,221 393 
+2,232 382 
+2,260 371 
+2,280 382 
+2,324 389 
+2,290 381 
+2,334 394 
+2,322 391 
+2,339 396 
+2,382 406 
+2,398 412 
+2,424 411 
+2,447 425 
+2,480 41' 
+2,492 42' 
+2,488 432 
+2,481 425 
+2,420 408 
+2,420 409 
+2,403 40' 
+Z,407 406 
+2,339 390 
+2,347 38' 
+2,305 378 
+2,224 366 
+-5 4-
+OTRAS 
+METALES MANUFACTURAS 
+ASALARIADOS ASALARIADOS 
+.79 1,419 
+893 , ,410 
+873 1,394 
+880 1,373 
+886 1,344 
+866 1,306 
+." 1,299 
+864 1,276 
+859 1,242 
+846 1,250 
+81S 1,240 
+180 1,214 
+774 1,201 
+'69 1,200 
+75. 1,158 
+756 1,160 
+763 1,116 
+750 1,136 
+737 1,122 
+75' 1,101 
+142 1,09Z 
+140 l,o n 
+140 1,065 
+737 1,049 
+'14 1,052 
+686 1,060 
+70S 1,048 
+704 1,063 
+101 1,083 
+714 1,087 
+m 1,074 
+m 1,101 
+720 1,130 
+756 1,132 
+760 1,138 
+782 1,153 
+761 1,148 
+m 1,168 
+'" 1,143 
+803 1,141 
+80' 1,169 
+.11 1,175 
+83' 1,178 
+846 ',175 
+859 1,204 
+860 1,206 
+852 1,205 
+843 , ,213 
+816 1,196 
+82' 1,186 
+81' 1,179 
+83' 1,166 
+82' 1,124 
+836 1,125 
+834 1,093 
+79' ',0 63
+
+"" 1 
+11 
+111 
+IV 
+1965 1 
+11 
+111 
+IV 
+1966 1 
+11 
+111 
+IV 
+1967 1 
+11 
+111 
+IV 
+'968 1 
+11 
+111 
+IV 
+1969 [ 
+11 
+111 
+IV 
+1970 1 
+11 
+111 
+IV 
+'971 1 
+11 
+111 
+IV 
+1972 1 
+11 
+111 
+IV 
+'973 1 
+11 
+111 
+IV 
+1974 1 
+11 
+111 
+IV 
+'9" 1 
+11 
+111 
+IV 
+1976 1 
+11 
+111 
+IV 
+,m 1 
+11 
+111 
+IV 
+'978 1 
+11 
+111 
+IV 
+" SERIES EPA DESDE 1964 .. 
+SERVICIOS VENTA Y NO VENTA -
+Mi tes de personas 
+SERVICIOS SERV VENTA "', 
+OCUPADOS OCUPADOS 
+3, 539 2,e23 ". 
+3, 564 2,830 734 
+3,697 ',909 788 
+3,_ 2,958 726 
+3,808 3,090 719 
+3,931 3,199 732 
+3,907 3,159 748 
+3,939 3,212 m 
+3,91S 3,199 719 
+3,918 3,223 .94 
+3,896 3, 166 730 
+3,896 3,180 ". 
+3,907 3, 196 ", 
+3,996 3, 299 .96 
+4, 033 3, 283 "O 
+4, 033 3,308 725 
+4,014 3, 298 ". 
+4,096 3,383 712 
+4,153 3,374 779 
+4,153 3,409 744 
+4, '57 3, 433 724 
+4,157 3,426 730 
+4, 238 3,457 78' 
+4, 238 3,482 " . 
+4,337 3,581 " . 
+4,337 3,581 ". 
+4,418 3,594 824 
+4,418 3,612 806 
+4, 538 3,742 79. 
+4, 53S 3,73S 800 
+4, 623 3,762 .. , 
+4, 623 3,790 8" 
+4,767 3,940 827 
+4,767 3,937 830 
+4,857 3,978 879 
+4,857 4, 003 8" 
+4,971 4, '09 86' 
+4,97' 4, lOó 86' 
+5,117 4, '65 95' 
+5,117 4,184 932 
+5,124 4,223 90' 
+5, 124 4,217 906 
+5,2 26 4, 279 947 
+5,226 4,302 924 
+5,2 07 4, 293 913 
+5,2 07 4,309 898 
+5, 167 4, 193 974 
+5, 183 4,212 9" 
+5,160 4, 193 9.7 
+5, 180 4,2 04 97. 
+5,146 4,095 1,051 
+5,2 23 4,180 1,043 
+5,258 4,226 1,032 
+5, 283 4,239 1,044 
+5,2 31 4,141 ',090 
+5,2 71 4,201 1,070 
+5,2 35 4,154 1,081 
+5,214 4, 136 1,098 
+5,220 4,054 1, 166 
+5,229 4, 097 1,132 
+-5 5-
+SERVICIO S SERV VENTA 
+ASALARIADOS ASALAR I ADOS 
+2,434 1,71S 
+2,414 ',680 
+2,498 1,709 
+2,491 1,766 
+2,632 1,913 
+2,6n 1,940 
+2,654 ',906 
+2,678 1,951 
+2,669 1,950 
+2,675 1,980 
+2,651 1,921 
+2,643 1,927 
+2,633 1,921 
+2, 674 ',978 
+2,702 1,952 
+2, 704 1,979 
+2,694 ',978 
+2,751 2, 039 
+2,787 2,008 
+2,784 2,040 
+',m 2,051 
+2, 775 2,044 
+2,861 ',080 
+2,861 2,105 
+2,954 2,198 
+2,954 2,198 
+3,0'7 2,194 
+3,0'7 2,2' 1 
+3,1n 2,381 
+3,177 2,377 
+3,3'8 2,457 
+3,3'8 2,485 
+3,413 2,587 
+3,413 2, 583 
+3,469 2,591 
+3,469 2,615 
+3,5'9 2,657 
+3,519 2,654 
+3,590 2,639 
+3,589 2,657 
+3,636 2,735 
+3,636 ' , 729 
+3,716 2,769 
+3,716 2,7 92 
+3, 687 ',m 
+3, 687 2, 789 
+3, 703 ',7 29 
+3,745 2, 774 
+3,745 2, 778 
+3, 777 2,801 
+3, 776 2,7 25 
+3,817 2, 774 
+3,829 2,7 97 
+3,858 2,814 
+3,813 2,n3 
+3,862 2,7 92 
+3,824 2,743 
+3,820 2,n2 
+3,821 2,655 
+3,817 2,685
+
+1979 1 
+11 
+111 
+IV 
+1980 1 
+11 
+111 
+IV 
+1981 1 
+11 
+111 
+IV 
+1982 1 
+11 
+111 
+IV 
+1983 1 
+11 
+111 
+IV 
+1984 1 
+11 
+111 
+IV 
+1985 1 
+11 
+111 
+IV 
+1986 1 
+11 
+111 
+IV 
+1987 1 
+11 
+111 
+IV 
+1988 1 
+11 
+111 
+IV 
+1989 1 
+11 
+111 
+IV 
+1990 1 
+11 
+111 
+IV 
+1991 1 
+11 
+111 
+IV 
+1992 1 
+11 
+111 
+IV 
+.. SERIES EPA DESDE 1964 .. 
+SERVICIOS VENTA V NO VENTA 
+Mi les de personas 
+SERVICIOS SERV VENTA AA" 
+OCUPADOS OCUPADOS 
+5, 265 4, 163 1,1 02 
+5,2 71 4,168 1, 103 
+5, 337 4,150 1, 187 
+5,327 4,17 1 1,1 56 
+5, 297 4, 143 1, 154 
+5, 290 4,129 1,1 61 
+5,267 4,042 1,2 25 
+5, 235 4,022 t ,213 
+5, 236 4, 034 t ,202 
+5, 249 4, 066 1,18 3 
+5,291 4, 033 1,2 58 
+5, 285 4, 073 1,212 
+5, 344 4,105 1,2 39 
+5,381 4,139 1,2 42 
+5, 399 4, 086 1,313 
+5,387 4,116 1, 271 
+5,329 4, 067 , ,262 
+5,391 4,112 1, 279 
+5, 399 4,031 1, 368 
+5,411 4, 080 1, 331 
+5,333 4, 039 1,2 94 
+5,341 4, 039 1, 302 
+5,353 3,954 1, 399 
+5,294 3,946 1,3 48 
+5, 288 3,959 1, 329 
+5, 366 4,012 1, 354 
+5, 464 4,025 1, 439 
+5,5 07 4,027 1, 480 
+5, 603 4,183 1,420 
+5, 733 4,227 1,5 06 
+5,816 4, 278 1,5 38 
+5, 845 4, 296 1,5 49 
+5,867 4, 386 1,481 
+5,937 4,501 1, 436 
+6,097 4,637 1, 460 
+6,101 4,640 1, 461 
+6,133 4,668 1, 465 
+6,224 4, 746 1, 478 
+6,314 4, 848 1, 466 
+6,346 4,811 1,5 35 
+6,441 4, 903 1,5 38 
+6,605 5,037 1,5 68 
+6,723 5, 075 1,6 48 
+6,745 5, 086 1, 659 
+6,752 5, 087 1, 665 
+6,853 5,187 1, 666 
+6,984 5, 269 1,715 
+6,991 5,287 1,7 04 
+7,000 5,289 1,711 
+7,076 5,322 1,7 54 
+7,191 5, 403 1,7 88 
+7,136 5,353 1,7 83 
+7,076 5,313 . 1,7 63 
+7,126 5, 349 1,7 n 
+7,200 5, 397 1,8 03 
+7,050 5, 290 1,7 60 
+- 56-
+SERVICIOS SERV VENTA 
+ASALARIADOS ASALARIADOS 
+3,831 2,729 
+3,816 2,713 
+3,845 2,658 
+3, 856 2,700 
+3,833 2,679 
+3,813 2,652 
+3,no 2,545 
+3, 759 2,546 
+3,746 2,544 
+3, 768 2, 585 
+3, 783 2, 525 
+3, 789 2,5n 
+3,837 2, 598 
+3,867 2,625 
+3, 897 2,584 
+3, 892 2,621 
+3, 844 2, 582 
+3,910 2,631 
+3,903 2, 535 
+3,916 2,585 
+3,828 2,534 
+3,829 2,527 
+3,827 2,428 
+3,795 2,447 
+3, 799 2,470 
+3,866 2,512 
+3,961 2,522 
+3, 978 2,498 
+4, 063 2,643 
+4,156 2,650 
+4,238 2,700 
+4,245 2,696 
+4, 246 2, 765 
+4,274 2,838 
+4,413 2,953 
+4,426 2,965 
+4, 454 2,989 
+4, 534 3,056 
+4,641 3,17 5 
+4,682 3,147 
+4,7 69 3,231 
+4,917 3,349 
+5, 036 3,388 
+5,071 3,412 
+5,078 3,413 
+5, 163 3,497 
+5,298 3, 583 
+5,3 01 3,5 97 
+5,297 3,586 
+5,350 3,596 
+5,442 3,654 
+5,3 98 3,615 
+5,284 3,521 
+5,3 57 3,580 
+5,4 35 3,632 
+5,315 3,555
+
+• . . 
+o 
+o 
+� o 
+� 
+� 
+� � , .. e • 
+o • 
+e 
+� 
+N 
+• 
+a 
+a 
+• 
+� 
+• 
+• 
+� 
+• 
+• 
+� 
+• 
+• 
+� 
+N 
+• 
+oC( '" 
+� 
+:¡¡ 
+ca e a 
+• 
+O O 
+'" Z .. 
+� O CD C. • 
+O � 
+w CD 
+..J "g � oC( '" • 
+.... .!! 
+� 
+O :::¡¡ .... � 
+• � 
+� 
+N 
+� 
+� 
+a 
+� 
+� 
+• 
+• 
+� 
+• 
+• 
+� 
+• 
+O O O O O O O • 
+O O O O O O O 
+O O O O O O O 
+<1) "<t N O <Xl <1) "<t 
+- 57-
+
+¡.jl 
+AGRICULTURA INDUSTRIA 
+Miles de personas Miles de personas 
+-, .... ·-Ad' ·-
+Oeu.,'d.. 3 � 
+OcupodOI 
+A .. I"I,d.o 
+• 
+A ... tr"do. 
+3,000 30 00 
+� ,.....--2,000 2. 500 
+� 
+1. 000 ""'- 2.000 
+o 1,500 
+... .... ... ... -- ... ... -_...... ... ... .... _ .. --_ ... .. ... ... 
+0000(1 0000000000 000000000000000 
+.... O,.,. .... ON .... ON "' •• ON"' •• O"""' •• ON 
+...... ,... .. ... ... ... .. .. .. .. .. .. .. .. .. .. .. .... ... .... ... ............ .. 
+I 
+CONSTRUCCióN SERVICIOS 
+Miles de personas Miles de personas 
+' 800 l AoU... 9 .000 
+I 
+� A.U ... 
+1, 600 Ocupodot 8,000 Ocupodoo 
+A .. ¡ul,d.1 7,000 
+A"',rlod •• 
+6.000 
+3.000 
+400 ' 2.000 
+o � � � � � � � � o � o o � � � o o o o o o o o o o � o o � 
+• • • o " • • • o " • • • o " • • • o " • . • o " • • • o " 
+• • • , , , , , • • • • . . . . . • , , , , , • • • • • • •
+
+. . . 
+il il 
+• 
+11 !I 
+o • o � 
+�o�. �ou 
+�oo. �oo. 
+�o .. 
+m 
+�o •• 
+�o •• '" �ou 
+.. a: loO 
+tU �o,.. :;) tU �o.,. 
+m e .... e o �oz. O o �on 
+W .. '" loO ... - -
+'" a. �oo. u. a. �oo. 
+a: a. :;) a. 
+w a. 
+�OIL Z a. 
+�OIL 
+Z "ti '" "ti �O8l. 
+::E 
+�08L 
+:¡¡ .. .. 
+.!! �O"l. m .!! �O"L 
+:¡¡ � OZl. 
+'" 
+a: :¡¡ �OZI. 
+�OOl. .... LOOL 
+O 
+LU. LO'. 
+LO" LO" 
+LO." LO'" 
+§ � � � § � � § � � � � § N 
+. 
+II 11 
+o o 
+Lon Lon 
+LOO' LOOS 
+LO'. LO" 
+LO" LO" 
+loO .. 
+tU Lnl tU LO'" 
+e e 
+'" 
+o Lnl m o Loza 
+.. .. 
+a 
+-
+LOOI 
+W -
+LOOI a. ... a. 
+a: a. '" a. 
+w a. 
+LOIL 
+.... a. 
+LoaL 
+Z "ti LO.." W "ti LOU 
+W .. ::E loO 
+.!! LO.,¿ .!! LO".L 
+:¡¡ LOe! :¡¡ LOZL 
+LoaL LOOL 
+LO" LOI. 
+LO" LO" 
+LO." LO,.. 
+� � § � � ª � § � § � § � § 
+- 59-
+
+I 
+í'l 
+SECTOR PRIVADO SECTOR PRIVADO NO AGRARIO 
+Miles de personas Miles de personas 
+14,000 i 
+I OCllpldol 1 0.000 l n Ocupado. 
+12.000 t � I 
+A •• 'I,lldol 9.000 "' ... lrlld.1 
+10,000 
+MOO 
+� "� 8.000 
+:':1 ,1 . � 
+... ... .. ... .. .... ... ... .... .... .. ... ... ... ... ...... ... ... ... .. - - --
+00000 0000000000 000000000000000 
+., •• 01'1 ••• 01'1 ... .. 01'1 " •• ON"' •• ON"' •• ON 
+.. .... ,.. .. ,.. ... .... .. .. .. .. .. .. .. .. .... ,.. ,.. .. ... ... .. .. .. .. .. .. .. 
+SERVICIOS PRIVADOS AAPP 
+Miles de personas Miles de personas 
+6.000 i i Ocup.dos 2.000 
+¡----- I Aullrlldol 
+" �[ 
+,/ 
+I"�" :: 
+4,000 � 1. 400 
+:� I :: 
+1. 000 600 
+-_ .. ... .. ... ... ... .. ... -_.... ... -- .... ... ........ ... 
+00000 0000000000 0000000000 00000 
+." .. .. o N ." .. .. o N ." .. .. o N ." .. .. o N ., .. .. o N ." .. .. o N 
+.. .. .. ... ... ... ... ... .. .. .. .. .. .. .. .. .. .. ... ,.. ... ... ... .. .. .. .. .. .. ..
+
+35 
+30 
+25 
+20 
+15 
+10 
+5 
+O � 
+• 
+. 
+100 
+80 
+60 
+40 
+20 
+O 
+1401 
+� � g • 
+• . , 
+tllOl 
+� 
+, 
+TASAS DE PARO 
+� � 
+� 
+• 
+, 
+• 
+• 
+, 
+· 
+• 
+• 
+• 
+• 
+• 
+ESTRUCTURA DEL PARO 
+6801 7001 7201 7401 
+-6 1-
+. 
+: 
+• 
+• 
+• 
+1$01 
+• 
+• 
+• 
+7801 
+· 
+• 
+• 
+• 
+• 
+• 
+Allrlc 
+InduI 
+Con. 
+S.r v 
+tillill SIr'lCI 
+De on . 
+• lndus 
+IIA llr¡C 
+8001
+
+
+
+BIBLIOGRAFfA 
+- Álvarez, Delrieu y Jareño (1993): Tratamiento de predicciones 
+conflictivas: empleo eficiente de información extramuestral.Estadistica 
+Española, nQ 2. 
+- Aranda Aznar, J. (1993): Estimación de la actividad económica a través 
+de la Encuesta de Población Activa. Mimeo. 
+- Dirección General de Previsión y Coyuntura (1988). Nota sobre el 
+enlace provisional de las series laborales tras la reforma de la EPA en 
+el segundo trimestre de 1987, MiIÚsterio de Economia y Hacienda. 
+- Garcia Perea, P. (1988): Análisis desagregado de la productividad del 
+trabajo y de los costes laborales en la industria española: 1964-1984. 
+Tesis doctoral dirigida por J .L. Malo de Malina. UIÚversidad 
+Complutense. Facultad de Ciencias Económicas y Empresariales. 
+- Garcla Perea, P. (1991): Elaboración de series homogéneas de ocupados 
+y parados a partir del segundo trimestre de 1964. Estudios de Economia 
+del trabajo en España III. El problema del paro. Mirústerio de Trabajo 
+y Seguridad Social. 
+- Garcla Perea, P. y Gómez, R. (1994): Series anuales de Costes 
+Laborales UIÚtarios: (1965-1993). 
+- MiIÚsterio de Economla (1978): Población Activa y ocupación en España 
+(reconstrucción de las series históricas 1960-1978). Grupo de trabajo 
+de empleo. 
+-6 3 -
+
+
+
+DOCUMENTOS DE TRABAJO (1) 
+9301 Emiliano Gonzálcz Mota: Políticas de estabilización y límites a la autonomía fiscal en un área 
+monelaria y económica común. 
+9302 Anindya Banerjee, Juan J. Dolado aud Ricardo Mesh-e: 00 sorne simple tests for cointegra­
+lion: (he cost of simplicity. 
+9303 Juan Ayuso y Juan Luis Vega: Agregados monetarios ponderados: el caso español. (Publicada 
+una edición en inglés con el mismo número.) 
+9304 Ángel Luis Gómez Jiménez: Indicadores de la política fiscal: una aplicación al caso español. 
+9305 Ángel Estrada y Miguel Sebastlán: Una serie de gasto en bienes de consumo duradero. 
+9306 Jesús Briones, Ángel Estrada e Ignacio Hemando: Evaluación de los efectos de reformas en la 
+imposición indirecta 
+9307 Juan Ayuso, María Pérez Jurado y Fernando Restoy: Indicadores de credibilidad de un régi­
+men cambiario: el caso de la peseta en el SME. (Publicada una edición en inglés con el mismo nú­
+mero.) 
+9308 Cristina Mazón: Regularidades empíricas de las empresas industriales españolas: ¿existe correla­
+ción entre beneficios y participación? 
+9309 Juan Dolado, Alessandra Goria and Andrea Ichino: Irnmigralion and growth in the host 
+country. 
+9310 Amparo Ricardo Ricardo: Series históricas de contabilidad nacional y mercado de trabajo para 
+la CE y EEUU, 1960-199l. 
+93 J 1 Fernando Restoy y G. Michael Rockingcr: On stock market returos and retums on investment. 
+9312 Jesús Saurina Salas: Indicadores de solvencia bancaria y contabilidad a valor de mercado. 
+9313 Isabel Argimón, José Manuel González-Páramo, María Jesús Martín y José María Roldán: 
+Productividad e infraestructuras en la economía española. (Publicada una edición en inglés con el 
+mismo número.) 
+9314 Fernando Ballabriga, Miguel Sebastián and Javier Vallés: lnterdependence of EC economies: 
+A VAR approach. 
+9315 Isabel Argimón y M.- Jesús Martín: Series de «stock. de infraeslructuras del Estado y de las 
+Administraciones Públicas en España. 
+93/6 Pedro Martínez Méndez: Fiscalidad, tipos de interés y tipo de cambio. 
+9317 Pedro Martínez Méndez: Efectos sobre la política económica española de una fiscalidad distorsio­
+nada por la inflación. 
+9318 Pablo Antolín y Olympia Bover: Regional Migratíon in Spain: The effecl of Personal Characte­
+ristics and of Unemploymem, Wage and House Price Differemials Using Pooled Cross-Sections. 
+93/9 Samuel Bentolila y Juan J. Dolado: La contratación temporal y sus efectos sobre la competitividad. 
+9320 Luis Julián Álvarez, Javier Jareño y Miguel Sebastián: Salarios públicos, salarios privados e in­
+flación duaL 
+9321 ADa Revenga: Credibilidad y persistencia de la inflación en el Sistema Monetario Europeo. (Publi­
+cada una edición en inglés con el mismo número.) 
+9322 María Pérez Jurado y Juan Luis Vega: Paridad del poder de compra: un análisis empírico. (Publi­
+cada una edici6n en inglés con el mismo número.) 
+9323 Ignacio Remando y Javier Vallés: Productividad sectorial: comportamiento cíclico en la economía 
+española. 
+9324 Juan J. Dolado, Miguel Sebastián y Javier Vallés: Cyclical pattems of the Spanish econorny. 
+9325 Juan Ayuso y José Luis Escrivá: La evolución del control monetario en España. 
+9326 Alberto Cabrero Bravo e Isabel Sánchcz Gama: Métodos de predicción de los agregados mone­
+tarios.
+
+9327 Cristina Mazón: l s profitability related to market share? An intra�industry study in Spanish manu­
+facturing. 
+9328 Esther Gordo y Pilar L'HoteUerie: La compctilividad de la industria española en una perspectiva 
+macroecon6mica. 
+9329 Ana Bulsán y Esther Gordo: El saldo comercial no energético español: determinantes y análisis de 
+simulación (19 64-1992). 
+9330 Miguel Pellicer: Functions of ¡he Banco de España: An historicaJ perspective. 
+9401 Carlos Ocaña, Vicente Salas y Javier Vallés: Un análisis empírico de la financiación de la pequeña 
+y mediana empresa manufacturera española: 1983� 1989. 
+9402 P. G. Fisher and J. L. Vega: An empirical analysis of M4 in the United Kingdom. 
+9403 J. Ayuso, A. G. Haldane and F. Restoy: Volatility transmission along the money market yield curve. 
+9404 Gabriel Quirós: El mercado británico de deuda pública. 
+9405 Luis J. Álvarez and Fernando C. Ballabriga: BVAR models in the context of cointegration: A 
+Monte Carla experimento 
+9406 Juan José Dolado, José Manuel GonzáJez-Páramo y José M! Roldán: Convergencia económica 
+entre las provincias españolas: evidencia empírica (1955� 1989). 
+9407 Ángel Estrada e Ignacio Hernando: La inversión en España: un análisis desde el lado de la oferta. 
+9408 Ángel Estrada Garda, M: Teresa Sastre de Miguel y Juan Luis Vega Croissier: El mecanismo 
+de transmisión de los tipos de interés: el caso espai'iol. 
+9409 PUar García Perea y Ramón Gómez: Elaboración de series históricas de empleo a partir de la En­
+cuesta de Población Activa (1964� 1992). 
+(1) Los Documentos de Trabajo anteriores a 1993 figuran en el catálogo de publicaciones del Banco de España. 
+Información: Banco de España 
+Sección de Publicaciones. Negociado de Distribución y G�stión 
+Teléfono: 338 51 80 
+Alcalá, 50. 28014 Madrid
