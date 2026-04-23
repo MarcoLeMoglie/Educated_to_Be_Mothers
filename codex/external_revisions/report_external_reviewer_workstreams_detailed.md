@@ -241,6 +241,7 @@ In `external_revision_03_external_migration_censo1981.do` I built five outputs:
 
 3. `external_revision_03_province_stay_share_1970_1981.csv`
 - province-level stay shares between 1970 and 1981
+- denominators are taken from the official province-level `Total` row in the Censo table, not reconstructed by summing destination cells
 
 4. `external_revision_03_province_mobility_link.csv`
 - province-level match between `stay_share` and baseline treatment intensity from the internal panel
@@ -277,11 +278,15 @@ Province-level link to treatment intensity:
 - with raw treatment levels, there is no meaningful relationship between `stay_share` and `sum1muni` or `sum2muni`
 - with municipality-minus-rest gaps only, `treat_gap_f` is positive but imprecise (`p = 0.156`)
 - after controlling for `muni_share_1940` and `ln_origin_total`, `treat_gap_f = 0.00825`, `p = 0.016`
-- `muni_share_1940` is strongly positive (`p = 0.002`)
+- `muni_share_1940 = 0.608`, `p = 0.002`
 
 ### Interpretation
 
 This block is descriptive, not causal, but it is still useful.
+
+Replication note:
+- the province retention denominator must be read from the declared `Total` row of the official table
+- reconstructing that denominator by summing all destination cells produces very small differences for some provinces, but it is not the official total and should not be used in the final appendix table
 
 It suggests:
 - migration is real and economically meaningful

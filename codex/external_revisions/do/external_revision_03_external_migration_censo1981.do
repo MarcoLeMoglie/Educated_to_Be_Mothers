@@ -36,37 +36,37 @@ end
 display as text "Building mover/stayer activity table for women"
 use "$extdata/ine_01057_clean.dta", clear
 keep if sexo == "MUJERES"
-keep if inlist(grupos_de_edad, "de 16 a 24 años", "de 25 a 34", "de 35 a 44")
-keep if inlist(relacion_municipio_1970_y_1981, ///
+keep if inlist(gruposdeedad, "de 16 a 24 años", "de 25 a 34", "de 35 a 44")
+keep if inlist(relaciónmunicipio1970y1981, ///
     "EN EL MISMO MUNICIPIO QUE EN 1981", ///
     "EN DISTINTO MUNICIPIO QUE EN 1981", ///
     "Misma Provincia, Total", ///
     "Misma CCAA, distinta Provincia, Total", ///
     "Distinta CCAA, Total")
 keep if inlist(activos, "Total", "Activos")
-reshape wide total, i(relacion_municipio_1970_y_1981 grupos_de_edad) j(activos) string
+reshape wide total, i(relaciónmunicipio1970y1981 gruposdeedad) j(activos) string
 gen active_share = totalActivos / totalTotal
-rename relacion_municipio_1970_y_1981 mobility_status
-rename grupos_de_edad age_group
+rename relaciónmunicipio1970y1981 mobility_status
+rename gruposdeedad age_group
 tempfile female_active
 save "`female_active'"
 
 display as text "Building mover/stayer employment table for women"
 use "$extdata/ine_01058_clean.dta", clear
 keep if sexo == "MUJERES"
-keep if inlist(grupos_de_edad, "de 16 a 24 años", "de 25 a 34", "de 35 a 44")
-keep if inlist(relacion_municipio_1970_y_1981, ///
+keep if inlist(gruposdeedad, "de 16 a 24 años", "de 25 a 34", "de 35 a 44")
+keep if inlist(relaciónmunicipio1970y1981, ///
     "EN EL MISMO MUNICIPIO QUE EN 1981", ///
     "EN DISTINTO MUNICIPIO QUE EN 1981", ///
     "Misma Provincia, Total", ///
     "Misma CCAA, distinta Provincia, Total", ///
     "Distinta CCAA, Total")
-keep if inlist(ocupados_parados, "Ocupados", "Parados")
-reshape wide total, i(relacion_municipio_1970_y_1981 grupos_de_edad) j(ocupados_parados) string
+keep if inlist(ocupadosparados, "Ocupados", "Parados")
+reshape wide total, i(relaciónmunicipio1970y1981 gruposdeedad) j(ocupadosparados) string
 gen labor_force = totalOcupados + totalParados
 gen employed_share = totalOcupados / labor_force
-rename relacion_municipio_1970_y_1981 mobility_status
-rename grupos_de_edad age_group
+rename relaciónmunicipio1970y1981 mobility_status
+rename gruposdeedad age_group
 merge 1:1 mobility_status age_group using "`female_active'", nogen
 save "$out/external_revision_03_female_mobility_activity.dta", replace
 export delimited using "$out/external_revision_03_female_mobility_activity.csv", replace
@@ -74,30 +74,37 @@ export delimited using "$out/external_revision_03_female_mobility_activity.csv",
 display as text "Building sector composition among female movers and stayers"
 use "$extdata/ine_01059_clean.dta", clear
 keep if sexo == "MUJERES"
-keep if inlist(relacion_municipio_1970_y_1981, ///
+keep if inlist(relaciónmunicipio1970y1981, ///
     "EN EL MISMO MUNICIPIO QUE EN 1981", ///
     "EN DISTINTO MUNICIPIO QUE EN 1981", ///
     "Misma Provincia, Total", ///
     "Misma CCAA, distinta Provincia, Total", ///
     "Distinta CCAA, Total")
-drop if rama_de_actividad == "TOTAL" | rama_de_actividad == "No Clasificables"
-bysort relacion_municipio_1970_y_1981: egen denom = total(total)
+drop if ramadeactividad == "TOTAL" | ramadeactividad == "No Clasificables"
+bysort relaciónmunicipio1970y1981: egen denom = total(total)
 gen sector_share = total / denom
-rename relacion_municipio_1970_y_1981 mobility_status
+rename relaciónmunicipio1970y1981 mobility_status
 save "$out/external_revision_03_female_mobility_sectors.dta", replace
 export delimited using "$out/external_revision_03_female_mobility_sectors.csv", replace
 
 display as text "Building province-level staying shares"
 use "$extdata/ine_01061_clean.dta", clear
-drop if provincia_de_residencia_en_1970 == "Total" | provincia_de_residencia_en_1981 == "Total"
-gen same_province = provincia_de_residencia_en_1970 == provincia_de_residencia_en_1981
-bysort provincia_de_residencia_en_1970: egen origin_total = total(total)
+preserve
+keep if provinciaderesidenciaen1970 != "Total" & provinciaderesidenciaen1981 == "Total"
+keep provinciaderesidenciaen1970 total
+rename total origin_total
+tempfile origin_totals
+save "`origin_totals'"
+restore
+drop if provinciaderesidenciaen1970 == "Total" | provinciaderesidenciaen1981 == "Total"
+gen same_province = provinciaderesidenciaen1970 == provinciaderesidenciaen1981
 gen stayers = total if same_province == 1
-bysort provincia_de_residencia_en_1970: egen total_stayers = total(stayers)
-keep provincia_de_residencia_en_1970 origin_total total_stayers
+bysort provinciaderesidenciaen1970: egen total_stayers = total(stayers)
+keep provinciaderesidenciaen1970 total_stayers
 duplicates drop
+merge 1:1 provinciaderesidenciaen1970 using "`origin_totals'", nogen keep(match)
 gen stay_share = total_stayers / origin_total
-rename provincia_de_residencia_en_1970 origin_province
+rename provinciaderesidenciaen1970 origin_province
 save "$out/external_revision_03_province_stay_share_1970_1981.dta", replace
 export delimited using "$out/external_revision_03_province_stay_share_1970_1981.csv", replace
 

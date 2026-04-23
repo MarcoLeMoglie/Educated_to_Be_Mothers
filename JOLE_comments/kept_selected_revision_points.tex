@@ -374,7 +374,7 @@ This external census block lets us check that idea with official migration table
 We do two simple things:
 \begin{enumerate}[leftmargin=*]
 \item Compare women who stayed in the same municipality with women who moved, focusing on ages 25--34.
-\item At the province level, test whether places with larger treatment gaps have lower staying rates between 1970 and 1981.
+\item At the province level, test whether places with larger treatment gaps have lower staying rates between 1970 and 1981, using the official province-of-origin totals reported in the census table as the denominator for retention.
 \end{enumerate}
 
 \subsection*{Code used}
@@ -416,7 +416,7 @@ Province-level staying-share regression:
 Coefficient & Estimate & p-value \\
 \midrule
 \texttt{exposure\_gap\_f} & 0.00825 & 0.016 \\
-\texttt{muni\_share\_1940} & 0.604 & 0.002 \\
+\texttt{muni\_share\_1940} & 0.608 & 0.002 \\
 \bottomrule
 \end{tabular}
 \end{center}
